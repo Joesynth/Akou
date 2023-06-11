@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+	<link rel="icon" href="#.png">
+	<link rel="stylesheet" href="css/css.css"/>
+	<script src="#/#.js"></script>
+
+
+
+
+</head>
+<body>
+
+
+<!-- 
+Inspirado em:
+https://codereview.stackexchange.com/questions/280467/random-music-plays-when-one-stops
+
+Este código tb funcionou meramente com .mp3.
+
+ -->
+
+
+		<audio id="BackgroundM">
+			<source id="source" src="./m/a.ogg" type="audio/ogg">
+			<source id="source" src="a.mp3" type="audio/mp3">
+		</audio>
+
+<!-- 
+Trecho abaixo dos botões de controle, botões principais:
+https://stackoverflow.com/questions/4126708/is-it-possible-to-style-html5-audio-tag
+ -->
+<nav> 
+  <button id="disco" onclick="document.getElementById('BackgroundM').pause()">📀️</button> 
+  <div>
+	  <button onclick="document.getElementById('BackgroundM').play()">🎵️</button> 
+	  <button onclick="document.getElementById('BackgroundM').volume += 0.1">➕️</button> 
+	  <button onclick="document.getElementById('BackgroundM').volume -= 0.1">➖️</button> 
+  </div>
+</nav>
+
+<!-- 
+Novo: botões de estilos voltados aos instrumentos, portanto para músicos.
+ -->
+
+<section>
+	<button id="#">🥁</button>
+	<button id="#">⚡</button>
+	<button id="#">🎹</button>
+	<button id="#">🎤</button>
+	<button id="#">🗣️</button>
+	<button id="#">👤</button>
+	<button id="#">👥</button>
+	<button id="#">🎺</button>
+	<button id="#">🎷</button>
+</section>
+
+
+
+
+<div>
+	<main>
+	</main>
+</div>
+
+
+
+
+	<script>
+	
+
+var music = document.getElementById("BackgroundM");
+var source = document.getElementById("source");
+var musicArray = [
+	"./m/aa.ogg",
+	"./m/ab.ogg",
+	"./m/ac.ogg",
+	"./m/ad.ogg",	
+	"./m/a.ogg",
+	"./m/b.ogg",
+	"./m/c.ogg",
+	"./m/d.ogg",
+	"./m/e.ogg",
+	"./m/f.ogg",
+	"./m/g.ogg",
+	"./m/h.ogg",
+	"./m/i.ogg",
+	"./m/j.ogg",
+	"./m/k.ogg",
+	"./m/l.ogg",
+	"./m/m.ogg",
+	"https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3",
+	"https://s3.amazonaws.com/freecodecamp/drums/Heater-2.mp3",
+	"https://s3.amazonaws.com/freecodecamp/drums/Heater-3.mp3",
+	"https://s3.amazonaws.com/freecodecamp/drums/Heater-4_1.mp3",
+	"https://s3.amazonaws.com/freecodecamp/drums/Heater-6.mp3",
+	"https://s3.amazonaws.com/freecodecamp/drums/Dsc_Oh.mp3",
+	"https://s3.amazonaws.com/freecodecamp/drums/Kick_n_Hat.mp3",
+	"https://s3.amazonaws.com/freecodecamp/drums/RP4_KICK_1.mp3",
+	"https://s3.amazonaws.com/freecodecamp/drums/Cev_H2.mp3",
+	"https://res.cloudinary.com/cbanlawi/video/upload/v1614140796/HarryStyles-WatermelonSugar_f5471p.mp3",
+	"https://hosseinghanbari.ir/other/music-player/autumn.mp3",
+	"https://s3-us-west-2.amazonaws.com/s.cdpn.io/308622/NF%20-%20Let%20You%20Down.mp3",
+	"https://s3-us-west-2.amazonaws.com/s.cdpn.io/308622/Post%20Malone%20-%20I%20Fall%20Apart.mp3",
+	"https://s3-us-west-2.amazonaws.com/s.cdpn.io/308622/VAX%20-%20Fireproof%20Feat%20Teddy%20Sky.mp3",
+	"http://www.qingli.life/music/Beyond_Jupiter.mp3",
+	"https://raw.githubusercontent.com/ustabasiibrahim/music-player/master/assets/music/1.mp3",
+	"https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/8.mp3",
+	"https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/9.mp3",
+	"https://trevor-reznik.github.io/guides/email-template/1.mp3",
+	"https://trevor-reznik.github.io/guides/email-template/2.mp3",
+	"https://trevor-reznik.github.io/guides/email-template/3.mp3",
+	"https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/1.mp3",
+	"https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/6.mp3",
+	"https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/7.mp3",
+]
+    
+
+
+
+
+music.volume = 0.3;
+
+var musicSelect = function() {
+    if(music.paused) {
+        var rand = Math.floor(Math.random() * musicArray.length)
+        musicArray[rand]
+        source.src = musicArray[rand]
+        music.load();
+        music.play();
+        console.log("Playing " + source.src)
+    }
+}
+
+document.addEventListener('click', function() {
+    console.log(music.paused)
+    musicSelect()
+})
+
+music.addEventListener('pause', function(){
+    console.log("Music is paused")
+    musicSelect()
+})
+
+
+
+		
+	</script>
+
+
+	
+</body>
+</html>
