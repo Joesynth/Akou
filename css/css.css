@@ -1,34 +1,249 @@
+* {
+	margin: 0;
+	padding: 0;
+	color: #bbb;
+	font-family: arial;
+	letter-spacing: 0.05em;
+}
+
+
+:root {
+	--cor1: #0b9444;
+	--cor2: #333;
+	--sombra: 5px 5px 5px lightgray;
+	--borda: 1em;
+}
+
+p {
+	font-size: 0.8em;
+}
+
+footer {
+	font-size: 0.8em;
+}
+
+#tudo {
+	display: flex;
+}
+
 body {
 	margin: 0em;
-	padding: 0em;
-	font-family: arial;
-	background-color: darkgray;
-	height: 100%;
-	min-height: 100%;
+	//font-family: arial;
+	background-color: var(--cor2);
 }
 
-nav {
-	height: 100%;
-	min-height: 100%;
-	background-color: lightsalmon;
-	width: 40%;
-	margin-top: 15%;
-	margin-left: 30%;
+
+
+#baseDisco {
+	//background-color: lightyellow;
+	//border: 1px solid yellow;
+	//border-radius: 1em;
+	//margin: 1em;
+	padding: 1em;
+	//width: 50%;
+	//margin-left: 21%;
+	//box-shadow: inset 0 0 0.5em yellow;
+
+	//border: 3px solid green;
+	border-radius: 3em / 6em;
+	background-color: #222;
+	width: 12em;
+	height: 8.1em;
 	text-align: center;
-
+	margin-bottom: 0.5em;
 }
+
+
+
+
+#transport {
+	//background-color: lightskyblue;
+	display: flex;
+	justify-content: center;
+	margin: 1em;
+	padding: 1em;
+}
+
 #disco {
-		font-size: 6em;
+	background-color: gray;
+		border-radius: 50%;
+		width: 9.8em;
+		height: 9.8em;
+		margin: 0;
+		padding: 0;
+		border: 0;
 }
 
-
-nav div button {
-	//width: 3em;
-	//height: 3em;
-	font-size: 1.5em;
+#emoji {
+	background-color: transparent;
+	font-size: 3.5em;
+	animation: spinBall 1.8s linear infinite;
 }
 
+@keyframes spinBall {
+	100% {
+		transform: rotate(360deg);	
+	}
+}
 
-div {
+#pla {
+	width: 6em;
+	height: 6em;
+	position: absolute;
+	border-radius: 50%;
+	box-shadow: inset 0 0 5px cyan;
+	background-color: #444;
+	border: 0;
+}
+
+#pla:hover, #disco:hover, header:hover {
+	filter: brightness(1.4);
+}
+
+article {
+	visibility: hidden;
+}
+
+	
+
+	/* ESTILO SOMENTE DO BOTÃO TIPO MP3 PLAYR, QUE É NOVO */	
+
+
+
+#cima {
+	display: flex;
+}
+
+#baixo {
+	display: flex;
+}
+
+.estilo {
 	background-color: lightgreen;
+	font-family: arial;
+	color: green;
+	box-shadow: inset 0 0 5px green;
 }
+
+.estilo:hover {
+	background-color: green;
+}
+
+.volume {
+	background-color: lightyellow;
+	color: yellow;
+	font-weight: bold;
+	box-shadow: inset 0 0 5px yellow;
+}
+
+.volume:hover {
+	background-color: yellow;
+}
+
+
+
+main {
+	//background-color: purple;
+	background: linear-gradient(to right, #222, #000, #222, #444);
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+header {
+	margin-right: 66%;
+	margin-top: 3em;
+	margin-bottom: 4em;
+}
+
+footer {
+	margin-top: 2em;
+	margin-bottom: 1em;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 1em;
+	//border: 3px solid green;
+	border-radius: 3em / 6em;
+	background-color: #222;
+	width: 9em;
+	height: 8em;
+}
+
+#aa {
+	width: 4em;
+	height: 4em;
+	border-radius: 100% 0% 0% 0%;
+}
+
+#bb {
+	width: 4em;
+	height: 4em;
+	border-radius: 0% 100% 0% 0%;
+	text-align: right;
+}
+
+#cc {
+	width: 4em;
+	height: 4em;
+	border-radius: 0% 0% 0% 100%;
+}
+
+#dd {
+	width: 4em;
+	height: 4em;
+	border-radius: 0% 0% 100% 0%;
+	text-align: right;
+}
+
+
+/* Configuração abaixo faz o rodapé colado na base inferior, tanto na tela desktop (notebook) quanto no modo celular */
+
+		/* NOVO */
+	html, body, .page {
+	height: 100%; /* needed for proper layout */
+	}
+
+	.page {
+	display: flex;
+	flex-direction: column;
+	}
+
+	.corpo {
+	flex: 1 1 auto;
+	position: relative;/* need this to position inner content */
+	overflow-y: auto;
+	//padding: 0em 2em 0em 2em;	/*NOVO by Joe*/
+	}
+
+	menu {							/* ESTA TAG TÁ FAZENDo LUGAR DE FOOTER*/
+	flex: 0 0 auto;
+	background-color: var(--cor2);
+	}
+
+	#rodapeA {
+		display: flex;
+	}
+	
+	menu div div {
+		width: 33%;
+		text-align: center;
+	}
+
+	#rodapeB {
+		display: flex;
+		justify-content: center;
+		padding-top: 3em;
+		padding-bottom: 1em;
+	}
+
+/* Media Queries
+--------------------------------------------- [DAKI PRA BAIXO É O LAYOUT DISPLAY CELULAR] */
+
+@media all and (max-width : 768px) {
