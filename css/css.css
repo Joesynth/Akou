@@ -4,6 +4,7 @@
 	color: #bbb;
 	font-family: arial;
 	letter-spacing: 0.05em;
+	text-decoration: none;
 }
 
 
@@ -14,6 +15,21 @@
 	--borda: 1em;
 }
 
+#est, #est2 {
+	position: absolute;
+	top: 50%;
+}
+
+#est {
+	left: 33%;
+}
+
+#est2 {
+	right: 33%;
+	direction: rtl;
+}
+
+
 p {
 	font-size: 0.8em;
 }
@@ -22,38 +38,27 @@ footer {
 	font-size: 0.8em;
 }
 
+
 #tudo {
 	display: flex;
 }
 
 body {
 	margin: 0em;
-	//font-family: arial;
-	background-color: var(--cor2);
+	//background-color: var(--cor2);
 }
 
 
 
 #baseDisco {
-	//background-color: lightyellow;
-	//border: 1px solid yellow;
-	//border-radius: 1em;
-	//margin: 1em;
-	padding: 1em;
-	//width: 50%;
-	//margin-left: 21%;
-	//box-shadow: inset 0 0 0.5em yellow;
-
 	//border: 3px solid green;
 	border-radius: 3em / 6em;
 	background-color: #222;
 	width: 12em;
 	height: 8.1em;
 	text-align: center;
-	margin-bottom: 0.5em;
+	margin-bottom: 1em;
 }
-
-
 
 
 #transport {
@@ -87,8 +92,8 @@ body {
 }
 
 #pla {
-	width: 6em;
-	height: 6em;
+	width: 5em;
+	height: 5em;
 	position: absolute;
 	border-radius: 50%;
 	box-shadow: inset 0 0 5px cyan;
@@ -100,11 +105,7 @@ body {
 	filter: brightness(1.4);
 }
 
-article {
-	visibility: hidden;
-}
 
-	
 
 	/* ESTILO SOMENTE DO BOTÃO TIPO MP3 PLAYR, QUE É NOVO */	
 
@@ -120,7 +121,6 @@ article {
 
 .estilo {
 	background-color: lightgreen;
-	font-family: arial;
 	color: green;
 	box-shadow: inset 0 0 5px green;
 }
@@ -146,6 +146,7 @@ main {
 	//background-color: purple;
 	background: linear-gradient(to right, #222, #000, #222, #444);
 	width: 100%;
+	height: 440px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -153,9 +154,9 @@ main {
 }
 
 header {
-	margin-right: 66%;
-	margin-top: 3em;
-	margin-bottom: 4em;
+	margin-right: 22%;
+	margin-top: 2em;
+	margin-bottom: 3em;
 }
 
 footer {
@@ -169,35 +170,31 @@ section {
 	justify-content: center;
 	align-items: center;
 	padding: 1em;
-	//border: 3px solid green;
 	border-radius: 3em / 6em;
 	background-color: #222;
 	width: 9em;
-	height: 8em;
+	height: 7em;
+}
+
+#aa, #bb, #cc, #dd {
+	width: 3.5em;
+	height: 3.5em;
 }
 
 #aa {
-	width: 4em;
-	height: 4em;
 	border-radius: 100% 0% 0% 0%;
 }
 
 #bb {
-	width: 4em;
-	height: 4em;
 	border-radius: 0% 100% 0% 0%;
 	text-align: right;
 }
 
 #cc {
-	width: 4em;
-	height: 4em;
 	border-radius: 0% 0% 0% 100%;
 }
 
 #dd {
-	width: 4em;
-	height: 4em;
 	border-radius: 0% 0% 100% 0%;
 	text-align: right;
 }
@@ -226,10 +223,6 @@ section {
 	flex: 0 0 auto;
 	background-color: var(--cor2);
 	}
-
-	#rodapeA {
-		display: flex;
-	}
 	
 	menu div div {
 		width: 33%;
@@ -243,7 +236,31 @@ section {
 		padding-bottom: 1em;
 	}
 
+#est, #est2 {
+	font-size: .9em;
+}
+
 /* Media Queries
 --------------------------------------------- [DAKI PRA BAIXO É O LAYOUT DISPLAY CELULAR] */
 
 @media all and (max-width : 768px) {
+
+#est {
+	left: 1em;
+}
+
+#est2 {
+	right: 1em;
+}
+
+main {
+	height: 340px;
+}
+
+header {
+	margin-right: 66%;
+	margin-top: 6em;
+	margin-bottom: 1em;
+}
+
+
