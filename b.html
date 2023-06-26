@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8" />
 	<title>Akou</title>
-	<link rel="icon" href="#.png">
+	<link rel="icon" href="icon.png">
 	<link rel="stylesheet" href="css/css.css"/>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -46,10 +46,14 @@ Novo: botões de estilos voltados aos instrumentos, portanto para músicos.
 		<header>⚙️</header>
 		<div id="baseDisco">
 	  		<button id="disco" onclick="document.getElementById('BackgroundM').pause()"><div id="emoji">💿️</div></button>
-	  		<p>akou</p>
 		</div>
+		<div id="display">
+	  		<p>akou</p>
+	  		<p id="modo">mode B</p>
+		</div>	  	
+		
 		<section>
-		  <button id="pla" onclick="document.getElementById('BackgroundM').play()">🎵️</button>
+		  <button id="pla" onclick="document.getElementById('BackgroundM').play()"><span id="emPl">🎵️</span></button>
 			<div id="cima">
 				<a href="index.html"><div id="aa" class="estilo">A</div></a>
 				<div id="bb" class="volume" onclick="document.getElementById('BackgroundM').volume += 0.1">+</div>
@@ -64,9 +68,6 @@ Novo: botões de estilos voltados aos instrumentos, portanto para músicos.
 	</main>
 
 </div>
-
-
-
 
 
 
@@ -91,28 +92,48 @@ Novo: botões de estilos voltados aos instrumentos, portanto para músicos.
 		</div>
 	
 	</menu>
+
+<div id="btEs">
+	<a href="clas.html"><div id="#" class="bt"><span>🎻️</span></div></a>
+	<a href="newA.html"><div id="#" class="bt"><span>🌺️</span></div></a>
+</div>
+
+
+
+
+
+
+
 <div id="est">
-chorinho <br> instrumental <br> bossaNova <br>
-blues jazz <br>
-<!-- trilha -->
-tv filme série game<br>
-<!-- Instrumentos -->
-🥁<br>
-⚡<br>
-🎹<br>
-🎤<br>
-🗣️<br>
-👤<br>
-👥<br>
-🎺<br>
-🎷<br>
+	<br>
+	🏖️ choroMpb bossaNova <br>
+	🎹 🎺 bluesJazz <br>
+
+	<!-- trilha -->
+	<!-- Instrumentos -->
+	🗣️vocal<br>
+	👥coro <br>
+	📺️ tv filme série<br>
+	🎮️ game<br>
+	⚔️ militar<br>
+👻️
+🥁️
+🔔️
+🕌️🌇️🕍️⛪️⛩️🌉️
+🕎️✡️✝️🛐️☪️
+
+
 
 </div>
 
 <div id="est2">
-minimal<br> concreta<br> serial<br> kraut<br> progressiveRock<br>
-newAge<br> world<br> ambientMusic<br>
-funk<br> electroFunk<br> r&b<br> rockAndRoll<br> soulMusic<br> smoothJazz<br>
+	<br>
+	⚡ elet<br>
+	🎸️progressiveRock<br>
+	🎷 smoothJazz<br>
+	minimal<br> concreta<br> serial<br> kraut<br> 
+	world<br> ambientMusic<br>
+	funk<br> electroFunk<br> r&b<br> rockAndRoll<br> soulMusic<br> 
 </div>
 
 </div> <!-- NOVA: TAG page -->
@@ -125,23 +146,26 @@ funk<br> electroFunk<br> r&b<br> rockAndRoll<br> soulMusic<br> smoothJazz<br>
 
 var music = document.getElementById("BackgroundM");
 var source = document.getElementById("source");
-
 var musicArray = [
-"./mb/kraft Transeuroexpress 07.wav.ogg",
-"./mb/einzelgänger 75 03.wav.ogg",
-"./mb/c.twins 07 Three-Swept Cocteau Twins Lullabies to Violaine Disc 3.wav.ogg",
-"./mb/automat 78 02 - Droid.wav.ogg",
-"./mb/04 Night Bird.wav.ogg",
 "./mb/02 Sweet Lullaby.wav.ogg",
+"./mb/04 Night Bird.wav.ogg",
+"./mb/automat 78 02 - Droid.wav.ogg",
+"./mb/c.twins 07 Three-Swept Cocteau Twins Lullabies to Violaine Disc 3.wav.ogg",
+"./mb/einzelgänger 75 03.wav.ogg",
+"./mb/kraft Transeuroexpress 07.wav.ogg",
+"./mb/kitaro - Agreement - The Best Of Kitaro 9#7E28.wav.ogg",
+"./mb/corciolli 02_01_graduale.wav.ogg",
 ]
     
 var n = [
-"kraftwerk",
-"einzelgänger",
-"c.twins",
+"deep forest",
+"deep forest",
 "automat",
-"deep forest",
-"deep forest",
+"cocteau twins",
+"einzelgänger",
+"kraftwerk/balanescu",
+"kitaro",
+"corciolli",
 ];
 
 
