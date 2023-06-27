@@ -26,6 +26,7 @@
 	box-shadow: var(--sombra);
 	margin-bottom: .2em;
 	width: 1.3em;
+	height: 1.3em;
 }
 
 #emPl {
@@ -50,11 +51,9 @@ span {
 #btEs {
 	position: absolute;
 	top: 35%;
-}
-
-#btEs {
 	left: 33%;
 }
+
 
 .bt:hover {
   background-color: #444;
@@ -144,7 +143,7 @@ body {
 
 #emoji {
 	background-color: transparent;
-	font-size: 3.5em;
+	font-size: 3em;
 	animation: spinBall 1.8s linear infinite;
 }
 
@@ -164,7 +163,7 @@ body {
 	border: 0;
 }
 
-#pla:hover, #disco:hover, header:hover {
+#pla:hover, #disco:hover, details:hover {
 	filter: brightness(1.4);
 }
 
@@ -218,10 +217,23 @@ main {
 	top: 22%;
 }
 
-header {
-	margin-right: 22%;
-	margin-top: 2em;
-	margin-bottom: 3em;
+details {
+	margin-left: 33%;
+	margin-top: 1em;
+	z-index: 22;
+}
+
+details > summary {
+	list-style: none;
+}
+
+details > #about {
+	width: 18em;
+	background-color: #111;
+	opacity: 0.9;
+	font-size: .9em;
+	padding: 0.5em;
+	border-radius: 0.5em;
 }
 
 footer {
@@ -318,10 +330,8 @@ section {
 
 
 
-header {
-	margin-right: 66%;
-	margin-top: 6em;
-	margin-bottom: 1em;
+details {
+	margin-left: 10%;
 }
 
 #btEs {
