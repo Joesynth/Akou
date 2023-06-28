@@ -40,7 +40,7 @@
 
 
 span {
-	//font-size: .9em;
+	font-size: .9em;
 	//filter: grayscale(100%);
 	padding-left: .2em;
 }
@@ -223,9 +223,12 @@ main {
 }
 
 details {
-	margin-left: 33%;
-	margin-top: 1em;
+	position: absolute;
 	z-index: 22;
+}
+
+summary {
+	font-size: 1.5em;
 }
 
 details > summary {
@@ -236,8 +239,8 @@ details > #about {
 	width: 18em;
 	background-color: #111;
 	opacity: 0.9;
-	font-size: .9em;
-	padding: 0.5em;
+	font-size: .8em;
+	padding: 1em;
 	border-radius: 0.5em;
 }
 
@@ -360,18 +363,19 @@ section {
 
 
 details {
-	margin-left: 10%;
+	margin-left: 5%;
+	top: 25%;
 }
 
 #btEs {
-	left: 5%;
+	left: 83%;
 }
 
 img {
-	position: static;
-	margin-left: 60%;
-	margin-top: .5em;
-	height: 2em;
+	//position: static;
+	margin-left: -36%;
+	margin-top: 2%;
+	height: 2.2em;
 	padding: .5em;
 	box-shadow: inset 0 0 5px black;
 	background-color: #555;
@@ -380,4 +384,10 @@ img {
 
 #ritmo {
 	visibility: hidden;
+}
+
+#about {
+	position: absolute;
+	left: 66%;
+	top: -66%;
 }
