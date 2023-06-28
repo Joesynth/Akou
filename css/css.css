@@ -56,6 +56,12 @@ span {
 #btEs {
 	position: absolute;
 	top: 20%;
+	right: 33%;
+}
+
+#btE {
+	position: absolute;
+	top: 37%;
 	left: 33%;
 }
 
@@ -259,12 +265,21 @@ img {
 
 #ritmo {
 	position: absolute;
-	left: 37%;
-	top: 25%;
+	right: 36.8%;
+	top: 32%;
+	direction: rtl;
 }
 
 .ritmo {
-	margin-bottom: 3.5em;
+	margin-bottom: 4.2em;
+	font-size: .7em;
+}
+
+#ritmoE {
+	position: absolute;
+	left: 37.1%;
+	top: 52%;
+	z-index: 22;
 }
 
 
@@ -382,7 +397,7 @@ img {
 	border-radius: 50%;
 }
 
-#ritmo {
+#ritmo, #ritmoE {
 	visibility: hidden;
 }
 
@@ -390,4 +405,8 @@ img {
 	position: absolute;
 	left: 66%;
 	top: -66%;
+}
+
+#btE {
+	left: 2%;
 }
