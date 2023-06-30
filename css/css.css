@@ -97,6 +97,8 @@ footer {
 	display: flex;
 }
 
+
+
 #display {
 	box-shadow: var(--sombra);
 	min-width: 7em;
@@ -105,6 +107,7 @@ footer {
 	margin-bottom: 1em;
 	padding: .3em .6em;
 	text-align: center;
+	font-size: .9em;
 }
 
 #modo {				/* Estilo Musical, ou seja, página .html*/
