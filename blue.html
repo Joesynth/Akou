@@ -61,7 +61,7 @@ Novo: botões de estilos voltados aos instrumentos, portanto para músicos.
 		</div>
 		<div id="display">
 	  		<p>akou</p>
-	  		<p id="modo">Rock Progressivo</p>
+	  		<p id="modo">Blues & Jazz</p>
 		</div>	  	
 		
 		<section>
@@ -201,83 +201,31 @@ Novo: botões de estilos voltados aos instrumentos, portanto para músicos.
 var music = document.getElementById("BackgroundM");
 var source = document.getElementById("source");
 var musicArray = [
-"./mb/elp 01. Jerusalem.wav.ogg",
-"./mb/ELP 71 07 Promenade.wav.ogg",
-"./mb/ELP 71 10 The Hut Of Baba Yaga.wav.ogg",
+"./mb/p.hardcastle 03 09 - Track  9.wav.ogg",
+"./mb/p.hardcastle 06 06-paul_hardcastle-garden_of_eden.wav.ogg",
+"./mb/sade 09 - Sade - Paradise - The Best of Sade.wav.ogg",
 
 /* GD*/
-"https://drive.google.com/uc?export=view&id=1zjYh8y_CE8mZv-KBX3rCa71W1Q7bgiwx",
-"https://drive.google.com/uc?export=view&id=1J28kiqiikNcxi4JusVmR0nHy6aOhKqZB",
-"https://drive.google.com/uc?export=view&id=1fDsCUnn9L1jpIj8ISc4dNuiCnHpQKdd2",
-"https://drive.google.com/uc?export=view&id=1RT6KITDE9PADhrAMp0KICOtdLVGdgMYY",
-"https://drive.google.com/uc?export=view&id=1GZaogENBeDPBsmxWsSD7m3svqUuKRkW7",
-"https://drive.google.com/uc?export=view&id=1yqQBpnDAdG5Fd8S0YiGlNh6xOvNfHEql",
-"https://drive.google.com/uc?export=view&id=12Dw8fR7JhLcN6BuTC2lqBUNd8VYiwPH9",
-"https://drive.google.com/uc?export=view&id=1wGUga3HTN0xKLLXRQGM5KKHYwYt1Cf9Q",
-"https://drive.google.com/uc?export=view&id=1R9pyyoB_tVWVRFmaBebNwl2xcZCbPYnE",
-"https://drive.google.com/uc?export=view&id=1W-zxtL2HSbKUMCs7Ed_Lqsi7Dz7otEHG",
-"https://drive.google.com/uc?export=view&id=1dzpAB5wsgKdgV39KQilvN_NS2LXGwh-W",
-"https://drive.google.com/uc?export=view&id=16_kOvujVSGQAhM1OTxBU0YprIBOC2med",
-"https://drive.google.com/uc?export=view&id=16hLbz7jsPfYbrs2_DTz4ZjfT6AsiQUpa",
-"https://drive.google.com/uc?export=view&id=1MX-_ccLLI0WsSmxXQGuzhrs7GXc9Yr31",
-"https://drive.google.com/uc?export=view&id=1MxCgB--_P0TMEiVPCqJJgiK6d4E9VMpG",
-"https://drive.google.com/uc?export=view&id=1fPzvxCWJU8GG24jvY8qhWKwXe9n8FjyO",
-"https://drive.google.com/uc?export=view&id=18qDpeps7KfpLxzdymOfMlsb95PB9inz2",
-"https://drive.google.com/uc?export=view&id=1MgA31OOlxYQP5C4_PifdlJhQUFbRlBMN",
-"https://drive.google.com/uc?export=view&id=1k85GnN0VGoQLySlLWLAx-5BkbCZSUPHo",
-"https://drive.google.com/uc?export=view&id=1UxEzQb_4q6N5rhDBe8WMdyzy5qxvfOub",
-"https://drive.google.com/uc?export=view&id=1vCnbeXa_NBP53sO8uJY350-FTi7PZPvR",
-"https://drive.google.com/uc?export=view&id=1BljCRFfABGoIr4wdifBCql1W2zNDQKib",
-"https://drive.google.com/uc?export=view&id=1R9Qq3LCG71_ceZQtWFieHOyKGTrM4oi-",
-"https://drive.google.com/uc?export=view&id=1vngCOw4nrRyDcXn19xg-HBSpCNajIINF",
-"https://drive.google.com/uc?export=view&id=1P7TR_axtGbO4eQC0FG-WzjKjTKlNTYmY",
-"https://drive.google.com/uc?export=view&id=1uUh3v2ztbn2TTFn5zRk87ADZeQ64L2Cl",
-"https://drive.google.com/uc?export=view&id=1TGU0wJa1RCK53JTxY6wR4lI4Mry0m3f6",
-"https://drive.google.com/uc?export=view&id=13a-W6mH4Sp34ha39hjwzTIDtzuz7swl6",
-"https://drive.google.com/uc?export=view&id=1R4GWhG26n4u8Cw_ygsehflvPbhSEg6Lu",
-"https://drive.google.com/uc?export=view&id=10eBpgEWuANEg0JDFxGcjYWgj6v2UJBQ6",
-"https://drive.google.com/uc?export=view&id=1gZVkYmzU2e2JUXCjIFfVahr1x1xcWKAf",
-"https://drive.google.com/uc?export=view&id=15rjVUulkFuCF-f-qGy7oRiId3E5bE57e",
+"https://drive.google.com/uc?export=view&id=1nn0g3zz0XKicBa2Y8DwXZPZhDAMc2HpT",
+"https://drive.google.com/uc?export=view&id=1uwPU9CvrjOWYceHmvm2SdVcS2fuprihO",
+"https://drive.google.com/uc?export=view&id=1RYkmFFFFEIvicQhDjFwCcgXTxUCo06ru",
+"https://drive.google.com/uc?export=view&id=1xkXOP4EFxkHIy2xLV0hdV9cZypidROyB",
+"https://drive.google.com/uc?export=view&id=1bghLwoYFXN_AroyLYlu-xlcjgolhTNCH",
+"https://drive.google.com/uc?export=view&id=1vyFzderN0OYt5jyI3DjNQkhStZnSlrua",
 ]
     
 var n = [
-"elp",
-"elp",
-"elp",
+"p.hardcastle",
+"p.hardcastle",
+"sade",
 
 /* GD*/
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
+"blues & jazz",
+"blues & jazz",
+"blues & jazz",
+"blues & jazz",
+"blues & jazz",
+"blues & jazz",
 ];
 
 

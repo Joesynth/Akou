@@ -61,7 +61,7 @@ Novo: botões de estilos voltados aos instrumentos, portanto para músicos.
 		</div>
 		<div id="display">
 	  		<p>akou</p>
-	  		<p id="modo">Rock Progressivo</p>
+	  		<p id="modo">Eletrõnica</p>
 		</div>	  	
 		
 		<section>
@@ -83,7 +83,6 @@ Novo: botões de estilos voltados aos instrumentos, portanto para músicos.
 
 
 
-
 		<div id="ritmo">
 		<p class="ritmo">clássica</p>		
 		<p class="ritmo">new age</p>		
@@ -95,6 +94,7 @@ Novo: botões de estilos voltados aos instrumentos, portanto para músicos.
 		<p class="ritmo">funk</p>		
 		<p class="ritmo">choro / mpb</p>		
 		</div>
+
 
 
 <div>
@@ -187,6 +187,7 @@ Novo: botões de estilos voltados aos instrumentos, portanto para músicos.
 	minimal<br> concreta<br> serial<br> kraut<br> 
 	world<br> ambientMusic<br>
 	funk<br> electroFunk<br> r&b<br> rockAndRoll<br> soulMusic<br> 
+	💡️
 </div>
 
 </div> <!-- NOVA: TAG page -->
@@ -201,83 +202,79 @@ Novo: botões de estilos voltados aos instrumentos, portanto para músicos.
 var music = document.getElementById("BackgroundM");
 var source = document.getElementById("source");
 var musicArray = [
-"./mb/elp 01. Jerusalem.wav.ogg",
-"./mb/ELP 71 07 Promenade.wav.ogg",
-"./mb/ELP 71 10 The Hut Of Baba Yaga.wav.ogg",
+"./mb/70's rare vinyl funk - funka fize - no words.wav.ogg",
+"./mb/70's rare vinyl funk - outlaw gang - funky fast bump.wav.ogg",
+"./mb/kool and the gang-jungle boogie '78.wav.ogg",
 
 /* GD*/
-"https://drive.google.com/uc?export=view&id=1zjYh8y_CE8mZv-KBX3rCa71W1Q7bgiwx",
-"https://drive.google.com/uc?export=view&id=1J28kiqiikNcxi4JusVmR0nHy6aOhKqZB",
-"https://drive.google.com/uc?export=view&id=1fDsCUnn9L1jpIj8ISc4dNuiCnHpQKdd2",
-"https://drive.google.com/uc?export=view&id=1RT6KITDE9PADhrAMp0KICOtdLVGdgMYY",
-"https://drive.google.com/uc?export=view&id=1GZaogENBeDPBsmxWsSD7m3svqUuKRkW7",
-"https://drive.google.com/uc?export=view&id=1yqQBpnDAdG5Fd8S0YiGlNh6xOvNfHEql",
-"https://drive.google.com/uc?export=view&id=12Dw8fR7JhLcN6BuTC2lqBUNd8VYiwPH9",
-"https://drive.google.com/uc?export=view&id=1wGUga3HTN0xKLLXRQGM5KKHYwYt1Cf9Q",
-"https://drive.google.com/uc?export=view&id=1R9pyyoB_tVWVRFmaBebNwl2xcZCbPYnE",
-"https://drive.google.com/uc?export=view&id=1W-zxtL2HSbKUMCs7Ed_Lqsi7Dz7otEHG",
-"https://drive.google.com/uc?export=view&id=1dzpAB5wsgKdgV39KQilvN_NS2LXGwh-W",
-"https://drive.google.com/uc?export=view&id=16_kOvujVSGQAhM1OTxBU0YprIBOC2med",
-"https://drive.google.com/uc?export=view&id=16hLbz7jsPfYbrs2_DTz4ZjfT6AsiQUpa",
-"https://drive.google.com/uc?export=view&id=1MX-_ccLLI0WsSmxXQGuzhrs7GXc9Yr31",
-"https://drive.google.com/uc?export=view&id=1MxCgB--_P0TMEiVPCqJJgiK6d4E9VMpG",
-"https://drive.google.com/uc?export=view&id=1fPzvxCWJU8GG24jvY8qhWKwXe9n8FjyO",
-"https://drive.google.com/uc?export=view&id=18qDpeps7KfpLxzdymOfMlsb95PB9inz2",
-"https://drive.google.com/uc?export=view&id=1MgA31OOlxYQP5C4_PifdlJhQUFbRlBMN",
-"https://drive.google.com/uc?export=view&id=1k85GnN0VGoQLySlLWLAx-5BkbCZSUPHo",
-"https://drive.google.com/uc?export=view&id=1UxEzQb_4q6N5rhDBe8WMdyzy5qxvfOub",
-"https://drive.google.com/uc?export=view&id=1vCnbeXa_NBP53sO8uJY350-FTi7PZPvR",
-"https://drive.google.com/uc?export=view&id=1BljCRFfABGoIr4wdifBCql1W2zNDQKib",
-"https://drive.google.com/uc?export=view&id=1R9Qq3LCG71_ceZQtWFieHOyKGTrM4oi-",
-"https://drive.google.com/uc?export=view&id=1vngCOw4nrRyDcXn19xg-HBSpCNajIINF",
-"https://drive.google.com/uc?export=view&id=1P7TR_axtGbO4eQC0FG-WzjKjTKlNTYmY",
-"https://drive.google.com/uc?export=view&id=1uUh3v2ztbn2TTFn5zRk87ADZeQ64L2Cl",
-"https://drive.google.com/uc?export=view&id=1TGU0wJa1RCK53JTxY6wR4lI4Mry0m3f6",
-"https://drive.google.com/uc?export=view&id=13a-W6mH4Sp34ha39hjwzTIDtzuz7swl6",
-"https://drive.google.com/uc?export=view&id=1R4GWhG26n4u8Cw_ygsehflvPbhSEg6Lu",
-"https://drive.google.com/uc?export=view&id=10eBpgEWuANEg0JDFxGcjYWgj6v2UJBQ6",
-"https://drive.google.com/uc?export=view&id=1gZVkYmzU2e2JUXCjIFfVahr1x1xcWKAf",
-"https://drive.google.com/uc?export=view&id=15rjVUulkFuCF-f-qGy7oRiId3E5bE57e",
+"https://drive.google.com/uc?export=view&id=1hrIWIVxSzxoi9iqrnxnQrsYxViozDBSj",
+"https://drive.google.com/uc?export=view&id=1Jm-6CEzgUimlJPmYxfj6LrDwXv1pCttd",
+"https://drive.google.com/uc?export=view&id=1RLp5vFC4s1T1wVDH-hgvjxvEvKMTrRyy",
+"https://drive.google.com/uc?export=view&id=1V9vJDeFc8go1D3ggSTFsLJx4Bw8ZsKHc",
+"https://drive.google.com/uc?export=view&id=13OVhkc680BFsOGfpkWs4gQ7_xzHSzCOe",
+"https://drive.google.com/uc?export=view&id=1RDR3TvdGwIHREFbOoFeOQ6w1aS-_4F_r",
+"https://drive.google.com/uc?export=view&id=1SL9PkWv1G-0gTdcdtDOVt9qLdhZbEI3H",
+"https://drive.google.com/uc?export=view&id=10cu3LOPxJBZN3q5rUTuaIhVpNfxbIcOg",
+"https://drive.google.com/uc?export=view&id=10e10ZMExCmQ0UKitUQaon6L_hn63Mt4o",
+"https://drive.google.com/uc?export=view&id=1pc1UdMB_9GfGh3wK3DO6oIhOfJnicJ3Q",
+"https://drive.google.com/uc?export=view&id=1GKzlvmc0Rb0p8atxa2Y9wExHa52DlCtV",
+"https://drive.google.com/uc?export=view&id=16EwP8zcaH8-K52Hl9Uq8hRkbpGntzPuf",
+"https://drive.google.com/uc?export=view&id=14vUF_pcDrGkLZd7H2qyzF0J-EeWwmuAe",
+"https://drive.google.com/uc?export=view&id=1Sp6YiG8vhCT2Toqwu_24JAe2a9Zrwuqn",
+"https://drive.google.com/uc?export=view&id=1hQsFBvqv2Zo0vCN-qJOyVHqQeIgKG1VR",
+"https://drive.google.com/uc?export=view&id=1sbebrYKX4SSo8FVVKBYJbVPK36jrfLEy",
+"https://drive.google.com/uc?export=view&id=1vLA0SSGivP_4zhNyr0KTx85tfsJi2vep",
+"https://drive.google.com/uc?export=view&id=1hCMDJ3ChZlq01C05uCt27vv2LDEBFodU",
+"https://drive.google.com/uc?export=view&id=1hgSkqNqmOUiCPUD38UBzP9SYn7_BNyKT",
+"https://drive.google.com/uc?export=view&id=1Bd9Aj8lzlx3h1BTCxsFMI2PvgHgkcSr_",
+"https://drive.google.com/uc?export=view&id=1taHIdchWyvxPAY8KosgIcuc13tSvlj40",
+"https://drive.google.com/uc?export=view&id=1qJ13MVlGW7JglEweG3TyU4170xguLwCC",
+"https://drive.google.com/uc?export=view&id=1EHPpHQw3pI9m9ruI7hAKW6HyQWcrCc46",
+"https://drive.google.com/uc?export=view&id=1rfvUTJ4qEIOuC6__3Lw8uIcq15P13eNc",
+"https://drive.google.com/uc?export=view&id=1v_yDW6lyb74qcgJDyKab_9mW1I_FHtqS",
+"https://drive.google.com/uc?export=view&id=1Mm55Y_5oIwm8rqx4e37Bhn1hxLuz6XMx",
+"https://drive.google.com/uc?export=view&id=1qnrzzdiDt6ThEXGJXW9hR5Mp_zn7olBG",
+"https://drive.google.com/uc?export=view&id=1pM0INnCcTmp7ZU_QN6SIK_VS0WFXFW8T",
+"https://drive.google.com/uc?export=view&id=1DIZBO_d9EO6dKR1jP5BPL5tZsnh3hMel",
+"https://drive.google.com/uc?export=view&id=1CCQ5IUerApjftfvGKbcs0vQokFHjI_IM",
 ]
     
 var n = [
-"elp",
-"elp",
-"elp",
+"",
+"",
+"kool and the gang",
 
 /* GD*/
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
+"eletrônica",
+"eletrônica",
+"eletrônica",
+"eletrônica",
+"eletrônica",
+"eletrônica",
+"eletrônica",
+"eletrônica",
+"eletrônica",
+"eletrônica",
+"eletrônica",
+"eletrônica",
+"eletrônica",
+"eletrônica",
+"eletrônica",
+"eletrônica",
+"eletrônica",
+"eletrônica",
+"eletrônica",
+"eletrônica",
+"eletrônica",
+"eletrônica",
+"eletrônica",
+"eletrônica",
+"eletrônica",
+"eletrônica",
+"eletrônica",
+"eletrônica",
+"eletrônica",
+"eletrônica",
 ];
 
 
