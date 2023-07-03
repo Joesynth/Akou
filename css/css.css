@@ -7,9 +7,36 @@
 	text-decoration: none;
 }
 
+progress {
+	display: block;
+	margin-left: 2em;
+	width: .6em;
+	height: .6em;
+	border-radius: 50%;
+	border: 1px solid white;
+   background-color: #222;
+	box-shadow: inset 0 0 5px yellow;
+}
+
+pre {
+	font-size: .5em;
+	text-transform: uppercase;
+	margin-left: -5.5em;
+	color: lightyellow;
+}
+
+/* Cor On somente, ou seja, quando está tocando */
+progress::-moz-progress-bar {
+   background-color: yellow;
+}
+progress::-webkit-progress-bar {
+background-color: yellow;
+}
+
 :root {
 	--cor1: #0b9444;
 	--cor2: #333;
+	--cor3: #222;
 	--sombra: .2em .3em 11px black;
 	--borda: 1em;
 }
@@ -36,10 +63,11 @@ main p:first-child {
 	text-transform: lowercase;
 }
 
-main p:last-child {				/* Estilo Musical, ou seja, página .html*/
+#modo {				/* Estilo Musical, ou seja, página .html*/
 	font-size: .5em;
 	text-transform: uppercase;
-	color: lightgreen;;
+	color: lightgreen;
+	margin-bottom: 3em;
 }
 
 .bt {
@@ -49,7 +77,7 @@ main p:last-child {				/* Estilo Musical, ou seja, página .html*/
 	border-radius: 50%;
 	padding: .2em;
 	box-shadow: var(--sombra);
-	margin-bottom: .2em;
+	margin-bottom: .7em;
 	width: 1.3em;
 	height: 1.3em;
 }
@@ -78,11 +106,12 @@ span {
 
 #btEs, #btE {
 	position: absolute;
-	top: 20%;
+	top: 15%;
 }
 
 #btEs {
 	right: 33%;
+	margin-top: .9em;
 }
 
 #btE {
@@ -126,13 +155,18 @@ footer {
 
 #display {
 	box-shadow: var(--sombra);
-	min-width: 7em;
-	min-height: 2em;
-	border-radius: 7px;
+	min-width: 9em;
+	min-height: 8em;
+	border-radius: 1.5em;
 	margin-bottom: 1em;
-	padding: .3em .6em;
+	padding: 1em .4em;
 	text-align: center;
 	font-size: .9em;
+	background-color:  var(--cor3);
+}
+
+#tri {
+	font-size: 2.5em;
 }
 
 
@@ -146,15 +180,16 @@ body {
 
 #baseDisco {
 	border-radius: 3em / 6em;
-	background-color: #222;
-	width: 12em;
-	height: 8.1em;
+	width: 13em;
+	height: 9.3em;
 	text-align: center;
 	margin-bottom: 1em;
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
 	box-shadow: var(--sombra);
+	background-color:  var(--cor3);
 }
+
 
 
 #transport {
@@ -191,12 +226,16 @@ body {
 	height: 5em;
 	position: absolute;
 	border-radius: 50%;
-	box-shadow: inset 0 0 5px cyan;
 	background-color: #444;
 	border: 0;
+	box-shadow: var(--sombra);
 }
 
-#pla:hover, #disco:hover, details:hover {
+article #emPl:hover {
+	font-size: 3em;
+}
+
+#disco:hover, details:hover {
 	filter: brightness(1.4);
 }
 
@@ -245,8 +284,8 @@ main {
 	align-items: center;
 	justify-content: center;
 	position: absolute;
-	left: 22%;
-	top: 30%;
+	left: 20%;
+	top: 44%;
 }
 
 details > summary {
@@ -266,7 +305,7 @@ details > #about {
 img {
 	height: 3.1em;
 	padding: .2em;
-	margin-bottom: 2.6em;
+	//margin-bottom: 2.6em;
 	box-shadow: inset 0 0 5px black;
 	background-color: #444;
 	border-radius: 50%;
@@ -302,6 +341,7 @@ footer {
 }
 
 section {
+	visibility: hidden;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -377,36 +417,39 @@ section {
 /* Media Queries
 --------------------------------------------- [DAKI PRA BAIXO É O LAYOUT DISPLAY CELULAR] */
 
-@media all and (max-width : 768px) {
+/* @media é a mesma configuração, com 480px, utilizada no app Guri2*/
+@media all and (max-width : 480px) {
 
-#est {
-	left: 1em;
-}
+	#est {
+		left: 1em;
+	}
+	
+	#est2 {
+		right: 1em;
+	}
+	
+	#btEs {
+		right: .7em;
+	}
+	
+	#btE {
+		left: .7em;
+	}
+	
+	
+	#ritmo, #ritmoE {
+		visibility: hidden;
+	}
+	
+	#about {
+		position: absolute;
+		left: 66%;
+		top: -66%;
+	}
+	
+	
+	details > #about {
+		margin-left: 2em;
+	}
 
-#est2 {
-	right: 1em;
-}
-
-#btEs {
-	right: .7em;
-}
-
-#btE {
-	left: .7em;
-}
-
-
-#ritmo, #ritmoE {
-	visibility: hidden;
-}
-
-#about {
-	position: absolute;
-	left: 66%;
-	top: -66%;
-}
-
-
-details > #about {
-	margin-left: 2em;
 }
