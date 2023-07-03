@@ -58,10 +58,14 @@ Novo: botões de estilos voltados aos instrumentos, portanto para músicos.
 
 		<div id="baseDisco">
 	  		<button id="disco" onclick=""><div id="emoji">💿️</div></button>
+	  		<br>
+	  		<progress id="progress-bar" value="0" min="0"></progress>
+	  		<pre>Play ON / OFF</pre>
 		</div>
 		<div id="display">
 	  		<p>akou</p>
 	  		<p id="modo">New Age</p>
+	  		<div id="#" class="btt"><span id="tri">▶️</span></div>
 		</div>	  	
 		
 		<section>
@@ -116,13 +120,11 @@ Novo: botões de estilos voltados aos instrumentos, portanto para músicos.
 	</menu>
 
 <aside id="btEs">
-	<a href="clas.html"><div id="#" class="bt"><span>🎻️</span></div></a>
 	<a href="newA.html"><div id="#" class="bt"><span>🌺️</span></div></a>
 	<a href="roPr.html"><div id="#" class="bt"><span>🎛️</span></div></a>
 	<a href="smoo.html"><div id="#" class="bt"><span>🎷️</span></div></a>
 	<a href="cont.html"><div id="#" class="bt"><span>⚡</span></div></a>
 	<a href="elet.html"><div id="#" class="bt"><span>💡️</span></div></a>
-	<a href="blue.html"><div id="#" class="bt"><span>🎺️</span></div></a>
 </aside>
 
 <aside id="btE">
@@ -147,8 +149,10 @@ Novo: botões de estilos voltados aos instrumentos, portanto para músicos.
 			</div>
 		</details>
 	
-	<a href="funk.html"><div id="#" class="bt"><span id="bt2">🔌️</span></div></a>
+	<a href="clas.html"><div id="#" class="bt"><span>🎻️</span></div></a>	
+	<a href="blue.html"><div id="#" class="bt"><span>🎺️</span></div></a>
 	<a href="chor.html"><div id="#" class="bt"><span id="bt2">🏖️</span></div></a>
+	<a href="funk.html"><div id="#" class="bt"><span id="bt2">🔌️</span></div></a>
 </aside>
 
 
@@ -310,7 +314,17 @@ document.getElementById('BackgroundM').pause()
 })
 
 
-		
+
+// Barra de progresso, aqui funcionando como toggle e, indicando se está parada ou tocando a música
+const progressBar = document.getElementById('progress-bar');
+
+function updateProgress() {
+  progressBar.value = Math.floor(music.currentTime);
+}
+
+music.addEventListener('timeupdate', updateProgress);
+
+	
 	</script>
 
 
