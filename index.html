@@ -23,6 +23,12 @@
 	<meta property="og:description" content="Akou é feito pra músicos e você, que de fato aprecia ouvir música.">
 	<meta property="og:site_name" content="joesynth.github.io/Akou">
 
+	<style>
+
+
+
+	</style>
+
 </head>
 <body>
 <div class="page"> <!-- NOVA -->
@@ -37,7 +43,7 @@ Este código tb funcionou meramente com .mp3.
  -->
 
 
-		<audio id="BackgroundM">
+		<audio id="BackgroundM" preload>
 			<source id="source" src="a.ogg" type="audio/ogg">
 			<source id="source" src="a.mp3" type="audio/mp3">
 		</audio>
@@ -55,18 +61,25 @@ Novo: botões de estilos voltados aos instrumentos, portanto para músicos.
 <div id="tudo">
 
 
+
 	<main>
 
 		<div id="baseDisco">
 	  		<button id="disco" onclick=""><div id="emoji">💿️</div></button>
-	  		<br>
-	  		<progress id="progress-bar" value="0" min="0"></progress>
-	  		<pre>Play ON / OFF</pre>
+			<div class="progress">
+			  <span id="progress-amount"></span>
+			</div>
+			<div class="buffered">
+			  <span id="buffered-amount"></span>
+			</div>
 		</div>
 		<div id="display">
 	  		<p>akou</p>
 	  		<p id="modo">mode A</p>
 	  		<div id="#" class="btt"><span id="tri">▶️</span></div>
+	  		<br>
+	  		<progress id="progress-bar" value="0" min="0"></progress>
+	  		<pre>Play ON / OFF</pre>
 		</div>	  	
 
 		<section>

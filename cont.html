@@ -58,14 +58,20 @@ Novo: botões de estilos voltados aos instrumentos, portanto para músicos.
 
 		<div id="baseDisco">
 	  		<button id="disco" onclick=""><div id="emoji">💿️</div></button>
-	  		<br>
-	  		<progress id="progress-bar" value="0" min="0"></progress>
-	  		<pre>Play ON / OFF</pre>
+			<div class="progress">
+			  <span id="progress-amount"></span>
+			</div>
+			<div class="buffered">
+			  <span id="buffered-amount"></span>
+			</div>
 		</div>
 		<div id="display">
 	  		<p>akou</p>
 	  		<p id="modo">Contemporânea</p>
 	  		<div id="#" class="btt"><span id="tri">▶️</span></div>
+	  		<br>
+	  		<progress id="progress-bar" value="0" min="0"></progress>
+	  		<pre>Play ON / OFF</pre>
 		</div>	  	
 		
 		<section>
