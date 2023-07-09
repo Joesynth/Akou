@@ -7,9 +7,46 @@
 	text-decoration: none;
 }
 
+/* Barra progresso*/
+
+.buffered, .progress {
+  height: .2em;
+  margin-left: 2em;
+}
+
+.buffered {
+  //position: absolute;
+  background: gray;		/*cor fundo */
+  width: 100px;
+}
+
+#buffered-amount {
+  display: block;
+  height: 100%;
+  background-color: green;
+  width: 0;
+}
+
+.progress {
+  margin-top: 0px;
+  //position: absolute;
+  top: 22px;
+  width: 100px;
+}
+
+#progress-amount {
+	margin-top: .5em;
+  display: block;
+  height: 100%;
+  background-color: yellow;
+  width: 0;
+}
+
+
+/* Barra progresso atuando como led*/
 progress {
 	display: block;
-	margin-left: 2em;
+	margin-left: 1em;
 	width: .6em;
 	height: .6em;
 	border-radius: 50%;
@@ -21,7 +58,7 @@ progress {
 pre {
 	font-size: .5em;
 	text-transform: uppercase;
-	margin-left: -5.5em;
+	margin-left: -2em;
 	color: lightyellow;
 }
 
@@ -205,7 +242,6 @@ body {
 		width: 9.8em;
 		height: 9.8em;
 		margin: 0;
-		padding: 0;
 		border: 0;
 }
 
