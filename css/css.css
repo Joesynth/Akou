@@ -10,14 +10,14 @@
 /* Barra progresso*/
 
 .buffered, .progress {
-  height: .2em;
-  margin-left: 2em;
+	height: 4px;
+	margin-left: 2em;
+	width: 10em;
 }
 
 .buffered {
   //position: absolute;
   background: gray;		/*cor fundo */
-  width: 100px;
 }
 
 #buffered-amount {
@@ -31,7 +31,6 @@
   margin-top: 0px;
   //position: absolute;
   top: 22px;
-  width: 100px;
 }
 
 #progress-amount {
@@ -217,7 +216,7 @@ body {
 
 #baseDisco {
 	border-radius: 3em / 6em;
-	width: 13em;
+	width: 14em;
 	height: 9.3em;
 	text-align: center;
 	margin-bottom: 1em;
@@ -465,11 +464,11 @@ section {
 	}
 	
 	#btEs {
-		right: .7em;
+		right: .5em;
 	}
 	
 	#btE {
-		left: .7em;
+		left: .5em;
 	}
 	
 	
