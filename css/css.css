@@ -10,7 +10,7 @@
 /* Barra progresso*/
 
 .buffered, .progress {
-	height: 4px;
+	height: 3px;
 	margin-left: 2em;
 	width: 10em;
 }
@@ -93,11 +93,19 @@ a:active {
 	color: purple;
 }
 
-
-main p:first-child {
+/* Compositor, preferecialmente */
+#com {
 	color: yellow;
+	font-size: .6em;
 	text-transform: lowercase;
 }
+
+/*
+main p:first-child {
+	color: red;
+	text-transform: lowercase;
+}
+*/
 
 #modo {				/* Estilo Musical, ou seja, página .html*/
 	font-size: .5em;
@@ -191,11 +199,11 @@ footer {
 
 #display {
 	box-shadow: var(--sombra);
-	min-width: 9em;
-	min-height: 8em;
+	width: 8em;
+	height: 8em;
 	border-radius: 1.5em;
 	margin-bottom: 1em;
-	padding: 1em .4em;
+	padding: .5em;
 	text-align: center;
 	font-size: .9em;
 	background-color:  var(--cor3);
@@ -220,8 +228,8 @@ body {
 	height: 9.3em;
 	text-align: center;
 	margin-bottom: 1em;
-	padding-top: 0.5em;
-	padding-bottom: 0.5em;
+	padding-top: 0.3em;
+	padding-bottom: 0.6em;
 	box-shadow: var(--sombra);
 	background-color:  var(--cor3);
 }
