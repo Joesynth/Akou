@@ -23,6 +23,12 @@
 	<meta property="og:description" content="Akou é feito pra músicos e você, que de fato aprecia ouvir música.">
 	<meta property="og:site_name" content="joesynth.github.io/Akou">
 
+	<style>
+
+
+
+	</style>
+
 </head>
 <body>
 <div class="page"> <!-- NOVA -->
@@ -37,7 +43,7 @@ Este código tb funcionou meramente com .mp3.
  -->
 
 
-		<audio id="BackgroundM">
+		<audio id="BackgroundM" preload>
 			<source id="source" src="a.ogg" type="audio/ogg">
 			<source id="source" src="a.mp3" type="audio/mp3">
 		</audio>
@@ -54,6 +60,8 @@ Novo: botões de estilos voltados aos instrumentos, portanto para músicos.
 
 <div id="tudo">
 
+
+
 	<main>
 
 		<div id="baseDisco">
@@ -67,13 +75,13 @@ Novo: botões de estilos voltados aos instrumentos, portanto para músicos.
 			</div>
 		</div>
 		<div id="display">
-	  		<p id="modo">Blues & Jazz</p>
+	  		<p id="modo">Game - Arcade - MOD</p>
 	  		<div id="#" class="btt"><span id="tri">▶️</span></div>
 	  		<br>
 	  		<progress id="progress-bar" value="0" min="0"></progress>
 	  		<pre>Play ON / OFF</pre>
 		</div>	  	
-		
+
 		<section>
 		  <button id="pla" onclick=""><span id="emPl">🎵️</span></button>
 			<div id="cima">
@@ -107,6 +115,7 @@ Novo: botões de estilos voltados aos instrumentos, portanto para músicos.
 		</div>
 
 
+
 <div>
 	<main>
 	</main>
@@ -135,7 +144,7 @@ Novo: botões de estilos voltados aos instrumentos, portanto para músicos.
 
 <aside id="btE">
 		<details>
-			<summary><img src="icon.png"></summary>
+			<summary><img src="icon.png" class="bt"></summary>
 			<div id="about">
 			<br>			
 			Akou é voltado a músicos e aqueles que, de fato, apreciam música. Portanto, Akou visa alguns princípios: <br>
@@ -154,14 +163,13 @@ Novo: botões de estilos voltados aos instrumentos, portanto para músicos.
 			<br>
 			</div>
 		</details>
-	
+
 	<a href="clas.html"><div id="#" class="bt"><span>🎻️</span></div></a>	
 	<a href="blue.html"><div id="#" class="bt"><span>🎺️</span></div></a>
 	<a href="chor.html"><div id="#" class="bt"><span id="bt2">🏖️</span></div></a>
 	<a href="funk.html"><div id="#" class="bt"><span id="bt2">🔌️</span></div></a>
 	<a href="game.html"><div id="#" class="bt"><span id="bt2">🎮️</span></div></a>
 </aside>
-
 
 
 
@@ -184,7 +192,8 @@ Novo: botões de estilos voltados aos instrumentos, portanto para músicos.
 🥁️
 🔔️
 🕌️🌇️🕍️⛪️⛩️🌉️
-🕎️✡️✝️🛐️☪️
+🕎️✡️música judaica
+✝️🛐️☪️
 
 
 
@@ -200,8 +209,9 @@ Novo: botões de estilos voltados aos instrumentos, portanto para músicos.
 	funk<br> electroFunk<br> r&b<br> rockAndRoll<br> soulMusic<br> 
 </div>
 
-</div> <!-- NOVA: TAG page -->
 
+
+</div> <!-- NOVA: TAG page -->
 
 
 
@@ -212,29 +222,55 @@ Novo: botões de estilos voltados aos instrumentos, portanto para músicos.
 var music = document.getElementById("BackgroundM");
 var source = document.getElementById("source");
 var musicArray = [
-"./ma/Pantera Cor de Rosa.wav.ogg",
-"./ma/e.fitzgerald No04.wav.ogg",
-
-/* GD*/
-"https://drive.google.com/uc?export=view&id=1nn0g3zz0XKicBa2Y8DwXZPZhDAMc2HpT",
-"https://drive.google.com/uc?export=view&id=1uwPU9CvrjOWYceHmvm2SdVcS2fuprihO",
-"https://drive.google.com/uc?export=view&id=1RYkmFFFFEIvicQhDjFwCcgXTxUCo06ru",
-"https://drive.google.com/uc?export=view&id=1xkXOP4EFxkHIy2xLV0hdV9cZypidROyB",
-"https://drive.google.com/uc?export=view&id=1bghLwoYFXN_AroyLYlu-xlcjgolhTNCH",
-"https://drive.google.com/uc?export=view&id=1vyFzderN0OYt5jyI3DjNQkhStZnSlrua",
+"https://drive.google.com/uc?export=view&id=1m55ClRKZE9xbVcfDUFZnJt-MJb10BEpP",
+"https://drive.google.com/uc?export=view&id=1LZN-7yk7D-jJ4q8bfirrjmGi8qOVirrZ",
+"https://drive.google.com/uc?export=view&id=1a1I__GovxWE8wKiKV8owI_Tfvs6Lihlm",
+"https://drive.google.com/uc?export=view&id=1zhrtT8k5SRFBTwNiC8lqVRdlNqtW4Q3b",
+"https://drive.google.com/uc?export=view&id=18Zhau8kyayVH19_3eb7a_giYWj3M2FH8",
+"https://drive.google.com/uc?export=view&id=1-oKWzH5Tw8buORhEsodbt0TF_a3xgRXT",
+"https://drive.google.com/uc?export=view&id=1qSTtVxR2vcWgFQM6LLrtobcEOJhVkcMe",
+"https://drive.google.com/uc?export=view&id=1iqGiv4jg3Z7kxIk3AoAHIqZDroTZ6_wR",
+"https://drive.google.com/uc?export=view&id=14ZHxzeH_jiJMxWOgU_JHMMlgzXZ8Z7h1",
+"https://drive.google.com/uc?export=view&id=1x_XHk4MvIMI5xCv7tThkbqEYoYxJgJqg",
+"https://drive.google.com/uc?export=view&id=1GTLw2Uu_d5-V45vFbcbbrtU5q7AKzBLw",
+"https://drive.google.com/uc?export=view&id=1PLRXJTQlGLI_0ruN8AKRBinMxchuBSgd",
+"https://drive.google.com/uc?export=view&id=1q40h5q0KQvGJraxVxOrPQpUnudHj9qUL",
+"https://drive.google.com/uc?export=view&id=1J3170f_EGmThiM3vZV4N36eQcMDgt5C9",
+"https://drive.google.com/uc?export=view&id=1zqXhuM0a4D-1_x-V748LCz7FgMtMs7_D",
+"https://drive.google.com/uc?export=view&id=1pjoZaG4QW_ch7DqJG7YX4CKs-8GqTzm4",
+"https://drive.google.com/uc?export=view&id=12Wd94H-IhWglDFcRN982x4S3zAG6Ibg5",
+"https://drive.google.com/uc?export=view&id=18J3YUf_VS3j6CBH4WjLlC7EpPbn_youN",
+"https://drive.google.com/uc?export=view&id=1mLvCTqsvZrnimDWhObG4BUYjM7TTGRsJ",
+"https://drive.google.com/uc?export=view&id=1W1HiCz4xAJg_sEg0AFYMUV--2YXFHGze",
+"https://drive.google.com/uc?export=view&id=111aZjBAxR4s-myOjB-b1G4IzPXXmabdR",
+"https://drive.google.com/uc?export=view&id=1RPvPB7gxaDKW5Su-pWB-3iuDL5g9wbHZ",
+"https://drive.google.com/uc?export=view&id=1pDSjfiEy56nnYB2kyuox3QYBcqLIbVb9",
 ]
     
 var n = [
-"henry mancini",
-"e.fitzgerald",
-
-/* GD*/
-"b.goodman",
-"Stanley Jordan",
-"e.fitzgerald",
-"etta james",
-"louis armstrong",
-"henry mancini",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
 ];
 
 
