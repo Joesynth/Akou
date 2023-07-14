@@ -94,7 +94,8 @@ a:active {
 }
 
 /* Compositor, preferecialmente */
-#com {
+samp {
+	display: block;
 	color: yellow;
 	font-size: .6em;
 	text-transform: lowercase;
@@ -107,7 +108,7 @@ main p:first-child {
 }
 */
 
-#modo {				/* Estilo Musical, ou seja, página .html*/
+kbd {				/* Estilo Musical, ou seja, página .html*/
 	font-size: .5em;
 	text-transform: uppercase;
 	color: lightgreen;
@@ -331,6 +332,12 @@ main {
 	top: 44%;
 }
 
+details {
+	position: absolute;
+	margin-top: 1em;
+	margin-left: 33%;
+}
+
 details > summary {
 	list-style: none;
 }
@@ -484,13 +491,10 @@ section {
 		visibility: hidden;
 	}
 	
-	#about {
-		position: absolute;
-		left: 66%;
-		top: -66%;
+	details {
+		margin-left: 1em;
 	}
-	
-	
+
 	details > #about {
 		margin-left: 2em;
 	}
