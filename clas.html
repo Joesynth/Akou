@@ -58,7 +58,7 @@ Novo: botões de estilos voltados aos instrumentos, portanto para músicos.
 
 		<div id="baseDisco">
 	  		<button id="disco" onclick=""><div id="emoji">💿️</div></button>
-	  		<samp>akou</samp>
+	  		<samp></samp>
 			<div class="progress">
 			  <span id="progress-amount"></span>
 			</div>
@@ -139,6 +139,7 @@ Novo: botões de estilos voltados aos instrumentos, portanto para músicos.
 	<a href="chor.html"><div id="#" class="bt"><span id="bt2">🏖️</span></div></a>
 	<a href="funk.html"><div id="#" class="bt"><span id="bt2">🔌️</span></div></a>
 	<a href="game.html"><div id="#" class="bt"><span id="bt2">🎮️</span></div></a>
+	<a href="soun.html"><div id="#" class="bt"><span id="bt2">📺️</span></div></a>
 </aside>
 
 		<details>
@@ -154,6 +155,7 @@ Novo: botões de estilos voltados aos instrumentos, portanto para músicos.
 			<br>
 			- Construção no formato SL (software livre).<br>
 			- Baixíssimo consumo da rede, dados.<br>
+			- Seguro, Akou não coleta nem negocia dados do usuário.<br>
 			<br>
 			<br>
 			Akou - 2022
@@ -215,7 +217,6 @@ var musicArray = [
 "./ma/a.carrilho 08 Marcha Turca.wav.ogg",
 "./ma/ericdemarsan_8.wav.ogg",
 "./ma/Marc Hillman bruno alexiu Tous_sur_orbite.wav.ogg",
-
 /* GD*/
 "https://drive.google.com/uc?export=view&id=1NRUSy1i9uTwe9AuAfFsjBJlF5nR5iNfv",
 "https://drive.google.com/uc?export=view&id=1kxytztV6HPua0NNzFPZEqnVTKNe6zh0a",
@@ -240,37 +241,101 @@ var musicArray = [
 "https://drive.google.com/uc?export=view&id=1opQEgNc0ZaQVGzIZOqSAulWadd6lyel1",
 "https://drive.google.com/uc?export=view&id=1koIAdadEDqtV1leNEgOHlfH8q5TiJM8I",
 "https://drive.google.com/uc?export=view&id=1ocMRR1Kk9Baj_WwZDORBbLTiQ58R00SA",
-]
+/* GD class2 */
+"https://drive.google.com/uc?export=view&id=1Hjuqq2NWGY0I8VLCtokPvghP_pRXCEP1",
+"https://drive.google.com/uc?export=view&id=1Kuh31Zz_u6oZGDtsQ6Rg_0-nu_2-iroT",
+"https://drive.google.com/uc?export=view&id=15H_EFMup5IwgJ2WiKeRLChZVKybgZph_",
+"https://drive.google.com/uc?export=view&id=1rad-8VnPsdHi-ALRpLRWRVqOJyhIWSRL",
+"https://drive.google.com/uc?export=view&id=1UtNFtxZDqt8aqE5NTbPufEFFoL4Eb8YD",
+"https://drive.google.com/uc?export=view&id=1amSIGEemIIxw9wrAw4i4ZXbRxcMymsbJ",
+"https://drive.google.com/uc?export=view&id=18ybN57Bi4ehxtXnNWoGCmwDhcZ9uL3nU",
+"https://drive.google.com/uc?export=view&id=1WlzSyDVSQcszRNTHpL1kg19vtyq-3k3F",
+"https://drive.google.com/uc?export=view&id=1D_vUUN1ddUNW0KgyTjfdhaEHIvGz4eKJ",
+"https://drive.google.com/uc?export=view&id=1XcHw_qsgIqbmAV3Bk1HzUCKHf2eotQyv",
+"https://drive.google.com/uc?export=view&id=1Wiv9lWXia_NbnJu2yDWCoTD3OGE4qdIY",
+"https://drive.google.com/uc?export=view&id=1EHwVXFj6o2BmFRhp7MnhK8O4llmec3PN",
+"https://drive.google.com/uc?export=view&id=11VMJ-VD05seWBrPXzxSVvYWREIVYHBt_",
+"https://drive.google.com/uc?export=view&id=1KYkvFd8_cbt7Uk0-TAk2SuugB3d-_p-V",
+"https://drive.google.com/uc?export=view&id=1fWJOibcHoLMxgJmXsLD9bZrWdZz6yJt1",
+"https://drive.google.com/uc?export=view&id=1GhEfgtqNJm4JPc1Ho_HzqW8wQ6drGoXY",
+"https://drive.google.com/uc?export=view&id=1qeF_snbtuQkgNiop4dfErquEMbxAKxQW",
+"https://drive.google.com/uc?export=view&id=1SOWGTpz_B1XSX2z22aZa4fH1A2whe9o6",
+"https://drive.google.com/uc?export=view&id=1sZitVM8Fuw5HHDNvKUEVxw384yafcdre",
+"https://drive.google.com/uc?export=view&id=15563bVwPdMmwitgWPqXewu4aObrJv328",
+"https://drive.google.com/uc?export=view&id=1e5EH778axR2KkkDL1276c0tGN_PpflOk",
+"https://drive.google.com/uc?export=view&id=1LKPSz-0CtUMcIcxkLNo7lKMeH5DrImOR",
+"https://drive.google.com/uc?export=view&id=1Boyn4EshtBCqYlWXjwQjOUe9QU_Hbft5",
+"https://drive.google.com/uc?export=view&id=1efXkoFc96FmaGDNprPc-UQpJ-A0dtNbR",
+"https://drive.google.com/uc?export=view&id=1wgnIcnl58qvKlkaSby6aMRlsikV1a7xP",
+"https://drive.google.com/uc?export=view&id=1Y5TAMXOTR3EieMteH9n47QDY9N9bv5dG",
+"https://drive.google.com/uc?export=view&id=1v6DnMnUtyL0BuMkZ7lnnK_lB7xw2obSX",
+"https://drive.google.com/uc?export=view&id=1fY3xYa0EtQSY7bLFNE0_sAiboq-E_Jg-",
+"https://drive.google.com/uc?export=view&id=1yq0AaKX2WY8N_mrCqutHpMAgj9BWv17F",
+"https://drive.google.com/uc?export=view&id=1P5ltcQtHD27uhAUs4KP6lfJDIpcEW_Au",
+"https://drive.google.com/uc?export=view&id=1p9kTUM6VkKP_SZJGf2awyCuuay_iSlVw",
+];
     
 var n = [
 "a.carrilho",
 "éric demarsan",
 "marc hillman bruno alexiu",
-
 /* GD*/
-"A. Borodin",
-"beethoven",
+/* bandeiras por dicionário Grove. */
+"🇷🇺 A. Borodin (de s.pertersburgo)",
+"🇩🇪 beethoven",
 "cle",
 "cle",
-"Debussy",
-"Debussy",
+"🇫🇷 Debussy",
+"🇫🇷 Debussy",
 "éric-demarsan",
-"B. Smetana",
-"P.I. Tchaikovsky",
+"[TCHECO] B. Smetana (de Praga)",
+"🇷🇺 tchaikovsky (de s.pertersburgo)",
 "Marc-Hillman-bruno-alexiu",
-"P.I. Tchaikovsky",
-"kraftwerk",
-"kraftwerk",
-"kraftwerk",
-"Franz Schubert",
-"W. A. Mozart",
-"G. Rossini",
-"Beethoven",
-"Franz List",
-"A. Vivaldi",
-"A. Dvořák",
-"E. Grieg",
-"W. A. Mozart",
+"🇷🇺 tchaikovsky (de s.pertersburgo)",
+"🇩🇪 kraftwerk",
+"🇩🇪 kraftwerk",
+"🇩🇪 kraftwerk",
+"🇦🇹 Franz Schubert",
+"🇦🇹 W. A. Mozart",
+"🇮🇹 rossini",
+"🇩🇪 beethoven",
+"🇭🇺 Franz Liszt",
+"🇮🇹 a. vivaldi",
+"[TCHECO] A. Dvořák (de Nelahozeves)",
+"[NORUEGA] E. Grieg (de Bergen)",
+"🇦🇹 W. A. Mozart",
+/* GD class2 */
+"vangelis",
+"José Ursino da Silva",
+"🇧🇷 a.c. gomes",
+"rózsa",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
 ];
 
 

@@ -23,6 +23,12 @@
 	<meta property="og:description" content="Akou é feito pra músicos e você, que de fato aprecia ouvir música.">
 	<meta property="og:site_name" content="joesynth.github.io/Akou">
 
+	<style>
+
+
+
+	</style>
+
 </head>
 <body>
 <div class="page"> <!-- NOVA -->
@@ -37,7 +43,7 @@ Este código tb funcionou meramente com .mp3.
  -->
 
 
-		<audio id="BackgroundM">
+		<audio id="BackgroundM" preload>
 			<source id="source" src="a.ogg" type="audio/ogg">
 			<source id="source" src="a.mp3" type="audio/mp3">
 		</audio>
@@ -54,6 +60,8 @@ Novo: botões de estilos voltados aos instrumentos, portanto para músicos.
 
 <div id="tudo">
 
+
+
 	<main>
 
 		<div id="baseDisco">
@@ -67,13 +75,13 @@ Novo: botões de estilos voltados aos instrumentos, portanto para músicos.
 			</div>
 		</div>
 		<div id="display">
-	  		<kbd>R&B / Smooth</kbd>
+	  		<kbd id="modo">soundtrack</kbd>
 	  		<div id="#" class="btt"><span id="tri">▶️</span></div>
 	  		<br>
 	  		<progress id="progress-bar" value="0" min="0"></progress>
 	  		<pre>Play ON / OFF</pre>
 		</div>	  	
-		
+
 		<section>
 		  <button id="pla" onclick=""><span id="emPl">🎵️</span></button>
 			<div id="cima">
@@ -105,6 +113,7 @@ Novo: botões de estilos voltados aos instrumentos, portanto para músicos.
 		<p class="ritmo">funk</p>		
 		<p class="ritmo">choro / mpb</p>		
 		</div>
+
 
 
 <div>
@@ -168,8 +177,6 @@ Novo: botões de estilos voltados aos instrumentos, portanto para músicos.
 
 
 
-
-
 <div id="est">
 	<br>
 	🏖️ choroMpb bossaNova <br>
@@ -186,7 +193,8 @@ Novo: botões de estilos voltados aos instrumentos, portanto para músicos.
 🥁️
 🔔️
 🕌️🌇️🕍️⛪️⛩️🌉️
-🕎️✡️✝️🛐️☪️
+🕎️✡️música judaica
+✝️🛐️☪️
 
 
 
@@ -202,8 +210,9 @@ Novo: botões de estilos voltados aos instrumentos, portanto para músicos.
 	funk<br> electroFunk<br> r&b<br> rockAndRoll<br> soulMusic<br> 
 </div>
 
-</div> <!-- NOVA: TAG page -->
 
+
+</div> <!-- NOVA: TAG page -->
 
 
 
@@ -214,67 +223,26 @@ Novo: botões de estilos voltados aos instrumentos, portanto para músicos.
 var music = document.getElementById("BackgroundM");
 var source = document.getElementById("source");
 var musicArray = [
-"./mb/p.hardcastle 03 09 - Track  9.wav.ogg",
-"./mb/p.hardcastle 06 06-paul_hardcastle-garden_of_eden.wav.ogg",
-"./mb/sade 09 - Sade - Paradise - The Best of Sade.wav.ogg",
+"./ma/Pantera Cor de Rosa.wav.ogg",
+"./ma/ericdemarsan_8.wav.ogg",
+"./ma/Marc Hillman bruno alexiu Tous_sur_orbite.wav.ogg",
 
-/* GD*/
-"https://drive.google.com/uc?export=view&id=1c4BMLxmpZtmQJWpgTt5ZvKpRK8jf2hF6",
-"https://drive.google.com/uc?export=view&id=1_E8zQr6XyQV0kLufuMvIzdVLMg-rD5is",
-"https://drive.google.com/uc?export=view&id=1EWKLCzne7M8CGOASNXkd12PGqcmtg9s0",
-"https://drive.google.com/uc?export=view&id=1LMqOnJaIJsqTm7L2G8SPw-ZyxJ-lGFn7",
-"https://drive.google.com/uc?export=view&id=1KCGgHJk6F_tjevtg5SJu_uT_ykKc6-2I",
-"https://drive.google.com/uc?export=view&id=1_4tai9b5w3QgbB22Z9q_EqwJ57k8yi42",
-"https://drive.google.com/uc?export=view&id=17q0aqjnFwHeX1BPeBuOuPrs1Bct5TiP2",
-"https://drive.google.com/uc?export=view&id=1sFbTOz6GjigIRkh_1-0xOqGDB8j2xt0F",
-"https://drive.google.com/uc?export=view&id=1VN5RAnh9dComavZ_yDDxZCgXXv-qWHd5",
-"https://drive.google.com/uc?export=view&id=1webF2mpT97EW4UTAGD6WzcDox_wnphqR",
-"https://drive.google.com/uc?export=view&id=1vQTJjQehYb9aJR8ocDGcTM0wRq1rBEZk",
-"https://drive.google.com/uc?export=view&id=1U3IrBYOQXZGx_y9qPKgSviuQVECCCVpY",
-"https://drive.google.com/uc?export=view&id=1ERRoird_ZLAM7TVBMi1lF9RVYSqdTvU5",
-"https://drive.google.com/uc?export=view&id=1a31BNOAYGPjjvDhCHklO4-EiE60Gcdaj",
-"https://drive.google.com/uc?export=view&id=1Tjg4HFNiPKctbYs8DSUA_FCIcG2CJ45I",
-"https://drive.google.com/uc?export=view&id=1K_RcWOkBsH2rcVKfWr8Yj49MfiF_MiFk",
-"https://drive.google.com/uc?export=view&id=1L1Xpl6MTyQ79uSnjnVZcOk8sJmb6Nl3I",
-"https://drive.google.com/uc?export=view&id=1f-4OxJpn8Akmdv_nHqqG1hOXlDWaEF7J",
-"https://drive.google.com/uc?export=view&id=1x0c6Pe48Ll1DnUxS6rNqUvD0Srg6pzRI",
-"https://drive.google.com/uc?export=view&id=1tVfmxBXb4ecrROxyt7BYKGqOBkNfMGR5",
-"https://drive.google.com/uc?export=view&id=1fb3wC6q-0TYMozef3WI5TqA2PxIvqs7d",
-"https://drive.google.com/uc?export=view&id=1lCC_uM047b6tBWXVdgbsIcCdZhhSAXto",
-"https://drive.google.com/uc?export=view&id=1lEVYk65yJvKGTL_BM2gPPneIPxn3-srG",
-"https://drive.google.com/uc?export=view&id=1Iz-2XgGoCykG6H08oBb8qj-072NY0pw0",
-]
+/*GD*/
+"https://drive.google.com/uc?export=view&id=1sbebrYKX4SSo8FVVKBYJbVPK36jrfLEy",
+"https://drive.google.com/uc?export=view&id=1J1oVgXVII1YICQ7UEF3YRINaM87b8es1",
+"https://drive.google.com/uc?export=view&id=18SkDQYcHnTkJ5f1FyDFTpoZZm9uw9v1b",
+];
+
     
 var n = [
-"p.hardcastle",
-"p.hardcastle",
-"sade",
+"henry mancini",
+"éric demarsan",
+"marc hillman bruno alexiu",
 
-/* GD*/
-"",
-"",
-"kool & the gang",
-"lisa stansfield",
-"lisa stansfield",
-"loose ends",
-"p.hardcastle",
-"p.hardcastle",
-"p.hardcastle",
-"p.hardcastle",
-"p.hardcastle",
-"p.hardcastle",
-"p.hardcastle",
-"p.hardcastle",
-"p.hardcastle",
-"sade",
-"sade",
-"sade",
-"sade",
-"",
-"surface",
-"swing out sister",
-"tania maria",
-"",
+/*GD*/
+"harold faltermeyer",
+"marcus viana - noite",
+"vangelis - Heaven & Hell, Pt. 1",
 ];
 
 
