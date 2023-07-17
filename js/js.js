@@ -5,11 +5,12 @@
 window.onload = () => {
 
 
-	/* trecho var samp e if escrito por mim de cabeça*/
+	/* trecho var samp e if escrito por mim de cabeça
 	var samp = document.querySelector("samp").innerHTML;
 	if (samp === "") {
 		document.querySelector("samp").innerHTML = "bem-vindo";
 	}
+	*/
 
 
 
