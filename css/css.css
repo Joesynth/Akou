@@ -1,11 +1,15 @@
+/*
+	letter-spacing: 0.15em;
+*/
+
 * {
 	margin: 0;
 	padding: 0;
 	color: #bbb;
 	font-family: arial;
-	letter-spacing: 0.15em;
 	text-decoration: none;
 }
+
 
 /* Barra progresso*/
 
@@ -99,6 +103,7 @@ samp {
 	color: yellow;
 	font-size: .6em;
 	text-transform: lowercase;
+	min-height: 1em;
 }
 
 /*
@@ -245,7 +250,7 @@ body {
 }
 
 #disco {
-	background-color: gray;
+	background-color:  var(--cor3);
 		border-radius: 50%;
 		width: 9.8em;
 		height: 9.8em;
@@ -254,9 +259,9 @@ body {
 }
 
 #emoji {
-	background-color: transparent;
-	font-size: 3em;
-	animation: spinBall 1.8s linear infinite;
+	//background-color: transparent;
+	font-size: 9em;
+	animation: spinBall 2.1s linear infinite;
 }
 
 @keyframes spinBall {
@@ -282,6 +287,7 @@ article #emPl:hover {
 #disco:hover, details:hover {
 	filter: brightness(1.4);
 }
+
 
 
 
