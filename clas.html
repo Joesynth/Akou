@@ -58,7 +58,7 @@ Novo: botões de estilos voltados aos instrumentos, portanto para músicos.
 
 		<div id="baseDisco">
 	  		<button id="disco" onclick=""><div id="emoji">💿️</div></button>
-	  		<samp></samp>
+	  		<samp>Akou</samp>
 			<div class="progress">
 			  <span id="progress-amount"></span>
 			</div>
@@ -281,17 +281,17 @@ var n = [
 "marc hillman bruno alexiu",
 /* GD*/
 /* bandeiras por dicionário Grove. */
-"🇷🇺 A. Borodin (de s.pertersburgo)",
+"🇷🇺 A. Borodin",
 "🇩🇪 beethoven",
 "cle",
 "cle",
 "🇫🇷 Debussy",
 "🇫🇷 Debussy",
 "éric-demarsan",
-"[TCHECO] B. Smetana (de Praga)",
-"🇷🇺 tchaikovsky (de s.pertersburgo)",
+"🇨🇿️ B. Smetana",
+"🇷🇺 tchaikovsky",
 "Marc-Hillman-bruno-alexiu",
-"🇷🇺 tchaikovsky (de s.pertersburgo)",
+"🇷🇺 tchaikovsky",
 "🇩🇪 kraftwerk",
 "🇩🇪 kraftwerk",
 "🇩🇪 kraftwerk",
@@ -301,8 +301,8 @@ var n = [
 "🇩🇪 beethoven",
 "🇭🇺 Franz Liszt",
 "🇮🇹 a. vivaldi",
-"[TCHECO] A. Dvořák (de Nelahozeves)",
-"[NORUEGA] E. Grieg (de Bergen)",
+"🇨🇿️ A. Dvořák",
+"🇧🇻️ E. Grieg",
 "🇦🇹 W. A. Mozart",
 /* GD class2 */
 "vangelis",
@@ -350,7 +350,7 @@ function musicSelect () {
         music.load();
         music.play();
         console.log("Playing " + source.src)
-        document.querySelector("p").innerHTML = n[rand];
+        document.querySelector("samp").innerHTML = n[rand];
     }
 }
 

@@ -66,7 +66,7 @@ Novo: botões de estilos voltados aos instrumentos, portanto para músicos.
 
 		<div id="baseDisco">
 	  		<button id="disco" onclick=""><div id="emoji">💿️</div></button>
-	  		<samp></samp>
+	  		<samp>Akou</samp>
 			<div class="progress">
 			  <span id="progress-amount"></span>
 			</div>
@@ -257,7 +257,7 @@ function musicSelect () {
         music.load();
         music.play();
         console.log("Playing " + source.src)
-        document.querySelector("p").innerHTML = n[rand];
+        document.querySelector("samp").innerHTML = n[rand];
     }
 }
 
