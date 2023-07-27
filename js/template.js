@@ -7,6 +7,7 @@ template.innerHTML = `
 	<a href="smoo.html"><div id="#" class="bt"><span>🎷️</span></div></a>
 	<a href="cont.html"><div id="#" class="bt"><span>⚡</span></div></a>
 	<a href="elet.html"><div id="#" class="bt"><span>💡️</span></div></a>
+	<a href="viol.html"><div id="#" class="bt"><span>🎸️</span></div></a>
 </aside>
 
 <aside id="btE">
