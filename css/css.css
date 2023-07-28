@@ -334,8 +334,8 @@ main {
 
 details {
 	position: absolute;
-	margin-top: 1em;
-	margin-left: 33%;
+	margin-top: -44em;
+	margin-left: 44%;
 }
 
 details > summary {
@@ -491,12 +491,9 @@ section {
 		visibility: hidden;
 	}
 	
-	details {
-		margin-left: 1em;
+	details > #about {
+		margin-left: -7em;
 	}
 
-	details > #about {
-		margin-left: 2em;
-	}
 
 }
