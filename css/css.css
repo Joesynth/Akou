@@ -7,6 +7,12 @@
 	text-decoration: none;
 }
 
+h1, h2, h3, h4, h5 {
+	margin-left: 1em;
+	margin-top: 1.3em;
+	margin-bottom: .3em;
+}
+
 /* Barra progresso*/
 
 .buffered, .progress {
@@ -343,7 +349,7 @@ details > summary {
 }
 
 details > #about {
-	width: 18em;
+	width: 21em;
 	background-color: #111;
 	opacity: 0.9;
 	font-size: .8em;
@@ -492,7 +498,7 @@ section {
 	}
 	
 	details > #about {
-		margin-left: -7em;
+		margin-left: -9em;
 	}
 
 
