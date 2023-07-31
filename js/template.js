@@ -21,22 +21,22 @@ template.innerHTML = `
 	<details>
 		<summary><img src="icon.png" class="bt"></summary>
 		<div id="about">
-				<br>			
-				Akou é voltado a músicos e aqueles que, de fato, apreciam música. Portanto, Akou visa alguns princípios: <br>
-				<br>			
-				- Audição musical sem se deixar influenciar por imagens ou apelos visuais.<br>
-				- Zero de propaganda!<br>
-				- Funcionar em segundo plano, daí permitindo ao usuário ouvir músicas e ainda sim usar outros apps.<br>
-				<br>			
+				Akou é voltado a músicos e aqueles que, de fato, apreciam música.<br>
+				<h3>✔️ Akou proporciona</h3>
+				🙄️ Audição musical sem nos influenciar com imagens ou apelos visuais.<br>
+				📖️ Akou não é música como entretenimento, e sim alimento _educação, conhecimento.<br>
+				🔀️ Akou funciona em segundo plano, permitindo ao usuário ouvir músicas e ainda sim usar outros apps.<br>
 				<br>
-				- Construção no formato SL (software livre).<br>
-				- Baixíssimo consumo da rede, dados.<br>
-				- Seguro, Akou não coleta nem negocia dados do usuário.<br>
+				💸️ Akou tem baixíssimo con$umo da rede, dados.<br>
+				💾️ Uma música no Akou consome quase 10x menos que um mp3.<br>
+				<h3>❌️ Akou não visa</h3>
+				😎️ Propaganda! Akou tem zero de publicidade.<br>
+				<h3>Akou é FOSS</h3>
+				🎈️ Akou é construído no formato SL (software livre).<br>
+				🛡️ Akou é seguro, não coletando dados do usuário.<br>
+				🤑️ Akou não negocia dados do usuário, inclusive por não coletar.<br>
 				<br>
-				<br>
-				Akou - 2022
-				<br>
-				<br>
+				Akou - 2022<br>
 		</div>
 	</details>
 `;
