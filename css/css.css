@@ -157,7 +157,7 @@ span {
 
 #btEs, #btE {
 	position: absolute;
-	top: 15%;
+	top: 12%;
 }
 
 #btEs {
@@ -349,11 +349,11 @@ details > summary {
 }
 
 details > #about {
-	width: 21em;
+	width: 23em;
 	background-color: #111;
 	opacity: 0.9;
 	font-size: .8em;
-	padding: 1em;
+	padding: .7em;
 	border-radius: 0.5em;
 	z-index: 22;
 }
