@@ -26,7 +26,6 @@ template.innerHTML = `
 				🙄️ Audição musical sem nos influenciar com imagens ou apelos visuais.<br>
 				📖️ Akou não é música como entretenimento, e sim alimento _educação, conhecimento.<br>
 				🔀️ Akou funciona em segundo plano, permitindo ao usuário ouvir músicas e ainda sim usar outros apps.<br>
-				<br>
 				💸️ Akou tem baixíssimo con$umo da rede, dados.<br>
 				💾️ Uma música no Akou consome quase 10x menos que um mp3.<br>
 				<h3>❌️ Akou não visa</h3>
