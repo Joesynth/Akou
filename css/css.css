@@ -7,7 +7,7 @@
 	text-decoration: none;
 }
 
-h1, h2, h3, h4, h5 {
+h2, h3, h4, h5 {
 	margin-left: 1em;
 	margin-top: 1.3em;
 	margin-bottom: .3em;
@@ -51,7 +51,8 @@ h1, h2, h3, h4, h5 {
 /* Barra progresso atuando como led*/
 progress {
 	display: block;
-	margin-left: 1em;
+	margin-left: 3em;
+	margin-top: .5em;
 	width: .6em;
 	height: .6em;
 	border-radius: 50%;
@@ -203,21 +204,21 @@ footer {
 }
 
 
-
+/*
 #display {
 	box-shadow: var(--sombra);
-	width: 8em;
-	height: 8em;
-	border-radius: 1.5em;
-	margin-bottom: 1em;
-	padding: .5em;
+	width: 111px;
+	height: 222px;
+	border-radius: 50%;
+	margin: 1em;
 	text-align: center;
-	font-size: .9em;
+	//font-size: .9em;
 	background-color:  var(--cor3);
 }
+*/
 
 #tri {
-	font-size: 2.5em;
+	font-size: 3.5em;
 }
 
 
@@ -232,13 +233,40 @@ body {
 #baseDisco {
 	border-radius: 3em / 6em;
 	width: 14em;
-	height: 9.3em;
+	height: 19.3em;
 	text-align: center;
 	margin-bottom: 1em;
 	padding-top: 0.3em;
 	padding-bottom: 0.6em;
 	box-shadow: var(--sombra);
 	background-color:  var(--cor3);
+}
+
+h1 {
+	margin: 1em;
+	position: absolute;
+	color: yellow;
+	text-transform: lowercase;
+}
+
+article {
+	position: absolute;
+	left: 39%;
+	top: 77%;
+	width: 14em;
+	text-align: center;
+	margin-bottom: 1em;
+	padding-top: 0.3em;
+	padding-bottom: 0.6em;
+	height
+}
+
+#capa {
+	width: 100%;
+	border-radius: 3em / 6em;
+	box-shadow: var(--sombra);
+	background-color:  var(--cor3);
+	margin-top: 1em;
 }
 
 
@@ -358,8 +386,9 @@ details > #about {
 	z-index: 22;
 }
 
-img {
-	height: 3.1em;
+#logo {
+	width: 1.5em;
+	height: 1.5em;
 	padding: .2em;
 	//margin-bottom: 2.6em;
 	box-shadow: inset 0 0 5px black;
@@ -499,6 +528,18 @@ section {
 	
 	details > #about {
 		margin-left: -9em;
+	}
+
+	h1 {
+		left: 0%;
+	}
+	
+	article {
+		left: 0%;
+	}
+
+	main {
+		top: 35%;
 	}
 
 
