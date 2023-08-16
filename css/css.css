@@ -243,16 +243,18 @@ body {
 }
 
 h1 {
+	font-size: 1.2em;
 	margin: 1em;
 	position: absolute;
 	color: yellow;
 	text-transform: lowercase;
+	text-shadow: 2px 2px 2px black; // verificar esses valores, pois coloquei de cabeça.
 }
 
 article {
 	position: absolute;
-	left: 39%;
-	top: 77%;
+	left: 44%;
+	top: 71%;
 	width: 14em;
 	text-align: center;
 	margin-bottom: 1em;
@@ -535,7 +537,8 @@ section {
 	}
 	
 	article {
-		left: 0%;
+		left: 20%;
+		top: 66%;
 	}
 
 	main {
