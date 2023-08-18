@@ -1,11 +1,18 @@
+/*
 * {
 	margin: 0;
 	padding: 0;
 	color: #bbb;
 	font-family: arial;
-	letter-spacing: 0.15em;
+	//letter-spacing: 0.15em; 
 	text-decoration: none;
 }
+*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
 
 h2, h3, h4, h5 {
 	margin-left: 1em;
@@ -291,8 +298,8 @@ article {
 
 #emoji {
 	background-color: transparent;
-	font-size: 3em;
-	animation: spinBall 1.8s linear infinite;
+	font-size: 8em;
+	animation: spinBall 1.9s linear infinite;
 }
 
 @keyframes spinBall {
