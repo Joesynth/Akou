@@ -372,14 +372,14 @@ main {
 	justify-content: center;
 	position: absolute;
 	left: 20%;
-	top: 44%;
+	top: 10em;
 	z-index: -1;
 }
 
 details {
-	position: absolute;
-	top: 2em;
-	left: 44%;
+	//position: absolute;
+	//top: 2em;
+	//left: 44%;
 }
 
 details > summary {
@@ -394,7 +394,7 @@ details > #about {
 	font-size: .8em;
 	padding: .7em;
 	border-radius: 0.5em;
-	z-index: 999;
+	//z-index: 999;
 }
 
 #logo {
@@ -549,10 +549,5 @@ section {
 		left: 20%;
 		top: 66%;
 	}
-
-	main {
-		top: 35%;
-	}
-
 
 }
