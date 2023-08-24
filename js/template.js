@@ -8,6 +8,7 @@ template.innerHTML = `
 		<a href="cont.html"><div id="#" class="bt"><span>⚡</span></div></a>
 		<a href="elet.html"><div id="#" class="bt"><span>💡️</span></div></a>
 		<a href="game.html"><div id="#" class="bt"><span>🎮️</span></div></a>
+		<a href="conc.html"><div id="#" class="bt"><span>📼️</span></div></a>
 	</aside>
 	<aside id="btE">
 		<a href="clas.html"><div id="#" class="bt"><span id="bt2">🎻️</span></div></a>	
