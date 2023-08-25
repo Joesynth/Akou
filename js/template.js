@@ -1,7 +1,7 @@
 const template = document.createElement('template');
 
 template.innerHTML = `
-	<aside id="btEs">
+	<aside id="btD">
 		<a href="newA.html"><div id="#" class="bt"><span>🌺️</span></div></a>
 		<a href="roPr.html"><div id="#" class="bt"><span>🎛️</span></div></a>
 		<a href="smoo.html"><div id="#" class="bt"><span>🎷️</span></div></a>
@@ -9,6 +9,9 @@ template.innerHTML = `
 		<a href="elet.html"><div id="#" class="bt"><span>💡️</span></div></a>
 		<a href="game.html"><div id="#" class="bt"><span>🎮️</span></div></a>
 		<a href="conc.html"><div id="#" class="bt"><span>📼️</span></div></a>
+	</aside>
+	<aside id="btD2">
+		<a href="#"><div id="#" class="bt"><span>⭕️</span></div></a>
 	</aside>
 	<aside id="btE">
 		<a href="clas.html"><div id="#" class="bt"><span id="bt2">🎻️</span></div></a>	
@@ -18,6 +21,9 @@ template.innerHTML = `
 		<a href="viol.html"><div id="#" class="bt"><span id="bt2">🎸️</span></div></a>
 		<a href="funk.html"><div id="#" class="bt"><span id="bt2">🔌️</span></div></a>
 		<a href="soun.html"><div id="#" class="bt"><span id="bt2">📺️</span></div></a>
+	</aside>
+	<aside id="btE2">
+		<a href="bras.html"><div id="#" class="bt"><span>🇧🇷️</span></div></a>
 	</aside>
 	<main>
 		<details>
