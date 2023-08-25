@@ -130,15 +130,15 @@ kbd {				/* Estilo Musical, ou seja, página .html*/
 }
 
 .bt {
-	background-color: var(--cor2);
+	background-color: transparent;	/* antes estava definido "var(--cor2)" */
 	filter: grayscale(100%);
 	font-size: 2em;
 	border-radius: 50%;
 	padding: .2em;
 	box-shadow: var(--sombra);
-	margin-bottom: .5em;
+	margin-bottom: .1em;
 	width: 1.2em;
-	height: 1.2em;
+	height: 1em;
 }
 
 #bt2 {
@@ -151,8 +151,8 @@ kbd {				/* Estilo Musical, ou seja, página .html*/
 
 
 span {
-	font-size: .9em;
-	padding-left: .2em;
+	font-size: .7em;
+	padding-left: .4em;
 }
 
 
@@ -163,13 +163,18 @@ span {
 	visibility: hidden;
 }
 
-#btEs, #btE {
+#btD, #btD2, #btE, #btE2 {
 	position: absolute;
-	top: 12%;
+	top: 1em;
 }
 
-#btEs {
+#btD {
 	right: 33%;
+	margin-top: .9em;
+}
+
+#btD2 {
+	right: 37%;
 	margin-top: .9em;
 }
 
@@ -178,6 +183,10 @@ span {
 	left: 33%;
 }
 
+#btE2 {
+	margin-top: .7em;
+	left: 37%;
+}
 
 
 .bt:hover {
@@ -524,7 +533,7 @@ section {
 		right: 1em;
 	}
 	
-	#btEs {
+	#btD {
 		right: .5em;
 	}
 	
@@ -548,6 +557,14 @@ section {
 	article {
 		left: 20%;
 		top: 66%;
+	}
+
+	#btD2 {
+		right: 17%;
+	}
+	
+	#btE2 {
+		left: 17%;
 	}
 
 }
