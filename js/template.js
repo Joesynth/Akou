@@ -27,7 +27,7 @@ template.innerHTML = `
 	</aside>
 	<main>
 		<details>
-			<summary><img id="logo" src="icon.png" class="bt"></summary>
+			<summary></summary>
 			<div id="about">
 					Akou é voltado a músicos e aqueles que, de fato, apreciam música.<br>
 					<h3>✔️ Akou proporciona</h3>
@@ -43,6 +43,7 @@ template.innerHTML = `
 					🛡️ Akou é seguro, não coletando dados do usuário.<br>
 					🤑️ Akou não negocia dados do usuário, inclusive por não coletar.<br>
 					<br>
+					Akou prioriza qualidade ao invés quantidade, assim, é focado em exemplos musicais úteis a construir e estimular a audição do indivíduo, então priorizando o conhecimento ao invés de entretenimento.</br>
 					Akou - 2022<br>
 			</div>
 		</details>
