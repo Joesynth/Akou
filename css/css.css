@@ -502,8 +502,11 @@ section {
 	}
 
 	menu {							/* ESTA TAG TÁ FAZENDo LUGAR DE FOOTER*/
-	flex: 0 0 auto;
+	flex: 0 0 auto;				/* está propriedade n é referente a "display:flex" logo abaixo*/
 	background-color: var(--cor2);
+	display: flex;					/* faz o conteúdo ficar um ao lado do outro*/
+	justify-content: space-around;
+	align-items: center;
 	}
 	
 	menu div div {
