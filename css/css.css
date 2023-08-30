@@ -3,7 +3,6 @@
 	margin: 0;
 	padding: 0;
 	color: #bbb;
-	font-family: arial;
 	//letter-spacing: 0.15em; 
 }
 */
@@ -385,17 +384,15 @@ main {
 	z-index: -1;
 }
 
-details {
-	//position: absolute;
-	//top: 2em;
-	//left: 44%;
-}
 
 details > summary {
 	list-style: none;
 }
 
 details > #about {
+	position: relative;
+	margin-left: 11em;
+	margin-top: 0px;
 	width: 23em;
 	background-color: #111;
 	color: white;
@@ -404,7 +401,9 @@ details > #about {
 	padding: .7em;
 	border-radius: 0.5em;
 	//z-index: 999;
+	margin-left: -9em;
 }
+
 
 #logo {
 	width: 1.5em;
@@ -522,6 +521,72 @@ section {
 	}
 
 
+
+
+
+
+/* RELATIVO AO LOGO NO RODAPÉ, INCLUSIVE O TOGGLE Q FAZ SURGIR A TELA ABOUT */
+
+/* Escondendo a tag input checkbox*/
+[id^=drop] {			
+	display: none;
+}
+
+/* Escondendo o conteúdo */
+	.toggle + a, ul {
+		display: none;
+	}
+
+	/* Stylinf the toggle lable */
+	.toggle {
+		display: block;
+		padding:14px 20px;	
+		color: white;
+		font-size: 1em;
+		border:none;
+		text-transform: uppercase;
+	}
+
+	/* Display Dropdown when clicked on Parent Lable */
+	[id^=drop]:checked + ul {
+		display: block;
+	}
+
+	/* Change menu item's width to 100% */
+	nav ul li {
+	padding: 0.5em;
+	//margin-left: 23em;
+	position: absolute;
+	top: -55em;
+	left: -9em;
+	color: whitesmoke;
+	z-index: 999;
+	font-size: 0.8em;
+	width: 24em;
+	background-color: black;
+	font-family: arial;
+		}
+
+	/* Fisrt Tier Dropdown */
+	nav ul ul li {
+		display: block;
+		width: 100%;
+	}
+
+	nav ul ul ul li {
+		position: static;
+		/* has to be the same number as the "width" of "nav ul ul li" */ 
+
+	}
+
+	nav ul {
+	position: relative;
+	}
+
+
+
+
+
 /* Media Queries
 --------------------------------------------- [DAKI PRA BAIXO É O LAYOUT DISPLAY CELULAR] */
 
@@ -549,9 +614,7 @@ section {
 		visibility: hidden;
 	}
 	
-	details > #about {
-		margin-left: -9em;
-	}
+
 
 	h1 {
 		left: 0%;
