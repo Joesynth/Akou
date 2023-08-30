@@ -29,22 +29,6 @@ template.innerHTML = `
 		<details>
 			<summary></summary>
 			<div id="about">
-					Akou é voltado a músicos e aqueles que, de fato, apreciam música.<br>
-					<h3>✔️ Akou proporciona</h3>
-					🙄️ Audição musical sem nos influenciar com imagens ou apelos visuais.<br>
-					📖️ Akou não é música como entretenimento, e sim alimento _educação, conhecimento.<br>
-					🔀️ Akou funciona em segundo plano, permitindo ao usuário ouvir músicas e ainda sim usar outros apps.<br>
-					💸️ Akou tem baixíssimo con$umo da rede, dados.<br>
-					💾️ Uma música no Akou consome quase 10x menos que um mp3.<br>
-					<h3>❌️ Akou não visa</h3>
-					😎️ Propaganda! Akou tem zero de publicidade.<br>
-					<h3>Akou é FOSS</h3>
-					🎈️ Akou é construído no formato SL (software livre).<br>
-					🛡️ Akou é seguro, não coletando dados do usuário.<br>
-					🤑️ Akou não negocia dados do usuário, inclusive por não coletar.<br>
-					<br>
-					Akou prioriza qualidade ao invés quantidade, assim, é focado em exemplos musicais úteis a construir e estimular a audição do indivíduo, então priorizando o conhecimento ao invés de entretenimento.</br>
-					Akou - 2022<br>
 			</div>
 		</details>
 			<div id="baseDisco">
@@ -77,3 +61,9 @@ template.innerHTML = `
 `;
 
 document.body.appendChild(template.content);
+
+/* Logo Akou no rodapé: conteúdo*/
+var conteudo = document.getElementById("about");
+conteudo.innerHTML = "Akou é voltado a músicos e aqueles que, de fato, apreciam música.<br><h3>✔️ Akou proporciona</h3>🙄️ Audição musical sem nos influenciar com imagens ou apelos visuais.<br>	📖️ Akou não é música como entretenimento, e sim alimento _educação, conhecimento.<br>🔀️ Akou funciona em segundo plano, permitindo ao usuário ouvir músicas e ainda sim usar outros apps.<br>💸️ Akou tem baixíssimo con$umo da rede, dados.<br>💾️ Uma música no Akou consome quase 10x menos que um mp3.<br><h3>❌️ Akou não visa</h3>😎️ Propaganda! Akou tem zero de publicidade.<br><h3>Akou é FOSS</h3>🎈️ Akou é construído no formato SL (software livre).<br>🛡️ Akou é seguro, não coletando dados do usuário.<br>🤑️ Akou não negocia dados do usuário, inclusive por não coletar.<br><br>Akou prioriza qualidade ao invés quantidade, assim, é focado em exemplos musicais úteis a construir e estimular a audição do indivíduo, então priorizando o conhecimento ao invés de entretenimento.</br>Akou - 2022<br>";
+
+
