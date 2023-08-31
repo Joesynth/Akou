@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Akou</title>
+	<link rel="icon" href="icon.png">
+	<link rel="stylesheet" href="css/css.css"/>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="js/js.js"></script>
+	<script src="js/template.js" type="text/javascript" defer></script>
+	<!--ID FB -->
+	<meta property="#" content="#">
+	<meta property="og:image:type" content="image/png">
+	<meta property="og:image:width" content="640">
+	<meta property="og:image:height" content="360">
+    <!--OG: abaixo orgem q surge Telegram; Tag title, type, url, image (Obrigatórias); description,  site_name (Opcionais) -->
+	<meta property="og:site_name" content="joesynth.github.io/Akou">
+	<meta property="og:title" content="Rock: A Surf Music">
+	<meta property="og:description" content="Conheça ouvindo um dos típicos rock dos anos 60.">
+	<meta property="og:type" content="article">
+	<meta property="og:url" content="https://joesynth.github.io/Akou/index.html">
+	<meta property="og:image" content="https://joesynth.github.io/Akou/images/surf.png"> 
+	
+<style>
+
+
+
+
+
+/* #################################################################*/
+/* #################################################################*/
+/* #################################################################*/
+
+/* CSS Document */
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+</style>	
+	
+</head>
+<body>
+
+<div class="page"> <!-- NOVA -->
+<div class="corpo"> <!-- FILHA DA TAG page. CONTEÚDO CENTRAL NO MEIo DA TELA, ENTRE header E footer -->
+
+<!-- 
+Inspirado em:
+https://codereview.stackexchange.com/questions/280467/random-music-plays-when-one-stops
+
+Este código tb funcionou meramente com .mp3.
+
+ -->
+
+
+		<audio id="BackgroundM" preload>
+			<source id="source" src="a.ogg" type="audio/ogg">
+			<source id="source" src="a.mp3" type="audio/mp3">
+		</audio>
+
+<!-- 
+Trecho abaixo dos botões de controle, botões principais:
+https://stackoverflow.com/questions/4126708/is-it-possible-to-style-html5-audio-tag
+ -->
+
+
+<!-- 
+Novo: botões de estilos voltados aos instrumentos, portanto para músicos.
+ -->
+
+<div id="tudo">
+
+
+		<article>
+			<h1>Surf Music</h1>
+			<img id="capa" src="images/surf.png" alt="" />
+		</article>
+
+
+</div>
+
+
+
+Mode A
+
+2022-2023
+JoeSynth
+
+
+		<div id="ritmo">
+		<p class="ritmo">clássica</p>		
+		<p class="ritmo">new age</p>		
+		<p class="ritmo">progressivo</p>		
+		<p class="ritmo">smooth</p>		
+		</div>
+
+		<div id="ritmoE">
+		<p class="ritmo">funk</p>		
+		<p class="ritmo">choro / mpb</p>		
+		</div>
+
+
+
+<div>
+	<main>
+	</main>
+</div>
+
+<!--  -->
+<!--  -->
+<!--  -->
+
+	</div> <!-- NOVA: FILHA DA TAG page. CONTEÚDO CENTRAL NO MEIo DA TELA, ENTRE header E footer -->
+	<object type="text/html" data="aside.html"></object>
+
+	<menu> <!-- AQUI TAVA TAG NOME FOOTER -->
+		<div id="rodapeB">
+			<small>2022-2023</small>
+		</div>
+		<nav>
+				<label for="drop" class="toggle"><img id="logo" src="icon.png" class="btt"></label>
+				<input type="checkbox" id="drop" />
+				<ul>
+					<li id="about"><a href="index.html"></a></li>
+				</ul>
+		</nav>
+		<div>
+			<a href="joesynth.wordpress.com" target="_blank">JoeSynth</a>
+		</div>
+	</menu>
+
+
+
+
+
+
+<div id="est">
+	<br>
+	🏖️ choroMpb bossaNova <br>
+	🎹 🎺 bluesJazz <br>
+
+	<!-- trilha -->
+	<!-- Instrumentos -->
+	🗣️vocal<br>
+	👥coro <br>
+	📺️ tv filme série<br>
+	🎮️ game<br>
+	⚔️ militar<br>
+👻️
+🥁️
+🔔️
+🕌️🌇️🕍️⛪️⛩️🌉️
+🕎️✡️música judaica
+✝️🛐️☪️
+
+
+
+</div>
+
+<div id="est2">
+	<br>
+	⚡ elet<br>
+	🎸️progressiveRock<br>
+	🎷 smoothJazz<br>
+	minimal<br> concreta<br> serial<br> kraut<br> 
+	world<br> ambientMusic<br>
+	funk<br> electroFunk<br> r&b<br> rockAndRoll<br> soulMusic<br> 
+</div>
+
+
+
+</div> <!-- NOVA: TAG page -->
+
+
+
+	<script>
+	
+
+var music = document.getElementById("BackgroundM");
+var source = document.getElementById("source");
+var musicArray = [
+"https://drive.google.com/uc?export=view&id=1qJsE7D3gP2-3PPNTTjmmBmkUNJ6PXE0M",
+"https://drive.google.com/uc?export=view&id=1EN3MJJr-BcQxfB80PaUTxfNG0gWsR_IF",
+"https://drive.google.com/uc?export=view&id=1WppQU2UMX6vAJU7ozc99VpPvom_wGQvV",
+"https://drive.google.com/uc?export=view&id=1UiPe9QGTTcLzG_5Jw1FiCWeb9d38EjDQ",
+"https://drive.google.com/uc?export=view&id=1p5hcfTmpa2o8PHz1t9_ztyPxHrfzYuY8",
+"https://drive.google.com/uc?export=view&id=1AyuXNqEi3XIoqkxfKIplByPOymhejgkn",
+"https://drive.google.com/uc?export=view&id=1562DtJr3GsUVSveAr27mqOuzvW1EZ_Uk",
+"https://drive.google.com/uc?export=view&id=1swam-Sr4Cj4UieT-SX_IZDeWTu1jyyNZ",
+"https://drive.google.com/uc?export=view&id=1UIFIkYOKE9hTgizFDlMkHbigLKw8EqaL",
+"https://drive.google.com/uc?export=view&id=1GdzE9BdgaUUJGwFgmBISBG54GzNKwr0z",
+"https://drive.google.com/uc?export=view&id=1bcf-ukufDApYkNJqVxWbcaC-IVlpvPrE",
+"https://drive.google.com/uc?export=view&id=1h-qeTiw_qDcgRgl8WSuhytI-pAfZicrr",
+"https://drive.google.com/uc?export=view&id=1pM3lPIdMgPIZZpM67OhI_vfJPUA-L5Xp",
+"https://drive.google.com/uc?export=view&id=1g6XM-zsN7cplTQgpFRLpXZovGSdQ6tBn",
+"https://drive.google.com/uc?export=view&id=1_GUE4byHZe5Wvc2_kCgW4BOOpsaOPJnn",
+"https://drive.google.com/uc?export=view&id=15Z0C-Vdwnwm7SMcQpu1Y8Oulg-0A7nt1",
+"https://drive.google.com/uc?export=view&id=1tuoYLw8CeQEbYDQEuKuSCfZwpgxyx2UB",
+"https://drive.google.com/uc?export=view&id=1upAgBp66Om07g8vRXHSi3MV8DgfpkAzd",
+"https://drive.google.com/uc?export=view&id=1n80FD5ggWaRFDloLVju9_bWEgP0eXQuM",
+"https://drive.google.com/uc?export=view&id=1omm43HE69gJcpWjPM85BFOJLVksfhbJ1",
+"https://drive.google.com/uc?export=view&id=1xf25hV6QajKAwE-k7w0-0yaV_7D4enUz",
+"https://drive.google.com/uc?export=view&id=1y_tdcs9vtyzFI3Mq86TZsfFXG9KMxC-e",
+"https://drive.google.com/uc?export=view&id=1leox5hXD4-8W8VnebLg4Gh32FqJ77OIu",
+],
+    
+var n = [
+"dirty fuse",
+"dirty fuse",
+"a. delias",
+"the fender iv",
+"dirty fuse",
+"chuck rio",
+"dick dale",
+"dick dale",
+"g. katsaros",
+"dirty fuse",
+"s. nelson",
+"l. valdambrini",
+"los belkings",
+"los twang! marvels",
+"los twang! marvels",
+"e. lecuona",
+"j. bravo de ruenda",
+"lecuona",
+"the dead rocks",
+"the dead rocks",
+"the dead rocks",
+"the dead rocks",
+"the mutants",
+"the mutants",
+];
+
+
+
+music.volume = 0.3;
+
+function musicSelect () {
+    if(music.paused) {
+        var rand = Math.floor(Math.random() * musicArray.length)
+        musicArray[rand]
+        source.src = musicArray[rand]
+        music.load();
+        music.play();
+        console.log("Playing " + source.src)
+        document.querySelector("samp").innerHTML = n[rand];
+    }
+}
+
+document.addEventListener('click', function() {
+    console.log(music.paused)
+    musicSelect()
+})
+
+music.addEventListener('pause', function(){
+    console.log("Music is paused")
+    musicSelect()
+})
+
+document.getElementById("dd").addEventListener('click', function() { /* Eu mesmo criei esta linha*/
+document.getElementById('BackgroundM').volume -= 0.1						/* esta linha era um onclick no botão "id=""dd", mas, eu movi pra cá */
+})
+
+/* Abaixo, os três addEventListener são como dito logo acima, para o id="dd" */
+document.getElementById("bb").addEventListener('click', function() {
+document.getElementById('BackgroundM').volume += 0.1
+})
+
+document.getElementById("pla").addEventListener('click', function() {
+document.getElementById('BackgroundM').play()
+})
+
+document.getElementById("disco").addEventListener('click', function() {
+document.getElementById('BackgroundM').pause()
+})
+
+
+
+// Barra de progresso, aqui funcionando como toggle e, indicando se está parada ou tocando a música
+const progressBar = document.getElementById('progress-bar');
+
+function updateProgress() {
+  progressBar.value = Math.floor(music.currentTime);
+}
+
+music.addEventListener('timeupdate', updateProgress);
+
+	
+	</script>
+
+
+</body>
+</html>
