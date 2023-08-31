@@ -557,8 +557,8 @@ section {
 	padding: 0.5em;
 	//margin-left: 23em;
 	position: absolute;
-	top: -55em;
-	left: -9em;
+	bottom: 5em;					/* ou seja, alinhado na base o texto "cresce" de baixo pra cima*/
+	left: -10em;
 	color: whitesmoke;
 	z-index: 999;
 	font-size: 0.8em;
