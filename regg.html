@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Akou</title>
+	<link rel="icon" href="icon.png">
+	<link rel="stylesheet" href="css/css.css"/>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="js/js.js"></script>
+	<script src="js/template.js" type="text/javascript" defer></script>
+	<!--ID FB -->
+	<meta property="#" content="#">
+	<meta property="og:image:type" content="image/png">
+	<meta property="og:image:width" content="640">
+	<meta property="og:image:height" content="360">
+    <!--OG: abaixo orgem q surge Telegram; Tag title, type, url, image (Obrigatórias); description,  site_name (Opcionais) -->
+	<meta property="og:site_name" content="joesynth.github.io/Akou">
+	<meta property="og:title" content="Reggae: uma sonoridade inconfundível">
+	<meta property="og:description" content="Que tal ouvir e conhecer o legítmo gênero jamaicano?">
+	<meta property="og:type" content="article">
+	<meta property="og:url" content="https://joesynth.github.io/Akou/index.html">
+	<meta property="og:image" content="https://joesynth.github.io/Akou/images/regg.png"> 
+
+</head>
+<body>
+<div class="page"> <!-- NOVA -->
+<div class="corpo"> <!-- FILHA DA TAG page. CONTEÚDO CENTRAL NO MEIo DA TELA, ENTRE header E footer -->
+
+<!-- 
+Inspirado em:
+https://codereview.stackexchange.com/questions/280467/random-music-plays-when-one-stops
+
+Este código tb funcionou meramente com .mp3.
+
+ -->
+
+
+		<audio id="BackgroundM" preload>
+			<source id="source" src="a.ogg" type="audio/ogg">
+			<source id="source" src="a.mp3" type="audio/mp3">
+		</audio>
+
+<!-- 
+Trecho abaixo dos botões de controle, botões principais:
+https://stackoverflow.com/questions/4126708/is-it-possible-to-style-html5-audio-tag
+ -->
+
+
+<!-- 
+Novo: botões de estilos voltados aos instrumentos, portanto para músicos.
+ -->
+
+<div id="tudo">
+
+
+		<article>
+			<h1>Reggae</h1>
+			<img id="capa" src="images/regg.png" alt="" />
+		</article>
+
+
+</div>
+
+
+
+
+		<div id="ritmo">
+		<p class="ritmo">clássica</p>		
+		<p class="ritmo">new age</p>		
+		<p class="ritmo">progressivo</p>		
+		<p class="ritmo">smooth</p>		
+		</div>
+
+		<div id="ritmoE">
+		<p class="ritmo">funk</p>		
+		<p class="ritmo">choro / mpb</p>		
+		</div>
+
+
+
+<div>
+	<main>
+	</main>
+</div>
+
+<!--  -->
+<!--  -->
+<!--  -->
+
+	</div> <!-- NOVA: FILHA DA TAG page. CONTEÚDO CENTRAL NO MEIo DA TELA, ENTRE header E footer -->
+	<object type="text/html" data="aside.html"></object>
+
+	<menu> <!-- AQUI TAVA TAG NOME FOOTER -->
+		<div id="rodapeB">
+			<small>2022-2023</small>
+		</div>
+		<nav>
+				<label for="drop" class="toggle"><img id="logo" src="icon.png" class="btt"></label>
+				<input type="checkbox" id="drop" />
+				<ul>
+					<li id="about"><a href="index.html"></a></li>
+				</ul>
+		</nav>
+		<div>
+			<a href="joesynth.wordpress.com" target="_blank">JoeSynth</a>
+		</div>
+	</menu>
+
+
+<div id="est">
+	<br>
+	🏖️ choroMpb bossaNova <br>
+	🎹 🎺 bluesJazz <br>
+
+	<!-- trilha -->
+	<!-- Instrumentos -->
+	🗣️vocal<br>
+	👥coro <br>
+	📺️ tv filme série<br>
+	🎮️ game<br>
+	⚔️ militar<br>
+👻️
+🥁️
+🔔️
+🕌️🌇️🕍️⛪️⛩️🌉️
+🕎️✡️música judaica
+✝️🛐️☪️
+
+
+
+</div>
+
+<div id="est2">
+	<br>
+	⚡ elet<br>
+	🎸️progressiveRock<br>
+	🎷 smoothJazz<br>
+	minimal<br> concreta<br> serial<br> kraut<br> 
+	world<br> ambientMusic<br>
+	funk<br> electroFunk<br> r&b<br> rockAndRoll<br> soulMusic<br> 
+</div>
+
+
+
+</div> <!-- NOVA: TAG page -->
+
+
+
+
+	<script>
+	
+
+var music = document.getElementById("BackgroundM");
+var source = document.getElementById("source");
+var musicArray = [
+/* GD regg */
+"https://drive.google.com/uc?export=view&id=134fzIG2HfBAVGmrbh1ZhJoEC9FyLxMp3",
+"https://drive.google.com/uc?export=view&id=1pRt8OAZg3xj7g7M7hH-CTlo4VytPWWqn",
+"https://drive.google.com/uc?export=view&id=1pR1pcEg19roMrhBIGugveFnHVtUsKyfS",
+"https://drive.google.com/uc?export=view&id=184c0BEbaOIN_8CdfRBeuL8-5AEjoKej7",
+"https://drive.google.com/uc?export=view&id=12ncSVLvlr0iofIizzY3zuJNfq422GX9s",
+"https://drive.google.com/uc?export=view&id=1UFyqzLsJoZ-NiK1DcD7ZhIdXnGoVQvca",
+"https://drive.google.com/uc?export=view&id=13eBSeySqmY1oY4pNMhtC4hfIWdMTR-4t",
+"https://drive.google.com/uc?export=view&id=1xSj32l8jL0sSSt0oUxE1sfO981u-LQ8L",
+"https://drive.google.com/uc?export=view&id=1W9G7-bH08yRCJBVD3nJ321zpTyQr3wf6",
+"https://drive.google.com/uc?export=view&id=1JgietiqZ1u92gLJmz0dpPwyW2osVKaA7",
+"https://drive.google.com/uc?export=view&id=1Uo3Ms9_wS4K6Hb_EhCg3uEsKS4s5eyAE",
+"https://drive.google.com/uc?export=view&id=1dPXUnUxnrXtP1o5LkvIuZm_z5xxsUAcA",
+"https://drive.google.com/uc?export=view&id=1TAp90PsOxn-wDY_jkr-kOGij50OA-vMq",
+"https://drive.google.com/uc?export=view&id=1OHLfxiyg-xMjs0DX48FRAdParmIcfs5X",
+"https://drive.google.com/uc?export=view&id=1pSsvZ0iCr-h9v7Y5oFDopWk0gWvQBHVD",
+"https://drive.google.com/uc?export=view&id=1CuIL8bUVlL9bkri8EtKgNQ_1iSpRTBra",
+"https://drive.google.com/uc?export=view&id=185v1CKVrZbGDR94SmyJVXjQQLobECNFS",
+"https://drive.google.com/uc?export=view&id=19wwkI8qNb23TzgtxdAWcYiErZjnLqSdt",
+"https://drive.google.com/uc?export=view&id=1i61X0oCVuKiwojh9O9XJdSnT9UjZTdiJ",
+"https://drive.google.com/uc?export=view&id=1mC46LbkYD9z4BW8QbwKJF97-kxzDYalo",
+"https://drive.google.com/uc?export=view&id=1j0H0SGoB6ATSVMKyVk6Vwpdgjf77iODV",
+];
+    
+var n = [
+/* GD regg */
+"a.hall",
+"a.hall",
+"a.hall",
+"a.hall",
+"b.brown",
+"b.brown",
+"b.williams",
+"c.davis",
+"c.davis",
+"cimarons",
+"d.carlos",
+"d.carlos",
+"f.stewart",
+"h.andy",
+"i.kamoze",
+"m.romeo",
+"n.morris",
+"n.barnett",
+"the man x w.band",
+"the man x w.band",
+];
+
+
+
+music.volume = 0.3;
+
+function musicSelect () {
+    if(music.paused) {
+        var rand = Math.floor(Math.random() * musicArray.length)
+        musicArray[rand]
+        source.src = musicArray[rand]
+        music.load();
+        music.play();
+        console.log("Playing " + source.src)
+        document.querySelector("samp").innerHTML = n[rand];
+    }
+}
+
+document.addEventListener('click', function() {
+    console.log(music.paused)
+    musicSelect()
+})
+
+music.addEventListener('pause', function(){
+    console.log("Music is paused")
+    musicSelect()
+})
+
+document.getElementById("dd").addEventListener('click', function() { /* Eu mesmo criei esta linha*/
+document.getElementById('BackgroundM').volume -= 0.1						/* esta linha era um onclick no botão "id=""dd", mas, eu movi pra cá */
+})
+
+/* Abaixo, os três addEventListener são como dito logo acima, para o id="dd" */
+document.getElementById("bb").addEventListener('click', function() {
+document.getElementById('BackgroundM').volume += 0.1
+})
+
+document.getElementById("pla").addEventListener('click', function() {
+document.getElementById('BackgroundM').play()
+})
+
+document.getElementById("disco").addEventListener('click', function() {
+document.getElementById('BackgroundM').pause()
+})
+
+
+
+// Barra de progresso, aqui funcionando como toggle e, indicando se está parada ou tocando a música
+const progressBar = document.getElementById('progress-bar');
+
+function updateProgress() {
+  progressBar.value = Math.floor(music.currentTime);
+}
+
+music.addEventListener('timeupdate', updateProgress);
+
+	
+	</script>
+
+
+	
+</body>
+</html>
