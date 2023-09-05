@@ -13,7 +13,7 @@ template.innerHTML = `
 	<aside id="btD2">
 		<a href="surf.html"><div id="#" class="bt"><span>🎸️</span></div></a>
 		<br><br><br><br><br><br><br><br><br><br>
-		<a href="gosp.html"><div id="#" class="bt"><span>✝️</span></div></a>
+		<a href="soul.html"><div id="#" class="bt"><span>🎙️</span></div></a>
 		<a href="regg.html"><div id="#" class="bt"><span>🇯🇲️</span></div></a>
 	</aside>
 	<aside id="btE">
@@ -27,7 +27,8 @@ template.innerHTML = `
 	</aside>
 	<aside id="btE2">
 		<a href="bras.html"><div id="#" class="bt"><span>🇧🇷️</span></div></a>
-		<br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br>
+		<a href="gosp.html"><div id="#" class="bt"><span>✝️</span></div></a>
 		<a href="bra2.html"><div id="#" class="bt"><span>🇧🇷️</span></div></a>
 	</aside>
 	<main>
