@@ -586,14 +586,16 @@ section {
 /*estilizar nossa janela modal*/
 .modal, .modal2, .modal3 {
 	width: 20em;
-	height: 20em;
+	height: 30em;
 	position: fixed;
 	top: 2em;
-	right: 2em;
+	right: 1em;
 	bottom: 0;
 	//left: 0;
-	background: lightgray;
+	background: whitesmoke;
 	opacity:0;
+	border-radius: .5em;
+	z-index: 9999;
 }
 
 /*Funcionalidades e aparência*/
@@ -622,6 +624,7 @@ section {
 	//margin-top: 5px;
 	color: red;
 	background: gray;
+	z-index: 9999;
 }
 
 .btModal {
