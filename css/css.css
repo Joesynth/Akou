@@ -155,12 +155,23 @@ span {
 }
 
 /* Em index.html "est" e "est2" já foram deletados, mas tem que escluir doutras páginas para só depois excluir aqui! ! !*/
+/*
 #est, #est2 {
 	position: absolute;
 	top: 50%;
 	font-size: .8em;
 	visibility: hidden;
 }
+
+#est {
+	left: 33%;
+}
+
+#est2 {
+	right: 33%;
+	direction: rtl;
+}
+*/
 
 #btD, #btE {
 	position: absolute;
@@ -200,14 +211,7 @@ span {
 }
 
 
-#est {
-	left: 33%;
-}
 
-#est2 {
-	right: 33%;
-	direction: rtl;
-}
 
 
 p {
@@ -645,6 +649,7 @@ section {
 /* @media é a mesma configuração, com 480px, utilizada no app Guri2*/
 @media all and (max-width : 480px) {
 
+/*
 	#est {
 		left: 1em;
 	}
@@ -652,6 +657,7 @@ section {
 	#est2 {
 		right: 1em;
 	}
+*/
 	
 	#btD {
 		right: .5em;
