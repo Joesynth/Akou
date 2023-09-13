@@ -154,7 +154,7 @@ span {
 	padding-left: .4em;
 }
 
-
+/* Em index.html "est" e "est2" já foram deletados, mas tem que escluir doutras páginas para só depois excluir aqui! ! !*/
 #est, #est2 {
 	position: absolute;
 	top: 50%;
@@ -589,7 +589,7 @@ section {
 		/* Relativo ao modal no rodapé */
 
 /*estilizar nossa janela modal*/
-.modal, .modal2, .modal3 {
+.modal, .modal2, .modal3, .modal4 {
 	width: 20em;
 	height: 30em;
 	position: fixed;
@@ -604,7 +604,7 @@ section {
 }
 
 /*Funcionalidades e aparência*/
-.modal:target, .modal2:target, .modal3:target {
+.modal:target, .modal2:target, .modal3:target, .modal4:target {
 	opacity: 1;
 	pointer-events: auto;
 }
@@ -619,7 +619,7 @@ section {
 }
 
 /*estilizando botão de fechar*/
-.fechar, .fechar2, .fechar3 {
+.fechar, .fechar2, .fechar3, .fechar4 {
 	width: 2em;
 	position: absolute;
 	right: 3em;
@@ -635,7 +635,7 @@ section {
 .btModal {
 	filter: grayscale(100%);
 	font-size: 1.2em;
-	margin-right: .5em;
+	margin-right: 1.2em;
 }
 
 
