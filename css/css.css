@@ -602,14 +602,16 @@ section {
 	bottom: 0;
 	//left: 0;
 	background: whitesmoke;
-	opacity:0;
+	//opacity: 0;
+	visibility: hidden;
 	border-radius: .5em;
 	z-index: 9999;
 }
 
 /*Funcionalidades e aparência*/
 .modal:target, .modal2:target, .modal3:target, .modal4:target {
-	opacity: 1;
+	//opacity: 1;
+	visibility: visible;
 	pointer-events: auto;
 }
 
