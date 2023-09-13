@@ -162,9 +162,14 @@ span {
 	visibility: hidden;
 }
 
-#btD, #btD2, #btE, #btE2 {
+#btD, #btE {
 	position: absolute;
 	top: 1em;
+}
+
+#btD2, #btE2 {
+	position: absolute;
+	top: .4em;
 }
 
 #btD {
