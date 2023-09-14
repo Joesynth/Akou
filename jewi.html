@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Akou</title>
+	<link rel="icon" href="icon.png">
+	<link rel="stylesheet" href="css/css.css"/>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="js/js.js"></script>
+	<script src="js/template.js" type="text/javascript" defer></script>
+	<!--ID FB -->
+	<meta property="#" content="#">
+	<meta property="og:image:type" content="image/png">
+	<meta property="og:image:width" content="640">
+	<meta property="og:image:height" content="360">
+    <!--OG: abaixo orgem q surge Telegram; Tag title, type, url, image (Obrigatórias); description,  site_name (Opcionais) -->
+	<meta property="og:site_name" content="joesynth.github.io/Akou">
+	<meta property="og:title" content="Música Judaica">
+	<meta property="og:description" content="Conheça ouvindo uma tradição presente até os dias de hoje.">
+	<meta property="og:type" content="article">
+	<meta property="og:url" content="https://joesynth.github.io/Akou/index.html">
+	<meta property="og:image" content="https://joesynth.github.io/Akou/images/jewi.png"> 
+	
+</head>
+<body>
+
+<div class="page"> <!-- NOVA -->
+<div class="corpo"> <!-- FILHA DA TAG page. CONTEÚDO CENTRAL NO MEIo DA TELA, ENTRE header E footer -->
+
+<!-- 
+Inspirado em:
+https://codereview.stackexchange.com/questions/280467/random-music-plays-when-one-stops
+
+Este código tb funcionou meramente com .mp3.
+
+ -->
+
+
+		<audio id="BackgroundM" preload>
+			<source id="source" src="a.ogg" type="audio/ogg">
+			<source id="source" src="a.mp3" type="audio/mp3">
+		</audio>
+
+<!-- 
+Trecho abaixo dos botões de controle, botões principais:
+https://stackoverflow.com/questions/4126708/is-it-possible-to-style-html5-audio-tag
+ -->
+
+
+<!-- 
+Novo: botões de estilos voltados aos instrumentos, portanto para músicos.
+ -->
+
+<div id="tudo">
+
+
+		<article>
+			<h1>Música Judaica</h1>
+			<img id="capa" src="images/jewi.png" alt="" />
+		</article>
+
+
+</div>
+
+
+
+
+<!--  -->
+<!--  -->
+<!--  -->
+
+	</div> <!-- NOVA: FILHA DA TAG page. CONTEÚDO CENTRAL NO MEIo DA TELA, ENTRE header E footer -->
+	<object type="text/html" data="aside.html"></object>
+
+	<menu> <!-- AQUI TAVA TAG NOME FOOTER -->
+		<div id="rodapeB">
+			<a href="#abrirModal"><span class="btModal">⚙️</span></a> <!-- ABRE O MODAL -->
+			<div id="abrirModal" class="modal">
+				<a href="#fechar" title="Fechar" class="fechar">x</a>
+				<h2>.</h2>
+				<p>Restricted.</p>
+			</div>
+			<a href="#abrirModal2"><span class="btModal">🏠️</span></a> <!-- ABRE O MODAL -->
+			<div id="abrirModal2" class="modal2">
+				<a href="#fechar2" title="Fechar2" class="fechar2">x</a>
+				<h2>.</h2>
+				<p>Restricted.</p>
+			</div>
+		</div>
+		<nav>
+				<label for="drop" class="toggle"><img id="logo" src="icon.png" class="btt"></label>
+				<input type="checkbox" id="drop" />
+				<ul>
+					<li id="about"><a href="index.html"></a></li>
+				</ul>
+		</nav>
+		<div id="rodapeB">
+			<a href="#abrirModal3"><span class="btModal">👩‍🎓️</span></a> <!-- ABRE O MODAL -->
+			<div id="abrirModal3" class="modal3">
+				<a href="#fechar3" title="Fechar3" class="fechar3">x</a>
+				<h2>.</h2>
+				<p>Restricted.</p>
+			</div>
+			<a href="#abrirModal4"><span class="btModal">📜️</span></a> <!-- ABRE O MODAL -->
+			<div id="abrirModal4" class="modal4">
+				<a href="#fechar4" title="Fechar4" class="fechar4">x</a>
+				<h2>.</h2>
+				<p>Restricted.</p>
+			</div>
+		</div>
+	</menu>
+
+
+
+
+</div> <!-- NOVA: TAG page -->
+
+
+
+	<script>
+	
+
+
+
+
+
+var music = document.getElementById("BackgroundM");
+var source = document.getElementById("source");
+var musicArray = [
+"https://drive.google.com/uc?export=view&id=10J7MfSgyIVE2E0Nn80ZVsrDsaCu-uROX",
+"https://drive.google.com/uc?export=view&id=1ITsmMhn8px_k1WfOdqE4U2uvXQ35Dpcc",
+"https://drive.google.com/uc?export=view&id=16exhOcnEbLLKH12YPHUZOm5A4oJDOzct",
+"https://drive.google.com/uc?export=view&id=1f8KAJkBMGg9RQCqyjb93gYtLqtZzhqfZ",
+"https://drive.google.com/uc?export=view&id=1E8x4LjGJcgPLNoPDqoF8YrHU7D9amyjk",
+"https://drive.google.com/uc?export=view&id=1S2IbMJ7q6dkZselb2tKlZBCU1Xr0Tb4K",
+"https://drive.google.com/uc?export=view&id=1NI3D4Z_PzoTD6D2TyqVN24fyZm2QvxDj",
+"https://drive.google.com/uc?export=view&id=1ond3mBCDeknuOVxzP-nlcSS4AYOcLwxM",
+"https://drive.google.com/uc?export=view&id=1jsq5PY2QLMIxiGeFryTA97_XmvIsCWFz",
+"https://drive.google.com/uc?export=view&id=1AIIl-Ipp0O5TXp0UVS3ed7agQEHoFOL8",
+"https://drive.google.com/uc?export=view&id=1xwovKgvxXErwOUKcaOcK1rBTNdVQ9ZxI",
+"https://drive.google.com/uc?export=view&id=18rcu7SQAhdmEGoiMx85GNxW4AU7BcNBu",
+];
+    
+var n = [
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+];
+
+
+
+music.volume = 0.3;
+
+function musicSelect () {
+    if(music.paused) {
+        var rand = Math.floor(Math.random() * musicArray.length)
+        musicArray[rand]
+        source.src = musicArray[rand]
+        music.load();
+        music.play();
+        console.log("Playing " + source.src)
+        document.querySelector("samp").innerHTML = n[rand];
+    }
+}
+
+document.addEventListener('click', function() {
+    console.log(music.paused)
+    musicSelect()
+})
+
+music.addEventListener('pause', function(){
+    console.log("Music is paused")
+    musicSelect()
+})
+
+document.getElementById("dd").addEventListener('click', function() { /* Eu mesmo criei esta linha*/
+document.getElementById('BackgroundM').volume -= 0.1						/* esta linha era um onclick no botão "id=""dd", mas, eu movi pra cá */
+})
+
+/* Abaixo, os três addEventListener são como dito logo acima, para o id="dd" */
+document.getElementById("bb").addEventListener('click', function() {
+document.getElementById('BackgroundM').volume += 0.1
+})
+
+document.getElementById("pla").addEventListener('click', function() {
+document.getElementById('BackgroundM').play()
+})
+
+document.getElementById("disco").addEventListener('click', function() {
+document.getElementById('BackgroundM').pause()
+})
+
+
+
+// Barra de progresso, aqui funcionando como toggle e, indicando se está parada ou tocando a música
+const progressBar = document.getElementById('progress-bar');
+
+function updateProgress() {
+  progressBar.value = Math.floor(music.currentTime);
+}
+
+music.addEventListener('timeupdate', updateProgress);
+
+	
+	</script>
+
+
+</body>
+</html>
