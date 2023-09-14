@@ -30,6 +30,8 @@ template.innerHTML = `
 		<a href="gosp.html"><div id="#" class="bt"><span>✝️</span></div></a>
 		<a href="bra2.html"><div id="#" class="bt"><span>🇧🇷️</span></div></a>
 		<a href="coro.html"><div id="#" class="bt"><span>👥</span></div></a>
+		<br><br><br><br>
+		<a href="jewi.html"><div id="#" class="bt"><span>🕎️</span></div></a>
 	</aside>
 	<main>
 		<details>
