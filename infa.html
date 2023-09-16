@@ -16,14 +16,15 @@
 	<meta property="og:image:height" content="360">
     <!--OG: abaixo orgem q surge Telegram; Tag title, type, url, image (Obrigatórias); description,  site_name (Opcionais) -->
 	<meta property="og:site_name" content="joesynth.github.io/Akou">
-	<meta property="og:title" content="Akou é inspirado em acusmática">
-	<meta property="og:description" content="Akou é feito pra músicos e você, que de fato aprecia ouvir música.">
+	<meta property="og:title" content="Música Infantil">
+	<meta property="og:description" content="Ouça uma linda selação para os pequenos.">
 	<meta property="og:type" content="article">
 	<meta property="og:url" content="https://joesynth.github.io/Akou/index.html">
-	<meta property="og:image" content="https://joesynth.github.io/Akou/images/soun.png"> 
-
+	<meta property="og:image" content="https://joesynth.github.io/Akou/images/infa.png"> 
+	
 </head>
 <body>
+
 <div class="page"> <!-- NOVA -->
 <div class="corpo"> <!-- FILHA DA TAG page. CONTEÚDO CENTRAL NO MEIo DA TELA, ENTRE header E footer -->
 
@@ -55,12 +56,13 @@ Novo: botões de estilos voltados aos instrumentos, portanto para músicos.
 
 
 		<article>
-			<h1>Soundtrack</h1>
-			<img id="capa" src="images/soun.png" alt="" />
+			<h1>Música Infantil</h1>
+			<img id="capa" src="images/infa.png" alt="" />
 		</article>
 
 
 </div>
+
 
 
 
@@ -119,129 +121,50 @@ Novo: botões de estilos voltados aos instrumentos, portanto para músicos.
 	<script>
 	
 
+
+
+
+
 var music = document.getElementById("BackgroundM");
 var source = document.getElementById("source");
 var musicArray = [
 "./ma/Pantera Cor de Rosa.wav.ogg",
-"./ma/ericdemarsan_8.wav.ogg",
-"./ma/Marc Hillman bruno alexiu Tous_sur_orbite.wav.ogg",
-
-/*GD*/
-"https://drive.google.com/uc?export=view&id=1sbebrYKX4SSo8FVVKBYJbVPK36jrfLEy",
-"https://drive.google.com/uc?export=view&id=1J1oVgXVII1YICQ7UEF3YRINaM87b8es1",
-"https://drive.google.com/uc?export=view&id=18SkDQYcHnTkJ5f1FyDFTpoZZm9uw9v1b",
-
-/* GD class2 */
-"https://drive.google.com/uc?export=view&id=1amSIGEemIIxw9wrAw4i4ZXbRxcMymsbJ",
-"https://drive.google.com/uc?export=view&id=1rad-8VnPsdHi-ALRpLRWRVqOJyhIWSRL",
-
-/* GD class4 */
-"https://drive.google.com/uc?export=view&id=1RBtEhrAmN2NPD-YSs54Dhg2OJvOP9MNK",
-"https://drive.google.com/uc?export=view&id=1lrKDUS07B1YCUjjkyMr9ieo5z7h0jnql",
-
-/* GD class3 */
 "https://drive.google.com/uc?export=view&id=19iYM-fxltNn3TMHckmYRyFOkC5wpVB7a",
 "https://drive.google.com/uc?export=view&id=1oJeqny-vnmAfe7oj6ugmK2zluftfs_S2",
-
-/* GD elet.html */
-"https://drive.google.com/uc?export=view&id=1sbebrYKX4SSo8FVVKBYJbVPK36jrfLEy",
-"https://drive.google.com/uc?export=view&id=1hCMDJ3ChZlq01C05uCt27vv2LDEBFodU",
-"https://drive.google.com/uc?export=view&id=1DIZBO_d9EO6dKR1jP5BPL5tZsnh3hMel",
-
-/* GD soun */
-"https://drive.google.com/uc?export=view&id=1C8jLW-lEEptnvDTikg_zzfPM-TmR9FN5",
+"https://drive.google.com/uc?export=view&id=1Wd_Qn1G-ALvQx1uaNK8BDz-Rus2N7bJ8",
 "https://drive.google.com/uc?export=view&id=1qgLBYDIBg7avdivfKbKOG6QtybE2dy1_",
 "https://drive.google.com/uc?export=view&id=11u0stRy_JrAGlsQrBUrJHqQTPckK9vaT",
 "https://drive.google.com/uc?export=view&id=1hLyxmLBdwu6UundoOTdWAHpkB-NFLG_w",
-"https://drive.google.com/uc?export=view&id=1szFlHlRD1reiN7ueBvITi4zqEi9EIv4_",
-"https://drive.google.com/uc?export=view&id=1VJx5fKDLH5Xja6Q4240iC9UHid2Q46Y_",
 "https://drive.google.com/uc?export=view&id=1cFy0w_Fj-L3aHNdXi3vfJNoaevNbWU9a",
 "https://drive.google.com/uc?export=view&id=1R1FgncR89hG8ovh8WaGELkxSr6UdIWpz",
-"https://drive.google.com/uc?export=view&id=1wkiDhNtFgGY4EpgtOurYwHatVkp8xZCB",
 "https://drive.google.com/uc?export=view&id=1oqtGY7GPRxJkKBkcitrrh19kupp58cJ0",
 "https://drive.google.com/uc?export=view&id=1pawCL81y0aozYG3KsWWh-4hZke8fBZO3",
-"https://drive.google.com/uc?export=view&id=1o9AdChcb9Ee0_8BHencSEAywJKu5fxr5",
 "https://drive.google.com/uc?export=view&id=1FR_qclrYeG5mBMYx4l_51z9EPSR_dIsc",
 "https://drive.google.com/uc?export=view&id=1oRsHhV9R9XdgpY6rwKdHwlcBsSZpMbkx",
 "https://drive.google.com/uc?export=view&id=1rMxxYohXAA4X40a_IvsvAzoG5dGWT23T",
-"https://drive.google.com/uc?export=view&id=1nq0HCgu2Wuq5PzfaXN7Gj1V-z5qZBKHp",
-"https://drive.google.com/uc?export=view&id=1kC3W66nrPK30eEyDfqa24rQ9rqwfs-RS",
-"https://drive.google.com/uc?export=view&id=1DAD9kjkeMSRDyeX6MGQpcUev6wrp8QQy",
-"https://drive.google.com/uc?export=view&id=1fBP_Y9tgeuWsDnBgm9PIfg8LKD34_-Sd",
 "https://drive.google.com/uc?export=view&id=1WaHmwOi4jWEhtrHZB-dwwskDjd2bCNLb",
-"https://drive.google.com/uc?export=view&id=1URpx9G7xbS2RCg8svbZK7_DwQbukcBm7",
-"https://drive.google.com/uc?export=view&id=1x4bs2LXY_aw8_b0luM0ykgLTUbx9vdgX",
-"https://drive.google.com/uc?export=view&id=1JirU3WSEu2O9m3NCqsWs0y6fzK87kQKH",
 "https://drive.google.com/uc?export=view&id=1IICRX7OCiPVsh2QE4iomjRCuld6798OY",
 "https://drive.google.com/uc?export=view&id=1ROdOlgsFfBkpJMAo7Fv0BspCLs5aVh8a",
-
-/* elet2 */
-"https://drive.google.com/uc?export=view&id=1WUWs_iAJpX7zfSp5aQfj7SJEiWhzLuaP",
-"https://drive.google.com/uc?export=view&id=1ElUGApg-tHYigqL-pst6Mfh1Djy_c6iI",
-"https://drive.google.com/uc?export=view&id=1IxCnwfgy_R9V4Od5cNN6QJJ6m1y-Gef3",
-"https://drive.google.com/uc?export=view&id=1iMEe0QDSHx3APjOOLrjREgP4fJMgqsW1",
 ];
-
     
 var n = [
-"🇺🇸 h. mancini - The Pink Panther",
-"🇫🇷 éric demarsan",
-"🇫🇷 marc hillman bruno alexiu",
-
-/*GD*/
-"harold faltermeyer - Beverly Hills Cop",
-"marcus viana - Novela Pantanal",
-"vangelis - Cosmos (A Personal Voyage)",
-
-/* GD class2 */
-"🇬🇷️ vangelis - 1492 (Conquest of Paradise)",
-"🇭🇺 rózsa - Ben-Hur",
-
-/* GD class4 */
-"🇭🇺 Franz Liszt - pica pau",
-"🇮🇹 rossini - pica pau",
-
-/* GD class3 */
-"🇺🇸 Mancini - The Pink Panther",
-"🇧🇷 g. gil - sitio pica pau amarelo",
-
-/* GD elet.html */
-"harold faltermeyer",
-"de vol | jornal nacional",
-"Mark Snow | arquivo x",
-
-/* GD soun */
-"a.hawkshaw - braces and boots",
+"henry mancini",
+"🇺🇸 Mancini",
+"🇧🇷 Gilberto Gil",
+"🇯🇵 Koji Kondo",
 "a.hawkshaw - big dipper",
 "a.hawkshaw - laugh a minute",
 "j.charles fiddy - busybodies",
-"stiff uper lip",
-"tara's theme",
 "boys",
 "time for bed",
-"tony hymas - coloured candles",
 "j.collier",
 "tony hymas - happy whistler",
-"j.charles fiddy - in a hurry",
 "j.charles fiddy - mechanical toys",
 "j.charles fiddy - on the go",
 "tony hymas - puff along",
-"q.jones",
-"spectreman song",
-"s.cipriani",
-"s.gray",
 "the elephant never",
-"the godfather",
-"thundercats",
-"thundercats",
 "t.hiller",
 "j.charles fiddy - walking the dog",
-
-/* elet2 */
-"Geinoh | Akira",
-"vangelis | blade runner",
-"h. zimmer | Interstellar",
-"g. mellé | The Andromeda Strain",
 ];
 
 
@@ -302,6 +225,5 @@ music.addEventListener('timeupdate', updateProgress);
 	</script>
 
 
-	
 </body>
 </html>
