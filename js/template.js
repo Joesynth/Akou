@@ -15,6 +15,8 @@ template.innerHTML = `
 		<a href="soul.html"><div id="#" class="bt"><span>🎙️</span></div></a>
 		<a href="regg.html"><div id="#" class="bt"><span>🇯🇲️</span></div></a>
 		<a href="voca.html"><div id="#" class="bt"><span>👤️</span></div></a>
+		<br><br><br><br>
+		<a href="infa.html"><div id="#" class="bt"><span>😁️</span></div></a>
 	</aside>
 	<aside id="btE">
 		<a href="clas.html"><div id="#" class="bt"><span id="bt2">🎻️</span></div></a>	
@@ -72,6 +74,6 @@ document.body.appendChild(template.content);
 
 /* Logo Akou no rodapé: conteúdo*/
 var conteudo = document.getElementById("about");
-conteudo.innerHTML = "<br>Akou é voltado a músicos e aqueles que, de fato, apreciam música.<br><br>Priorizando qualidade ao invés da quantidade, Akou oferece exemplos musicais (ou sonoros, no sentido estético) úteis para construir e estimular a audição do indivíduo, então dando referências e conhecimento _ao invés do mero entretenimento.<br><h3>✔️ Akou proporciona só coisa boa!</h3>• Audição musical sem nos influenciar com imagens ou apelos visuais.<br>• Akou não é música como entretenimento, e sim alimento _educação, conhecimento.<br>• Akou funciona em segundo plano, permitindo ao usuário ouvir músicas e ainda sim usar outros apps.<br>• Akou tem baixíssimo con$umo da rede, dados.<br>• Uma música no Akou consome quase 10x menos que um mp3.<br><h3>✔️ Akou não visa propaganda</h3>• Sim! Akou tem zero de publicidade.<br><h3>✔️ Akou é FOSS!</h3>• Akou é construído no formato SL (software livre).<br>Sendo um SL, logo, seu código é público _podendo ser visto no GitHub.<br>• Akou é seguro, não coletando dados do usuário.<br>• Akou não negocia dados do usuário, inclusive por não coletar.<br></br>Akou - 2022-2023 | Joe S<br><br>";
+conteudo.innerHTML = "<br><h3>Akou é <br>música como alimento e não entretenimento</h3>✔️ Grátis<br>✔️ Sem propaganda<br>✔️ Baixíssimo consumo da sua rede<br>✔️ Software livre!<br>✔️ Educativo<br><h3>Música em 1º Lugar</h3>Akou é voltado a músicos e aqueles que, de fato, apreciam música. Priorizando qualidade ao invés da quantidade, Akou oferece exemplos musicais (ou sonoros) úteis para construir e estimular a audição do indivíduo, e assim dando referências. Akou é música como conhecimento e não mero lazer.<br><br>A audição é neutra. Isto é, sem lhe influenciar com imagens, publicidade ou apelos visuais. Ainda sim Akou funciona em segundo plano, permitindo você ouvir músicas e usar outros apps.<br><br><small>• Pela tecnologia FFmpeg uma música tem quase 10x menos dados que um mp3, resultando em baixíssimo consumo da rede.<br>• Sendo um software livre, público, você mesmo pode ver (e ler) o código no GitHub.<br>• Seguro, Akou não coleta dados do usuário e nem negocia (inclusive porque não coleta).</small><br><br>Akou | 2022-2023 | Joe S<br>";
 
 
