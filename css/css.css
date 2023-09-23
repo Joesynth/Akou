@@ -13,6 +13,77 @@
 }
 
 
+
+.mmm {
+	width: 99%;
+}
+
+#co {
+	position: absolute;
+	left: -100px;
+	top: -200px;
+	width: 111px;
+	height: 111px;
+	background-color:  red;
+}
+
+
+.conte, .conte1, .conte2, .conte3 {
+	width: 90%;
+	color: gray;
+	height: 66%;						/*Área de conteúdo principal acima da propaganda "mkt" */
+	overflow: scroll;
+	background-color: white;
+	font-size: 0.8em;
+	//text-transform: uppercase;
+	text-align: left;
+	margin-left: 2%;
+	font-family: arial;
+	padding: 1em;
+	letter-spacing: .1em;
+}
+
+.conte::first-letter, .conte1::first-letter, .conte2::first-letter, .conte3::first-letter {
+	color: brown;
+	font-weight: bold;	
+}
+
+/* Excluído mkt, restando somente mkt1, mkt2... */
+.mkt1, .mkt2, .mkt3 {
+	//background: lightgray;
+	height: 144px;
+	width: 96%;
+	//margin-left: 2%;
+	//padding-top: 22px;
+	border-top: solid 1px lightgray;
+}
+
+h6 {				/* Palavra "Apoio" que fica em cima do slider | tag "p" está em ""mkt.js "*/
+	//position: absolute;
+	margin: 1em;
+	text-transform: uppercase;
+	font-family: arial;
+	color: gray;
+	letter-spacing: 0.1em;
+	text-align: left;
+	font-size: var(--fon3);			/* Altura, tamanho, da letra 'apoio', a palavra apoio */
+}
+
+#con {
+	//background-color: red;
+	width: 48em;
+}
+
+
+.config {
+	display: flex;
+	justify-content: space-between;
+	//background-color: pink;
+	padding: .1em;
+	text-transform: uppercase;
+	font-size: var(--fon3);
+}
+
 h2, h3, h4, h5 {
 	margin-left: 1em;
 	margin-top: 1.3em;
@@ -68,7 +139,7 @@ progress {
 }
 
 pre {
-	font-size: .5em;
+	font-size: var(--fon3);
 	text-transform: uppercase;
 	margin-left: -2em;
 	color: lightyellow;
@@ -88,6 +159,9 @@ background-color: yellow;
 	--cor3: #222;
 	--sombra: .1em .2em 11px black;
 	--borda: 1em;
+	--fon2: .7em;
+	/* usado na página config, por exemplo */
+	--fon3: .6em;
 }
 
 a:link {
@@ -110,7 +184,7 @@ a:active {
 samp {
 	display: block;
 	color: yellow;
-	font-size: .6em;
+	font-size: var(--fon2);
 	text-transform: lowercase;
 }
 
@@ -122,7 +196,7 @@ main p:first-child {
 */
 
 kbd {				/* Estilo Musical, ou seja, página .html*/
-	font-size: .5em;
+	font-size: var(--fon3);
 	text-transform: uppercase;
 	color: lightgreen;
 	margin-bottom: 3em;
@@ -590,10 +664,12 @@ section {
 	top: 2.2em;
 }
 
+
+
 		/* Relativo ao modal no rodapé */
 
 /*estilizar nossa janela modal*/
-.modal, .modal2, .modal3, .modal4 {
+.modal, .modal1, .modal2, .modal3 {
 	width: 20em;
 	height: 30em;
 	position: fixed;
@@ -601,15 +677,15 @@ section {
 	right: 1em;
 	bottom: 0;
 	//left: 0;
-	background: whitesmoke;
+	background: white;
 	//opacity: 0;
 	visibility: hidden;
-	border-radius: .5em;
+	border-radius: .5em .0em .5em .5em;
 	z-index: 9999;
 }
 
 /*Funcionalidades e aparência*/
-.modal:target, .modal2:target, .modal3:target, .modal4:target {
+.modal:target, .modal1:target, .modal2:target, .modal3:target {
 	//opacity: 1;
 	visibility: visible;
 	pointer-events: auto;
@@ -617,24 +693,25 @@ section {
 
 /*mais apresentável ...*/
 .modal > div {
-	width: 400px;
+	width: 22em;
 	position: relative;
-	margin: 10% auto;
-	padding: 15px 20px;
-	background: #fff;
+	//margin: 15% auto;
+	//padding: 15px 20px;
+	//background: pink;
 }
 
 /*estilizando botão de fechar*/
-.fechar, .fechar2, .fechar3, .fechar4 {
+.fechar, .fechar1, .fechar2, .fechar3 {
 	width: 2em;
 	position: absolute;
-	right: 3em;
+	right: 0em;
 	top: -20px;
 	text-align: center;
 	line-height: 30px;
 	//margin-top: 5px;
 	color: red;
-	background: gray;
+	background: whitesmoke;
+	border-radius: .5em 0em 0em .5em;
 	z-index: 9999;
 }
 
@@ -644,6 +721,49 @@ section {
 	margin-right: 1.2em;
 }
 
+
+/* mkt*/
+
+
+.sli {							/* slider */
+	height: 99px;		/* tamanho de cada imagem */
+	margin-right: 22px;
+}
+
+.slideshow {	/*slideshow styles*/
+	width: 88%;		/* largura da caixa */
+	//height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+	//border: solid 1px gray;
+	//padding: .5em;
+}
+.slideshow-container {
+	width: 1000px;
+	font-size: 1em;
+	transition: 1s ease;
+	height: 88px;
+}
+.slideshow-container:hover {
+	animation-play-state: paused;
+}
+.slide {
+animation: slide 22s ease infinite;
+}
+@keyframes slide {
+	0% {
+	transform: translateX(-0%);
+	}
+	25% {
+	transform: translateX(-25%);
+	}
+	50% {
+	transform: translateX(-50%);
+	}
+	75% {
+	transform: translateX(-50%);
+	}
+}
 
 /* Media Queries
 --------------------------------------------- [DAKI PRA BAIXO É O LAYOUT DISPLAY CELULAR] */
