@@ -74,6 +74,85 @@ document.body.appendChild(template.content);
 
 /* Logo Akou no rodapé: conteúdo*/
 var conteudo = document.getElementById("about");
-conteudo.innerHTML = "<br><h3>Akou é <br>música como alimento e não entretenimento</h3>✔️ Grátis<br>✔️ Sem propaganda<br>✔️ Baixíssimo consumo da sua rede<br>✔️ Software livre!<br>✔️ Educativo<br><h3>Música em 1º Lugar</h3>Akou é voltado a músicos e aqueles que, de fato, apreciam música. Priorizando qualidade ao invés da quantidade, Akou oferece exemplos musicais (ou sonoros) úteis para construir e estimular a audição do indivíduo, e assim dando referências. Akou é música como conhecimento e não mero lazer.<br><br>A audição é neutra. Isto é, sem lhe influenciar com imagens, publicidade ou apelos visuais. Ainda sim Akou funciona em segundo plano, permitindo você ouvir músicas e usar outros apps.<br><br><small>• Pela tecnologia FFmpeg uma música tem quase 10x menos dados que um mp3, resultando em baixíssimo consumo da rede.<br>• Sendo um software livre, público, você mesmo pode ver (e ler) o código no GitHub.<br>• Seguro, Akou não coleta dados do usuário e nem negocia (inclusive porque não coleta).</small><br><br>Akou | 2022-2023 | Joe S<br>";
+conteudo.innerHTML = "<br><h3>Akou é <br>música como alimento e não entretenimento</h3><br>✔️ Grátis<br>✔️ Sem propaganda<br>✔️ Baixíssimo consumo da sua rede<br>✔️ Software livre!<br>✔️ Educativo<br><h3>Música em 1º Lugar</h3>Akou é voltado a músicos e aqueles que, de fato, apreciam música. Priorizando qualidade ao invés da quantidade, Akou oferece exemplos musicais (ou sonoros) úteis para construir e estimular a audição do indivíduo, e assim dando referências. Akou é música como conhecimento e não mero lazer.<br><br>A audição é neutra. Isto é, sem lhe influenciar com imagens, publicidade ou apelos visuais. Ainda sim Akou funciona em segundo plano, permitindo você ouvir músicas e usar outros apps.<br><br><small>• Pela tecnologia FFmpeg uma música tem quase 10x menos dados que um mp3, resultando em baixíssimo consumo da rede.<br>• Sendo um software livre, público, você mesmo pode ver (e ler) o código no GitHub.<br>• Seguro, Akou não coleta dados do usuário e nem negocia (inclusive porque não coleta).</small><br><br>Akou | 2022-2023 | Joe S<br><br>";
+
+
+/* Logo Akou no rodapé: conteúdo*/
+/* note que aki n é aspa e sim crase */
+var conteudo = document.querySelector(".conte")
+conteudo.innerHTML = `
+	<div id="con">
+		<div class="config"><p>🎺️ Blues/Jazz</p><input type="checkbox"></div>
+		<div class="config"><p>🇧🇷️ Brasil 1</p><input type="checkbox"></div>
+		<div class="config"><p>🇧🇷️ Brasil 2</p><input type="checkbox"></div>
+		<div class="config"><p>🎻️ Clássica</p><input type="checkbox"></div>
+		<div class="config"><p>👥 Coro</p><input type="checkbox"></div>
+		<div class="config"><p>🏖️ Chorinho</p><input type="checkbox"></div>
+		<div class="config"><p>📼️ Concreta</p><input type="checkbox"></div>
+		<div class="config"><p>⚡ Contemporânea</p><input type="checkbox"></div>
+		<div class="config"><p>💡️ Eletrônica</p><input type="checkbox"></div>
+		<div class="config"><p>🔌️ Funk</p><input type="checkbox"></div>
+		<div class="config"><p>🎮️ Game</p><input type="checkbox"></div>
+		<div class="config"><p>✝️ Gospel</p><input type="checkbox"></div>
+		<div class="config"><p>😁️ Infantil</p><input type="checkbox"></div>
+		<div class="config"><p>🕎️ Judaica</p><input type="checkbox"></div>
+		<div class="config"><p>🌺️ New Age</p><input type="checkbox"></div>
+		<div class="config"><p>🎹 Piano</p><input type="checkbox"></div>
+		<div class="config"><p>🎛️ Rock Progressivo</p><input type="checkbox"></div>
+		<div class="config"><p>🇯🇲️ Reggae</p><input type="checkbox"></div>
+		<div class="config"><p>🎷️ Smooth Jazz</p><input type="checkbox"></div>
+		<div class="config"><p>🎸️ Surf</p><input type="checkbox"></div>
+		<div class="config"><p>🎙️ Soul</p><input type="checkbox"></div>
+		<div class="config"><p>📺️ Soundtrack</p><input type="checkbox"></div>
+		<div class="config"><p>👤️ Vocal</p><input type="checkbox"></div>
+		<div class="config"><p>🎸️ Violão</p><input type="checkbox"></div>
+	</div>
+`;
+
+
+
+/* referente ao conteúdo HTML colocado por padrão em várias divs. Padrão de tags, n de informação de textos, imagens, etc*/
+var conteudo = document.querySelectorAll("#conteP");
+for (let i=0; i < conteudo.length ; i++) {
+	conteudo[i].innerHTML = `
+					<img id="im" class="mmm" src="" alt="">
+					<p id="ti"></p>				
+					<p id="te"></p>
+					<br>
+					<img id="im1" class="mmm" src="" alt="">
+					<p id="ti1"></p>				
+					<p id="te1"></p>
+					<br>
+					<img id="im2" class="mmm" src="" alt="">
+					<p id="ti2"></p>				
+					<p id="te2"></p>
+					<br>
+					<img id="im3" class="mmm" src="" alt="">
+					<p id="ti3"></p>				
+					<p id="te3"></p>
+					<br>
+
+					<img id="im4" class="mmm" src="" alt="">
+					<p id="ti4"></p>				
+					<p id="te4"></p>
+					<br>
+					<img id="im5" class="mmm" src="" alt="">
+					<p id="ti5"></p>				
+					<p id="te5"></p>
+					<br>
+					<img id="im6" class="mmm" src="" alt="">
+					<p id="ti6"></p>				
+					<p id="te6"></p>
+					<br>
+					<img id="im7" class="mmm" src="" alt="">
+					<p id="ti7"></p>				
+					<p id="te7"></p>
+					<br>
+	`;
+}
+
+
+
+
 
 
