@@ -3,6 +3,65 @@
 
 
 let news = [
+
+	// Grove
+
+	{
+		src: 'images/jewi.png',
+		no: 'Judaica, música: canções folclóricas',
+		des: 'Não existe nenhum corpo unificado de canções folclóricas judaicas, e sim uma grande variedade de tradições populares que refletem as condições das muitas comunidades dispersas, formadas após a destruição do Segundo Templo e o fenômeno da diáspora. Essas diversas tradições misturam tendências judaicas com formas regionais.',
+	},
+	{
+		src: 'images/jewi.png',
+		no: 'Saminsky, Lazare 🇺🇸 Compositor norte-americano, de origem russa.',
+		des: 'Foi aluno de Liado e Rimsky-Korsakov nos conservatórios de S. Petersburgo e Moscou (1906-10); mudou-se em 1920 para Nova York, onde em 1923 foi fundador da Liga dos Compositores. Foi diretor musical do Templo Emanu-El (1924-56) e autor de vários livros; escreveu música litúrgica judaica e valeu-se de fontes judaicas em suas cinco sinfonias, música coral e canções.',
+	},
+	{
+		src: 'images/jewi.png',
+		no: 'Jacobi, Frederick 🇺🇸 Compositor',
+		des: 'Estudou com Goldmark, Bloch e (em Berlim) Juon. Suas obras cobrem todos os gêneros, às vezes influenciadas pela música indígena norte-americana (p.ex., Indian Dances, 1928), porém mais ainda pela tradição ocidental (p.ex., Concertino para piano e cordas, 1946).',
+	},
+	{
+		src: 'images/jewi.png',
+		no: 'Bloch, Ernest 🇺🇸 Compositor',
+		des: 'Estudou com Dalcroze em Genebra, em Bruxelas (1897-9), e com Knorr em Frankfurt (1900). Em 1916 foi para os EUA, onde desde então passou a maior parte de sua vida (adquiriu a cidadania em 1924). Também ensinou em Cleveland (1920-25), São Francisco (1925-30) e Berkeley (1940-52). Suas primeiras obras são ecléticas: a ópera Macbeth (1910) tem influências de Strauss, Mussorgsky e Debussy. Adveio então um período voltado principalmente para temas judaicos (Schelomo para violoncelo e orquestra, 1916), seguido por um vigoroso neoclassicismo (Quinteto para piano n. 1, 1923; Concerto grosso n. 1 para cordas e piano, 1925). Retornou às composições épicas nos anos 30 com o Serviço religioso (Avodath hakodesh, 1933) e o Concerto para violino (1937). Suas últimas obras representam uma suma de sua carreira e inclinam-se a um estilo menos subjetivo.',
+	},
+	{
+		src: 'images/jewi.png',
+		no: 'Judaica, música',
+		des: 'A música de sinagoga norte-americana baseava-se originalmente em modelos europeus, apesar de mais recentemente compositores como Ernest Bloch, Frederick Jacobi, Lazare Saminsky e Isadore Freed terem contribuído com peças em idioma hebraico.',
+	},
+	{
+		src: 'images/jewi.png',
+		no: 'Judaica, música: sinagogas alemãs',
+		des: 'As sinagogas alemãs começaram a fazer uso de coros, órgãos e outros tipos de música instrumental a partir de c.1700, valendo-se de repertório contemporâneo não-judaico, de peças seculares, danças e até mesmo melodias líricas. O séc.XIX viu a crescente assimilação de estilos ocidentais na música de sinagoga, bem como a formação de escolas cantoriais.',
+	},
+	{
+		src: 'images/jewi.png',
+		no: 'Judaica, música',
+		des: 'Desde a Idade Média, a música esteve ligada ao misticismo judaico, como no movimento chassídico da Europa oriental, com seus niggunim característicos, canções fortemente rítmicas entoadas pelos homens em sílabas não léxicas. O estilo chassídico influenciou a música de sinagoga da Europa oriental. Os precentores desenvolveram estilos virtuosísticos, geralmente valendo-se dos idiomas clássicos locais (p.ex., o sistema magam na diáspora oriental e as técnicas de variação barrocas ocidentais).',
+	},
+	{
+		src: 'images/jewi.png',
+		no: 'Judaica, música: música instrumental e vocal',
+		des: 'Após a destruição do Templo pelos romanos no ano 70, a música instrumental foi banida; formas vocais, particularmente o canto dos salmos, sobrevivem até hoje, porém, ao que tudo indica, com poucas mudanças, e são as mais antigas formas preservadas de música judaica. Outras formas vocais são a cantilação dos livros em prosa da Bíblia (incluindo o Pentateuco, Profetas e Ruth) e preces e hinos virtuosisticos, improvisatórios, transmitidos oralmente pelos cantores-compositores (chazanim).',
+	},
+
+		// 32 objetos
+
+	{
+		src: 'images/jewi.png',
+		no: 'Judaica, música: instrumentos bíblicos',
+		des: 'Incluem: "asor (instrumento de cordas, presume-se com dez cordas), halil (instrumento de sopro, categoria que incluía prov. flautas e instrumentos de palheta), hatzotzerah (trombeta, prov. usada para produzir clangores rítmicos numa única altura), kaithros (prov. uma lira), kinnor (prov. uma lira, a tocada por Davi para Saul: o instrumento melódico mais importante do antigo Israel), metziltayim (prov. um par de címbalos), minnim (prov. instrumento de cordas), nevel (prov. uma lira ou harpa), garna (chifre animal tocado na corte de Nabucodonosor), tof (prov. um tambor redondo e de fuste estreito, semelhante a um pandeiro porém sem soalhas), "ugav (prov. instrumento de sopro) e o shofar (chifre de carneiro ou de cabrito montês, usado para chamadas rituais), o único desses instrumentos tocado nos tempos modernos.',
+	},
+	{
+		src: 'images/jewi.png',
+		no: 'Judaica, música',
+		des: 'Os primeiros indícios de uma cultura musical judaica são encontrados no Velho Testamento. A música hebraica teve suas bases estabelecidas pelo rei Davi, entre 1002 e 970 a.C., no Templo de Jerusalém, onde músicos levitas eram encarregados da execução instrumental e vocal.',
+	},
+
+
+
 	{
 			src: 'https://s2-g1.glbimg.com/lOYbLN5s_Uex4dCrxv8tRjBcw_A=/0x0:1024x674/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2018/j/7/rHWNqBSmepNiIfMLktqQ/bfc44e89-55e7-408d-b92c-057501c743c2.jpg',
 			no: 'Tudo é Jazz | MG',
@@ -198,14 +257,24 @@ let mus = [
 function ran(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-var i0 = ran(24, 27);
-var i1 = ran(18, 23);
-var i2 = ran(12, 17);
-var i3 = ran(9, 11);
-var i4 = ran(6, 8);
-var i5 = ran(4, 5);
-var i6 = ran(2, 3);
-var i7 = ran(0, 1);
+var i0 = ran(34, 39);		// Primeiro artigo do topo
+var i1 = ran(30, 33);
+var i2 = ran(26, 29);
+var i3 = ran(24, 25);
+var i4 = ran(22, 23);
+var i5 = ran(20, 21);
+var i6 = ran(18, 19);
+var i7 = ran(16, 17);
+
+var i8 = ran(14, 15);
+var i9 = ran(12, 13);
+var i10 = ran(10, 11);
+var i11 = ran(8, 9);
+var i12 = ran(6, 7);
+var i13 = ran(4, 5);
+var i14 = ran(2, 3);
+var i15 = ran(0, 1);
+
 
 /*
 var i0 = Object.keys(news)[Math.floor(Math.random()*Object.keys(news).length)];
@@ -239,8 +308,6 @@ var i3 = Object.keys(news)[Math.floor(Math.random()*Object.keys(news).length)];
 		document.querySelector('.conte1 #te3').innerHTML = news[i3].des;
 	}
 
-
-
 	function news4 () { 	
 		document.querySelector('.conte1 #im4').src = news[i4].src;
 		document.querySelector('.conte1 #ti4').innerHTML = news[i4].no;
@@ -269,6 +336,58 @@ var i3 = Object.keys(news)[Math.floor(Math.random()*Object.keys(news).length)];
 
 
 
+
+	function news8 () { 	
+		document.querySelector('.conte1 #im8').src = news[i8].src;
+		document.querySelector('.conte1 #ti8').innerHTML = news[i8].no;
+		document.querySelector('.conte1 #te8').innerHTML = news[i8].des;
+	}
+
+	function news9 () { 	
+		document.querySelector('.conte1 #im9').src = news[i9].src;
+		document.querySelector('.conte1 #ti9').innerHTML = news[i9].no;
+		document.querySelector('.conte1 #te9').innerHTML = news[i9].des;
+	}
+
+	function news10 () { 	
+		document.querySelector('.conte1 #im10').src = news[i10].src;
+		document.querySelector('.conte1 #ti10').innerHTML = news[i10].no;
+		document.querySelector('.conte1 #te10').innerHTML = news[i10].des;
+	}
+
+	function news11 () { 	
+		document.querySelector('.conte1 #im11').src = news[i11].src;
+		document.querySelector('.conte1 #ti11').innerHTML = news[i11].no;
+		document.querySelector('.conte1 #te11').innerHTML = news[i11].des;
+	}
+
+	function news12 () { 	
+		document.querySelector('.conte1 #im12').src = news[i12].src;
+		document.querySelector('.conte1 #ti12').innerHTML = news[i12].no;
+		document.querySelector('.conte1 #te12').innerHTML = news[i12].des;
+	}
+
+	function news13 () { 	
+		document.querySelector('.conte1 #im13').src = news[i13].src;
+		document.querySelector('.conte1 #ti13').innerHTML = news[i13].no;
+		document.querySelector('.conte1 #te13').innerHTML = news[i13].des;
+	}
+
+	function news14 () { 	
+		document.querySelector('.conte1 #im14').src = news[i14].src;
+		document.querySelector('.conte1 #ti14').innerHTML = news[i14].no;
+		document.querySelector('.conte1 #te14').innerHTML = news[i14].des;
+	}
+
+	function news15 () { 	
+		document.querySelector('.conte1 #im15').src = news[i15].src;
+		document.querySelector('.conte1 #ti15').innerHTML = news[i15].no;
+		document.querySelector('.conte1 #te15').innerHTML = news[i15].des;
+	}
+
+
+
+
 	news0();
 	news1();
 	news2();
@@ -278,7 +397,14 @@ var i3 = Object.keys(news)[Math.floor(Math.random()*Object.keys(news).length)];
 	news6();
 	news7();
 	
-
+	news8();
+	news9();
+	news10();
+	news11();
+	news12();
+	news13();
+	news14();
+	news15();
 
 	
 	

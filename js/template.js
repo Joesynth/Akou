@@ -116,37 +116,69 @@ var conteudo = document.querySelectorAll("#conteP");
 for (let i=0; i < conteudo.length ; i++) {
 	conteudo[i].innerHTML = `
 					<img id="im" class="mmm" src="" alt="">
-					<p id="ti"></p>				
-					<p id="te"></p>
+					<p class="ti" id="ti"></p>				
+					<p class="te" id="te"></p>
 					<br>
 					<img id="im1" class="mmm" src="" alt="">
-					<p id="ti1"></p>				
-					<p id="te1"></p>
+					<p class="ti" id="ti1"></p>				
+					<p class="te" id="te1"></p>
 					<br>
 					<img id="im2" class="mmm" src="" alt="">
-					<p id="ti2"></p>				
-					<p id="te2"></p>
+					<p class="ti" id="ti2"></p>				
+					<p class="te" id="te2"></p>
 					<br>
 					<img id="im3" class="mmm" src="" alt="">
-					<p id="ti3"></p>				
-					<p id="te3"></p>
+					<p class="ti" id="ti3"></p>				
+					<p class="te" id="te3"></p>
 					<br>
-
 					<img id="im4" class="mmm" src="" alt="">
-					<p id="ti4"></p>				
-					<p id="te4"></p>
+					<p class="ti" id="ti4"></p>				
+					<p class="te" id="te4"></p>
 					<br>
 					<img id="im5" class="mmm" src="" alt="">
-					<p id="ti5"></p>				
-					<p id="te5"></p>
+					<p class="ti" id="ti5"></p>				
+					<p class="te" id="te5"></p>
 					<br>
 					<img id="im6" class="mmm" src="" alt="">
-					<p id="ti6"></p>				
-					<p id="te6"></p>
+					<p class="ti" id="ti6"></p>				
+					<p class="te" id="te6"></p>
 					<br>
 					<img id="im7" class="mmm" src="" alt="">
-					<p id="ti7"></p>				
-					<p id="te7"></p>
+					<p class="ti" id="ti7"></p>				
+					<p class="te" id="te7"></p>
+					<br>
+
+					<img id="im8" class="mmm" src="" alt="">
+					<p class="ti" id="ti8"></p>				
+					<p class="te" id="te8"></p>
+					<br>
+					<img id="im9" class="mmm" src="" alt="">
+					<p class="ti" id="ti9"></p>				
+					<p class="te" id="te9"></p>
+					<br>
+					<img id="im10" class="mmm" src="" alt="">
+					<p class="ti" id="ti10"></p>				
+					<p class="te" id="te10"></p>
+					<br>
+					<img id="im11" class="mmm" src="" alt="">
+					<p class="ti" id="ti11"></p>				
+					<p class="te" id="te11"></p>
+					<br>
+					<img id="im12" class="mmm" src="" alt="">
+					<p class="ti" id="ti12"></p>				
+					<p class="te" id="te12"></p>
+					<br>
+					<img id="im13" class="mmm" src="" alt="">
+					<p class="ti" id="ti13"></p>				
+					<p class="te" id="te13"></p>
+					<br>
+					<img id="im14" class="mmm" src="" alt="">
+					<p class="tis" id="ti14"></p>				
+					<p class="te" id="te14"></p>
+					<br>
+					<img id="im15" class="mmm" src="" alt="">
+					<p class="ti" id="ti15"></p>				
+					<p class="te" id="te15"></p>
 					<br>
 	`;
 }

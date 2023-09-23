@@ -11,6 +11,12 @@ let loc = [
 			no: 'Casa da OSPA | RS',
 			des: 'É a sede da Fundação Orquestra Sinfônica de Porto Alegre (FOSPA).',
 	},
+
+
+
+		// 32 objetos
+
+
 	{
 			src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Sala_S%C3%A3o_Paulo_%2816627058179%29.jpg/300px-Sala_S%C3%A3o_Paulo_%2816627058179%29.jpg',
 			no: 'Sala São Paulo | SP',
@@ -190,14 +196,23 @@ let mus = [
 function ran(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-var i0 = ran(24, 33);
-var i1 = ran(19, 23);
-var i2 = ran(14, 18);
-var i3 = ran(9, 13);
-var i4 = ran(6, 8);
-var i5 = ran(4, 5);
-var i6 = ran(2, 3);
-var i7 = ran(0, 1);
+var i0 = ran(30, 32);
+var i1 = ran(28, 29);
+var i2 = ran(26, 27);
+var i3 = ran(24, 25);
+var i4 = ran(22, 23);
+var i5 = ran(20, 21);
+var i6 = ran(18, 19);
+var i7 = ran(16, 17);
+
+var i8 = ran(14, 15);
+var i9 = ran(12, 13);
+var i10 = ran(10, 11);
+var i11 = ran(8, 9);
+var i12 = ran(6, 7);
+var i13 = ran(4, 5);
+var i14 = ran(2, 3);
+var i15 = ran(0, 1);
 
 
 /*
@@ -231,8 +246,6 @@ var i3 = Object.keys(loc)[Math.floor(Math.random()*Object.keys(loc).length)];
 		document.querySelector('.conte2 #te3').innerHTML = loc[i3].des;
 	}
 
-
-
 	function loc4 () { 	
 		document.querySelector('.conte2 #im4').src = loc[i4].src;
 		document.querySelector('.conte2 #ti4').innerHTML = loc[i4].no;
@@ -257,6 +270,58 @@ var i3 = Object.keys(loc)[Math.floor(Math.random()*Object.keys(loc).length)];
 		document.querySelector('.conte2 #te7').innerHTML = loc[i7].des;
 	}
 
+
+
+
+	function loc8 () { 	
+		document.querySelector('.conte2 #im8').src = loc[i8].src;
+		document.querySelector('.conte2 #ti8').innerHTML = loc[i8].no;
+		document.querySelector('.conte2 #te8').innerHTML = loc[i8].des;
+	}
+
+	function loc9 () { 	
+		document.querySelector('.conte2 #im9').src = loc[i9].src;
+		document.querySelector('.conte2 #ti9').innerHTML = loc[i9].no;
+		document.querySelector('.conte2 #te9').innerHTML = loc[i9].des;
+	}
+
+	function loc10 () { 	
+		document.querySelector('.conte2 #im10').src = loc[i10].src;
+		document.querySelector('.conte2 #ti10').innerHTML = loc[i10].no;
+		document.querySelector('.conte2 #te10').innerHTML = loc[i10].des;
+	}
+
+	function loc11 () { 	
+		document.querySelector('.conte2 #im11').src = loc[i11].src;
+		document.querySelector('.conte2 #ti11').innerHTML = loc[i11].no;
+		document.querySelector('.conte2 #te11').innerHTML = loc[i11].des;
+	}
+
+	function loc12 () { 	
+		document.querySelector('.conte2 #im12').src = loc[i12].src;
+		document.querySelector('.conte2 #ti12').innerHTML = loc[i12].no;
+		document.querySelector('.conte2 #te12').innerHTML = loc[i12].des;
+	}
+
+	function loc13 () { 	
+		document.querySelector('.conte2 #im13').src = loc[i13].src;
+		document.querySelector('.conte2 #ti13').innerHTML = loc[i13].no;
+		document.querySelector('.conte2 #te13').innerHTML = loc[i13].des;
+	}
+
+	function loc14 () { 	
+		document.querySelector('.conte2 #im14').src = loc[i14].src;
+		document.querySelector('.conte2 #ti14').innerHTML = loc[i14].no;
+		document.querySelector('.conte2 #te14').innerHTML = loc[i14].des;
+	}
+
+	function loc15 () { 	
+		document.querySelector('.conte2 #im15').src = loc[i15].src;
+		document.querySelector('.conte2 #ti15').innerHTML = loc[i15].no;
+		document.querySelector('.conte2 #te15').innerHTML = loc[i15].des;
+	}
+
+
 	loc0();
 	loc1();
 	loc2();
@@ -266,7 +331,14 @@ var i3 = Object.keys(loc)[Math.floor(Math.random()*Object.keys(loc).length)];
 	loc6();
 	loc7();
 
-
+	loc8();
+	loc9();
+	loc10();
+	loc11();
+	loc12();
+	loc13();
+	loc14();
+	loc15();
 
 
 

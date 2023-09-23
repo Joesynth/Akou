@@ -33,6 +33,12 @@ let mus = [
 		no: 'Audrey Hall',	
 		des: '🇯🇲️ Uma cantora "sinônimo" de reggae tendo vários discos e singles, ainda na época do vinil.',	
 	},
+
+
+
+		// 32 objetos
+
+
 	{
 		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Ben-e-king1.webp/220px-Ben-e-king1.webp.png',
 		no: '🇺🇸 Ben E. King',
@@ -222,14 +228,23 @@ let mus = [
 function ran(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-var i0 = ran(24, 35);
-var i1 = ran(19, 23);
-var i2 = ran(14, 18);
-var i3 = ran(9, 13);
-var i4 = ran(6, 8);
-var i5 = ran(4, 5);
-var i6 = ran(2, 3);
-var i7 = ran(0, 1);
+var i0 = ran(31, 34);
+var i1 = ran(28, 30);
+var i2 = ran(26, 27);
+var i3 = ran(24, 25);
+var i4 = ran(22, 23);
+var i5 = ran(20, 21);
+var i6 = ran(18, 19);
+var i7 = ran(16, 17);
+
+var i8 = ran(14, 15);
+var i9 = ran(12, 13);
+var i10 = ran(10, 11);
+var i11 = ran(8, 9);
+var i12 = ran(6, 7);
+var i13 = ran(4, 5);
+var i14 = ran(2, 3);
+var i15 = ran(0, 1);
 
 /*
 var i0 = Object.keys(mus)[Math.floor(Math.random()*Object.keys(mus).length)];
@@ -262,8 +277,6 @@ var i3 = Object.keys(mus)[Math.floor(Math.random()*Object.keys(mus).length)];
 		document.querySelector('.conte3 #te3').innerHTML = mus[i3].des;
 	}
 
-
-
 	function sor4 () {
 		document.querySelector('.conte3 #im4').src = mus[i4].src;
 		document.querySelector('.conte3 #ti4').innerHTML = mus[i4].no;
@@ -286,6 +299,54 @@ var i3 = Object.keys(mus)[Math.floor(Math.random()*Object.keys(mus).length)];
 	}
 
 	
+
+
+	function sor8 () { 	/*  Coloca os respectivos conteúdos conforme índice, i */ 
+		document.querySelector('.conte3 #im8').src = mus[i8].src;
+		document.querySelector('.conte3 #ti8').innerHTML = mus[i8].no;
+		document.querySelector('.conte3 #te8').innerHTML = mus[i8].des;
+	}
+
+	function sor9 () {
+		document.querySelector('.conte3 #im9').src = mus[i9].src;
+		document.querySelector('.conte3 #ti9').innerHTML = mus[i9].no;
+		document.querySelector('.conte3 #te9').innerHTML = mus[i9].des;
+	}
+
+	function sor10 () {
+		document.querySelector('.conte3 #im10').src = mus[i10].src;
+		document.querySelector('.conte3 #ti10').innerHTML = mus[i10].no;
+		document.querySelector('.conte3 #te10').innerHTML = mus[i10].des;
+	}
+
+	function sor11 () {
+		document.querySelector('.conte3 #im11').src = mus[i11].src;
+		document.querySelector('.conte3 #ti11').innerHTML = mus[i11].no;
+		document.querySelector('.conte3 #te11').innerHTML = mus[i11].des;
+	}
+
+	function sor12 () {
+		document.querySelector('.conte3 #im12').src = mus[i12].src;
+		document.querySelector('.conte3 #ti12').innerHTML = mus[i12].no;
+		document.querySelector('.conte3 #te12').innerHTML = mus[i12].des;
+	}
+	function sor13 () {
+		document.querySelector('.conte3 #im13').src = mus[i13].src;
+		document.querySelector('.conte3 #ti13').innerHTML = mus[i13].no;
+		document.querySelector('.conte3 #te13').innerHTML = mus[i13].des;
+	}
+	function sor14 () {
+		document.querySelector('.conte3 #im14').src = mus[i14].src;
+		document.querySelector('.conte3 #ti14').innerHTML = mus[i14].no;
+		document.querySelector('.conte3 #te14').innerHTML = mus[i14].des;
+	}
+	function sor15 () {
+		document.querySelector('.conte3 #im15').src = mus[i15].src;
+		document.querySelector('.conte3 #ti15').innerHTML = mus[i15].no;
+		document.querySelector('.conte3 #te15').innerHTML = mus[i15].des;
+	}
+
+
 	sor0();
 	sor1();
 	sor2();
@@ -294,6 +355,16 @@ var i3 = Object.keys(mus)[Math.floor(Math.random()*Object.keys(mus).length)];
 	sor5();
 	sor6();
 	sor7();
+
+
+	sor8();
+	sor9();
+	sor10();
+	sor11();
+	sor12();
+	sor13();
+	sor14();
+	sor15();
 
 /*
 🎺️🎷️🎸️🎻️🎙️🎺️🥁️
