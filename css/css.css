@@ -30,12 +30,14 @@
 }
 
 
+
+
 .conte, .conte1, .conte2, .conte3 {
 	width: 90%;
 	color: gray;
 	height: 66%;						/*Área de conteúdo principal acima da propaganda "mkt" */
 	overflow: scroll;
-	background-color: white;
+	//background-color: green;
 	font-size: 0.8em;
 	//text-transform: uppercase;
 	text-align: left;
@@ -71,13 +73,18 @@ h6 {				/* Palavra "Apoio" que fica em cima do slider | tag "p" está em ""mkt.j
 	font-size: var(--fon3);			/* Altura, tamanho, da letra 'apoio', a palavra apoio */
 }
 
-#con {
+.con {
 	//background-color: red;
+	//width: 28em;
+}
+
+.conf {
+	display: flex;
 	width: 48em;
 }
 
 .ti, .te {
-	font-size: 0.9em;
+	font-size: 1em;
 	text-align: justify;
 }
 
