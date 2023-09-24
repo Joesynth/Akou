@@ -81,32 +81,36 @@ conteudo.innerHTML = "<br><h3>Akou é <br>música como alimento e não entreteni
 /* note que aki n é aspa e sim crase */
 var conteudo = document.querySelector(".conte")
 conteudo.innerHTML = `
-	<div id="con">
-		<div class="config"><p>🎺️ Blues/Jazz</p><input type="checkbox"></div>
+<div class="conf">
+	<div class="con">
+		<div class="config"><p>🎺️ Blu/Jazz</p><input type="checkbox"></div>
 		<div class="config"><p>🇧🇷️ Brasil 1</p><input type="checkbox"></div>
 		<div class="config"><p>🇧🇷️ Brasil 2</p><input type="checkbox"></div>
 		<div class="config"><p>🎻️ Clássica</p><input type="checkbox"></div>
 		<div class="config"><p>👥 Coro</p><input type="checkbox"></div>
-		<div class="config"><p>🏖️ Chorinho</p><input type="checkbox"></div>
-		<div class="config"><p>📼️ Concreta</p><input type="checkbox"></div>
-		<div class="config"><p>⚡ Contemporânea</p><input type="checkbox"></div>
-		<div class="config"><p>💡️ Eletrônica</p><input type="checkbox"></div>
+		<div class="config"><p>🏖️ Choro</p><input type="checkbox"></div>
+		<div class="config"><p>📼️ Concre.</p><input type="checkbox"></div>
+		<div class="config"><p>⚡ Contemp.</p><input type="checkbox"></div>
+		<div class="config"><p>💡️ Eletrôn.</p><input type="checkbox"></div>
 		<div class="config"><p>🔌️ Funk</p><input type="checkbox"></div>
 		<div class="config"><p>🎮️ Game</p><input type="checkbox"></div>
 		<div class="config"><p>✝️ Gospel</p><input type="checkbox"></div>
+	</div>
+	<div class="con">
 		<div class="config"><p>😁️ Infantil</p><input type="checkbox"></div>
 		<div class="config"><p>🕎️ Judaica</p><input type="checkbox"></div>
 		<div class="config"><p>🌺️ New Age</p><input type="checkbox"></div>
 		<div class="config"><p>🎹 Piano</p><input type="checkbox"></div>
-		<div class="config"><p>🎛️ Rock Progressivo</p><input type="checkbox"></div>
+		<div class="config"><p>🎛️ RoProg</p><input type="checkbox"></div>
 		<div class="config"><p>🇯🇲️ Reggae</p><input type="checkbox"></div>
-		<div class="config"><p>🎷️ Smooth Jazz</p><input type="checkbox"></div>
+		<div class="config"><p>🎷️ Smooth</p><input type="checkbox"></div>
 		<div class="config"><p>🎸️ Surf</p><input type="checkbox"></div>
 		<div class="config"><p>🎙️ Soul</p><input type="checkbox"></div>
-		<div class="config"><p>📺️ Soundtrack</p><input type="checkbox"></div>
+		<div class="config"><p>📺️ TV</p><input type="checkbox"></div>
 		<div class="config"><p>👤️ Vocal</p><input type="checkbox"></div>
 		<div class="config"><p>🎸️ Violão</p><input type="checkbox"></div>
 	</div>
+</div>
 `;
 
 
@@ -173,7 +177,7 @@ for (let i=0; i < conteudo.length ; i++) {
 					<p class="te" id="te13"></p>
 					<br>
 					<img id="im14" class="mmm" src="" alt="">
-					<p class="tis" id="ti14"></p>				
+					<p class="ti" id="ti14"></p>				
 					<p class="te" id="te14"></p>
 					<br>
 					<img id="im15" class="mmm" src="" alt="">

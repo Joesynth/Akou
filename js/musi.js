@@ -20,18 +20,18 @@ var musi = [		/* musi = músicos, pessoa
 let mus = [
 	{
 		src: 'images/funk.png',
-		no: 'Lyn Collins',
-		des: '🇺🇸 Conhecida por ter trabalhado com James Brown, a cantora "passeou" pelo soul, funk e R&B.',
+		no: '🇺🇸 Lyn Collins',
+		des: 'Conhecida por ter trabalhado com James Brown, a cantora "passeou" pelo soul, funk e R&B.',
 	},
 	{
 		src: 'images/soul.png',
-		no: 'Aretha Franklin',	
-		des: '🇺🇸 Ela foi, ou é, amplamente conhecida como a "Rainha do Soul", enquanto James Brown era conhecido como o "Padrinho do Soul". Aretha Franklin foi a cantora de soul mais importante a surgir; e foi, originalmente, uma cantora gospel que começou a fazer gravações seculares em 1960.',	
+		no: '🇺🇸 Aretha Franklin',	
+		des: 'Ela foi, ou é, amplamente conhecida como a "Rainha do Soul", enquanto James Brown era conhecido como o "Padrinho do Soul". Aretha Franklin foi a cantora de soul mais importante a surgir; e foi, originalmente, uma cantora gospel que começou a fazer gravações seculares em 1960.',	
 	},
 	{
 		src: 'images/regg.png',
-		no: 'Audrey Hall',	
-		des: '🇯🇲️ Uma cantora "sinônimo" de reggae tendo vários discos e singles, ainda na época do vinil.',	
+		no: '🇯🇲️ Audrey Hall',	
+		des: 'Uma cantora "sinônimo" de reggae tendo vários discos e singles, ainda na época do vinil.',	
 	},
 
 
@@ -76,7 +76,7 @@ let mus = [
 	},
 	{
 		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Chick_Corea_Kongsberg_Jazzfestival_2018_%28170650%29.jpg/200px-Chick_Corea_Kongsberg_Jazzfestival_2018_%28170650%29.jpg',
-		no: 'Chick Corea 🎹 🥁️ 🇺🇸',	
+		no: '🇺🇸 Chick Corea 🎹 🥁️',	
 		des: 'Pianista e tecladista de jazz, também baterista.',	
 	},
 	{
@@ -87,7 +87,7 @@ let mus = [
   {
 		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Solomon_Burke.jpg/300px-Solomon_Burke.jpg',
 		no: '🇺🇸 Solomon Burke',
-		des: 'Gravou para a Atlantic na década de 1960. Peter Guralnick está entre os identificaram Solomon Burke como uma figura chave no surgimento da música soul, e a Atlantic Records como a principal gravadora. Burke tem nas canções do início dos anos 1960 que são consideradas clássicos do soul.',
+		des: 'Gravou para a Atlantic na década de 1960. Peter Guralnick está entre os que identificaram Solomon Burke como uma figura chave no surgimento da música soul, e a Atlantic Records como a principal gravadora. Burke tem nas canções do início dos anos 1960 que são consideradas clássicos do soul.',
 	},
 	{
 		src: 'https://www.udiscovermusic.com/wp-content/uploads/2022/06/Howlin-GettyImages-98411223.jpg',

@@ -8,56 +8,56 @@ let news = [
 
 	{
 		src: 'images/jewi.png',
-		no: 'Judaica, música: canções folclóricas',
-		des: 'Não existe nenhum corpo unificado de canções folclóricas judaicas, e sim uma grande variedade de tradições populares que refletem as condições das muitas comunidades dispersas, formadas após a destruição do Segundo Templo e o fenômeno da diáspora. Essas diversas tradições misturam tendências judaicas com formas regionais.',
+		no: '🕎️ Judaica, música: canções folclóricas',
+		des: 'Não existe nenhum corpo unificado de canções folclóricas judaicas, e sim uma grande variedade de tradições populares que refletem as condições das muitas comunidades dispersas, formadas após a destruição do Segundo Templo e o fenômeno da diáspora. Essas diversas tradições misturam tendências judaicas com formas regionais. | Grove',
 	},
 	{
 		src: 'images/jewi.png',
-		no: 'Saminsky, Lazare 🇺🇸 Compositor norte-americano, de origem russa.',
-		des: 'Foi aluno de Liado e Rimsky-Korsakov nos conservatórios de S. Petersburgo e Moscou (1906-10); mudou-se em 1920 para Nova York, onde em 1923 foi fundador da Liga dos Compositores. Foi diretor musical do Templo Emanu-El (1924-56) e autor de vários livros; escreveu música litúrgica judaica e valeu-se de fontes judaicas em suas cinco sinfonias, música coral e canções.',
+		no: '🇺🇸 Saminsky, Lazare | Compositor norte-americano, de origem russa.',
+		des: 'Foi aluno de Liado e Rimsky-Korsakov nos conservatórios de S. Petersburgo e Moscou (1906-10); mudou-se em 1920 para Nova York, onde em 1923 foi fundador da Liga dos Compositores. Foi diretor musical do Templo Emanu-El (1924-56) e autor de vários livros; escreveu música litúrgica judaica e valeu-se de fontes judaicas em suas cinco sinfonias, música coral e canções. | Grove',
 	},
 	{
 		src: 'images/jewi.png',
-		no: 'Jacobi, Frederick 🇺🇸 Compositor',
-		des: 'Estudou com Goldmark, Bloch e (em Berlim) Juon. Suas obras cobrem todos os gêneros, às vezes influenciadas pela música indígena norte-americana (p.ex., Indian Dances, 1928), porém mais ainda pela tradição ocidental (p.ex., Concertino para piano e cordas, 1946).',
+		no: '🇺🇸 Jacobi, Frederick | Compositor',
+		des: 'Estudou com Goldmark, Bloch e (em Berlim) Juon. Suas obras cobrem todos os gêneros, às vezes influenciadas pela música indígena norte-americana (p.ex., Indian Dances, 1928), porém mais ainda pela tradição ocidental (p.ex., Concertino para piano e cordas, 1946). | Grove',
 	},
 	{
 		src: 'images/jewi.png',
-		no: 'Bloch, Ernest 🇺🇸 Compositor',
-		des: 'Estudou com Dalcroze em Genebra, em Bruxelas (1897-9), e com Knorr em Frankfurt (1900). Em 1916 foi para os EUA, onde desde então passou a maior parte de sua vida (adquiriu a cidadania em 1924). Também ensinou em Cleveland (1920-25), São Francisco (1925-30) e Berkeley (1940-52). Suas primeiras obras são ecléticas: a ópera Macbeth (1910) tem influências de Strauss, Mussorgsky e Debussy. Adveio então um período voltado principalmente para temas judaicos (Schelomo para violoncelo e orquestra, 1916), seguido por um vigoroso neoclassicismo (Quinteto para piano n. 1, 1923; Concerto grosso n. 1 para cordas e piano, 1925). Retornou às composições épicas nos anos 30 com o Serviço religioso (Avodath hakodesh, 1933) e o Concerto para violino (1937). Suas últimas obras representam uma suma de sua carreira e inclinam-se a um estilo menos subjetivo.',
+		no: '🇺🇸 Bloch, Ernest | Compositor',
+		des: 'Estudou com Dalcroze em Genebra, em Bruxelas (1897-9), e com Knorr em Frankfurt (1900). Em 1916 foi para os EUA, onde desde então passou a maior parte de sua vida (adquiriu a cidadania em 1924). Também ensinou em Cleveland (1920-25), São Francisco (1925-30) e Berkeley (1940-52). Suas primeiras obras são ecléticas: a ópera Macbeth (1910) tem influências de Strauss, Mussorgsky e Debussy. Adveio então um período voltado principalmente para temas judaicos (Schelomo para violoncelo e orquestra, 1916), seguido por um vigoroso neoclassicismo (Quinteto para piano n. 1, 1923; Concerto grosso n. 1 para cordas e piano, 1925). Retornou às composições épicas nos anos 30 com o Serviço religioso (Avodath hakodesh, 1933) e o Concerto para violino (1937). Suas últimas obras representam uma suma de sua carreira e inclinam-se a um estilo menos subjetivo. | Grove',
 	},
 	{
 		src: 'images/jewi.png',
-		no: 'Judaica, música',
-		des: 'A música de sinagoga norte-americana baseava-se originalmente em modelos europeus, apesar de mais recentemente compositores como Ernest Bloch, Frederick Jacobi, Lazare Saminsky e Isadore Freed terem contribuído com peças em idioma hebraico.',
+		no: '🕎️ Judaica, música',
+		des: 'A música de sinagoga norte-americana baseava-se originalmente em modelos europeus, apesar de mais recentemente compositores como Ernest Bloch, Frederick Jacobi, Lazare Saminsky e Isadore Freed terem contribuído com peças em idioma hebraico. | Grove',
 	},
 	{
 		src: 'images/jewi.png',
-		no: 'Judaica, música: sinagogas alemãs',
-		des: 'As sinagogas alemãs começaram a fazer uso de coros, órgãos e outros tipos de música instrumental a partir de c.1700, valendo-se de repertório contemporâneo não-judaico, de peças seculares, danças e até mesmo melodias líricas. O séc.XIX viu a crescente assimilação de estilos ocidentais na música de sinagoga, bem como a formação de escolas cantoriais.',
+		no: '🕎️ Judaica, música: sinagogas alemãs',
+		des: 'As sinagogas alemãs começaram a fazer uso de coros, órgãos e outros tipos de música instrumental a partir de c.1700, valendo-se de repertório contemporâneo não-judaico, de peças seculares, danças e até mesmo melodias líricas. O séc.XIX viu a crescente assimilação de estilos ocidentais na música de sinagoga, bem como a formação de escolas cantoriais. | Grove',
 	},
 	{
 		src: 'images/jewi.png',
-		no: 'Judaica, música',
-		des: 'Desde a Idade Média, a música esteve ligada ao misticismo judaico, como no movimento chassídico da Europa oriental, com seus niggunim característicos, canções fortemente rítmicas entoadas pelos homens em sílabas não léxicas. O estilo chassídico influenciou a música de sinagoga da Europa oriental. Os precentores desenvolveram estilos virtuosísticos, geralmente valendo-se dos idiomas clássicos locais (p.ex., o sistema magam na diáspora oriental e as técnicas de variação barrocas ocidentais).',
+		no: '🕎️ Judaica, música',
+		des: 'Desde a Idade Média, a música esteve ligada ao misticismo judaico, como no movimento chassídico da Europa oriental, com seus niggunim característicos, canções fortemente rítmicas entoadas pelos homens em sílabas não léxicas. O estilo chassídico influenciou a música de sinagoga da Europa oriental. Os precentores desenvolveram estilos virtuosísticos, geralmente valendo-se dos idiomas clássicos locais (p.ex., o sistema magam na diáspora oriental e as técnicas de variação barrocas ocidentais). | Grove',
 	},
 	{
 		src: 'images/jewi.png',
-		no: 'Judaica, música: música instrumental e vocal',
-		des: 'Após a destruição do Templo pelos romanos no ano 70, a música instrumental foi banida; formas vocais, particularmente o canto dos salmos, sobrevivem até hoje, porém, ao que tudo indica, com poucas mudanças, e são as mais antigas formas preservadas de música judaica. Outras formas vocais são a cantilação dos livros em prosa da Bíblia (incluindo o Pentateuco, Profetas e Ruth) e preces e hinos virtuosisticos, improvisatórios, transmitidos oralmente pelos cantores-compositores (chazanim).',
+		no: '🕎️ Judaica, música: música instrumental e vocal',
+		des: 'Após a destruição do Templo pelos romanos no ano 70, a música instrumental foi banida; formas vocais, particularmente o canto dos salmos, sobrevivem até hoje, porém, ao que tudo indica, com poucas mudanças, e são as mais antigas formas preservadas de música judaica. Outras formas vocais são a cantilação dos livros em prosa da Bíblia (incluindo o Pentateuco, Profetas e Ruth) e preces e hinos virtuosisticos, improvisatórios, transmitidos oralmente pelos cantores-compositores (chazanim). | Grove',
 	},
 
 		// 32 objetos
 
 	{
 		src: 'images/jewi.png',
-		no: 'Judaica, música: instrumentos bíblicos',
-		des: 'Incluem: "asor (instrumento de cordas, presume-se com dez cordas), halil (instrumento de sopro, categoria que incluía prov. flautas e instrumentos de palheta), hatzotzerah (trombeta, prov. usada para produzir clangores rítmicos numa única altura), kaithros (prov. uma lira), kinnor (prov. uma lira, a tocada por Davi para Saul: o instrumento melódico mais importante do antigo Israel), metziltayim (prov. um par de címbalos), minnim (prov. instrumento de cordas), nevel (prov. uma lira ou harpa), garna (chifre animal tocado na corte de Nabucodonosor), tof (prov. um tambor redondo e de fuste estreito, semelhante a um pandeiro porém sem soalhas), "ugav (prov. instrumento de sopro) e o shofar (chifre de carneiro ou de cabrito montês, usado para chamadas rituais), o único desses instrumentos tocado nos tempos modernos.',
+		no: '🕎️ Judaica, música: instrumentos bíblicos',
+		des: 'Incluem: "asor (instrumento de cordas, presume-se com dez cordas), halil (instrumento de sopro, categoria que incluía prov. flautas e instrumentos de palheta), hatzotzerah (trombeta, prov. usada para produzir clangores rítmicos numa única altura), kaithros (prov. uma lira), kinnor (prov. uma lira, a tocada por Davi para Saul: o instrumento melódico mais importante do antigo Israel), metziltayim (prov. um par de címbalos), minnim (prov. instrumento de cordas), nevel (prov. uma lira ou harpa), garna (chifre animal tocado na corte de Nabucodonosor), tof (prov. um tambor redondo e de fuste estreito, semelhante a um pandeiro porém sem soalhas), "ugav (prov. instrumento de sopro) e o shofar (chifre de carneiro ou de cabrito montês, usado para chamadas rituais), o único desses instrumentos tocado nos tempos modernos. | Grove',
 	},
 	{
 		src: 'images/jewi.png',
-		no: 'Judaica, música',
-		des: 'Os primeiros indícios de uma cultura musical judaica são encontrados no Velho Testamento. A música hebraica teve suas bases estabelecidas pelo rei Davi, entre 1002 e 970 a.C., no Templo de Jerusalém, onde músicos levitas eram encarregados da execução instrumental e vocal.',
+		no: '🕎️ Judaica, música',
+		des: 'Os primeiros indícios de uma cultura musical judaica são encontrados no Velho Testamento. A música hebraica teve suas bases estabelecidas pelo rei Davi, entre 1002 e 970 a.C., no Templo de Jerusalém, onde músicos levitas eram encarregados da execução instrumental e vocal. | Grove',
 	},
 
 
@@ -127,28 +127,28 @@ let news = [
 
 	{
 		src: 'thumb320x180.png',
-		no: 'Gospel music | início séc. XX 🇺🇸',
+		no: '🇺🇸 Gospel music | início séc. XX',
 		des: 'A palavra gospel derivada de "god-spell". Música escrita e executada tendo como tema o louvor, adoração ou graças a Deus, portanto tem motivo religioso ou cerimonial _embora também ocorre como um produto de entretenimento para o mercado comercial.',
 	},
 	{
 		src: 'thumb320x180.png',
-		no: 'Ska (bluebeat) | final déc. 50 🇯🇲️',
+		no: '🇯🇲️ Ska (bluebeat) | final déc. 50',
 		des: 'Um estilo de música e dança popular urbano, da jamaica. Lá, foi o estilo de música popular nativa predominante, até ser suplantado, em meados dos anos 60, pelo "rock steady", um precursor do reggae. Teve aceitação fugaz na América do Norte e na Grã-Bretanha. [ft:gro]',
 	},
 	{
 		src: 'thumb320x180.png',
-		no: 'Soul | déc. 50 🇺🇸',
+		no: '🇺🇸 Soul | déc. 50',
 		des: 'Combina elementos da música gospel, rhythm and blues e jazz. A soul music tornou-se popular para dançar e ouvir nos Estados Unidos, onde gravadoras como Motown, Atlantic e Stax foram influentes durante o Movimento dos Direitos Civis. [ft:wi.pt]',
 	},
 	{
 		src: 'thumb320x180.png',
-		no: 'Soul',
-		des: '🇺🇸 Segundo AllMusic, "a soul music foi o resultado da urbanização e comercialização do ritmo e blues nos anos 60". O próprio termo "soul music", referindo-se à música de estilo gospel com letras seculares, foi atestada pela primeira vez em 1961.',
+		no: '🇺🇸 Soul',
+		des: 'Segundo AllMusic, "a soul music foi o resultado da urbanização e comercialização do ritmo e blues nos anos 60". O próprio termo "soul music", referindo-se à música de estilo gospel com letras seculares, foi atestada pela primeira vez em 1961.',
 	},
 	{
 		src: 'thumb320x180.png',
-		no: 'Soul',
-		des: '🇺🇸 O termo "soul" na linguagem afro-americana tem conotações de orgulho e cultura afro-americana. Grupos gospel nas décadas de 1940 e 1950 ocasionalmente usavam o termo como parte de seus nomes.',
+		no: '🇺🇸 Soul',
+		des: 'O termo "soul" na linguagem afro-americana tem conotações de orgulho e cultura afro-americana. Grupos gospel nas décadas de 1940 e 1950 ocasionalmente usavam o termo como parte de seus nomes.',
 	},
 
 
@@ -216,23 +216,23 @@ let news = [
 
 	{
 		src: 'https://joesynth.files.wordpress.com/2021/10/f1b3d-1.jpg',
-		no: 'Sampler',
-		des: 'O sampler nasce em 1979 com o CMI, um equipamento que era literalmente um computador, utilizando processador da marca Motorola. Tanto ele quanto outros de sua ápoca eram bem caros _em suma modelos australianos, norte-americanos, alemães. Até que na segunda metade dos anos 80 entra em cena a indústria japonesa com preços mais acessíveis. Anos 90 podia-se ver máquinas espataculares (como o S6000, foto) _embora os softwares de computador foram se tornando mais conhecidos também nesta época.',
+		no: '🇦🇺 Sampler',
+		des: 'O sampler nasce em 1979 com o CMI, um equipamento que era literalmente um computador, utilizando processador da marca Motorola. Tanto ele quanto outros de sua ápoca eram bem caros _em suma modelos australianos, norte-americanos, alemães. Até que na segunda metade dos anos 80 entra em cena a indústria japonesa com preços mais acessíveis. Anos 90 podia-se ver máquinas espataculares (como o S6000, foto) _embora os softwares de computador foram se tornando mais conhecidos também nesta época. | JoeSynth.wordpress.com',
 	},
 	{
 		src: 'https://joesynth.files.wordpress.com/2021/06/minimoog.png',
-		no: 'Minimoog',
-		des: 'O Moog nasceu analógico, ou seja, nada de bits, bytes… Ele tem natureza diferente de um synth em VST, que em suma é um software. O Minimoog foi um grande passo na música tecnológica, afinal, foi o 1º synth de fato "acessível" a músicos.',
+		no: '🇺🇸 Minimoog',
+		des: 'O Moog nasceu analógico, ou seja, nada de bits, bytes… Ele tem natureza diferente de um synth em VST, que em suma é um software. O Minimoog foi um grande passo na música tecnológica, afinal, foi o 1º synth de fato "acessível" a músicos. | JoeSynth.wordpress.com',
 	},
 	{
 		src: 'https://dailyanalog.com/wp-content/uploads/2018/12/Sequential-Circuits-Prophet-5-728x316.jpg',
 		no: '🇺🇸 Sequential Prophet-5 [78]',
-		des: '1º polifônico de cinco notas e memória para timbre. Ainda vale citar Korg MS20 e o Poly-800.',
+		des: '1º polifônico de cinco notas e memória para timbre. Ainda vale citar Korg MS20 e o Poly-800. | JoeSynth.wordpress.com',
 	},
 	{
 		src: 'https://joesynth.files.wordpress.com/2021/10/mixer_sampler.jpeg',
-		no: 'Funk 12 bits!',
-		des: 'As chamadas montagens são a mãe do Funk Carioca; e no que tange equipamento, foram popularizadas graças ao Gemini 7008. Esse mixer de DJ era barato _se comparado a outras ferramentas_ e tinha o recurso desejado por qualquer garoto que simpatizava com os DJ de baile funk ou de programas de rádio: o sampler.',
+		no: '🇧🇷 Funk 12 bits!',
+		des: 'As chamadas montagens são a mãe do Funk Carioca; e no que tange equipamento, foram popularizadas graças ao Gemini 7008. Esse mixer de DJ era barato _se comparado a outras ferramentas_ e tinha o recurso desejado por qualquer garoto que simpatizava com os DJ de bailes funk ou de programas de rádio dos anos 90: o sampler. | JoeSynth.wordpress.com',
 	},
 ];
 
