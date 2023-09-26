@@ -87,7 +87,7 @@ let mus = [
   {
 		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Solomon_Burke.jpg/300px-Solomon_Burke.jpg',
 		no: '🇺🇸 Solomon Burke',
-		des: 'Gravou para a Atlantic na década de 1960. Peter Guralnick está entre os que identificaram Solomon Burke como uma figura chave no surgimento da música soul, e a Atlantic Records como a principal gravadora. Burke tem nas canções do início dos anos 1960 que são consideradas clássicos do soul.',
+		des: 'Gravou para a Atlantic na década de 1960. Peter Guralnick está entre os que identificaram Solomon Burke como uma figura chave no surgimento da música soul, e a Atlantic Records como a principal gravadora.',
 	},
 	{
 		src: 'https://www.udiscovermusic.com/wp-content/uploads/2022/06/Howlin-GettyImages-98411223.jpg',

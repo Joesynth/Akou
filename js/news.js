@@ -5,8 +5,8 @@
 let news = [
 {
 		src: 'https://joesynth.files.wordpress.com/2022/10/f-droid.png',
-		no: 'Android: 30 softwares livres musicais',
-		des: 'Músico? DJ? Beatmaker? Sound design? Mesmo que você seja um simples amante da música irá gostar dessa loja de softwares. Players, softs de áudio, MIDI, synths e muito mais; tudo grátis, sem anúncios. Estamos falando da F-Droid, algo semelhante a Google Play _só que baseado na ideia de SL, Software Livre. | JoeSynth.wordpres.com',
+		no: 'F-Droid: 30 softwares livres musicais',
+		des: 'Músico? DJ? Beatmaker? Sound design? Mesmo que você seja um simples amante da música irá gostar dessa loja de softwares. Players, softs de áudio, MIDI, synths e muito mais; tudo grátis, sem anúncios. Estamos falando da F-Droid, algo semelhante a Google Play _só que baseado na ideia de SL (Software Livre). | JoeSynth.wordpres.com',
 	},
 	{
 		src: 'https://joesynth.files.wordpress.com/2022/11/arp2600.gif',
@@ -19,7 +19,7 @@ let news = [
 		des: 'A importância de perceber e entregar soluções corretas. O engenheiro de áudio norte-americano John Meyer, fundou em 1979 com Helen Meyer a famosa empresa Meyer Sound. | JoeSynth.wordpres.com',
 	},
 	{
-		src: 'x',
+		src: 'https://joesynth.files.wordpress.com/2018/06/dolby_640.gif',
 		no: 'Dolby: menos ruído mais cinema',
 		des: 'Sinônimo de áudio e vídeo, ele vive nas fitas e até mesmo no Blu-ray: o engenheiro norte-americano Ray Dolby. Cria da Universidade de Stanford, seu nome tem relação com música e tecnologia; a marca Ampex (também dos EUA), som de melhor qualidade, surround, filmes como A Clockwork Orange ou Batman Returns. | JoeSynth.wordpres.com',
 	},
@@ -71,7 +71,7 @@ let news = [
 	{
 		src: 'https://joesynth.files.wordpress.com/2022/12/roland_vs880.png',
 		no: 'Portastudio digital... da época da vovó',
-		des: 'Hoje fazemos gravação e mixagem pelo computador. Porém, nem sempre os computadores foram tão acessíveis, de forma que muitos úsicos utilizavam equipamentos dedicados. É o caso do portastudio digital _que na verdade já era uma versão moderna do portastudio analógico, portanto fita no lugar do HD. Houve marcas famosas desses aparelhos, as japonesas Roland, Fostex, Akai, Korg, Boss e Zoom. | JoeSynth.wordpres.com',
+		des: 'Hoje fazemos gravação e mixagem pelo computador. Porém, nem sempre os computadores foram tão acessíveis, de forma que muitos músicos utilizavam equipamentos dedicados. É o caso do portastudio digital _que na verdade já era uma versão moderna do portastudio analógico, portanto fita no lugar do HD. Houve marcas famosas desses aparelhos, as japonesas Roland, Fostex, Akai, Korg, Boss e Zoom. | JoeSynth.wordpres.com',
 	},
 	{
 		src: 'https://joesynth.files.wordpress.com/2022/11/wavelab4.png',
@@ -86,7 +86,7 @@ let news = [
 	{
 		src: 'https://joesynth.files.wordpress.com/2022/12/multipistas_tascam_mx2424.png',
 		no: 'Gravador multitrack: HD em 24 bits',
-		des: 'O Tascam MX2424 foi gravador em Hard Disk de 1999, um multipistas de 24 trilhas. Foi o 1º gravador HD de 24 bits e 24 trilhas do mundo. Tinha vários recursos de edição, sendo que foi co-projetado pela TASCAM e TimeLine Inc. | JoeSynth.wordpres.com',
+		des: 'O Tascam MX2424 foi um gravador em Hard Disk de 1999, um multipistas de 24 trilhas. Foi o 1º gravador HD de 24 bits e 24 trilhas do mundo. Tinha vários recursos de edição, sendo que foi co-projetado pela TASCAM e TimeLine Inc. | JoeSynth.wordpres.com',
 	},
 	{
 		src: 'https://joesynth.files.wordpress.com/2022/12/fostex_foundation_2000re.png',
@@ -96,7 +96,7 @@ let news = [
 	{
 		src: 'https://joesynth.files.wordpress.com/2020/12/steinberg_cubase_sx_d.png',
 		no: 'O que é Mixdown: pre-master',
-		des: 'O pré-master, tradicionalmente, se refere à gravação de 2 trilhas que é o resultado da mixagem (das várias trilhas). O formato/equipamento diz-se que que pode ser analógico ou digital. Evidentemente, a analógica se refere às fitas de gravadores de rolo, um processo antigo _e mesmo o digital utilizando fitas digitais (como a DAT) também é algo antigo, tipicamente anos 80 e 90. | JoeSynth.wordpres.com',
+		des: 'O pré-master, tradicionalmente, se refere à gravação de 2 trilhas que é o resultado da mixagem (das várias trilhas). O formato/equipamento diz-se que pode ser analógico ou digital. Evidentemente, a analógica se refere às fitas de gravadores de rolo, um processo antigo _e mesmo o digital utilizando fitas digitais (como a DAT) também é algo antigo, tipicamente anos 80 e 90. | JoeSynth.wordpres.com',
 	},
 	{
 		src: 'https://joesynth.files.wordpress.com/2020/12/steinberg_cubase_sx_d.png',
@@ -135,8 +135,8 @@ let news = [
 	},
 	{
 		src: 'https://joesynth.files.wordpress.com/2022/12/controlador_midi_kawai_vpc1.png',
-		no: 'Piano: melhor controlador MIDI 88 teclas?',
-		des: 'Para escolher um pode-se pensar sobre o que é mais relevante? É preciso optar diante do seu contexto de sua vida. Preço, durabilidade, marketing (como impressionar seus clientes no estúdio), tecla é o mais importante (daí a mecânica é o vital), se os recursos diversos são o mais importante (boas teclas convém, mas os botões controladores são vitais pro seu estilo de música? O equipamento será transportado frequentemente, por ex., do estúdio para um show? Se você tiver mais recur$o$ pode conciliar duas ou mais coisas num equipamento que supra várias necessidades, ou, caso contrário, focar no essencial para ser mais conveniente. Algumas marcas a se considerar: as alemãs Swissonic, Native Instruments e Doepfer, a italiana Studiologic (Fatar), a francesa Arturia, a originalmente norte-americana Kurzweil e as japonesas: Roland, Yamaha, Korg e Kawai (foto). | JoeSynth.wordpres.com',
+		no: 'Piano: escolhendo um controlador MIDI 88 teclas',
+		des: 'Para escolher um podemos pensar sobre o que é mais relevante diante do nosso contexto de sua vida. Preço e durabilidade é o que vem à cabeça de imediato. E há mais o que pensar! A ação das teclas é o mais importante? Se for então a parte mecânica é o vital. Se for usado num estúdio, botões controladores (midi) serão úteis, seja por conta de um estilo de música (que "peça" mais efeitos) ou até mesmo na mixagem. E ainda se falando de estúdio, mesmo a aparência do seu controlador pode impressionar seus clientes, no sentido de marketing.O equipamento será transportado? Vai e volta de show? Haja piano! Haja controlador! São variáveis a se pesar e tendo do outro lado da balança o investimento. Marcas a considerar: as alemãs Swissonic, Native Instruments e Doepfer, a italiana Studiologic (Fatar), a francesa Arturia, a originalmente norte-americana Kurzweil e as japonesas: Roland, Yamaha, Korg e Kawai (foto). | JoeSynth.wordpres.com',
 	},
 	{
 		src: 'https://joesynth.files.wordpress.com/2020/12/zero-g_sample_libraries.png',
@@ -191,19 +191,19 @@ let news = [
 		des: 'A origem do cravo é obscura, mas sabe-se que surgiu em algum momento da alta Idade Média ou na Idade Média tardia. As mais antigas referências escritas ao instrumento datam dos anos 1300 e é possível que o cravo tenha sido inventado naquele século.',
 	},
 	{
-		src: 'https://joesynth.files.wordpress.com/2020/11/waldorf_ppg_wave_2v.png',
-		no: 'Síntese Wavetable',
-		des: 'Nesse método, no lugar dos osciladores analógicos, com 3 ou 4 formas de onda, há o oscilador digital por tabela de onda; que contém dezenas de formas de onda e é possível executá-las dinamicamente (via LFO, envelopes...). Um ícone desse tipo de síntese sonora: o PPG! | JoeSynth.wordpress.com',
-	},
-	{
 		src: 'https://joesynth.files.wordpress.com/2020/11/gmedia_music_imposcar.png',
 		no: 'Síntese Aditiva',
 		des: 'Um ícone desse tipo de síntese sonora: o OSC!',
 	},
 	{
 		src: 'https://joesynth.files.wordpress.com/2020/11/linplug_saxlab_2.png',
-		no: 'ROMpler',
-		des: 'Era um tipo de sintetizador (em hardware) que tinha sons armazenados em memória ROM. Podiam ter timbres cotidianos mas também bateria. Com a popularização dos computadores o recurso passou a ser simulado via softwares, como VSTs.',
+		no: 'Síntese sonora: ROMpler',
+		des: 'Era um tipo de sintetizador (em hardware) que tinha sons armazenados em memória ROM. Podiam ter timbres cotidianos, mas também bateria. Com a popularização dos computadores o recurso passou a ser simulado via softwares, como VSTs. Exemplos? IK Multimedia Sampletank 2, reFX Nexus 3, Lethal Audio Lethal e Linplug SaxLab 2 [foto]. | JoeSynth.wordpress.com',
+	},
+	{
+		src: 'https://cdn.shopify.com/s/files/1/0662/5667/files/360-close-2.jpg',
+		no: 'ROMpler: um pouco de história!',
+		des: 'Era um tipo de sintetizador (em hardware) que tinha sons armazenados em memória ROM. O Digital Keyboard [foto] da 360 Systems de 1982 é um dos primeiros teclados com amostras armazenadas em memória já de fábrica. Há quem o veja como sample player, o que não é errado. Antes dele podemos pensar algo nesse sentido, porém em baterias eletrônicas (e marcas como Oberheim ou LinnDrum). | JoeSynth.wordpress.com',
 	},
 	{
 		src: 'https://joesynth.files.wordpress.com/2020/11/ni_absynth.png',
@@ -211,19 +211,29 @@ let news = [
 		des: 'Antigamente um sintetizador podia gerar seus sons utilizando a síntese subtrativa, enquanto um outro aparelho utilizar outro método. Anos 80, com o surgimento de sintetizadores computadorizados, em especial, passou-se a ter a possibilidade de diversos tipos de síntese num único aparelho.',
 	},
 	{
+		src: 'https://i0.wp.com/home.mnet-online.de/dwild/300/palmwolfgang(ppg;waldorf)-ppg2-pioneer.jpg',
+		no: '🇩🇪 Wolfgang Palm',
+		des: 'É o inventor da síntese wavetable, bem como a ideia de ciclo único. Anos 70, o típico OSC de um sintetizador oferecia 3 ou 4 formas de ondas. Eram as famosas ondas do synth analógico: quadrada, dente-de-serra etc. Mas o alemão Palm foi além e conseguiu bem mais que isso utilizando formas de ondas de ciclo único armazenadas em memória. Sintetizadores como o Wave 2.2 e o Wave 2.3 são claros exemplos da utilização de osciladores digitais para gerar sons.',
+	},
+	{
+		src: 'https://joesynth.files.wordpress.com/2020/11/waldorf_ppg_wave_2v.png',
+		no: 'Síntese sonora wavetable',
+		des: 'Nesse método, no lugar dos osciladores analógicos, com 3 ou 4 formas de onda, há o oscilador digital por tabela de onda; que contém dezenas de formas de onda e é possível executá-las dinamicamente (via LFO, envelopes...). Um ícone desse tipo de síntese sonora: o PPG! | JoeSynth.wordpress.com',
+	},
+	{
 		src: 'https://joesynth.files.wordpress.com/2020/11/xfer_serum.png',
-		no: 'Síntese Wavetable',
+		no: 'Síntese sonora wavetable',
 		des: 'Embora a palavra "wave" possa dar a impressão de onda sampleada (inclusive anos 90 placas de som baratas, para computador, eram limitadamente samples er), a síntese do tipo wavetable é baseada na SCW, single cycle waveform. Basicamente, no lugar de termos uma onda quadrada ou dente-de-serra para gerarmos nossos sons, temos uma variedade bem maior dessas ondas inicias. Tal como a onda quadrada ou dente-de-serra, essas ondas utilizadas num wavetable também são ondas constantes e que serão processadas.',
 	},
 	{
 		src: 'https://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/7rUAAOSw1P9hjQHD/$_86.JPG',
-		no: 'Síntese Wavetable',
+		no: 'Síntese sonora wavetable',
 		des: 'Embora a síntese wavetable tenha sido um grande avanço em novos sons, um sintetizador PPG era caro. Um modelo como o DW da japonesa Korg era uma opção mais acessível _embora não chegasse ao mesmo poder de um tradicional synth do tipo wavetable.',
 	},
 	{
 		src: 'https://i.ytimg.com/vi/pvk3pA4GaUI/maxresdefault.jpg',
-		no: 'MDM: a gravação multipista profissional dos anos 90',
-		des: 'Numa época que computadores e HDs ainda eram caros, a forma encontrada pela indústria era o MDM, um equipamento digital que permitia gravar oito pistas, por exemplo, de forma simultânea. Sendo modular, então mais aparelhos desses podiam ser interconectados, perfazendo 16 canais ou mais. É certo que nessa época os vinis ainda eram bem comuns; porém, no estúdio, muitos já estavam sendo registrados digitalmente (tanto no que tange gravação multipistas como a finalização em dois canais stereo).',
+		no: 'Gravação multipista profissional anos 90: o MDM',
+		des: 'Numa época que computadores e HDs ainda eram caros, a forma encontrada pela indústria foi o MDM, um equipamento digital que permitia gravar oito pistas, por exemplo, de forma simultânea. Sendo modular, vários aparelhos podiam ser interconectados, daí perfazendo 16 canais ou mais. Dos fabricantes, desses tipos de equipamentos, vale citar a Tascam (considerada a marca suprassumo de MDMs), a Alesis (bem popular aqui no Brasil) e a Akai [foto]. | JoeSynth.wordpress.com ',
 	},
 	{
 		src: 'https://joesynth.files.wordpress.com/2018/06/novo-44pb.png',
@@ -416,7 +426,7 @@ let news = [
 		/* Genres - Dicionário de estilos */
 
 	{
-		src: 'thumb320x180.png',
+		src: 'images/gosp.png',
 		no: '🇺🇸 Gospel music | início séc. XX',
 		des: 'A palavra gospel derivada de "god-spell". Música escrita e executada tendo como tema o louvor, adoração ou graças a Deus, portanto tem motivo religioso ou cerimonial _embora também ocorre como um produto de entretenimento para o mercado comercial.',
 	},
@@ -426,14 +436,14 @@ let news = [
 		des: 'Um estilo de música e dança popular urbano, da jamaica. Lá, foi o estilo de música popular nativa predominante, até ser suplantado, em meados dos anos 60, pelo "rock steady", um precursor do reggae. Teve aceitação fugaz na América do Norte e na Grã-Bretanha. [ft:gro]',
 	},
 	{
-		src: 'thumb320x180.png',
+		src: 'images/soul.png',
 		no: '🇺🇸 Soul | déc. 50',
 		des: 'Combina elementos da música gospel, rhythm and blues e jazz. A soul music tornou-se popular para dançar e ouvir nos Estados Unidos, onde gravadoras como Motown, Atlantic e Stax foram influentes durante o Movimento dos Direitos Civis. [ft:wi.pt]',
 	},
 	{
-		src: 'thumb320x180.png',
+		src: 'images/soul.png',
 		no: '🇺🇸 Soul',
-		des: 'Segundo AllMusic, "a soul music foi o resultado da urbanização e comercialização do ritmo e blues nos anos 60". O próprio termo "soul music", referindo-se à música de estilo gospel com letras seculares, foi atestada pela primeira vez em 1961.',
+		des: 'Segundo AllMusic, "a soul music foi o resultado da urbanização e comercialização do R&B nos anos 60". O próprio termo "soul music", referindo-se à música de estilo gospel com letras seculares, foi atestada pela primeira vez em 1961.',
 	},
 	{
 		src: 'thumb320x180.png',
@@ -547,7 +557,7 @@ let mus = [
 function ran(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-var i0 = ran(85, 95);		// Primeiro artigo do topo
+var i0 = ran(85, 96);		// Primeiro artigo do topo
 var i1 = ran(75, 84);
 var i2 = ran(70, 74);
 var i3 = ran(65, 69);

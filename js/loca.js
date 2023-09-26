@@ -85,7 +85,7 @@ let loc = [
 	{
 		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Campus_Darcy_Ribeiro_%2831398447555%29.jpg/240px-Campus_Darcy_Ribeiro_%2831398447555%29.jpg',
 		no: 'Universidade de Brasília | DF',
-		des: 'Tem o curso de Licenciatura em Música à distância foi criado pela UAB no ano de 2007, visando atender estudantes que moram em lugares distantes e que procuram fazer um curso superior em música.',
+		des: 'Tem o curso de Licenciatura em Música à distância. Foi criado pela UAB no ano de 2007, visando atender estudantes que moram em lugares distantes e que procuram fazer um curso superior em música.',
 	},
 	{
 		src: 'https://s2.glbimg.com/NZcO9EAq0Ct6yKixb23qcp1iF44=/620x465/s.glbimg.com/jo/g1/f/original/2013/05/06/orquestra_sinfonica_-_bruno_garmatz_43.jpg',
@@ -140,12 +140,12 @@ let loc = [
 	{
 		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Teatro_Alberto_Maranh%C3%A3o_a_noite.jpg/300px-Teatro_Alberto_Maranh%C3%A3o_a_noite.jpg',
 		no: 'Teatro Alberto Maranhão | RN',
-		des: 'Estando na cidade de Natal, é um teatro centenário. É um monumento tombado pelo Instituto do Patrimônio Histórico e Artístico do Rio Grande do Norte',
+		des: 'Situado na cidade de Natal, é um teatro centenário. É um monumento tombado pelo Instituto do Patrimônio Histórico e Artístico do Rio Grande do Norte',
 	},
 	{
 		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Teatro_Municipal_Dix-Huit_Rosado%2C_Mossor%C3%B3_%28RN%29.jpg/250px-Teatro_Municipal_Dix-Huit_Rosado%2C_Mossor%C3%B3_%28RN%29.jpg',
 		no: 'Teatro Municipal Dix-Huit Rosado | RN',
-		des: 'Ficando na cidade de Mossoró, foi construído em 2003 pela prefeitura numaa parceria da PETROBRAS. O espaço comporta mais de 700 pessoas para presenciar balé, comédias, danças...',
+		des: 'Localizado na cidade de Mossoró, foi construído em 2003 pela prefeitura numaa parceria da PETROBRAS. O espaço comporta mais de 700 pessoas para presenciar balé, comédias, danças...',
 	},
 	{
 		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Teatro_Deodoro_maceio.JPG/300px-Teatro_Deodoro_maceio.JPG',
@@ -175,7 +175,7 @@ let loc = [
 	{
 		src: 'https://uploads.metropoles.com/wp-content/uploads/2016/03/30153645/6-teatro-eva-herz2.jpg',
 		no: 'Teatro Eva Herz | DF, BA...',
-		des: 'É uma rede de teatros brasileiros com unidades em Brasília, Curitiba, Recife, Salvador e São Paulo. O Teatro Eva Herz é um desdobramento da Livraria Cultura que teve início quando Eva Herz, mãe do atual presidente da rede que abriu um espaço para alugar livros na sala da casa dela, na capital de São Paulo.',
+		des: 'É uma rede de teatros brasileiros com unidades em Brasília, Curitiba, Recife, Salvador e São Paulo. O Teatro Eva Herz é um desdobramento da Livraria Cultura.',
 	},
 ];
 
