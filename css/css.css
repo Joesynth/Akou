@@ -15,9 +15,11 @@
 
 
 .mmm {
-	width: 80%;
-	margin-left: 9%;
+	width: 75%;
+	margin-left: 14%;
 	border-radius: 1em 1em 0% 0%;
+	margin-top: 0.6em; 
+	margin-bottom: 0.3em; 
 }
 
 #co {
@@ -84,7 +86,7 @@ h6 {				/* Palavra "Apoio" que fica em cima do slider | tag "p" está em ""mkt.j
 }
 
 .ti, .te {
-	font-size: 1em;
+	font-size: 1.1em;
 	text-align: justify;
 }
 
@@ -687,12 +689,12 @@ section {
 
 /*estilizar nossa janela modal*/
 .modal, .modal1, .modal2, .modal3 {
-	width: 21em;
-	height: 33em;
+	width: 22em;
+	height: 35em;
 	position: fixed;
 	top: 1em;
-	right: 1em;
-	bottom: 0;
+	right: 0.5em;
+	//bottom: 0;
 	//left: 0;
 	background: white;
 	//opacity: 0;
@@ -722,7 +724,7 @@ section {
 	width: 2em;
 	position: absolute;
 	right: 0em;
-	top: -15px;
+	top: 0px;
 	text-align: center;
 	line-height: 30px;
 	//margin-top: 5px;
