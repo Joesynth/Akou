@@ -236,7 +236,6 @@ var i4 = ran(22, 23);
 var i5 = ran(20, 21);
 var i6 = ran(18, 19);
 var i7 = ran(16, 17);
-
 var i8 = ran(14, 15);
 var i9 = ran(12, 13);
 var i10 = ran(10, 11);
@@ -245,6 +244,23 @@ var i12 = ran(6, 7);
 var i13 = ran(4, 5);
 var i14 = ran(2, 3);
 var i15 = ran(0, 1);
+
+var i16 = ran(30, 31);
+var i17 = ran(28, 29);
+var i18 = ran(26, 27);
+var i19 = ran(24, 25);
+var i20 = ran(22, 23);
+var i21 = ran(20, 21);
+var i22 = ran(18, 19);
+var i23 = ran(16, 17);
+var i24 = ran(14, 15);
+var i25 = ran(12, 13);
+var i26 = ran(10, 11);
+var i27 = ran(8, 9);
+var i28 = ran(6, 7);
+var i29 = ran(4, 5);
+var i30 = ran(2, 3);
+var i31 = ran(0, 1);
 
 /*
 var i0 = Object.keys(mus)[Math.floor(Math.random()*Object.keys(mus).length)];
@@ -298,9 +314,6 @@ var i3 = Object.keys(mus)[Math.floor(Math.random()*Object.keys(mus).length)];
 		document.querySelector('.conte3 #te7').innerHTML = mus[i7].des;
 	}
 
-	
-
-
 	function sor8 () { 	/*  Coloca os respectivos conteúdos conforme índice, i */ 
 		document.querySelector('.conte3 #im8').src = mus[i8].src;
 		document.querySelector('.conte3 #ti8').innerHTML = mus[i8].no;
@@ -347,6 +360,103 @@ var i3 = Object.keys(mus)[Math.floor(Math.random()*Object.keys(mus).length)];
 	}
 
 
+
+
+
+
+	function sor16 () { 	/*  Coloca os respectivos conteúdos conforme índice, i */ 
+		document.querySelector('.conte3 #im16').src = mus[i16].src;
+		document.querySelector('.conte3 #ti16').innerHTML = mus[i16].no;
+		document.querySelector('.conte3 #te16').innerHTML = mus[i16].des;
+	}
+
+	function sor17 () {
+		document.querySelector('.conte3 #im17').src = mus[i17].src;
+		document.querySelector('.conte3 #ti17').innerHTML = mus[i17].no;
+		document.querySelector('.conte3 #te17').innerHTML = mus[i17].des;
+	}
+
+	function sor18 () {
+		document.querySelector('.conte3 #im18').src = mus[i18].src;
+		document.querySelector('.conte3 #ti18').innerHTML = mus[i18].no;
+		document.querySelector('.conte3 #te18').innerHTML = mus[i18].des;
+	}
+
+	function sor19 () {
+		document.querySelector('.conte3 #im19').src = mus[i19].src;
+		document.querySelector('.conte3 #ti19').innerHTML = mus[i19].no;
+		document.querySelector('.conte3 #te19').innerHTML = mus[i19].des;
+	}
+
+	function sor20 () {
+		document.querySelector('.conte3 #im20').src = mus[i20].src;
+		document.querySelector('.conte3 #ti20').innerHTML = mus[i20].no;
+		document.querySelector('.conte3 #te20').innerHTML = mus[i20].des;
+	}
+	function sor21 () {
+		document.querySelector('.conte3 #im21').src = mus[i21].src;
+		document.querySelector('.conte3 #ti21').innerHTML = mus[i21].no;
+		document.querySelector('.conte3 #te21').innerHTML = mus[i21].des;
+	}
+	function sor22 () {
+		document.querySelector('.conte3 #im22').src = mus[i22].src;
+		document.querySelector('.conte3 #ti22').innerHTML = mus[i22].no;
+		document.querySelector('.conte3 #te22').innerHTML = mus[i22].des;
+	}
+	function sor23 () {
+		document.querySelector('.conte3 #im23').src = mus[i23].src;
+		document.querySelector('.conte3 #ti23').innerHTML = mus[i23].no;
+		document.querySelector('.conte3 #te23').innerHTML = mus[i23].des;
+	}
+
+	function sor24 () { 	/*  Coloca os respectivos conteúdos conforme índice, i */ 
+		document.querySelector('.conte3 #im24').src = mus[i24].src;
+		document.querySelector('.conte3 #ti24').innerHTML = mus[i24].no;
+		document.querySelector('.conte3 #te24').innerHTML = mus[i24].des;
+	}
+
+	function sor25 () {
+		document.querySelector('.conte3 #im25').src = mus[i25].src;
+		document.querySelector('.conte3 #ti25').innerHTML = mus[i25].no;
+		document.querySelector('.conte3 #te25').innerHTML = mus[i25].des;
+	}
+
+	function sor26 () {
+		document.querySelector('.conte3 #im26').src = mus[i26].src;
+		document.querySelector('.conte3 #ti26').innerHTML = mus[i26].no;
+		document.querySelector('.conte3 #te26').innerHTML = mus[i26].des;
+	}
+
+	function sor27 () {
+		document.querySelector('.conte3 #im27').src = mus[i27].src;
+		document.querySelector('.conte3 #ti27').innerHTML = mus[i27].no;
+		document.querySelector('.conte3 #te27').innerHTML = mus[i27].des;
+	}
+
+	function sor28 () {
+		document.querySelector('.conte3 #im28').src = mus[i28].src;
+		document.querySelector('.conte3 #ti28').innerHTML = mus[i28].no;
+		document.querySelector('.conte3 #te28').innerHTML = mus[i28].des;
+	}
+	function sor29 () {
+		document.querySelector('.conte3 #im29').src = mus[i29].src;
+		document.querySelector('.conte3 #ti29').innerHTML = mus[i29].no;
+		document.querySelector('.conte3 #te29').innerHTML = mus[i29].des;
+	}
+	function sor30 () {
+		document.querySelector('.conte3 #im30').src = mus[i30].src;
+		document.querySelector('.conte3 #ti30').innerHTML = mus[i30].no;
+		document.querySelector('.conte3 #te30').innerHTML = mus[i30].des;
+	}
+	function sor31 () {
+		document.querySelector('.conte3 #im31').src = mus[i31].src;
+		document.querySelector('.conte3 #ti31').innerHTML = mus[i31].no;
+		document.querySelector('.conte3 #te31').innerHTML = mus[i31].des;
+	}
+
+
+
+
 	sor0();
 	sor1();
 	sor2();
@@ -355,8 +465,6 @@ var i3 = Object.keys(mus)[Math.floor(Math.random()*Object.keys(mus).length)];
 	sor5();
 	sor6();
 	sor7();
-
-
 	sor8();
 	sor9();
 	sor10();
@@ -365,6 +473,24 @@ var i3 = Object.keys(mus)[Math.floor(Math.random()*Object.keys(mus).length)];
 	sor13();
 	sor14();
 	sor15();
+
+	sor16();
+	sor17();
+	sor18();
+	sor19();
+	sor20();
+	sor21();
+	sor22();
+	sor23();
+	sor24();
+	sor25();
+	sor26();
+	sor27();
+	sor28();
+	sor29();
+	sor30();
+	sor31();
+
 
 /*
 🎺️🎷️🎸️🎻️🎙️🎺️🥁️

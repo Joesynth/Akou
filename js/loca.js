@@ -204,7 +204,6 @@ var i4 = ran(22, 23);
 var i5 = ran(20, 21);
 var i6 = ran(18, 19);
 var i7 = ran(16, 17);
-
 var i8 = ran(14, 15);
 var i9 = ran(12, 13);
 var i10 = ran(10, 11);
@@ -214,6 +213,22 @@ var i13 = ran(4, 5);
 var i14 = ran(2, 3);
 var i15 = ran(0, 1);
 
+var i16 = ran(30, 31);
+var i17 = ran(28, 29);
+var i18 = ran(26, 27);
+var i19 = ran(24, 25);
+var i20 = ran(22, 23);
+var i21 = ran(20, 21);
+var i22 = ran(18, 19);
+var i23 = ran(16, 17);
+var i24 = ran(14, 15);
+var i25 = ran(12, 13);
+var i26 = ran(10, 11);
+var i27 = ran(8, 9);
+var i28 = ran(6, 7);
+var i29 = ran(4, 5);
+var i30 = ran(2, 3);
+var i31 = ran(0, 1);
 
 /*
 var i0 = Object.keys(loc)[Math.floor(Math.random()*Object.keys(loc).length)];
@@ -270,9 +285,6 @@ var i3 = Object.keys(loc)[Math.floor(Math.random()*Object.keys(loc).length)];
 		document.querySelector('.conte2 #te7').innerHTML = loc[i7].des;
 	}
 
-
-
-
 	function loc8 () { 	
 		document.querySelector('.conte2 #im8').src = loc[i8].src;
 		document.querySelector('.conte2 #ti8').innerHTML = loc[i8].no;
@@ -322,6 +334,107 @@ var i3 = Object.keys(loc)[Math.floor(Math.random()*Object.keys(loc).length)];
 	}
 
 
+
+
+
+
+	function loc16 () { 	
+		document.querySelector('.conte2 #im16').src = loc[i16].src;
+		document.querySelector('.conte2 #ti16').innerHTML = loc[i16].no;
+		document.querySelector('.conte2 #te16').innerHTML = loc[i16].des;
+	}
+
+	function loc17 () { 	
+		document.querySelector('.conte2 #im17').src = loc[i17].src;
+		document.querySelector('.conte2 #ti17').innerHTML = loc[i17].no;
+		document.querySelector('.conte2 #te17').innerHTML = loc[i17].des;
+	}
+
+	function loc18 () { 	
+		document.querySelector('.conte2 #im18').src = loc[i18].src;
+		document.querySelector('.conte2 #ti18').innerHTML = loc[i18].no;
+		document.querySelector('.conte2 #te18').innerHTML = loc[i18].des;
+	}
+
+	function loc19 () { 	
+		document.querySelector('.conte2 #im19').src = loc[i19].src;
+		document.querySelector('.conte2 #ti19').innerHTML = loc[i19].no;
+		document.querySelector('.conte2 #te19').innerHTML = loc[i19].des;
+	}
+
+	function loc20 () { 	
+		document.querySelector('.conte2 #im20').src = loc[i20].src;
+		document.querySelector('.conte2 #ti20').innerHTML = loc[i20].no;
+		document.querySelector('.conte2 #te20').innerHTML = loc[i20].des;
+	}
+
+	function loc21 () { 	
+		document.querySelector('.conte2 #im21').src = loc[i21].src;
+		document.querySelector('.conte2 #ti21').innerHTML = loc[i21].no;
+		document.querySelector('.conte2 #te21').innerHTML = loc[i21].des;
+	}
+
+	function loc22 () { 	
+		document.querySelector('.conte2 #im22').src = loc[i22].src;
+		document.querySelector('.conte2 #ti22').innerHTML = loc[i22].no;
+		document.querySelector('.conte2 #te22').innerHTML = loc[i22].des;
+	}
+
+	function loc23 () { 	
+		document.querySelector('.conte2 #im23').src = loc[i23].src;
+		document.querySelector('.conte2 #ti23').innerHTML = loc[i23].no;
+		document.querySelector('.conte2 #te23').innerHTML = loc[i23].des;
+	}
+
+	function loc24 () { 	
+		document.querySelector('.conte2 #im24').src = loc[i24].src;
+		document.querySelector('.conte2 #ti24').innerHTML = loc[i24].no;
+		document.querySelector('.conte2 #te24').innerHTML = loc[i24].des;
+	}
+
+	function loc25 () { 	
+		document.querySelector('.conte2 #im25').src = loc[i25].src;
+		document.querySelector('.conte2 #ti25').innerHTML = loc[i25].no;
+		document.querySelector('.conte2 #te25').innerHTML = loc[i25].des;
+	}
+
+	function loc26 () { 	
+		document.querySelector('.conte2 #im26').src = loc[i26].src;
+		document.querySelector('.conte2 #ti26').innerHTML = loc[i26].no;
+		document.querySelector('.conte2 #te26').innerHTML = loc[i26].des;
+	}
+
+	function loc27 () { 	
+		document.querySelector('.conte2 #im27').src = loc[i27].src;
+		document.querySelector('.conte2 #ti27').innerHTML = loc[i27].no;
+		document.querySelector('.conte2 #te27').innerHTML = loc[i27].des;
+	}
+
+	function loc28 () { 	
+		document.querySelector('.conte2 #im28').src = loc[i28].src;
+		document.querySelector('.conte2 #ti28').innerHTML = loc[i28].no;
+		document.querySelector('.conte2 #te28').innerHTML = loc[i28].des;
+	}
+
+	function loc29 () { 	
+		document.querySelector('.conte2 #im29').src = loc[i29].src;
+		document.querySelector('.conte2 #ti29').innerHTML = loc[i29].no;
+		document.querySelector('.conte2 #te29').innerHTML = loc[i29].des;
+	}
+
+	function loc30 () { 	
+		document.querySelector('.conte2 #im30').src = loc[i30].src;
+		document.querySelector('.conte2 #ti30').innerHTML = loc[i30].no;
+		document.querySelector('.conte2 #te30').innerHTML = loc[i30].des;
+	}
+
+	function loc31 () { 	
+		document.querySelector('.conte2 #im31').src = loc[i31].src;
+		document.querySelector('.conte2 #ti31').innerHTML = loc[i31].no;
+		document.querySelector('.conte2 #te31').innerHTML = loc[i31].des;
+	}
+
+
 	loc0();
 	loc1();
 	loc2();
@@ -330,7 +443,6 @@ var i3 = Object.keys(loc)[Math.floor(Math.random()*Object.keys(loc).length)];
 	loc5();
 	loc6();
 	loc7();
-
 	loc8();
 	loc9();
 	loc10();
@@ -340,7 +452,22 @@ var i3 = Object.keys(loc)[Math.floor(Math.random()*Object.keys(loc).length)];
 	loc14();
 	loc15();
 
-
+	loc16();
+	loc17();
+	loc18();
+	loc19();
+	loc20();
+	loc21();
+	loc22();
+	loc23();
+	loc24();
+	loc25();
+	loc26();
+	loc27();
+	loc28();
+	loc29();
+	loc30();
+	loc31();
 
 
 

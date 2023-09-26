@@ -3,6 +3,296 @@
 
 
 let news = [
+{
+		src: 'https://joesynth.files.wordpress.com/2022/10/f-droid.png',
+		no: 'Android: 30 softwares livres musicais',
+		des: 'Músico? DJ? Beatmaker? Sound design? Mesmo que você seja um simples amante da música irá gostar dessa loja de softwares. Players, softs de áudio, MIDI, synths e muito mais; tudo grátis, sem anúncios. Estamos falando da F-Droid, algo semelhante a Google Play _só que baseado na ideia de SL, Software Livre. | JoeSynth.wordpres.com',
+	},
+	{
+		src: 'https://joesynth.files.wordpress.com/2022/11/arp2600.gif',
+		no: 'Sintetizadores grátis?',
+		des: 'Separamos alguns softs sintetizadores, principalmente do tipo open-source, para você escolher ou mesmo conhecer um pouco mais. São eles: Yoshimi, ZynAddSubFX e Bristol. Este último, o Bristol, é um ambiente de código aberto para software sintetizador. O Bristol é formado por dois componentes: o Bristol que é o simulador de sintetizador e a interface gráfica que é a Brighton. Existe, por ex., um simulador de Arp-2600 (foto), dentre tantos outros. | JoeSynth.wordpres.com',
+	},
+	{
+		src: 'https://joesynth.files.wordpress.com/2018/06/meyer.jpg',
+		no: 'Meyer: sons integrados',
+		des: 'A importância de perceber e entregar soluções corretas. O engenheiro de áudio norte-americano John Meyer, fundou em 1979 com Helen Meyer a famosa empresa Meyer Sound. | JoeSynth.wordpres.com',
+	},
+	{
+		src: 'x',
+		no: 'Dolby: menos ruído mais cinema',
+		des: 'Sinônimo de áudio e vídeo, ele vive nas fitas e até mesmo no Blu-ray: o engenheiro norte-americano Ray Dolby. Cria da Universidade de Stanford, seu nome tem relação com música e tecnologia; a marca Ampex (também dos EUA), som de melhor qualidade, surround, filmes como A Clockwork Orange ou Batman Returns. | JoeSynth.wordpres.com',
+	},
+	{
+		src: 'https://joesynth.files.wordpress.com/2017/09/blumlein.jpg',
+		no: 'Blumlein: mais arte na e-music',
+		des: 'Nasce a gravação estéreo e novos horizontes para a mixagem e criação de sons. A natureza nos presenteia todos os dias com sons vindos de todos os lados. Mas na música gravada, isso teve de ser criado pois era tudo monofônico; e no futuro, teríamos o encantador efeito estéreo de discos, timbres de sintetizadores. | JoeSynth.wordpres.com',
+	},
+	{
+		src: 'https://joesynth.files.wordpress.com/2017/09/eddie.jpg',
+		no: 'Kramer: lê-se Kiss, Zeppelin, Hendrix...',
+		des: 'O técnico de som e produtor que trabalhou com dezenas de artistas, incluindo Beatles e Rolling Stones. | JoeSynth.wordpres.com',
+	},
+	{
+		src: 'https://joesynth.files.wordpress.com/2017/08/bum185.jpg',
+		no: 'História da emusic – revista DJ World',
+		des: 'Pela 1ª vez uma revista [de DJ] trouxe vastas informações sobre emusic ao mundo dos DJs brasileiros. Artigo realizado por Péricles Sodré e Joe S em edição de aniversário da revista. Na verdade são duas matérias em uma. A primeira aborda equipamentos, portanto música e tecnologia; enquanto a segunda é voltada a músicos, DJs, estilos. Foto: imagem de apresentação do artigo, na revista. | JoeSynth.wordpres.com',
+	},
+	{
+		src: 'https://joesynth.files.wordpress.com/2022/12/superficie_de_controle.png',
+		no: 'Superfícies de controle para DAWs',
+		des: 'Uma "control surface" é uma ferramento bem útil durante o trabalho musical. Então pensando am alguns nomes úteis para uma possível aquisição, temos: Avid, Behringer, Cakewalk, Focusrite, Korg, Mackie, Novation, Presonus, Qube Audio, Saitara Software, Slate Pro Audio, SmartAV, SSL, Studiologic (Fatar), Steinberg, Yamaha. | JoeSynth.wordpres.com',
+	},
+	{
+		src: 'https://joesynth.files.wordpress.com/2019/05/so_smptetrack-graphic-editor.jpg',
+		no: 'Sequenciador MIDI: 7 softs famosos anos 80',
+		des: 'Eles não tinham áudio mas eram capazes de proezas maravilhosas só com o MIDI. Alguns deles, com o tempo, adquiriram o recurso de gravação de áudio em várias pistas, é o caso do Cubase _embora isso seja uma outra história! Houve muitos softwares midi de computador, é o caso: KCS (Dr.T), Performer (MOTU), Creator/Notator (C-Lab), Vision (Opcode), Pro-24 (Steinberg), Sequencer Plus Mark III (Voyetra, que aliás, nem era tão importante assim, mas foi usado pelo grupo Information Society). Por último o da foto: SmpteTrack (Hybrid Arts). | JoeSynth.wordpres.com',
+	},
+	{
+		src: 'https://joesynth.files.wordpress.com/2022/11/640px-musescore_3.5.0_43c5553_qt_5.15.0.png',
+		no: '5 softwares de notação musical: grátis!',
+		des: 'Partitura? Tablatura? Conheça 5 belas opções em software livre. São elas: Aria Maestosa, TuxGuitar, LilyPond, MusE e... MuseScore (foto). | JoeSynth.wordpres.com',
+	},
+	{
+		src: 'https://joesynth.files.wordpress.com/2020/11/reaktor_carac-onda.jpg',
+		no: 'Sintetizador: Osciladores',
+		des: 'Um oscilador é o dispositivo responsável por gerar a forma de onda básica. Este sinal pode ser onda triangular, quadrada, etc. O oscilador além de criar este som inicial permite manipular suas características, como a freqüência, amplitude, fase. Na eletrônica de modo geral o oscilador tem várias aplicações, e mesmo na síntese de sons em específico, podemos usar vários deles de formas bem diferentes. | JoeSynth.wordpres.com',
+	},
+	{
+		src: 'https://dailyanalog.com/wp-content/uploads/2018/12/Sequential-Circuits-Prophet-5-728x316.jpg',
+		no: 'O que é Modulação? | Síntese Sonora',
+		des: 'Uma onda tem amplitude, freqüência, fase. Certo? A modulação é o processo pelo qual certas características dessas são modificadas em função de uma característica de uma outra onda ou sinal. Em outras palavras, mudança das características de um sinal usando outro (modulação) sinal. É usado em transmissão de rádio por exemplo, mas também para manipular sons; e as mais comuns são AM, FM, RM, mas também vibrato, filter sweep. O synth Prophet-5 (1978), por ex., usava PWM, Cross Modulation. | JoeSynth.wordpres.com',
+	},
+	{
+		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Crumar_Digital_Synthesizer_DS2_%28front%29.jpg/220px-Crumar_Digital_Synthesizer_DS2_%28front%29.jpg',
+		no: 'Síntese sonora: VCO e DCO',
+		des: 'Qual a diferença entre VCO e DCO? Quando e por que começou isso? VCO é o tipo de oscilador usado nos anos setenta, analógico. Embora esse OSC análogo tenha uma certa instabilidade (quanto ao pitch) é muito apreciado por músicos e tecladistas. Já o DCO permite criar pitch digitalmente e de forma estável. Em outras palavras, o DCO foi criado para superar as limitações de estabilidade de afinação do VCO. Logicamente o DCO é uma geração posterior ao VCO e é usado em synths dos anos 80 (Poly 800 [83/84] por exemplo). Ele não usa tensão para criar suas ondas básicas e sim contadores digitais, tendo formas de onda tipo dente-de-serra e quadrada. Embora esse contador seja um dispositivo digital, o processamento desse Korg é analógico. Na foto um Crumar de 1978.  | JoeSynth.wordpres.com',
+	},
+	{
+		src: 'https://joesynth.files.wordpress.com/2022/12/roland_vs880.png',
+		no: 'Portastudio digital... da época da vovó',
+		des: 'Hoje fazemos gravação e mixagem pelo computador. Porém, nem sempre os computadores foram tão acessíveis, de forma que muitos úsicos utilizavam equipamentos dedicados. É o caso do portastudio digital _que na verdade já era uma versão moderna do portastudio analógico, portanto fita no lugar do HD. Houve marcas famosas desses aparelhos, as japonesas Roland, Fostex, Akai, Korg, Boss e Zoom. | JoeSynth.wordpres.com',
+	},
+	{
+		src: 'https://joesynth.files.wordpress.com/2022/11/wavelab4.png',
+		no: 'Software de masterização: 7 lendas vivas até hoje',
+		des: 'Muitos dos programas conhecidos hoje já são bem “velhinhos”, ou melhor, clássicos. Sendo um software, um programa desses não se desgasta com o tempo, e até pode melhorar devido à implementações do próprio código, versões. Então vamos lembrar alguns nomes já lendários? Sequoia ou Samplitude, Sound Forge, WaveLab, Adobe Audition (antigo Cool Edit Pro), Soundblade (Sonic Studio), SADiE, SAW (Software Audio Workshop). | JoeSynth.wordpres.com',
+	},
+	{
+		src: 'https://joesynth.files.wordpress.com/2022/12/portastudio_sansui_wsx1.png',
+		no: 'Estúdio de gravação caseiro: em fita?',
+		des: 'Chamados de portastudios, eram as “DAWs” do século passado, hoje dinossauros num estúdio caseiro. As várias pistas que gravamos atualmente num HD do computador eram registradas em fita. Tal como numa DAW atual havia a mesa de mixagem; porém, claro, muito mais limitada. Com toda limitação das fitinhas e da própria época, ainda sim eram equipamentos bem procurados por músicos. Como um estúdio profissional ou mesmo semi-profissional era caro alugar, o jeito era adquirir um portastudio e aprender áudio. Sim! Os músicos estudavam áudio ou eletrônica para poder obter o melhor resultado sonoro com seus aparelhos. | JoeSynth.wordpres.com',
+	},
+	{
+		src: 'https://joesynth.files.wordpress.com/2022/12/multipistas_tascam_mx2424.png',
+		no: 'Gravador multitrack: HD em 24 bits',
+		des: 'O Tascam MX2424 foi gravador em Hard Disk de 1999, um multipistas de 24 trilhas. Foi o 1º gravador HD de 24 bits e 24 trilhas do mundo. Tinha vários recursos de edição, sendo que foi co-projetado pela TASCAM e TimeLine Inc. | JoeSynth.wordpres.com',
+	},
+	{
+		src: 'https://joesynth.files.wordpress.com/2022/12/fostex_foundation_2000re.png',
+		no: 'DAW multitrack: vintage e em hardware',
+		des: 'Os sistemas de gravação multipistas em HDs não são novos, sendo que existia vários nos anos 90 _porém muito mais caros do que é hoje. Algumas marcas da época que desenvolviam esses equipamentos eram a Akai, Fostex e Roland. | JoeSynth.wordpres.com',
+	},
+	{
+		src: 'https://joesynth.files.wordpress.com/2020/12/steinberg_cubase_sx_d.png',
+		no: 'O que é Mixdown: pre-master',
+		des: 'O pré-master, tradicionalmente, se refere à gravação de 2 trilhas que é o resultado da mixagem (das várias trilhas). O formato/equipamento diz-se que que pode ser analógico ou digital. Evidentemente, a analógica se refere às fitas de gravadores de rolo, um processo antigo _e mesmo o digital utilizando fitas digitais (como a DAT) também é algo antigo, tipicamente anos 80 e 90. | JoeSynth.wordpres.com',
+	},
+	{
+		src: 'https://joesynth.files.wordpress.com/2020/12/steinberg_cubase_sx_d.png',
+		no: 'O que é Mixdown?',
+		des: 'Mixdown é o trabalho de mixagem final da música, onde todas as trilhas serão mixadas para duas trilhas somente, resultando no master estereofônico. Ao fazer essa tarefa de mixar as tracks de nossa música, também podemos pensar no formato surround, em vez da mera gravação estéreo. | JoeSynth.wordpres.com',
+	},
+	{
+		src: 'https://gearspace.com/board/attachments/product-image-container/483596-product-images-s20204-5.jpg',
+		no: 'Compressor analógico: os 4 tipos',
+		des: 'Optical (óptico): compressores ópticos incluem marcas como Avalon, Tube- Tech e Millennia Media TCL2.” [foto: Joemeek SC2]. Variable–mu tube: é o compressor valvulado clássico, e inclui grandes nomes como Fairchild (660 e 670) e Pendulum (modelo ES8). VCA (voltage–controlled amplifier): já esse do tipo VCA é disponibilizado por empresas como SSL, API e Focusrite (Red 3). FET (field–effect transistor): o FET é um tipo de transistor, e compressores que fazem uso disso incluem marcas como Universal Audio e Cranesong (STC8). | JoeSynth.wordpres.com',
+	},
+	{
+		src: 'https://joesynth.files.wordpress.com/2019/05/stei_qmetric.png',
+		no: 'Equalizador para masterização: um pouco de história!',
+		des: 'Spectral Design (Steinberg) Q-Metric (1998). Um dos primeiros plug-in paramétrico lançado como uma ferramenta HiEnd. Além do processamento interno com amostragem dupla, exibe as curvas graficamente. Tinha 7 bandas, sendo 3 do tipo peak, 2 shelv e mais 2 filtros de corte (passa baixa e passa alta). | JoeSynth.wordpres.com',
+	},
+	{
+		src: 'https://joesynth.files.wordpress.com/2017/08/synths_em_reaktor-e1502461637374.jpg',
+		no: 'Sintetizadores criados em Reaktor',
+		des: 'O Reaktor é uma ferramenta da Native Instruments, e que pode ser entendida como um ambiente de programação gráfica, VPL ou sintetizador modular. Resumindo, você criará sintetizadores como se estivesse criando um software, porém sem escrever aquelas linhas de códigos típicas de um programador. Ou, se fosse um engenheiro de áudio ou sound designer criando através daqueles cabos e mais cabos, conectados em módulos. No Reaktor pode-se criar de tudo, desde um simulador de synth analógico até uma mesa de som ou ainda uma aplicação surround. | JoeSynth.wordpres.com',
+	},
+	{
+		src: 'https://joesynth.files.wordpress.com/2019/05/midi_sintese.png',
+		no: 'MIDI & Síntese: técnicas',
+		des: 'O midi pode-se utilizado de forma mais voltada a criação de timbres e mixagem. Por exemplo, uma alavanca ou deslizante de seu controlador atuando de forma bem rápida "em cima" de um timbre, fazendo o parâmetro filtro (o que criará um efeito semelhante a síntese FM). Uma trilha com cópia da primeira, mas atrasada, com volume baixo e que em certos momentos mudamos esse volume para níveis bem baixinhos ou mais altos (ou seja, um eco controlado). Semelhante pode ser feito com um timbre no estéreo. Outra função controlada via midi é a mudança de andamento ou ainda compasso. | JoeSynth.wordpres.com',
+	},
+	{
+		src: 'https://joesynth.files.wordpress.com/2021/07/midi.png',
+		no: 'Melhor controlador MIDI?',
+		des: 'Super importe um controlador midi, não é? Anos 90, um conhecido era o Roland PC200mkIIx, que foi utilizado num disco exatamente de música eletrônica experimental: o "The R2ep". Embora antigo, pode-se notar no vinil que é um disco repleto de efeitos de modulações, controlado via MIDI. Hoje há muito mais opções desses controladores. No que tange marcas há muitas, e algumas são: as alemãs Behringer, ESI (EgoSys), a francesa Arturia, a inglesa Novation e japonesas como a Akai, Korg, Roland e Yamaha. | JoeSynth.wordpres.com',
+	},
+	{
+		src: 'https://joesynth.files.wordpress.com/2022/11/schism-tracker.png',
+		no: 'Game? Então pense Tracker!',
+		des: 'Softwares musicais baseados em loops ficaram comuns, como é o caso do FL Studio. O tracker, porém, têm uma certa marca histórica; afinal, era um programa musical típico dos anos 80 e 90. Esses aplicativos chamados trackers combinavam samples com um sequenciador básico (tipicamente baseado em padrões, patterns). Como a tecnologia da época era diferente do que há hoje, os sons são bem "cara" de game retrô. Ou seja, se você gosta de loops repetitivos e hipnóticos, então seja bem-vindo ao mundo dos trackers! | JoeSynth.wordpres.com',
+	},
+	{
+		src: 'https://joesynth.files.wordpress.com/2022/12/controlador_midi_kawai_vpc1.png',
+		no: 'Piano: melhor controlador MIDI 88 teclas?',
+		des: 'Para escolher um pode-se pensar sobre o que é mais relevante? É preciso optar diante do seu contexto de sua vida. Preço, durabilidade, marketing (como impressionar seus clientes no estúdio), tecla é o mais importante (daí a mecânica é o vital), se os recursos diversos são o mais importante (boas teclas convém, mas os botões controladores são vitais pro seu estilo de música? O equipamento será transportado frequentemente, por ex., do estúdio para um show? Se você tiver mais recur$o$ pode conciliar duas ou mais coisas num equipamento que supra várias necessidades, ou, caso contrário, focar no essencial para ser mais conveniente. Algumas marcas a se considerar: as alemãs Swissonic, Native Instruments e Doepfer, a italiana Studiologic (Fatar), a francesa Arturia, a originalmente norte-americana Kurzweil e as japonesas: Roland, Yamaha, Korg e Kawai (foto). | JoeSynth.wordpres.com',
+	},
+	{
+		src: 'https://joesynth.files.wordpress.com/2020/12/zero-g_sample_libraries.png',
+		no: 'Biblioteca de sons: um pouco de história!',
+		des: 'Décadas atrás o drive de disquete (floppy-disk) era um meio bem comum de se guardar dados. Ele era prático e mais barato que os HDs. Ao adquirir um sampler de estúdio, este poderia vir com alguns discos, os quais tinham não só amostras como também toda ‘programação’ do timbre, ou seja, a configuração de LFOs, envelopes… Comparado ao HD o disquete era pouco durável (daí se fazia backup), além do espaço de memória ser pequeno. Com o tempo os CD-ROMs (que eram idênticos aos CDs de música) se tornaram mais apropriados que os disquetes. Embora, no início, fossem mais caros que os disquetes, havia CD-ROMS para as máquinas da época (Emu, Roland, Akai...). | JoeSynth.wordpres.com',
+	},
+	{
+		src: 'https://joesynth.files.wordpress.com/2020/12/zero-g_sample_libraries.png',
+		no: 'Biblioteca de Sons',
+		des: 'A biblioteca de sons está intimamente ligada ao sampler, já que é ele quem reproduz; aliás, o sample player também. A nítida vantagem de lidar com bibliotecas é estarmos sempre expandindo nossos sons, timbres. Outro ponto relevante (muito por sinal!) é que esses sons são gravados por empresas e gente especializada. Portanto não se espante de ouvir um ‘belo sample‘, no sentido da qualidade sonora. Semelhante, timbres majestosos ou mesmo delicados. | JoeSynth.wordpres.com',
+	},
+
+
+
+
+
+	// Basicamente joesynth.wordpress e wikipedia
+
+	{
+		src: 'https://joesynth.files.wordpress.com/2020/11/audiorealism_abl_pro.png',
+		no: 'Sintetizador modular',
+		des: 'Sintetizador feito a partir de módulos separados, os blocos fundamentais, e cada um com uma funçao diferente. Já havia no século passado e hoje pode-se encontrar semelhante no domínio virtual. | JoeSynth.wordpress.com',
+	},
+	{
+		src: 'https://joesynth.files.wordpress.com/2020/11/jeff_mcclintock_synthedit.png',
+		no: 'Sintetizador: VPL?',
+		des: 'Pode ser encarado como um sintetizador modular, bem como uma forma de criar um software musical sem termos que escrever linhas e mais linhas de códigos. No lugar dos cabos ligando de lá pra cá ou dos textos (típicos de programadores) temos os ícones (objetos como módulos). Ou seja, desenvolvemos o nosso synth com o mouse. O SynthEdit (foto) e o Reaktor são exemplos de VPLs. | JoeSynth.wordpress.com',
+	},
+	{
+		src: 'https://joesynth.files.wordpress.com/2020/11/ni_fm7.png',
+		no: 'Síntese sonora FM (Frequency Modulation)',
+		des: 'Modulação na qual a frequência é a característica variada. Um OSC é modulado por outro OSC, criando uma gama incrível de timbres. Pode ser implementada com OSCs analógicos ou digitais. | JoeSynth.wordpress.com',
+	},
+	{
+		src: 'https://www.springair.de/media/image/e3/e7/17/h54529-0-54529_600x600.jpg',
+		no: 'Anos 80 e 90: era tudo digital!',
+		des: 'Embora nessa época os vinis fossem típicos para os cidadãos ouvirem músicas (mesmo já existindo o CD), nos estúdios a situação era outra. O equipamento predileto dos profissionais era o DAT _e que chegou a se tornar um padrão. Um aparelho como o Sony PCM-2500 gravava de forma digital numa pequena fita, sendo a excelência da qualidade daqueles tempos. Dessa fita digital é que se fazia os vinis, estes analógicos. Claro, tudo isso envolvia um certo processo. Dependendo de certas circunstâncias, mesmo a gravação multipistas já poderia estar sendo feita em domínio também digital. Ou seja, para quem estava em casa tocando e ouvindo um belo vinil (portanto som análogo), na verdade, estava-se ouvindo áudio analógico mas que anteriormente tinha sido finalizado de forma digital. Por outra lado, durou por certo tempo um padrão da indústria que mostrava se tal fase de produção do disco era digital ou não.',
+	},
+	{
+		src: 'https://www.vintagesynth.com/sites/default/files/2017-05/touche.jpg',
+		no: 'Sintese sonora: waveshaping',
+		des: 'A waveshaper é uma técnica em que um OSC ao gerar determinada forma de onda tenha esta transformada noutra forma, isso em tempo real. O teclado Buchla (foto) de 1978 e o Korg 01/W de 1991 são casos de uso dessa técnica de geração de sons. | JoeSynth.wordpress.com',
+	},
+	{
+		src: 'https://joesynth.files.wordpress.com/2022/12/monitor_krk_v8.png',
+		no: 'Monitores de estúdio: 10 marcas clássicas!',
+		des: 'Sendo uma ferramenta especial num estúdio, é sempre bom lembrar algumas marcas relevantes. São elas: ADAM e Genelec (ambas com dezenas de prêmios cada uma), B&W, Dynaudio, Focal, JB, KRK Systems, PMC e, por fim, Yamaha.',
+	},
+	{
+		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Clavecin_flamand.png/200px-Clavecin_flamand.png',
+		no: 'Cravo: um pouco de história',
+		des: 'A origem do cravo é obscura, mas sabe-se que surgiu em algum momento da alta Idade Média ou na Idade Média tardia. As mais antigas referências escritas ao instrumento datam dos anos 1300 e é possível que o cravo tenha sido inventado naquele século.',
+	},
+	{
+		src: 'https://joesynth.files.wordpress.com/2020/11/waldorf_ppg_wave_2v.png',
+		no: 'Síntese Wavetable',
+		des: 'Nesse método, no lugar dos osciladores analógicos, com 3 ou 4 formas de onda, há o oscilador digital por tabela de onda; que contém dezenas de formas de onda e é possível executá-las dinamicamente (via LFO, envelopes...). Um ícone desse tipo de síntese sonora: o PPG! | JoeSynth.wordpress.com',
+	},
+	{
+		src: 'https://joesynth.files.wordpress.com/2020/11/gmedia_music_imposcar.png',
+		no: 'Síntese Aditiva',
+		des: 'Um ícone desse tipo de síntese sonora: o OSC!',
+	},
+	{
+		src: 'https://joesynth.files.wordpress.com/2020/11/linplug_saxlab_2.png',
+		no: 'ROMpler',
+		des: 'Era um tipo de sintetizador (em hardware) que tinha sons armazenados em memória ROM. Podiam ter timbres cotidianos mas também bateria. Com a popularização dos computadores o recurso passou a ser simulado via softwares, como VSTs.',
+	},
+	{
+		src: 'https://joesynth.files.wordpress.com/2020/11/ni_absynth.png',
+		no: 'Sintetizador multi síntese',
+		des: 'Antigamente um sintetizador podia gerar seus sons utilizando a síntese subtrativa, enquanto um outro aparelho utilizar outro método. Anos 80, com o surgimento de sintetizadores computadorizados, em especial, passou-se a ter a possibilidade de diversos tipos de síntese num único aparelho.',
+	},
+	{
+		src: 'https://joesynth.files.wordpress.com/2020/11/xfer_serum.png',
+		no: 'Síntese Wavetable',
+		des: 'Embora a palavra "wave" possa dar a impressão de onda sampleada (inclusive anos 90 placas de som baratas, para computador, eram limitadamente samples er), a síntese do tipo wavetable é baseada na SCW, single cycle waveform. Basicamente, no lugar de termos uma onda quadrada ou dente-de-serra para gerarmos nossos sons, temos uma variedade bem maior dessas ondas inicias. Tal como a onda quadrada ou dente-de-serra, essas ondas utilizadas num wavetable também são ondas constantes e que serão processadas.',
+	},
+	{
+		src: 'https://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/7rUAAOSw1P9hjQHD/$_86.JPG',
+		no: 'Síntese Wavetable',
+		des: 'Embora a síntese wavetable tenha sido um grande avanço em novos sons, um sintetizador PPG era caro. Um modelo como o DW da japonesa Korg era uma opção mais acessível _embora não chegasse ao mesmo poder de um tradicional synth do tipo wavetable.',
+	},
+	{
+		src: 'https://i.ytimg.com/vi/pvk3pA4GaUI/maxresdefault.jpg',
+		no: 'MDM: a gravação multipista profissional dos anos 90',
+		des: 'Numa época que computadores e HDs ainda eram caros, a forma encontrada pela indústria era o MDM, um equipamento digital que permitia gravar oito pistas, por exemplo, de forma simultânea. Sendo modular, então mais aparelhos desses podiam ser interconectados, perfazendo 16 canais ou mais. É certo que nessa época os vinis ainda eram bem comuns; porém, no estúdio, muitos já estavam sendo registrados digitalmente (tanto no que tange gravação multipistas como a finalização em dois canais stereo).',
+	},
+	{
+		src: 'https://joesynth.files.wordpress.com/2018/06/novo-44pb.png',
+		no: 'TR-808',
+		des: 'A bateria eletrônica analógica da Roland que fez história. Ela foi usada por inúmeros artistas e nos mais diversos estilos musicais. Foto: 808 no estúdio de Joe S, anos 90.',
+	},
+	{
+		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Clavecin_flamand.png/200px-Clavecin_flamand.png',
+		no: 'Cravo',
+		des: 'É a designação dada a qualquer dos membros de uma família europeia de instrumentos musicais de tecla, incluindo os grandes instrumentos comumente chamados de cravos, que são o clavecino também chamado de clavicêmbalo, mas também os menores: virginal, o virginal muselar e a espineta. Todos esses instrumentos pertencem ao grupo das cordas pinçadas, ou seja, geram o som tangendo ou beliscando uma corda ao invés de percuti-la como no piano ou no clavicórdio. | ft:pt.wi',
+	},
+	{
+		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Piano_for_2_Players_Outside.jpg/200px-Piano_for_2_Players_Outside.jpg',
+		no: 'Piano... mas preparado!',
+		des: 'Chama-se de piano preparado o instrumento em que é colocado objetos no interior da caixa de ressonância.  John Cage, Toni Frade e Hermeto Pascoal são casos de compositores que inovaram com isso. | ft:pt.wi',
+	},
+	{
+		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Steinway_Vienna_011.JPG/545px-Steinway_Vienna_011.JPG',
+		no: 'Piano: as teclas!',
+		des: 'Um piano comum tem, geralmente, oito lás, oito sis bemóis, oito sis, oito dós, sete dós sustenidos, sete rés, sete mis bemóis, sete mis, sete fás, sete fás sustenidos, sete sóis e sete sóis sustenidos, formando um total de 88 notas musicais.[6] Se for um de 97 notas musicais, do tipo Bösendorfer 290, ele terá nove dós, oito dós sustenidos, oito rés, oito mis bemóis, oito mis, oito fás, oito fás sustenidos, oito sóis, oito sóis sustenidos, oito lás, oito sis bemóis e oito sis. | ft:pt.wi',
+	},
+	{
+		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/BartolomeoCristofori.jpg/220px-BartolomeoCristofori.jpg',
+		no: '🇮🇹 Bartolomeo Cristofori: piano',
+		des: 'Fabricante de cravos, e que desde criança adorava música, queria descobrir um jeito de conseguir maior dinâmica de sons, visto que o cravo não permitia diferenças de dinâmica (intensidade do som) devido ao seu mecanismo de toque.',
+	},
+	{
+		src: 'https://upload.wikimedia.org/wikipedia/commons/6/68/1918_Ludwig_drum_sets.jpg',
+		no: 'O pedal de bateria',
+		des: 'No incício do séc. XX uma banda tinha dois ou mais percussionistas; um tocando o bumbo, outro a caixa e assim por diante. Uma vez inventado o pedal, agora um único músico podia fazer todas essas operações. Outra criação interessante foi a estante para caixa, já que antes os bateristas usavam cadeiras para apóia-las ou penduravam nos ombros com uso de correias.',
+	},
+	{
+		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Edmund_Lowe_fsa_8b06653.jpg/170px-Edmund_Lowe_fsa_8b06653.jpg',
+		no: 'Microfone: ribbon (fita)',
+		des: 'Utiliza uma fita de metal fina suspensa em um campo magnético. Ele é semelhante ao microfone de bobina móvel, no sentido que ambos produzem som por meio de indução magnética. O microfone de fita é bem-vindo no caso da gravação estéreo.',
+	},
+	{
+		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Neumann_U47_Tube.jpg/220px-Neumann_U47_Tube.jpg',
+		no: 'Microfone: válvula',
+		des: 'Um tipo de microfone condensador que, no lugar do circuito transistorizado, utiliza um amplificador valvulado. Foto: Neumann U47',
+	},
+	{
+		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Stevie_Wonder_1973.JPG/260px-Stevie_Wonder_1973.JPG',
+		no: 'Electro-Voice RE20',
+		des: 'Um microfone profissional do tipo dinâmico, sendo um dos mais populares do mundo para anúncios, broadcast. Anos 60 e 70 já era bem utilizado em aplicações de transmissão; e mais recentemente, em 2015, incluído no Hall da Fama de Tecnologia do TEC Awards.',
+	},
+	{
+		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Electret_condenser_microphone_capsules.jpg/220px-Electret_condenser_microphone_capsules.jpg',
+		no: 'Microfone Eletreto',
+		des: 'Também conhecido como microfone de condensador, tem tamanho pequeno, baixo custo, excelente sensibilidade.',
+	},
+	{
+		src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdouPrqz9RsP_Gd1UvnowgZAm7MKmIghmx2Zgeo3ZbiRCH217r-cpwNOICwPWfaMbQimg&usqp=CAU',
+		no: 'Microfone condensador',
+		des: 'São microfones mais voltados à gravação profissional, principalmente nos grandes estúdios. O MXL V69 é um exemplo; e marcas tradicionais incluem AKG, Audio-Technica ou Neumann.  | JoeSynth.wordpress.com',
+	},
+	{
+		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Shure_mikrofon_55S.jpg/170px-Shure_mikrofon_55S.jpg',
+		no: 'Microfone dinâmico',
+		des: 'É o tipo de microfone mais comum, sendo utilizado frequentemente desde situações mais simples até algumas mais sofisticadas (como apresentações em palco ou mesmo para microfonar instrumentos). O Shure SM58 ou 55S (foto) são exemplos (este último famoso por personalidades como Elvis, Ella Fitzgerald, Benny Goodman, Frank Sinatra e outras). Outro caso respeitável é o Electro-Voice RE20.',
+	},
+	{
+		src: 'https://joesynth.files.wordpress.com/2021/07/fone_sony.png',
+		no: 'Fones profissionais usados em estúdios e rádios',
+		des: 'Muitas marcas conseguiram obter bastante respeito nesse tipo de equipmento, é o caso da Sennheiser com os modelos HD280, HD265, HD25SP, HD580 Precision. Já a a Sony com MDR-V6, MDR-V600, MDR-7506 substituto do V6, MDR-7509HD; isso além do MDR-CD900ST, projetado e fabricado pela Sony japonesa (não a Sony Electronic). Outras tradicionais empresas incluem Audio Technica, AKG, Beyerdynamic ou Koss. | JoeSynth.wordpress.com',
+	},
+
+
+
 
 	// Grove
 
@@ -257,23 +547,40 @@ let mus = [
 function ran(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-var i0 = ran(34, 39);		// Primeiro artigo do topo
-var i1 = ran(30, 33);
-var i2 = ran(26, 29);
-var i3 = ran(24, 25);
-var i4 = ran(22, 23);
-var i5 = ran(20, 21);
-var i6 = ran(18, 19);
-var i7 = ran(16, 17);
+var i0 = ran(85, 95);		// Primeiro artigo do topo
+var i1 = ran(75, 84);
+var i2 = ran(70, 74);
+var i3 = ran(65, 69);
+var i4 = ran(60, 64);
+var i5 = ran(55, 49);
+var i6 = ran(50, 54);
+var i7 = ran(48, 49);
+var i8 = ran(46, 47);
+var i9 = ran(44, 45);
+var i10 = ran(42, 43);
+var i11 = ran(40, 41);
+var i12 = ran(38, 39);
+var i13 = ran(36, 37);
+var i14 = ran(34, 35);
+var i15 = ran(32, 33);
 
-var i8 = ran(14, 15);
-var i9 = ran(12, 13);
-var i10 = ran(10, 11);
-var i11 = ran(8, 9);
-var i12 = ran(6, 7);
-var i13 = ran(4, 5);
-var i14 = ran(2, 3);
-var i15 = ran(0, 1);
+var i16 = ran(30, 31);
+var i17 = ran(28, 29);
+var i18 = ran(26, 27);
+var i19 = ran(24, 25);
+var i20 = ran(22, 23);
+var i21 = ran(20, 21);
+var i22 = ran(18, 19);
+var i23 = ran(16, 17);
+var i24 = ran(14, 15);
+var i25 = ran(12, 13);
+var i26 = ran(10, 11);
+var i27 = ran(8, 9);
+var i28 = ran(6, 7);
+var i29 = ran(4, 5);
+var i30 = ran(2, 3);
+var i31 = ran(0, 1);
+
 
 
 /*
@@ -332,11 +639,6 @@ var i3 = Object.keys(news)[Math.floor(Math.random()*Object.keys(news).length)];
 		document.querySelector('.conte1 #te7').innerHTML = news[i7].des;
 	}
 
-
-
-
-
-
 	function news8 () { 	
 		document.querySelector('.conte1 #im8').src = news[i8].src;
 		document.querySelector('.conte1 #ti8').innerHTML = news[i8].no;
@@ -388,6 +690,105 @@ var i3 = Object.keys(news)[Math.floor(Math.random()*Object.keys(news).length)];
 
 
 
+
+	function news16 () { 	
+		document.querySelector('.conte1 #im16').src = news[i16].src;
+		document.querySelector('.conte1 #ti16').innerHTML = news[i16].no;
+		document.querySelector('.conte1 #te16').innerHTML = news[i16].des;
+	}
+
+	function news17 () { 	
+		document.querySelector('.conte1 #im17').src = news[i17].src;
+		document.querySelector('.conte1 #ti17').innerHTML = news[i17].no;
+		document.querySelector('.conte1 #te17').innerHTML = news[i17].des;
+	}
+
+	function news18 () { 	
+		document.querySelector('.conte1 #im18').src = news[i18].src;
+		document.querySelector('.conte1 #ti18').innerHTML = news[i18].no;
+		document.querySelector('.conte1 #te18').innerHTML = news[i18].des;
+	}
+
+	function news19 () { 	
+		document.querySelector('.conte1 #im19').src = news[i19].src;
+		document.querySelector('.conte1 #ti19').innerHTML = news[i19].no;
+		document.querySelector('.conte1 #te19').innerHTML = news[i19].des;
+	}
+
+	function news20 () { 	
+		document.querySelector('.conte1 #im20').src = news[i20].src;
+		document.querySelector('.conte1 #ti20').innerHTML = news[i20].no;
+		document.querySelector('.conte1 #te20').innerHTML = news[i20].des;
+	}
+
+	function news21 () { 	
+		document.querySelector('.conte1 #im21').src = news[i21].src;
+		document.querySelector('.conte1 #ti21').innerHTML = news[i21].no;
+		document.querySelector('.conte1 #te21').innerHTML = news[i21].des;
+	}
+
+	function news22 () { 	
+		document.querySelector('.conte1 #im22').src = news[i22].src;
+		document.querySelector('.conte1 #ti22').innerHTML = news[i22].no;
+		document.querySelector('.conte1 #te22').innerHTML = news[i22].des;
+	}
+
+	function news23 () { 	
+		document.querySelector('.conte1 #im23').src = news[i23].src;
+		document.querySelector('.conte1 #ti23').innerHTML = news[i23].no;
+		document.querySelector('.conte1 #te23').innerHTML = news[i23].des;
+	}
+
+	function news24 () { 	
+		document.querySelector('.conte1 #im24').src = news[i24].src;
+		document.querySelector('.conte1 #ti24').innerHTML = news[i24].no;
+		document.querySelector('.conte1 #te24').innerHTML = news[i24].des;
+	}
+
+	function news25 () { 	
+		document.querySelector('.conte1 #im25').src = news[i25].src;
+		document.querySelector('.conte1 #ti25').innerHTML = news[i25].no;
+		document.querySelector('.conte1 #te25').innerHTML = news[i25].des;
+	}
+
+	function news26 () { 	
+		document.querySelector('.conte1 #im26').src = news[i26].src;
+		document.querySelector('.conte1 #ti26').innerHTML = news[i26].no;
+		document.querySelector('.conte1 #te26').innerHTML = news[i26].des;
+	}
+
+	function news27 () { 	
+		document.querySelector('.conte1 #im27').src = news[i27].src;
+		document.querySelector('.conte1 #ti27').innerHTML = news[i27].no;
+		document.querySelector('.conte1 #te27').innerHTML = news[i27].des;
+	}
+
+	function news28 () { 	
+		document.querySelector('.conte1 #im28').src = news[i28].src;
+		document.querySelector('.conte1 #ti28').innerHTML = news[i28].no;
+		document.querySelector('.conte1 #te28').innerHTML = news[i28].des;
+	}
+
+	function news29 () { 	
+		document.querySelector('.conte1 #im29').src = news[i29].src;
+		document.querySelector('.conte1 #ti29').innerHTML = news[i29].no;
+		document.querySelector('.conte1 #te29').innerHTML = news[i29].des;
+	}
+
+	function news30 () { 	
+		document.querySelector('.conte1 #im30').src = news[i30].src;
+		document.querySelector('.conte1 #ti30').innerHTML = news[i30].no;
+		document.querySelector('.conte1 #te30').innerHTML = news[i30].des;
+	}
+
+	function news31 () { 	
+		document.querySelector('.conte1 #im31').src = news[i31].src;
+		document.querySelector('.conte1 #ti31').innerHTML = news[i31].no;
+		document.querySelector('.conte1 #te31').innerHTML = news[i31].des;
+	}
+
+
+
 	news0();
 	news1();
 	news2();
@@ -396,7 +797,6 @@ var i3 = Object.keys(news)[Math.floor(Math.random()*Object.keys(news).length)];
 	news5();
 	news6();
 	news7();
-	
 	news8();
 	news9();
 	news10();
@@ -406,6 +806,22 @@ var i3 = Object.keys(news)[Math.floor(Math.random()*Object.keys(news).length)];
 	news14();
 	news15();
 
+	news16();
+	news17();
+	news18();
+	news19();
+	news20();
+	news21();
+	news22();
+	news23();
+	news24();
+	news25();
+	news26();
+	news27();
+	news28();
+	news29();
+	news30();
+	news31();
 	
 	
 	
