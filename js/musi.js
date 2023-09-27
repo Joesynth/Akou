@@ -18,6 +18,138 @@ var musi = [		/* musi = músicos, pessoa
 
 /* Array de Objetos: no = nome, des = descrição */
 let mus = [
+
+		// 32 obj
+
+	{
+		src: 'https://aloalobahia.com/images/p/osbapremioprofissionais_alo_alo_bahia.jpg',
+		no: 'Orquestra Sinfônica da Bahia (OSBA) | BA',
+		des: 'Foi destaque no Prêmio Profissionais da Música. Foi fundada em 1944 pelo Padre Luiz Gonzaga de Mariz, padre jesuíta ligado ao Colégio Antônio Vieira de Salvador. Tem relação com a sala de concerto Teatro Castro Alves e o condutor Carlos Prazeres.',
+	},
+	{
+		src: 'https://cidadedeniteroi.com/wp-content/uploads/2018/08/Johann-Sebastian-Rio-Foto-.jpg',
+		no: 'Orquestra Johann Sebastian Rio',
+		des: 'Ligada a nomes como Felipe Prazeres, Eduardo Pereira (violinista), Ivan Zandonade (violinista), Vanessa Rocha (poetisa).',
+	},
+	{
+		src: 'https://musica.ufrj.br/images/vinhetas/osufrj_2.webp',
+		no: 'Orquestra Sinfônica da UFRJ (OSUFRJ)',
+		des: 'É fruto de uma longa história de atividades ininterruptas, iniciada em 1924. Um nome referente à Escola de Música da UFRJ.',
+	},
+	{
+		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Logo_EM_-_UFRJ.png/300px-Logo_EM_-_UFRJ.png',
+		no: 'Escola de Música da Universidade Federal do Rio de Janeiro (EMUFRJ)',
+		des: 'Fundada em 1841, é a instituição de ensino musical mais antiga em atividade no Brasil. Destina-se ao ensino e à pesquisa, visando principalmente à formação em nível superior, nas atividades de execução, interpretação, criação musical e formação de professores.',
+	},
+	{
+		src: 'https://www.teatroguaira.pr.gov.br/sites/teatro-guaira/arquivos_restritos/files/styles/escala_e_corta_570_390_/public/imagem/2019-11/157131514625_10.jpg?itok=8p49rkRB',
+		no: 'Orquestra Sinfônica do Paraná (OSP)',
+		des: 'Criada em 1985, seu primeiro maestro titular e emérito foi Alceo Bocchino e o primeiro maestro adjunto, Osvaldo Colarusso. 🖼️ Teatro Guaíra.',
+	},
+	{
+		src: 'https://joesynth.files.wordpress.com/2018/07/20180705_094708.jpg',
+		no: 'Montagens: selos',
+		des: 'A montagem foi a mãe do funk carioca; imortalizada, em especial, pelos selos M.Funk Records e... 🖼️ Selo Audio Bass.',
+	},
+	{
+		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Roberto_Tibiri%C3%A7a_I.jpg/270px-Roberto_Tibiri%C3%A7a_I.jpg',
+		no: 'Roberto Tibiriçá | SP',
+		des: 'Mestro titular da cadeira de nº 5 da Academia Brasileira de Música, desde de 2003; e Membro Honorário da Academia Nacional de Música, Rio de Janeiro.',
+	},
+	{
+		src: 'https://musica.ufrj.br/images/noticias/salo_leopoldo_miguz.webp',
+		no: 'Salão Leopoldo Miguez da UFRJ',
+		des: 'Foi construído para proporcionar ao então Instituto Nacional de Música um local para concertos e outras solenidades. O projeto arquitetônico é de autoria do arquiteto Cipriano Lemos e inspirado na Sala Gaveau de Paris.',
+	},
+	{
+		src: 'https://immub-space.nyc3.digitaloceanspaces.com/capas/75309/thumbnails/m_75309ca.jpg',
+		no: 'CD Café Brasil',
+		des: 'Lançado de forma independente em 2001, é referente ao Conjunto Época de Ouro.',
+	},
+	{
+		src: 'https://classicaltracks.com.br/imagefly/w400-h260-c/media/musicos/Tibor_01.jpg',
+		no: 'Tibor Fittel',
+		des: 'Jundo com Camila Marlière, são o Duo Querubim; que tem como proposta apresentar um repertório de música de concerto.',
+	},
+	{
+		src: 'http://www.classicaltracks.com.br/imagefly/w400-h260-c/media/musicos/Camila_02.jpg',
+		no: 'Camila Marlière',
+		des: 'Jundo com Camila Marlière, são o Duo Querubim; que tem como proposta apresentar um repertório de música de concerto.',
+	},
+	{
+		src: 'https://joesynth.files.wordpress.com/2018/06/peo_1915-hans-j-koellreutter.png',
+		no: 'Hans-j-koellreutter | SP',
+		des: 'Foi um compositor, professor e musicólogo brasileiro de origem alemã, tendo se mudado para o Brasil em 1937. Tornou-se um dos nomes mais influentes na vida musical no país. | ft:pt.wi',
+	},
+
+
+		/* Genres - Dicionário de estilos */
+
+	{
+		src: 'images/gosp.png',
+		no: '🇺🇸 Gospel music | início séc. XX',
+		des: 'A palavra gospel derivada de "god-spell". Música escrita e executada tendo como tema o louvor, adoração ou graças a Deus, portanto tem motivo religioso ou cerimonial _embora também ocorre como um produto de entretenimento para o mercado comercial.',
+	},
+	{
+		src: 'images/soul.png',
+		no: '🇺🇸 Soul | déc. 50',
+		des: 'Combina elementos da música gospel, rhythm and blues e jazz. A soul music tornou-se popular para dançar e ouvir nos Estados Unidos, onde gravadoras como Motown, Atlantic e Stax foram influentes durante o Movimento dos Direitos Civis. [ft:wi.pt]',
+	},
+	{
+		src: 'images/soul.png',
+		no: '🇺🇸 Soul',
+		des: 'Segundo AllMusic, "a soul music foi o resultado da urbanização e comercialização do R&B nos anos 60". O próprio termo "soul music", referindo-se à música de estilo gospel com letras seculares, foi atestada pela primeira vez em 1961.',
+	},
+	{
+		src: 'images/soul.png',
+		no: '🇺🇸 Soul',
+		des: 'O termo "soul" na linguagem afro-americana tem conotações de orgulho e cultura afro-americana. Grupos gospel nas décadas de 1940 e 1950 ocasionalmente usavam o termo como parte de seus nomes.',
+	},
+	{
+		src: 'images/jewi.png',
+		no: '🕎️ Judaica, música: canções folclóricas',
+		des: 'Não existe nenhum corpo unificado de canções folclóricas judaicas, e sim uma grande variedade de tradições populares que refletem as condições das muitas comunidades dispersas, formadas após a destruição do Segundo Templo e o fenômeno da diáspora. Essas diversas tradições misturam tendências judaicas com formas regionais. | Grove',
+	},
+	{
+		src: 'images/jewi.png',
+		no: '🇺🇸 Saminsky, Lazare | Compositor norte-americano, de origem russa.',
+		des: 'Foi aluno de Liado e Rimsky-Korsakov nos conservatórios de S. Petersburgo e Moscou (1906-10); mudou-se em 1920 para Nova York, onde em 1923 foi fundador da Liga dos Compositores. Foi diretor musical do Templo Emanu-El (1924-56) e autor de vários livros; escreveu música litúrgica judaica e valeu-se de fontes judaicas em suas cinco sinfonias, música coral e canções. | Grove',
+	},
+	{
+		src: 'images/jewi.png',
+		no: '🇺🇸 Jacobi, Frederick | Compositor',
+		des: 'Estudou com Goldmark, Bloch e (em Berlim) Juon. Suas obras cobrem todos os gêneros, às vezes influenciadas pela música indígena norte-americana (p.ex., Indian Dances, 1928), porém mais ainda pela tradição ocidental (p.ex., Concertino para piano e cordas, 1946). | Grove',
+	},
+	{
+		src: 'images/jewi.png',
+		no: '🇺🇸 Bloch, Ernest | Compositor',
+		des: 'Estudou com Dalcroze em Genebra, em Bruxelas (1897-9), e com Knorr em Frankfurt (1900). Em 1916 foi para os EUA, onde desde então passou a maior parte de sua vida (adquiriu a cidadania em 1924). Também ensinou em Cleveland (1920-25), São Francisco (1925-30) e Berkeley (1940-52). Suas primeiras obras são ecléticas: a ópera Macbeth (1910) tem influências de Strauss, Mussorgsky e Debussy. Adveio então um período voltado principalmente para temas judaicos (Schelomo para violoncelo e orquestra, 1916), seguido por um vigoroso neoclassicismo (Quinteto para piano n. 1, 1923; Concerto grosso n. 1 para cordas e piano, 1925). Retornou às composições épicas nos anos 30 com o Serviço religioso (Avodath hakodesh, 1933) e o Concerto para violino (1937). Suas últimas obras representam uma suma de sua carreira e inclinam-se a um estilo menos subjetivo. | Grove',
+	},
+	{
+		src: 'images/jewi.png',
+		no: '🕎️ Judaica, música',
+		des: 'A música de sinagoga norte-americana baseava-se originalmente em modelos europeus, apesar de mais recentemente compositores como Ernest Bloch, Frederick Jacobi, Lazare Saminsky e Isadore Freed terem contribuído com peças em idioma hebraico. | Grove',
+	},
+	{
+		src: 'images/jewi.png',
+		no: '🕎️ Judaica, música: sinagogas alemãs',
+		des: 'As sinagogas alemãs começaram a fazer uso de coros, órgãos e outros tipos de música instrumental a partir de c.1700, valendo-se de repertório contemporâneo não-judaico, de peças seculares, danças e até mesmo melodias líricas. O séc.XIX viu a crescente assimilação de estilos ocidentais na música de sinagoga, bem como a formação de escolas cantoriais. | Grove',
+	},
+	{
+		src: 'images/jewi.png',
+		no: '🕎️ Judaica, música',
+		des: 'Desde a Idade Média, a música esteve ligada ao misticismo judaico, como no movimento chassídico da Europa oriental, com seus niggunim característicos, canções fortemente rítmicas entoadas pelos homens em sílabas não léxicas. O estilo chassídico influenciou a música de sinagoga da Europa oriental. Os precentores desenvolveram estilos virtuosísticos, geralmente valendo-se dos idiomas clássicos locais (p.ex., o sistema magam na diáspora oriental e as técnicas de variação barrocas ocidentais). | Grove',
+	},
+	{
+		src: 'images/jewi.png',
+		no: '🕎️ Judaica, música: música instrumental e vocal',
+		des: 'Após a destruição do Templo pelos romanos no ano 70, a música instrumental foi banida; formas vocais, particularmente o canto dos salmos, sobrevivem até hoje, porém, ao que tudo indica, com poucas mudanças, e são as mais antigas formas preservadas de música judaica. Outras formas vocais são a cantilação dos livros em prosa da Bíblia (incluindo o Pentateuco, Profetas e Ruth) e preces e hinos virtuosisticos, improvisatórios, transmitidos oralmente pelos cantores-compositores (chazanim). | Grove',
+	},
+	{
+		src: 'images/jewi.png',
+		no: '🕎️ Judaica, música',
+		des: 'Os primeiros indícios de uma cultura musical judaica são encontrados no Velho Testamento. A música hebraica teve suas bases estabelecidas pelo rei Davi, entre 1002 e 970 a.C., no Templo de Jerusalém, onde músicos levitas eram encarregados da execução instrumental e vocal. | Grove',
+	},
 	{
 		src: 'https://3.bp.blogspot.com/-gxPkpGRZ28I/V2qq4KYmWII/AAAAAAAATGw/XWm4y-bghxU5Wt6VN2klUcM5EtDVLPhMgCKgB/s1600/Jorge%2BAntunes%2B-%2B17out06%2B-%2BDaiane%2BSouza%2B%25286%2529.jpg',
 		no: 'Jorge Antunes: vanguarda eletrônica | RJ',
@@ -38,8 +170,6 @@ let mus = [
 		no: '🇯🇲️ Ska (bluebeat) | final déc. 50',
 		des: 'Um estilo de música e dança popular urbano, da jamaica. Lá, foi o estilo de música popular nativa predominante, até ser suplantado, em meados dos anos 60, pelo "rock steady", um precursor do reggae. Teve aceitação fugaz na América do Norte e na Grã-Bretanha. [ft:gro]',
 	},
-
-
 	{
 		src: 'images/funk.png',
 		no: '🇺🇸 Lyn Collins',
@@ -250,22 +380,22 @@ let mus = [
 function ran(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-var i0 = ran(34, 38);
-var i1 = ran(30, 33);
-var i2 = ran(26, 29);
-var i3 = ran(24, 25);
-var i4 = ran(22, 23);
-var i5 = ran(20, 21);
-var i6 = ran(18, 19);
-var i7 = ran(16, 17);
-var i8 = ran(14, 15);
-var i9 = ran(12, 13);
-var i10 = ran(10, 11);
-var i11 = ran(8, 9);
-var i12 = ran(6, 7);
-var i13 = ran(4, 5);
-var i14 = ran(2, 3);
-var i15 = ran(0, 1);
+var i0 = ran(62, 63);
+var i1 = ran(60, 61);
+var i2 = ran(58, 59);
+var i3 = ran(56, 57);
+var i4 = ran(54, 55);
+var i5 = ran(52, 53);
+var i6 = ran(50, 51);
+var i7 = ran(48, 49);
+var i8 = ran(46, 47);
+var i9 = ran(44, 45);
+var i10 = ran(42, 43);
+var i11 = ran(40, 41);
+var i12 = ran(38, 39);
+var i13 = ran(36, 37);
+var i14 = ran(34, 35);
+var i15 = ran(32, 33);
 
 var i16 = ran(30, 31);
 var i17 = ran(28, 29);

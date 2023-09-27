@@ -5,12 +5,181 @@
 
 
 
+
+
 let loc = [
 	{
 			src: 'https://s2-g1.glbimg.com/_BQ5bLZCDvKKff36BKXJ-J5sKIE=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2020/q/o/zJNlEoRO2AdaB35IvVHQ/25143443-79908-gd.jpg',
 			no: 'Casa da OSPA | RS',
 			des: 'É a sede da Fundação Orquestra Sinfônica de Porto Alegre (FOSPA).',
 	},
+
+		// 32 objetos
+
+	{
+		src: 'https://www.fab.mil.br/sis/enoticias/imagens/pub/33369/i17316110443173434.jpg',
+		no: 'Forte de Copacabana',
+		des: 'Recebeu a banda da FAB. Músicos fazem parte do efetivo do Departamento de Ciência e Tecnologia Aeroespacial (DCTA). | mil.br',
+	},
+	{
+		src: 'https://www.fab.mil.br/sis/enoticias/imagens/pub/39446/i19103114593201030.jpg',
+		no: 'Concerto em Brasília | Dia do Aviador e da Força Aérea | DF',
+		des: 'Foi realizado o Concerto Sinfônico da Banda de Música da Ala 1. | mil.br',
+	},
+	{
+		src: 'https://www.fab.mil.br/sis/enoticias/imagens/pub/39492/i19111113311901445.jpg',
+		no: 'Theatro Municipal | RJ',
+		des: 'Banda da Ala 11 se apresentou no Theatro Municipal do Rio de Janeiro. | mil.br',
+	},
+	{
+		src: 'https://www.fab.mil.br/sis/enoticias/imagens/pub/39492/i19111113312608454.jpg',
+		no: 'Universidade Federal de Santa Maria (UFSM) | RS',
+		des: 'A Banda de Música da Ala 4, localizada em Santa Maria (RS), realizou, o Concerto Sinfônico no Centro de Convenções da Universidade Federal de Santa Maria (UFSM), Cerca de 1200 pessoas lotaram o auditório e ouviram um repertório musical diversificado, entre canções de filmes como Piratas do Caribe, Os Vingadores e Top Gun, e um tributo à banda inglesa Queen. | mil.br',
+	},
+	{
+		src: 'https://www.fab.mil.br/sis/enoticias/imagens/pub/42781/i2111513232306315.jpg',
+		no: 'Teatro Luiz Mendonça',
+		des: 'A Banda de Música da Base Aérea de Recife (BARF), voltou a se apresentar ao público em um concerto em homenagem ao Dia do Aviador e da Força Aérea Brasileira. | mil.br',
+	},
+	{
+		src: 'https://www.fab.mil.br/sis/enoticias/imagens/pub/45002/i23279374404736.jpg',
+		no: 'IX Gramado in Concert | RS',
+		des: 'A  Banda de Música da Base Aérea de Canoas (BACO) apresentou-se no IX Gramado in Concert - Festival Internacional de Música. O festival é um dos principais eventos do calendário artístico do Rio Grande do Sul, que acontece na cidade de Gramado, na Serra Gaúcha. | mil.br',
+	},
+	{
+		src: 'https://www.fab.mil.br/sis/enoticias/imagens/pub/45002/i23279362103756.jpg',
+		no: 'Gramado in Concert',
+		des: 'É um festival internacional de música, cuja proposta é oferecer o melhor da música erudita em concertos de orquestras, grupos de câmara e solistas. Além das atrações artísticas, o evento recebe a cada ano, centenas de estudantes brasileiros e estrangeiros para os quais são oferecidos oficinas dos mais variados instrumentos, práticas de orquestra e projetos especiais. É um evento oficial do município de Gramado e tem um caráter turístico, artístico, cultural e de lazer, além do caráter pedagógico. | mil.br',
+	},
+	{
+		src: 'https://www.fab.mil.br/sis/enoticias/imagens/pub/45304/i234514003206633.jpg',
+		no: 'Auditório Santos-Dumont',
+		des: 'Teve, por ex., um evento onde o público lotou o Auditório para apreciar obras que se tornaram grandes clássicos nas telas do cinema. | mil.br',
+	},
+	{
+		src: 'https://www.fab.mil.br/sis/enoticias/imagens/pub/45880/i2371714373606300.jpg',
+		no: 'Royal Plaza Shopping | RS',
+		des: 'Já teve, por ex., uma apresentação da Banda de Música (BMU) da Base Aérea de Santa Maria (BASM). | mil.br',
+	},
+	{
+		src: 'https://www.fab.mil.br/sis/enoticias/imagens/pub/45879/i2371713495803080.jpg',
+		no: 'Parque Vicentina Aranha | SP',
+		des: 'Localizado em São José dos Campos, teve uma apresentação da Banda de Música do Departamento de Ciência e Tecnologia Aeroespacial (DCTA), em homenagem aos 150 Anos do Nascimento de Alberto Santos Dumont. | mil.br',
+	},
+	{
+		src: 'https://www.fab.mil.br/sis/enoticias/imagens/pub/45969/i2372815590504963.jpg',
+		no: 'Praça Saldanha Marinho |',
+		des: 'O local teve uma apresentação da Banda de Música da Base Aérea de Santa Maria (BASM). | mil.br',
+	},
+	{
+		src: 'https://comunicacao.salvador.ba.gov.br/wp-content/uploads/2023/07/2-de-Julho-Barra-4-1024x683.jpg',
+		no: 'Farol da Barra | BA',
+		des: 'A Banda Sinfônica da Marinha, composta por 120 músicos militares, presenteou o público com uma apresentação inédita no Farol da Barra. | ba.gov.br',
+	},
+	{
+		src: 'https://s2-g1.glbimg.com/fpd0EHezAmue6wOJb2ahdxMREX4=/0x0:570x380/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2021/x/X/HIR46SRcKFscno3rC5Ug/parque-da-cidade.jpeg',
+		no: 'Parque da Cidade | RN',
+		des: 'As Bandas da Marinha apresentaram concertos gratuitos, isso em Natal. | globo.com',
+	},
+	{
+		src: 'https://m.vitoria.es.gov.br/recursos/imagens/banco/2023/08/18/117665/normal@2x.jpg',
+		no: 'Parque Pedra da Cebola | ES',
+		des: 'Banda Sinfônica e a Banda Marcial do Corpo de Fuzileiros Navais da Marinha do Brasil. | es.gov.br',
+	},
+	{
+		src: 'https://www.sinop.mt.gov.br/phpThumb/phpThumb.php?src=fotos_bancoimagens/15337.jpeg&w=754&zc=1',
+		no: 'Centro de Eventos Dante de Oliveira',
+		des: 'Relacionado a ele já se teve a Banda de Música do Corpo de Bombeiros. | mt.gov.br',
+	},
+	{
+		src: 'https://www.setasc.mt.gov.br/documents/21013/11614483/M%C3%BAsicas+dos+quatro+cantos+do+Brasil+est%C3%A3o+no+repert%C3%B3rio+que+a+Banda+do+CBM+apresenta+nesta+sexta.jpg/8fadffab-293f-2884-15b8-987cfedbf5aa?t=1559589664989&imageThumbnail=3',
+		no: 'Teatro Zulmira Canavarros | MT',
+		des: 'Anexo à Assembleia Legislativa do Estado, já se teve relacionado a ele a Banda do Corpo de Bombeiros Militar. | mt.gov.br',
+	},
+	{
+		src: 'https://www.fab.mil.br/sis/enoticias/imagens/pub/19013/i1310169531551624.jpg',
+		no: 'Centro de Convenções Ulysses Guimarães',
+		des: 'Já teve relacionado a ele a Banda Sinfônica da Base Aérea de Brasília (BABR). | mil.br',
+	},
+	{
+		src: 'https://www.fab.mil.br/sis/enoticias/imagens/pub/26154/i1593016530958957.jpg',
+		no: 'Mercado Público de Florianópolis (Largo da Alfândega | SC',
+		des: 'Já teve relacionado a ele a Banda de Música da Base Aérea de Florianópolis. | mil.br',
+	},
+	{
+		src: 'https://www.fab.mil.br/sis/enoticias/imagens/pub/26401/i15101919061958055.jpg',
+		no: 'Sala São Paulo | SP',
+		des: 'Aí se apresentou a Banda da Aeronáutica, um concerto sinfônico homenageando Santos-Dumont. ',
+	},
+	{
+		src: 'https://rondonia.ro.gov.br/wp-content/uploads/2015/07/DO-RE-MI-83-870x580.jpg',
+		no: 'Teatro Banzeiros | RO',
+		des: 'Clima de descontração marcou a aula inaugural da Escola de Música Dó, Ré Militar. | ro.gov.br',
+	},
+	{
+		src: 'https://cmne.eb.mil.br/images/cmne/noticias/2018/abril/apres_cult_03.jpg',
+		no: 'Teatro Luiz Mendonça | PE',
+		des: 'Contou com apresentação da Orquestra Criança Cidadã e das Bandas de Música do Comando Militar do Nordeste. | mil.br',
+	},
+	{
+		src: 'https://catedral.com.br/wp-content/uploads/2019/05/Organista-Benedito-Rosa.jpg',
+		no: 'Catedral | RJ',
+		des: 'O famoso local já contou com um concerto com o Organista Benedito Rosa. | catedral.com.br',
+	},
+	{
+		src: 'https://musica.ufrj.br/images/vinhetas/leopoldomiguez.webp',
+		no: 'Salão Leopoldo Miguez | Rj',
+		des: 'Foi construído para proporcionar ao então Instituto Nacional de Música um local para concertos e outras solenidades. O projeto arquitetônico é de autoria do arquiteto Cipriano Lemos e inspirado na Sala Gaveau de Paris.',
+	},
+	{
+		src: 'https://teatroriachuelorio.com.br/wp-content/uploads/2019/05/teatro_riachuelo-min.jpg',
+		no: 'Teatro Riachuelo | RJ',
+		des: 'Ponto de encontro de artistas, intelectuais e políticos, frequentado por milhares de pessoas ao longo de sua existência, o prédio foi construído no século XIX. Inaugurou, em 1890, como Cassino Nacional Brasileiro e logo passou a ser chamado de Cassino Nacional, em 1901.',
+	},
+	{
+		src: 'https://www.fab.mil.br/sis/enoticias/imagens/pub/19041/i131017105937174982.jpg',
+		no: 'Centro de Convenções Governador Pedro Neiva de Santana',
+		des: 'O Centro de Lançamento de Alcântara (CLA) promoveu concerto didático para estudantes da rede de ensino de São Luís e Alcântara. | mil.br',
+	},
+	{
+		src: 'https://www.fab.mil.br/sis/enoticias/imagens/pub/34493/i17622172251111475.jpg',
+		no: 'PROFESP',
+		des: 'O Programa Forças no Esporte da Ala 13 atende a 200 crianças carentes da comunidade local que, fora do horário escolar, participam nesta Organização Militar de atividades extra-curriculares, como: esportes, reforço escolar e orientação musical, além do suporte de alimentação, assistência médica, odontológica e psicológica. | mil.br',
+	},
+	{
+		src: 'https://www.fab.mil.br/sis/enoticias/imagens/pub/39432/i19103015521307077.jpg',
+		no: 'Concerto na Avenida Paulista | SP',
+		des: 'A Banda de Música do Departamento de Ciência e Tecnologia Aeroespacial (DCTA) realizou um Concerto Sinfônico na Avenida Paulista. | mil.br',
+	},
+	{
+		src: 'https://www.marinha.mil.br/com5dn/sites/www.marinha.mil.br.com5dn/files/Apresenta%C3%A7%C3%A3o%20na%20Sociedade%20Recreativa%203%20de%20maio%20em%20Laguna.jpg',
+		no: 'Instituto Estadual de Educação',
+		des: 'Contou com apresentação da Banda do Grupamento de Fuzileiros Navais do Rio Grande. | mil.br',
+	},
+	{
+		src: 'https://www2.recife.pe.gov.br/sites/default/files/styles/imagem_slide_home/public/teatro_luiz_mendonca_2.jpg?itok=KICUGKFF',
+		no: 'Teatro Luiz Mendonça | PE',
+		des: 'Instalado no litoral do bairro de Boa Viagem, o Luiz Mendonça faz parte do Parque Dona Lindu e seu projeto é assinado pelo arquiteto Oscar Niemeyer. O teatro tem capacidade para 587 lugares na plateia. | gov.br',
+	},
+	{
+		src: 'http://www.unirio.br/espacoteatral/arquivos/imagem/arquitetura-teatral/modernista-e-contemporaneo/teatro-pedro-calmon/teatropedrocalmonbrasiliaexterna2.jpg/@@images/7921eb85-2820-47bb-806e-f6ca6afcc772.jpeg',
+		no: 'Teatro Pedro Calmon | DF',
+		des: 'O Teatro Pedro Calmon faz parte do conjunto do Quartel General do Exército. Tem como autor Oscar Niemeyer. | unirio.br',
+	},
+	{
+		src: 'https://lh3.googleusercontent.com/p/AF1QipO5dQOQqVfteFGlghxC2nZPraD8GWBeKSWNzEXa=s680-w680-h510',
+		no: 'Teatro Grande Otelo | MG',
+		des: 'Construído no ano de 1966, é elemento fundamental na formação da identidade cultural da cidade de Uberlândia.',
+	},
+	{
+		src: 'http://mapadecultura.com.br/wp-content/uploads/2012/05/Tur%C3%ADbio-e-Cristina-Braga-Vale-do-Caf%C3%A9.jpg',
+		no: 'Festival Vale do Café',
+		des: 'Idealizado pela harpista Cristina Braga, e com direção artística de Turíbio Santos, violinista clássico, o Festival Vale do Café acontece em vários lugares.',
+	},
+
+
+
+
 
 
 
@@ -196,22 +365,22 @@ let mus = [
 function ran(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-var i0 = ran(30, 32);
-var i1 = ran(28, 29);
-var i2 = ran(26, 27);
-var i3 = ran(24, 25);
-var i4 = ran(22, 23);
-var i5 = ran(20, 21);
-var i6 = ran(18, 19);
-var i7 = ran(16, 17);
-var i8 = ran(14, 15);
-var i9 = ran(12, 13);
-var i10 = ran(10, 11);
-var i11 = ran(8, 9);
-var i12 = ran(6, 7);
-var i13 = ran(4, 5);
-var i14 = ran(2, 3);
-var i15 = ran(0, 1);
+var i0 = ran(62, 64);
+var i1 = ran(60, 61);
+var i2 = ran(58, 59);
+var i3 = ran(56, 57);
+var i4 = ran(54, 55);
+var i5 = ran(52, 53);
+var i6 = ran(50, 51);
+var i7 = ran(48, 49);
+var i8 = ran(46, 47);
+var i9 = ran(44, 45);
+var i10 = ran(42, 43);
+var i11 = ran(40, 41);
+var i12 = ran(38, 39);
+var i13 = ran(36, 37);
+var i14 = ran(34, 35);
+var i15 = ran(32, 33);
 
 var i16 = ran(30, 31);
 var i17 = ran(28, 29);

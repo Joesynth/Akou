@@ -18,7 +18,7 @@ let news = [
 	{
 		src: 'https://joesynth.files.wordpress.com/2022/11/arp2600.gif',
 		no: 'Sintetizadores grátis?',
-		des: 'Separamos alguns softs sintetizadores, principalmente do tipo open-source, para você escolher ou mesmo conhecer um pouco mais. São eles: Yoshimi, ZynAddSubFX e Bristol. Este último, o Bristol, é um ambiente de código aberto para software sintetizador. O Bristol é formado por dois componentes: o Bristol que é o simulador de sintetizador e a interface gráfica que é a Brighton. Existe, por ex., um simulador de Arp-2600 (foto), dentre tantos outros. | JoeSynth.wordpres.com',
+		des: 'Software Livre é um termo já comum, onde cada vez mais temos consciência dos benefícios. Opções de sintetizadores do tipo open-source são: Yoshimi, ZynAddSubFX e Bristol. Este último, o Bristol, é um ambiente de código aberto para software sintetizador. O Bristol é formado por dois componentes: o Bristol que é o simulador de sintetizador e a interface gráfica que é a Brighton. Tem várias simulações de synths famosos. 🖼️ Arp-2600. | JoeSynth.wordpres.com',
 	},
 	{
 		src: 'https://joesynth.files.wordpress.com/2018/06/meyer.jpg',
@@ -43,7 +43,7 @@ let news = [
 	{
 		src: 'https://joesynth.files.wordpress.com/2017/08/bum185.jpg',
 		no: 'História da emusic – revista DJ World',
-		des: 'Pela 1ª vez uma revista [de DJ] trouxe vastas informações sobre emusic ao mundo dos DJs brasileiros. Artigo realizado por Péricles Sodré e Joe S em edição de aniversário da revista. Na verdade são duas matérias em uma. A primeira aborda equipamentos, portanto música e tecnologia; enquanto a segunda é voltada a músicos, DJs, estilos. Foto: imagem de apresentação do artigo, na revista. | JoeSynth.wordpres.com',
+		des: 'Pela 1ª vez uma revista [de DJ] trouxe vastas informações sobre emusic ao mundo dos DJs brasileiros. Artigo realizado por Péricles Sodré e Joe S em edição de aniversário da revista. Na verdade são duas matérias em uma. A primeira aborda equipamentos, portanto música e tecnologia; enquanto a segunda é voltada a músicos, DJs, estilos. 🖼️ Imagem de apresentação do artigo, na revista. | JoeSynth.wordpres.com',
 	},
 	{
 		src: 'https://joesynth.files.wordpress.com/2022/12/superficie_de_controle.png',
@@ -53,12 +53,12 @@ let news = [
 	{
 		src: 'https://joesynth.files.wordpress.com/2019/05/so_smptetrack-graphic-editor.jpg',
 		no: 'Sequenciador MIDI: 7 softs famosos anos 80',
-		des: 'Eles não tinham áudio mas eram capazes de proezas maravilhosas só com o MIDI. Alguns deles, com o tempo, adquiriram o recurso de gravação de áudio em várias pistas, é o caso do Cubase _embora isso seja uma outra história! Houve muitos softwares midi de computador, é o caso: KCS (Dr.T), Performer (MOTU), Creator/Notator (C-Lab), Vision (Opcode), Pro-24 (Steinberg), Sequencer Plus Mark III (Voyetra, que aliás, nem era tão importante assim, mas foi usado pelo grupo Information Society). Por último o da foto: SmpteTrack (Hybrid Arts). | JoeSynth.wordpres.com',
+		des: 'Eles não tinham áudio mas eram capazes de proezas maravilhosas só com o MIDI. Alguns deles, com o tempo, adquiriram o recurso de gravação de áudio em várias pistas, é o caso do Cubase _embora isso seja uma outra história! Houve muitos softwares midi de computador, é o caso: KCS (Dr.T), Performer (MOTU), Creator/Notator (C-Lab), Vision (Opcode), Pro-24 (Steinberg), Sequencer Plus Mark III (Voyetra, que aliás, nem era tão importante assim, mas foi usado pelo grupo Information Society). 🖼️ SmpteTrack (Hybrid Arts). | JoeSynth.wordpres.com',
 	},
 	{
 		src: 'https://joesynth.files.wordpress.com/2022/11/640px-musescore_3.5.0_43c5553_qt_5.15.0.png',
 		no: '5 softwares de notação musical: grátis!',
-		des: 'Partitura? Tablatura? Conheça 5 belas opções em software livre. São elas: Aria Maestosa, TuxGuitar, LilyPond, MusE e... MuseScore (foto). | JoeSynth.wordpres.com',
+		des: 'Partitura? Tablatura? Conheça 5 belas opções em software livre. São elas: Aria Maestosa, TuxGuitar, LilyPond, MusE e... 🖼️ MuseScore. | JoeSynth.wordpres.com',
 	},
 	{
 		src: 'https://joesynth.files.wordpress.com/2020/11/reaktor_carac-onda.jpg',
@@ -73,7 +73,7 @@ let news = [
 	{
 		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Crumar_Digital_Synthesizer_DS2_%28front%29.jpg/220px-Crumar_Digital_Synthesizer_DS2_%28front%29.jpg',
 		no: 'Síntese sonora: VCO e DCO',
-		des: 'Qual a diferença entre VCO e DCO? Quando e por que começou isso? VCO é o tipo de oscilador usado nos anos setenta, analógico. Embora esse OSC análogo tenha uma certa instabilidade (quanto ao pitch) é muito apreciado por músicos e tecladistas. Já o DCO permite criar pitch digitalmente e de forma estável. Em outras palavras, o DCO foi criado para superar as limitações de estabilidade de afinação do VCO. Logicamente o DCO é uma geração posterior ao VCO e é usado em synths dos anos 80 (Poly 800 [83/84] por exemplo). Ele não usa tensão para criar suas ondas básicas e sim contadores digitais, tendo formas de onda tipo dente-de-serra e quadrada. Embora esse contador seja um dispositivo digital, o processamento desse Korg é analógico. Na foto um Crumar de 1978.  | JoeSynth.wordpres.com',
+		des: 'Qual a diferença entre VCO e DCO? Quando e por que começou isso? VCO é o tipo de oscilador usado nos anos setenta, analógico. Embora esse OSC análogo tenha uma certa instabilidade (quanto ao pitch) é muito apreciado por músicos e tecladistas. Já o DCO permite criar pitch digitalmente e de forma estável. Em outras palavras, o DCO foi criado para superar as limitações de estabilidade de afinação do VCO. Logicamente o DCO é uma geração posterior ao VCO e é usado em synths dos anos 80 (Poly 800 [83/84] por exemplo). Ele não usa tensão para criar suas ondas básicas e sim contadores digitais, tendo formas de onda tipo dente-de-serra e quadrada. Embora esse contador seja um dispositivo digital, o processamento desse Korg é analógico. 🖼️ Crumar de 1978.  | JoeSynth.wordpres.com',
 	},
 	{
 		src: 'https://joesynth.files.wordpress.com/2022/12/roland_vs880.png',
@@ -113,8 +113,16 @@ let news = [
 	{
 		src: 'https://gearspace.com/board/attachments/product-image-container/483596-product-images-s20204-5.jpg',
 		no: 'Compressor analógico: os 4 tipos',
-		des: 'Optical (óptico): compressores ópticos incluem marcas como Avalon, Tube- Tech e Millennia Media TCL2.” [foto: Joemeek SC2]. Variable–mu tube: é o compressor valvulado clássico, e inclui grandes nomes como Fairchild (660 e 670) e Pendulum (modelo ES8). VCA (voltage–controlled amplifier): já esse do tipo VCA é disponibilizado por empresas como SSL, API e Focusrite (Red 3). FET (field–effect transistor): o FET é um tipo de transistor, e compressores que fazem uso disso incluem marcas como Universal Audio e Cranesong (STC8). | JoeSynth.wordpres.com',
+		des: 'Optical (óptico): compressores ópticos incluem marcas como Avalon, Tube- Tech e Millennia Media TCL2. Variable–mu tube: é o compressor valvulado clássico, e inclui grandes nomes como Fairchild (660 e 670) e Pendulum (modelo ES8). VCA (voltage–controlled amplifier): o tipo VCA é disponibilizado por empresas como SSL, API e Focusrite (Red 3). FET (field–effect transistor): o FET é um tipo de transistor, e compressores que fazem uso disso incluem marcas como Universal Audio e Cranesong (STC8). 🖼️ Joemeek SC2 | JoeSynth.wordpres.com',
 	},
+
+
+
+
+
+		// 32 objetos
+
+
 	{
 		src: 'https://joesynth.files.wordpress.com/2019/05/stei_qmetric.png',
 		no: 'Equalizador para masterização: um pouco de história!',
@@ -143,7 +151,7 @@ let news = [
 	{
 		src: 'https://joesynth.files.wordpress.com/2022/12/controlador_midi_kawai_vpc1.png',
 		no: 'Piano: escolhendo um controlador MIDI 88 teclas',
-		des: 'Para escolher um podemos pensar sobre o que é mais relevante diante do nosso contexto de sua vida. Preço e durabilidade é o que vem à cabeça de imediato. E há mais o que pensar! A ação das teclas é o mais importante? Se for então a parte mecânica é o vital. Se for usado num estúdio, botões controladores (midi) serão úteis, seja por conta de um estilo de música (que "peça" mais efeitos) ou até mesmo na mixagem. E ainda se falando de estúdio, mesmo a aparência do seu controlador pode impressionar seus clientes, no sentido de marketing.O equipamento será transportado? Vai e volta de show? Haja piano! Haja controlador! São variáveis a se pesar e tendo do outro lado da balança o investimento. Marcas a considerar: as alemãs Swissonic, Native Instruments e Doepfer, a italiana Studiologic (Fatar), a francesa Arturia, a originalmente norte-americana Kurzweil e as japonesas: Roland, Yamaha, Korg e Kawai (foto). | JoeSynth.wordpres.com',
+		des: 'Para escolher um podemos pensar sobre o que é mais relevante diante do nosso contexto de sua vida. Preço e durabilidade é o que vem à cabeça de imediato. E há mais o que pensar! A ação das teclas é o mais importante? Se for então a parte mecânica é o vital. Se for usado num estúdio, botões controladores (midi) serão úteis, seja por conta de um estilo de música (que "peça" mais efeitos) ou até mesmo na mixagem. E ainda se falando de estúdio, mesmo a aparência do seu controlador pode impressionar seus clientes, no sentido de marketing.O equipamento será transportado? Vai e volta de show? Haja piano! Haja controlador! São variáveis a se pesar e tendo do outro lado da balança o investimento. Marcas a considerar: as alemãs Swissonic, Native Instruments e Doepfer, a italiana Studiologic (Fatar), a francesa Arturia, a originalmente norte-americana Kurzweil e as japonesas: Roland, Yamaha, Korg e... 🖼️ Kawai | JoeSynth.wordpres.com',
 	},
 	{
 		src: 'https://joesynth.files.wordpress.com/2020/12/zero-g_sample_libraries.png',
@@ -170,7 +178,7 @@ let news = [
 	{
 		src: 'https://joesynth.files.wordpress.com/2020/11/jeff_mcclintock_synthedit.png',
 		no: 'Sintetizador: VPL?',
-		des: 'Pode ser encarado como um sintetizador modular, bem como uma forma de criar um software musical sem termos que escrever linhas e mais linhas de códigos. No lugar dos cabos ligando de lá pra cá ou dos textos (típicos de programadores) temos os ícones (objetos como módulos). Ou seja, desenvolvemos o nosso synth com o mouse. O SynthEdit (foto) e o Reaktor são exemplos de VPLs. | JoeSynth.wordpress.com',
+		des: 'Pode ser encarado como um sintetizador modular, bem como uma forma de criar um software musical sem termos que escrever linhas e mais linhas de códigos. No lugar dos cabos ligando de lá pra cá ou dos textos (típicos de programadores) temos os ícones (objetos como módulos). Ou seja, desenvolvemos o nosso synth com o mouse. São exemplos de VPL o Reaktor e... 🖼️ SynthEdit | JoeSynth.wordpress.com',
 	},
 	{
 		src: 'https://joesynth.files.wordpress.com/2020/11/ni_fm7.png',
@@ -179,17 +187,17 @@ let news = [
 	},
 	{
 		src: 'https://www.springair.de/media/image/e3/e7/17/h54529-0-54529_600x600.jpg',
-		no: 'Anos 80 e 90: era tudo digital!',
-		des: 'Embora nessa época os vinis fossem típicos para os cidadãos ouvirem músicas (mesmo já existindo o CD), nos estúdios a situação era outra. O equipamento predileto dos profissionais era o DAT _e que chegou a se tornar um padrão. Um aparelho como o Sony PCM-2500 gravava de forma digital numa pequena fita, sendo a excelência da qualidade daqueles tempos. Dessa fita digital é que se fazia os vinis, estes analógicos. Claro, tudo isso envolvia um certo processo. Dependendo de certas circunstâncias, mesmo a gravação multipistas já poderia estar sendo feita em domínio também digital. Ou seja, para quem estava em casa tocando e ouvindo um belo vinil (portanto som análogo), na verdade, estava-se ouvindo áudio analógico mas que anteriormente tinha sido finalizado de forma digital. Por outra lado, durou por certo tempo um padrão da indústria que mostrava se tal fase de produção do disco era digital ou não.',
+		no: 'Anos 80 e 90: analógico vs digital',
+		des: 'Embora nessa época os vinis, com seus sons analógicos, fossem típicos para os cidadãos ouvirem músicas (mesmo já existindo o CD), nos estúdios a situação era outra. O equipamento predileto dos profissionais era o DAT. Ele gravava de forma digital numa pequena fita, sendo a excelência da qualidade daqueles tempos _que aliás, se tornou padrão nos estúdios. Dessa fita digital, após todo um processo, é que se fazia os vinis. Dependendo de certas circunstâncias, mesmo a a fase da própria gravação multipistas já poderia estar sendo feita em domínio também digital. Ou seja, para quem estava em casa tocando e ouvindo um belo vinil (portanto som análogo), na verdade, estava-se ouvindo áudio analógico mas que anteriormente tinha sido gravado ou mesmo finalizado de forma digital. A indústria também criou um padrão que mostrava se tal fase de produção (gravação, finalização...) era digital ou não. 🖼️ Sony PCM-2500',
 	},
 	{
 		src: 'https://www.vintagesynth.com/sites/default/files/2017-05/touche.jpg',
 		no: 'Sintese sonora: waveshaping',
-		des: 'A waveshaper é uma técnica em que um OSC ao gerar determinada forma de onda tenha esta transformada noutra forma, isso em tempo real. O teclado Buchla (foto) de 1978 e o Korg 01/W de 1991 são casos de uso dessa técnica de geração de sons. | JoeSynth.wordpress.com',
+		des: 'A waveshaper é uma técnica em que um OSC ao gerar determinada forma de onda tenha esta transformada noutra forma, isso em tempo real. Os casos de uso dessa técnica de geração de sons incluem o Korg 01/W de 1991 e... 🖼️ Buchla de 1978. | JoeSynth.wordpress.com',
 	},
 	{
 		src: 'https://joesynth.files.wordpress.com/2022/12/monitor_krk_v8.png',
-		no: 'Monitores de estúdio: 10 marcas clássicas!',
+		no: 'Monitores de estúdio: marcas clássicas!',
 		des: 'Sendo uma ferramenta especial num estúdio, é sempre bom lembrar algumas marcas relevantes. São elas: ADAM e Genelec (ambas com dezenas de prêmios cada uma), B&W, Dynaudio, Focal, JB, KRK Systems, PMC e, por fim, Yamaha.',
 	},
 	{
@@ -205,12 +213,12 @@ let news = [
 	{
 		src: 'https://joesynth.files.wordpress.com/2020/11/linplug_saxlab_2.png',
 		no: 'Síntese sonora: ROMpler',
-		des: 'Era um tipo de sintetizador (em hardware) que tinha sons armazenados em memória ROM. Podiam ter timbres cotidianos, mas também bateria. Com a popularização dos computadores o recurso passou a ser simulado via softwares, como VSTs. Exemplos? IK Multimedia Sampletank 2, reFX Nexus 3, Lethal Audio Lethal e Linplug SaxLab 2 [foto]. | JoeSynth.wordpress.com',
+		des: 'Era um tipo de sintetizador (em hardware) que tinha sons armazenados em memória ROM. Podiam ter timbres cotidianos, mas também bateria. Com a popularização dos computadores o recurso passou a ser simulado via softwares, como VSTs. Exemplos? IK Multimedia Sampletank 2, reFX Nexus 3, Lethal Audio Lethal e... 🖼️ Linplug SaxLab | JoeSynth.wordpress.com',
 	},
 	{
 		src: 'https://cdn.shopify.com/s/files/1/0662/5667/files/360-close-2.jpg',
 		no: 'ROMpler: um pouco de história!',
-		des: 'Era um tipo de sintetizador (em hardware) que tinha sons armazenados em memória ROM. O Digital Keyboard [foto] da 360 Systems de 1982 é um dos primeiros teclados com amostras armazenadas em memória já de fábrica. Há quem o veja como sample player, o que não é errado. Antes dele podemos pensar algo nesse sentido, porém em baterias eletrônicas (e marcas como Oberheim ou LinnDrum). | JoeSynth.wordpress.com',
+		des: 'Era um tipo de sintetizador (em hardware) que tinha sons armazenados em memória ROM. O Digital Keyboard de 1982 é um dos primeiros teclados com amostras armazenadas em memória já de fábrica. Há quem o veja como sample player, o que não é errado. Antes dele podemos pensar algo nesse sentido, porém em baterias eletrônicas (marcas como Oberheim ou LinnDrum). 🖼️ 360 Systems Digital Keyboard| JoeSynth.wordpress.com',
 	},
 	{
 		src: 'https://joesynth.files.wordpress.com/2020/11/ni_absynth.png',
@@ -235,17 +243,17 @@ let news = [
 	{
 		src: 'https://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/7rUAAOSw1P9hjQHD/$_86.JPG',
 		no: 'Síntese sonora wavetable',
-		des: 'Embora a síntese wavetable tenha sido um grande avanço em novos sons, um sintetizador PPG era caro. Um modelo como o DW da japonesa Korg era uma opção mais acessível _embora não chegasse ao mesmo poder de um tradicional synth do tipo wavetable.',
+		des: 'A síntese wavetable foi um grande avanço em novos sons, mas um sintetizador PPG era caro. Uma opção mais acessível era a linha DW da japonesa Korg _embora não chegasse ao mesmo poder de "fogo" de um tradicional synth alemão do tipo wavetable.',
 	},
 	{
 		src: 'https://i.ytimg.com/vi/pvk3pA4GaUI/maxresdefault.jpg',
 		no: 'Gravação multipista profissional anos 90: o MDM',
-		des: 'Numa época que computadores e HDs ainda eram caros, a forma encontrada pela indústria foi o MDM, um equipamento digital que permitia gravar oito pistas, por exemplo, de forma simultânea. Sendo modular, vários aparelhos podiam ser interconectados, daí perfazendo 16 canais ou mais. Dos fabricantes, desses tipos de equipamentos, vale citar a Tascam (considerada a marca suprassumo de MDMs), a Alesis (bem popular aqui no Brasil) e a Akai [foto]. | JoeSynth.wordpress.com ',
+		des: 'Numa época que computadores e HDs ainda eram caros, a forma encontrada pela indústria foi o MDM, um equipamento digital que permitia gravar oito pistas, por exemplo, de forma simultânea. Sendo modular, vários aparelhos podiam ser interconectados, daí perfazendo 16 canais ou mais. Dos fabricantes, desses tipos de equipamentos, vale citar a Tascam (considerada a marca suprassumo de MDMs), a Alesis (bem popular aqui no Brasil) e... 🖼️ Akai | JoeSynth.wordpress.com ',
 	},
 	{
 		src: 'https://joesynth.files.wordpress.com/2018/06/novo-44pb.png',
-		no: 'TR-808',
-		des: 'A bateria eletrônica analógica da Roland que fez história. Ela foi usada por inúmeros artistas e nos mais diversos estilos musicais. Foto: 808 no estúdio de Joe S, anos 90.',
+		no: '🇯🇵 TR-808',
+		des: 'A bateria eletrônica analógica da Roland que fez história. Ela foi usada por inúmeros artistas e nos mais diversos estilos musicais. 🖼️ TR-808 no estúdio de Joe S, anos 90 | JoeSynth.wordpress.com.',
 	},
 	{
 		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Clavecin_flamand.png/200px-Clavecin_flamand.png',
@@ -280,8 +288,13 @@ let news = [
 	{
 		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Neumann_U47_Tube.jpg/220px-Neumann_U47_Tube.jpg',
 		no: 'Microfone: válvula',
-		des: 'Um tipo de microfone condensador que, no lugar do circuito transistorizado, utiliza um amplificador valvulado. Foto: Neumann U47',
+		des: 'Um tipo de microfone condensador que, no lugar do circuito transistorizado, utiliza um amplificador valvulado. 🖼️ Neumann U47',
 	},
+
+
+		// 32 objetos ?
+
+
 	{
 		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Stevie_Wonder_1973.JPG/260px-Stevie_Wonder_1973.JPG',
 		no: 'Electro-Voice RE20',
@@ -300,7 +313,7 @@ let news = [
 	{
 		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Shure_mikrofon_55S.jpg/170px-Shure_mikrofon_55S.jpg',
 		no: 'Microfone dinâmico',
-		des: 'É o tipo de microfone mais comum, sendo utilizado frequentemente desde situações mais simples até algumas mais sofisticadas (como apresentações em palco ou mesmo para microfonar instrumentos). O Shure SM58 ou 55S (foto) são exemplos (este último famoso por personalidades como Elvis, Ella Fitzgerald, Benny Goodman, Frank Sinatra e outras). Outro caso respeitável é o Electro-Voice RE20.',
+		des: 'É o tipo de microfone mais comum, sendo utilizado frequentemente desde situações mais simples até algumas mais sofisticadas (como apresentações em palco ou mesmo para microfonar instrumentos). O Shure SM58 são exemplos (este último famoso por personalidades como Elvis, Ella Fitzgerald, Benny Goodman, Frank Sinatra e outras). Outro caso respeitável é o Electro-Voice RE20. 🖼️ Shure 55S.',
 	},
 	{
 		src: 'https://joesynth.files.wordpress.com/2021/07/fone_sony.png',
@@ -308,65 +321,16 @@ let news = [
 		des: 'Muitas marcas conseguiram obter bastante respeito nesse tipo de equipmento, é o caso da Sennheiser com os modelos HD280, HD265, HD25SP, HD580 Precision. Já a a Sony com MDR-V6, MDR-V600, MDR-7506 substituto do V6, MDR-7509HD; isso além do MDR-CD900ST, projetado e fabricado pela Sony japonesa (não a Sony Electronic). Outras tradicionais empresas incluem Audio Technica, AKG, Beyerdynamic ou Koss. | JoeSynth.wordpress.com',
 	},
 
-
-
-
-	// Grove
-
 	{
-		src: 'images/jewi.png',
-		no: '🕎️ Judaica, música: canções folclóricas',
-		des: 'Não existe nenhum corpo unificado de canções folclóricas judaicas, e sim uma grande variedade de tradições populares que refletem as condições das muitas comunidades dispersas, formadas após a destruição do Segundo Templo e o fenômeno da diáspora. Essas diversas tradições misturam tendências judaicas com formas regionais. | Grove',
+		src: 'https://images.synthpedia.net/cached/41cdbacaa7a22fa91d6bb1c75b4487f3827a3353',
+		no: '🇦🇺 Fairlight',
+		des: 'O  CMI (Computer Music Instrument) de 1979 foi o primeiro instrumento a incluir amostragem digital. Além disso, edição de forma de onda gráfica (através da caneta de luz), síntese aditiva baseada em FFT e um sequenciador de software. Computadorizado, utilizava processador Motorola 6800 e gravava (sampleava) em 8 bits, 24kHz. Já o  CMI II (1982), embora ainda fosse 8 bits, permitia 32kHz. Um Fairlight CMI era uma máquina, muito, muito além de seu tempo. Era cara, custando na casa dos cinco digitos de dólares. 🖼️ CMI II | JoeSynth.wordpress.com',
 	},
-	{
-		src: 'images/jewi.png',
-		no: '🇺🇸 Saminsky, Lazare | Compositor norte-americano, de origem russa.',
-		des: 'Foi aluno de Liado e Rimsky-Korsakov nos conservatórios de S. Petersburgo e Moscou (1906-10); mudou-se em 1920 para Nova York, onde em 1923 foi fundador da Liga dos Compositores. Foi diretor musical do Templo Emanu-El (1924-56) e autor de vários livros; escreveu música litúrgica judaica e valeu-se de fontes judaicas em suas cinco sinfonias, música coral e canções. | Grove',
-	},
-	{
-		src: 'images/jewi.png',
-		no: '🇺🇸 Jacobi, Frederick | Compositor',
-		des: 'Estudou com Goldmark, Bloch e (em Berlim) Juon. Suas obras cobrem todos os gêneros, às vezes influenciadas pela música indígena norte-americana (p.ex., Indian Dances, 1928), porém mais ainda pela tradição ocidental (p.ex., Concertino para piano e cordas, 1946). | Grove',
-	},
-	{
-		src: 'images/jewi.png',
-		no: '🇺🇸 Bloch, Ernest | Compositor',
-		des: 'Estudou com Dalcroze em Genebra, em Bruxelas (1897-9), e com Knorr em Frankfurt (1900). Em 1916 foi para os EUA, onde desde então passou a maior parte de sua vida (adquiriu a cidadania em 1924). Também ensinou em Cleveland (1920-25), São Francisco (1925-30) e Berkeley (1940-52). Suas primeiras obras são ecléticas: a ópera Macbeth (1910) tem influências de Strauss, Mussorgsky e Debussy. Adveio então um período voltado principalmente para temas judaicos (Schelomo para violoncelo e orquestra, 1916), seguido por um vigoroso neoclassicismo (Quinteto para piano n. 1, 1923; Concerto grosso n. 1 para cordas e piano, 1925). Retornou às composições épicas nos anos 30 com o Serviço religioso (Avodath hakodesh, 1933) e o Concerto para violino (1937). Suas últimas obras representam uma suma de sua carreira e inclinam-se a um estilo menos subjetivo. | Grove',
-	},
-	{
-		src: 'images/jewi.png',
-		no: '🕎️ Judaica, música',
-		des: 'A música de sinagoga norte-americana baseava-se originalmente em modelos europeus, apesar de mais recentemente compositores como Ernest Bloch, Frederick Jacobi, Lazare Saminsky e Isadore Freed terem contribuído com peças em idioma hebraico. | Grove',
-	},
-	{
-		src: 'images/jewi.png',
-		no: '🕎️ Judaica, música: sinagogas alemãs',
-		des: 'As sinagogas alemãs começaram a fazer uso de coros, órgãos e outros tipos de música instrumental a partir de c.1700, valendo-se de repertório contemporâneo não-judaico, de peças seculares, danças e até mesmo melodias líricas. O séc.XIX viu a crescente assimilação de estilos ocidentais na música de sinagoga, bem como a formação de escolas cantoriais. | Grove',
-	},
-	{
-		src: 'images/jewi.png',
-		no: '🕎️ Judaica, música',
-		des: 'Desde a Idade Média, a música esteve ligada ao misticismo judaico, como no movimento chassídico da Europa oriental, com seus niggunim característicos, canções fortemente rítmicas entoadas pelos homens em sílabas não léxicas. O estilo chassídico influenciou a música de sinagoga da Europa oriental. Os precentores desenvolveram estilos virtuosísticos, geralmente valendo-se dos idiomas clássicos locais (p.ex., o sistema magam na diáspora oriental e as técnicas de variação barrocas ocidentais). | Grove',
-	},
-	{
-		src: 'images/jewi.png',
-		no: '🕎️ Judaica, música: música instrumental e vocal',
-		des: 'Após a destruição do Templo pelos romanos no ano 70, a música instrumental foi banida; formas vocais, particularmente o canto dos salmos, sobrevivem até hoje, porém, ao que tudo indica, com poucas mudanças, e são as mais antigas formas preservadas de música judaica. Outras formas vocais são a cantilação dos livros em prosa da Bíblia (incluindo o Pentateuco, Profetas e Ruth) e preces e hinos virtuosisticos, improvisatórios, transmitidos oralmente pelos cantores-compositores (chazanim). | Grove',
-	},
-
-		// 32 objetos
-
 	{
 		src: 'images/jewi.png',
 		no: '🕎️ Judaica, música: instrumentos bíblicos',
 		des: 'Incluem: "asor (instrumento de cordas, presume-se com dez cordas), halil (instrumento de sopro, categoria que incluía prov. flautas e instrumentos de palheta), hatzotzerah (trombeta, prov. usada para produzir clangores rítmicos numa única altura), kaithros (prov. uma lira), kinnor (prov. uma lira, a tocada por Davi para Saul: o instrumento melódico mais importante do antigo Israel), metziltayim (prov. um par de címbalos), minnim (prov. instrumento de cordas), nevel (prov. uma lira ou harpa), garna (chifre animal tocado na corte de Nabucodonosor), tof (prov. um tambor redondo e de fuste estreito, semelhante a um pandeiro porém sem soalhas), "ugav (prov. instrumento de sopro) e o shofar (chifre de carneiro ou de cabrito montês, usado para chamadas rituais), o único desses instrumentos tocado nos tempos modernos. | Grove',
 	},
-	{
-		src: 'images/jewi.png',
-		no: '🕎️ Judaica, música',
-		des: 'Os primeiros indícios de uma cultura musical judaica são encontrados no Velho Testamento. A música hebraica teve suas bases estabelecidas pelo rei Davi, entre 1002 e 970 a.C., no Templo de Jerusalém, onde músicos levitas eram encarregados da execução instrumental e vocal. | Grove',
-	},
-
 
 
 	{
@@ -430,31 +394,6 @@ let news = [
 		des: 'Shows, exposição de artes visuais, encenações teatrais, debates, dança e muito mais. O evento ocorre na Fundação Espaço Cultural da Paraíba (Funesc), em João Pessoa.',
 	},
 
-		/* Genres - Dicionário de estilos */
-
-	{
-		src: 'images/gosp.png',
-		no: '🇺🇸 Gospel music | início séc. XX',
-		des: 'A palavra gospel derivada de "god-spell". Música escrita e executada tendo como tema o louvor, adoração ou graças a Deus, portanto tem motivo religioso ou cerimonial _embora também ocorre como um produto de entretenimento para o mercado comercial.',
-	},
-	{
-		src: 'images/soul.png',
-		no: '🇺🇸 Soul | déc. 50',
-		des: 'Combina elementos da música gospel, rhythm and blues e jazz. A soul music tornou-se popular para dançar e ouvir nos Estados Unidos, onde gravadoras como Motown, Atlantic e Stax foram influentes durante o Movimento dos Direitos Civis. [ft:wi.pt]',
-	},
-	{
-		src: 'images/soul.png',
-		no: '🇺🇸 Soul',
-		des: 'Segundo AllMusic, "a soul music foi o resultado da urbanização e comercialização do R&B nos anos 60". O próprio termo "soul music", referindo-se à música de estilo gospel com letras seculares, foi atestada pela primeira vez em 1961.',
-	},
-	{
-		src: 'thumb320x180.png',
-		no: '🇺🇸 Soul',
-		des: 'O termo "soul" na linguagem afro-americana tem conotações de orgulho e cultura afro-americana. Grupos gospel nas décadas de 1940 e 1950 ocasionalmente usavam o termo como parte de seus nomes.',
-	},
-
-
-
 
 
 	// Data Comemorativa, pessoa, profissão
@@ -467,7 +406,7 @@ let news = [
 	{
 		src: 'https://joesynth.files.wordpress.com/2018/06/revista_dj_world_pg2_.png',
 		no: 'Dia Mundial do DJ | 9 de Março',
-		des: 'O dia foi criado pela iniciativa de duas instituições de caridade: World DJ Fund Foundation e a  Nordoff Robbins Music Therapy, que se utiliza da música para tratar as pessoas enfermas. Foto: DJ Péricles, mentor do Brazilian Underground Movement',
+		des: 'O dia foi criado pela iniciativa de duas instituições de caridade: World DJ Fund Foundation e a  Nordoff Robbins Music Therapy, que se utiliza da música para tratar as pessoas enfermas. 🖼️ DJ Péricles, mentor do Brazilian Underground Movement',
 	},
 	{
 		src: 'https://www.diariodepernambuco.com.br/static/app/noticia_127983242361/2022/09/15/907052/20220915124844291153u.jpg',
@@ -496,7 +435,7 @@ let news = [
 	{
 		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Cartola%2C_1970.tif/lossy-page1-220px-Cartola%2C_1970.tif.jpg',
 		no: 'Dia Nacional do Samba | 2 de dezembro',
-		des: 'O Brasil é conhecido internacionalmente pelo samba, e nada mais justo que uma data tão especial. Foto: Cartola',
+		des: 'O Brasil é conhecido internacionalmente pelo samba, e nada mais justo que uma data tão especial. 🖼️ Cartola',
 	},
 
 	// Data Comemorativa, instrumento musical
@@ -519,22 +458,22 @@ let news = [
 	{
 		src: 'https://joesynth.files.wordpress.com/2021/10/f1b3d-1.jpg',
 		no: '🇦🇺 Sampler',
-		des: 'O sampler nasce em 1979 com o CMI, um equipamento que era literalmente um computador, utilizando processador da marca Motorola. Tanto ele quanto outros de sua ápoca eram bem caros _em suma modelos australianos, norte-americanos, alemães. Até que na segunda metade dos anos 80 entra em cena a indústria japonesa com preços mais acessíveis. Anos 90 podia-se ver máquinas espataculares (como o S6000, foto) _embora os softwares de computador foram se tornando mais conhecidos também nesta época. | JoeSynth.wordpress.com',
+		des: 'O sampler nasce em 1979 com o CMI, um equipamento que era literalmente um computador, utilizando processador da marca Motorola. Tanto ele quanto outros de sua ápoca eram bem caros _em suma modelos australianos, norte-americanos, alemães. Até que na segunda metade dos anos 80 entra em cena a indústria japonesa com preços mais acessíveis. Anos 90 podia-se ver máquinas ainda mais espataculares que as do início da década de 80, embora os softwares de computador foram se tornando mais conhecidos também nesta época. 🖼️ Akai S6000 | JoeSynth.wordpress.com',
 	},
 	{
 		src: 'https://joesynth.files.wordpress.com/2021/06/minimoog.png',
 		no: '🇺🇸 Minimoog',
-		des: 'O Moog nasceu analógico, ou seja, nada de bits, bytes… Ele tem natureza diferente de um synth em VST, que em suma é um software. O Minimoog foi um grande passo na música tecnológica, afinal, foi o 1º synth de fato "acessível" a músicos. | JoeSynth.wordpress.com',
+		des: 'O Moog nasceu analógico, ou seja, nada de bits, bytes… Ele tem natureza diferente de um synth em VST, que em suma é um software. O Minimoog foi um grande passo na música tecnológica, afinal, foi o 1º synth de fato "acessível" a músicos. 🖼️ Simulador de Minimoog em software | JoeSynth.wordpress.com',
 	},
 	{
 		src: 'https://dailyanalog.com/wp-content/uploads/2018/12/Sequential-Circuits-Prophet-5-728x316.jpg',
 		no: '🇺🇸 Sequential Prophet-5 [78]',
-		des: '1º polifônico de cinco notas e memória para timbre. Ainda vale citar Korg MS20 e o Poly-800. | JoeSynth.wordpress.com',
+		des: '1º sintetizador polifônico de cinco notas e memória para timbre. Ainda vale citar Korg MS20 e o Poly-800. 🖼️ Prophet-5 | JoeSynth.wordpress.com',
 	},
 	{
-		src: 'https://joesynth.files.wordpress.com/2021/10/mixer_sampler.jpeg',
+		src: 'https://joesynth.files.wordpress.com/2017/09/pdm7008.jpg',
 		no: '🇧🇷 Funk 12 bits!',
-		des: 'As chamadas montagens são a mãe do Funk Carioca; e no que tange equipamento, foram popularizadas graças ao Gemini 7008. Esse mixer de DJ era barato _se comparado a outras ferramentas_ e tinha o recurso desejado por qualquer garoto que simpatizava com os DJ de bailes funk ou de programas de rádio dos anos 90: o sampler. | JoeSynth.wordpress.com',
+		des: 'As chamadas montagens são a mãe do Funk Carioca; e no que tange equipamento, foram popularizadas graças ao Gemini 7008. Esse mixer de DJ era barato _se comparado a outras ferramentas_ e tinha o recurso desejado por qualquer garoto que simpatizava com os DJ de bailes funk ou de programas de rádio dos anos 90: o sampler. 🖼️ Gemini PDM | JoeSynth.wordpress.com',
 	},
 ];
 
@@ -559,17 +498,17 @@ let mus = [
 function ran(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-var i0 = ran(90, 96);		// Primeiro artigo do topo
-var i1 = ran(85, 89);
-var i2 = ran(80, 84);
-var i3 = ran(75, 79);
-var i4 = ran(70, 74);
-var i5 = ran(65, 69);
-var i6 = ran(60, 64);
-var i7 = ran(55, 59);
-var i8 = ran(50, 54);
-var i9 = ran(46, 49);
-var i10 = ran(42, 45);
+var i0 = ran(80, 85);		// Primeiro artigo do topo
+var i1 = ran(75, 79);
+var i2 = ran(70, 74);
+var i3 = ran(65, 69);
+var i4 = ran(60, 64);
+var i5 = ran(55, 59);
+var i6 = ran(50, 54);
+var i7 = ran(48, 49);
+var i8 = ran(46, 47);
+var i9 = ran(44, 45);
+var i10 = ran(42, 43);
 var i11 = ran(40, 41);
 var i12 = ran(38, 39);
 var i13 = ran(36, 37);
