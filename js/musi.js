@@ -19,6 +19,28 @@ var musi = [		/* musi = músicos, pessoa
 /* Array de Objetos: no = nome, des = descrição */
 let mus = [
 	{
+		src: 'https://3.bp.blogspot.com/-gxPkpGRZ28I/V2qq4KYmWII/AAAAAAAATGw/XWm4y-bghxU5Wt6VN2klUcM5EtDVLPhMgCKgB/s1600/Jorge%2BAntunes%2B-%2B17out06%2B-%2BDaiane%2BSouza%2B%25286%2529.jpg',
+		no: 'Jorge Antunes: vanguarda eletrônica | RJ',
+		des: 'Se o rock é sinônimo de atitude, a música eletrônica brasileira não fica atrás quando se trata do pioneiro Jorge Antunes. Seu comprometimento com a sociedade, a música, a educação é reconhecido internacionalmente. Realizou sua formação musical tradicional na Escola de Música da Universidade do Brasil, atual UFRJ. Em 1962 começou a se interessar pela música eletrônica, ao mesmo tempo em que ingressava no curso de Física da Faculdade Nacional de Filosofia (FNFi).',
+	},
+	{
+		src: 'https://cultura.uol.com.br/upload/radio/discosmarcuspereira/20210831123219_site-uol-2021-08-31t123212.627.png',
+		no: 'Marcus Pereira | SP',
+		des: 'Ele era publicitário e bacharel em direito. Ele "simplesmente" a criou a Discos Marcus Pereira, um selo independente de música regional e música popular brasileira, fundado em 1973. Seu trabalho é espetacular para todos os brasileiros, desde a pessoa mais simples à elite. Desiludido e com outros problemas pessoais, Marcus Pereira tirou a própria vida em 1981; porém, deixando dezenas e dezenas de discos com toda diversidade cultural brasileira.',
+	},
+	{
+		src: 'https://i0.wp.com/cariridagente.com/wp-content/uploads/2013/11/pinto.jpg',
+		no: 'Pinto do Monteiro | PB',
+		des: 'Foi um poeta popular, compositor, cantador e improvisador brasileiro. Filho de uma doméstica com um tropeiro, trabalhou como vaqueiro, vendedor, auxiliar de enfermagem e guarda do serviço contra a malária. Foi também soldado no combate aos bandos de cangaceiros. Aprendeu a ler e a escrever já depois de adulto. Foi um dos mais lendários cantadores e repentistas.',
+	},
+	{
+		src: 'thumb320x180.png',
+		no: '🇯🇲️ Ska (bluebeat) | final déc. 50',
+		des: 'Um estilo de música e dança popular urbano, da jamaica. Lá, foi o estilo de música popular nativa predominante, até ser suplantado, em meados dos anos 60, pelo "rock steady", um precursor do reggae. Teve aceitação fugaz na América do Norte e na Grã-Bretanha. [ft:gro]',
+	},
+
+
+	{
 		src: 'images/funk.png',
 		no: '🇺🇸 Lyn Collins',
 		des: 'Conhecida por ter trabalhado com James Brown, a cantora "passeou" pelo soul, funk e R&B.',
@@ -228,9 +250,9 @@ let mus = [
 function ran(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-var i0 = ran(31, 34);
-var i1 = ran(28, 30);
-var i2 = ran(26, 27);
+var i0 = ran(34, 38);
+var i1 = ran(30, 33);
+var i2 = ran(26, 29);
 var i3 = ran(24, 25);
 var i4 = ran(22, 23);
 var i5 = ran(20, 21);

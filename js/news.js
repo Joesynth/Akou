@@ -3,9 +3,16 @@
 
 
 let news = [
-{
+
+	{
+		src: 'https://joesynth.files.wordpress.com/2022/04/oscar_png.png',
+		no: 'Oscar Sala',
+		des: 'Engenheiro, também pianista, ajudou a trazer a internet através da criação da Rede ANSP (Academic Network at São Paulo).',
+	},
+
+	{
 		src: 'https://joesynth.files.wordpress.com/2022/10/f-droid.png',
-		no: 'F-Droid: 30 softwares livres musicais',
+		no: 'F-Droid: softwares livres musicais',
 		des: 'Músico? DJ? Beatmaker? Sound design? Mesmo que você seja um simples amante da música irá gostar dessa loja de softwares. Players, softs de áudio, MIDI, synths e muito mais; tudo grátis, sem anúncios. Estamos falando da F-Droid, algo semelhante a Google Play _só que baseado na ideia de SL (Software Livre). | JoeSynth.wordpres.com',
 	},
 	{
@@ -431,11 +438,6 @@ let news = [
 		des: 'A palavra gospel derivada de "god-spell". Música escrita e executada tendo como tema o louvor, adoração ou graças a Deus, portanto tem motivo religioso ou cerimonial _embora também ocorre como um produto de entretenimento para o mercado comercial.',
 	},
 	{
-		src: 'thumb320x180.png',
-		no: '🇯🇲️ Ska (bluebeat) | final déc. 50',
-		des: 'Um estilo de música e dança popular urbano, da jamaica. Lá, foi o estilo de música popular nativa predominante, até ser suplantado, em meados dos anos 60, pelo "rock steady", um precursor do reggae. Teve aceitação fugaz na América do Norte e na Grã-Bretanha. [ft:gro]',
-	},
-	{
 		src: 'images/soul.png',
 		no: '🇺🇸 Soul | déc. 50',
 		des: 'Combina elementos da música gospel, rhythm and blues e jazz. A soul music tornou-se popular para dançar e ouvir nos Estados Unidos, onde gravadoras como Motown, Atlantic e Stax foram influentes durante o Movimento dos Direitos Civis. [ft:wi.pt]',
@@ -463,9 +465,9 @@ let news = [
 		des: 'Adota-se o termo músico quando nos referimos a qualquer pessoa ligada diretamente à música, em caráter profissional ou amador, exercendo alguma função no campo de música, como a de tocar  um instrumento musical, cantando, escrevendo arranjos, compondo, regendo, ou dirigindo um grupo coral ou algum grupo de músicos, como orquestras, bandas, big band de jazz, ou ainda lecionando, trabalhando no campo de educação, em terapia musical.',
 	},
 	{
-		src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQTQxsacZxTF39VRUk2oHYLCLxW3M9EPOa3C222XxdYcEh705z1sDbaUCroKFmF6Bqndg&usqp=CAU',
+		src: 'https://joesynth.files.wordpress.com/2018/06/revista_dj_world_pg2_.png',
 		no: 'Dia Mundial do DJ | 9 de Março',
-		des: 'O dia foi criado pela iniciativa de duas instituições de caridade: World DJ Fund Foundation e a  Nordoff Robbins Music Therapy, que se utiliza da música para tratar as pessoas enfermas.',
+		des: 'O dia foi criado pela iniciativa de duas instituições de caridade: World DJ Fund Foundation e a  Nordoff Robbins Music Therapy, que se utiliza da música para tratar as pessoas enfermas. Foto: DJ Péricles, mentor do Brazilian Underground Movement',
 	},
 	{
 		src: 'https://www.diariodepernambuco.com.br/static/app/noticia_127983242361/2022/09/15/907052/20220915124844291153u.jpg',
@@ -492,9 +494,9 @@ let news = [
 		des: 'A data escolhida faz referência ao nascimento do seu principal representante: Luiz Gonzaga, o cantor, compositor e sanfoneiro.',
 	},
 	{
-		src: 'https://www12.senado.leg.br/radio/1/noticia/2021/12/02/2-de-dezembro-e-o-dia-nacional-do-samba/@@images/35fa383a-6668-49ef-b3ee-2837893625a7.jpeg',
+		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Cartola%2C_1970.tif/lossy-page1-220px-Cartola%2C_1970.tif.jpg',
 		no: 'Dia Nacional do Samba | 2 de dezembro',
-		des: 'O Brasil é conhecido internacionalmente pelo samba, e nada mais justo que uma data tão especial.',
+		des: 'O Brasil é conhecido internacionalmente pelo samba, e nada mais justo que uma data tão especial. Foto: Cartola',
 	},
 
 	// Data Comemorativa, instrumento musical
@@ -557,17 +559,17 @@ let mus = [
 function ran(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-var i0 = ran(85, 96);		// Primeiro artigo do topo
-var i1 = ran(75, 84);
-var i2 = ran(70, 74);
-var i3 = ran(65, 69);
-var i4 = ran(60, 64);
-var i5 = ran(55, 49);
-var i6 = ran(50, 54);
-var i7 = ran(48, 49);
-var i8 = ran(46, 47);
-var i9 = ran(44, 45);
-var i10 = ran(42, 43);
+var i0 = ran(90, 96);		// Primeiro artigo do topo
+var i1 = ran(85, 89);
+var i2 = ran(80, 84);
+var i3 = ran(75, 79);
+var i4 = ran(70, 74);
+var i5 = ran(65, 69);
+var i6 = ran(60, 64);
+var i7 = ran(55, 59);
+var i8 = ran(50, 54);
+var i9 = ran(46, 49);
+var i10 = ran(42, 45);
 var i11 = ran(40, 41);
 var i12 = ran(38, 39);
 var i13 = ran(36, 37);
