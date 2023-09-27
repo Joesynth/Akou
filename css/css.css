@@ -85,14 +85,18 @@ h6 {				/* Palavra "Apoio" que fica em cima do slider | tag "p" está em ""mkt.j
 	width: 48em;
 }
 
-.ti, .te {
+.ti {
 	font-size: 1.1em;
 	text-align: justify;
-}
-
-.ti {
 	font-weight: bold;
 }
+
+.te {
+	font-size: 1.1em;
+	text-align: justify;
+	background-image: linear-gradient(white, lightyellow);
+}
+
 
 .config {
 	display: flex;
