@@ -689,11 +689,11 @@ section {
 
 /*estilizar nossa janela modal*/
 .modal, .modal1, .modal2, .modal3 {
-	width: 22em;
+	width: 21.9em;
 	height: 35em;
 	position: fixed;
 	top: 0.5em;
-	right: 0.2em;
+	right: 0.3em;
 	//bottom: 0;
 	//left: 0;
 	background: white;
