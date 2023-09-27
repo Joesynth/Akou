@@ -15,8 +15,8 @@
 
 
 .mmm {
-	width: 75%;
-	margin-left: 12%;
+	width: 70%;
+	margin-left: 14%;
 	border-radius: 1em 1em 0% 0%;
 	margin-top: 0.6em; 
 	margin-bottom: 0.3em; 
@@ -33,19 +33,19 @@
 
 
 
-
+/* Classe conte parecida com modal */
 .conte, .conte1, .conte2, .conte3 {
-	width: 90%;
+	width: 93%;
 	color: gray;
-	height: 66%;						/*Área de conteúdo principal acima da propaganda "mkt" */
+	height: 75%;						/*Área de conteúdo principal acima da propaganda "mkt" */
 	overflow: scroll;
 	//background-color: green;
-	font-size: 0.8em;
+	//font-size: 0.8em;
 	//text-transform: uppercase;
 	text-align: left;
 	margin-left: 2%;
 	font-family: arial;
-	padding: 1em;
+	padding: .5em;
 	letter-spacing: .1em;
 }
 
@@ -86,15 +86,15 @@ h6 {				/* Palavra "Apoio" que fica em cima do slider | tag "p" está em ""mkt.j
 }
 
 .ti {
-	font-size: 1.1em;
+	font-size: 0.9em;
 	text-align: justify;
 	font-weight: bold;
 }
 
 .te {
-	font-size: 1.1em;
+	font-size: 0.9em;
 	text-align: justify;
-	background-image: linear-gradient(white, lightyellow);
+	//background-image: linear-gradient(white, lightyellow);
 }
 
 
@@ -691,13 +691,14 @@ section {
 
 		/* Relativo ao modal no rodapé */
 
+/* Classe conte parecida com modal */
 /*estilizar nossa janela modal*/
 .modal, .modal1, .modal2, .modal3 {
-	width: 21.9em;
+	width: 21.8em;
 	height: 35em;
 	position: fixed;
 	top: 0.5em;
-	right: 0.3em;
+	right: 0.4em;
 	//bottom: 0;
 	//left: 0;
 	background: white;
