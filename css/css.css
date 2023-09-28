@@ -43,7 +43,7 @@
 	//font-size: 0.8em;
 	//text-transform: uppercase;
 	text-align: left;
-	margin-left: 2%;
+	margin-left: 0.1em;
 	font-family: arial;
 	padding: .5em;
 	letter-spacing: .1em;
@@ -87,14 +87,15 @@ h6 {				/* Palavra "Apoio" que fica em cima do slider | tag "p" está em ""mkt.j
 
 .ti {
 	font-size: 0.9em;
-	text-align: justify;
+	//text-align: justify;
 	font-weight: bold;
 }
 
 .te {
 	font-size: 0.9em;
-	text-align: justify;
+	//text-align: justify;
 	//background-image: linear-gradient(white, lightyellow);
+	line-height: 20px;
 }
 
 
@@ -223,6 +224,11 @@ kbd {				/* Estilo Musical, ou seja, página .html*/
 	text-transform: uppercase;
 	color: lightgreen;
 	margin-bottom: 3em;
+}
+
+
+.pb {
+	filter: grayscale(100%);
 }
 
 .bt {
@@ -695,7 +701,7 @@ section {
 /*estilizar nossa janela modal*/
 .modal, .modal1, .modal2, .modal3 {
 	width: 21.8em;
-	height: 35em;
+	height: 36em;
 	position: fixed;
 	top: 0.5em;
 	right: 0.4em;
