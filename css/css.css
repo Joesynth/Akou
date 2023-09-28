@@ -1,3 +1,4 @@
+
 /*
 * {
 	margin: 0;
@@ -13,33 +14,43 @@
 }
 
 #arti {
-	background-image: linear-gradient(white, lightyellow);
+	background-image: linear-gradient(whitesmoke, white);
 	width: 100%;
 }
 
-.ti {
+#arti .mmm {
+	width: 70%;
+	//margin-left: 14%;
+	border-radius: 1em 1em 0% 0%;
+	margin-top: 0.6em; 
+	margin-bottom: 0.3em; 
+}
+
+#arti .ti {
 	font-size: 0.9em;
 	//text-align: justify;
 	font-weight: bold;
 	line-height: 20px;
 	text-align: left;
+	margin-left: 2em;
 }
 
-.te {
+#arti .te {
 	font-size: 0.9em;
 	//text-align: justify;
 	//background-image: linear-gradient(white, lightyellow);
 	line-height: 20px;
 	text-align: left;
+	letter-spacing: .1em;
 }
 
-.mmm {
-	width: 70%;
-	margin-left: 14%;
-	border-radius: 1em 1em 0% 0%;
-	margin-top: 0.6em; 
-	margin-bottom: 0.3em; 
+#arti .te::first-letter {
+	color: black;
+	font-weight: bold;
+	font-size: 1.1em;
+	font-family: Times;
 }
+
 
 #co {
 	position: absolute;
@@ -64,13 +75,9 @@
 	margin-left: 0.1em;
 	font-family: arial;
 	padding: .5em;
-	letter-spacing: .1em;
 }
 
-.conte::first-letter, .conte1::first-letter, .conte2::first-letter, .conte3::first-letter {
-	color: brown;
-	font-weight: bold;	
-}
+
 
 /* Excluído mkt, restando somente mkt1, mkt2... */
 .mkt1, .mkt2, .mkt3 {
