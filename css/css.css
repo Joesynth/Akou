@@ -12,7 +12,26 @@
 	text-decoration: none;
 }
 
+#arti {
+	background-image: linear-gradient(white, lightyellow);
+	width: 100%;
+}
 
+.ti {
+	font-size: 0.9em;
+	//text-align: justify;
+	font-weight: bold;
+	line-height: 20px;
+	text-align: left;
+}
+
+.te {
+	font-size: 0.9em;
+	//text-align: justify;
+	//background-image: linear-gradient(white, lightyellow);
+	line-height: 20px;
+	text-align: left;
+}
 
 .mmm {
 	width: 70%;
@@ -42,7 +61,6 @@
 	//background-color: green;
 	//font-size: 0.8em;
 	//text-transform: uppercase;
-	text-align: left;
 	margin-left: 0.1em;
 	font-family: arial;
 	padding: .5em;
@@ -85,18 +103,7 @@ h6 {				/* Palavra "Apoio" que fica em cima do slider | tag "p" está em ""mkt.j
 	width: 48em;
 }
 
-.ti {
-	font-size: 0.9em;
-	//text-align: justify;
-	font-weight: bold;
-}
 
-.te {
-	font-size: 0.9em;
-	//text-align: justify;
-	//background-image: linear-gradient(white, lightyellow);
-	line-height: 20px;
-}
 
 
 .config {
