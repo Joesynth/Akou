@@ -82,12 +82,12 @@ let loc = [
 		des: 'As Bandas da Marinha apresentaram concertos gratuitos, isso em Natal. | globo.com',
 	},
 	{
-		src: 'https://m.vitoria.es.gov.br/recursos/imagens/banco/2023/08/18/117665/normal@2x.jpg',
+		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Parque_Pedra_da_Cebola_2.jpg/800px-Parque_Pedra_da_Cebola_2.jpg',
 		no: 'Parque Pedra da Cebola | ES',
 		des: 'Banda Sinfônica e a Banda Marcial do Corpo de Fuzileiros Navais da Marinha do Brasil. | es.gov.br',
 	},
 	{
-		src: 'https://www.sinop.mt.gov.br/phpThumb/phpThumb.php?src=fotos_bancoimagens/15337.jpeg&w=754&zc=1',
+		src: 'https://www.sinop.mt.gov.br/phpThumb/phpThumb.php?src=fotos_bancoimagens/15337.jpeg',
 		no: 'Centro de Eventos Dante de Oliveira',
 		des: 'Relacionado a ele já se teve a Banda de Música do Corpo de Bombeiros. | mt.gov.br',
 	},
@@ -304,7 +304,7 @@ let loc = [
 	{
 		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Teatro7abril2.jpg/250px-Teatro7abril2.jpg',
 		no: 'Teatro Sete de Abril | RS',
-		des: 'Com quase 200 anos de existência, fica na cidade de Pelotas. Possui características da linguagem colonial. Em âmbito nacional, seu nome pode ser interpretado como homenagem ao dia da abdicação de D. Pedro I em favor de seu filho, o que alguns liberais mais exaltados consideravam a verdadeira data de Independência do Brasil.',
+		des: 'Com quase 200 anos de existência, fica na cidade de Pelotas. Possui características da linguagem colonial. Em âmbito nacional, seu nome pode ser interpretado como homenagem ao dia da abdicação de D. Pedro I em favor de seu filho, o que alguns consideravam a verdadeira data de Independência do Brasil.',
 	},
 	{
 		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Teatro_Alberto_Maranh%C3%A3o_a_noite.jpg/300px-Teatro_Alberto_Maranh%C3%A3o_a_noite.jpg',
@@ -314,7 +314,7 @@ let loc = [
 	{
 		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Teatro_Municipal_Dix-Huit_Rosado%2C_Mossor%C3%B3_%28RN%29.jpg/250px-Teatro_Municipal_Dix-Huit_Rosado%2C_Mossor%C3%B3_%28RN%29.jpg',
 		no: 'Teatro Municipal Dix-Huit Rosado | RN',
-		des: 'Localizado na cidade de Mossoró, foi construído em 2003 pela prefeitura numaa parceria da PETROBRAS. O espaço comporta mais de 700 pessoas para presenciar balé, comédias, danças...',
+		des: 'Localizado na cidade de Mossoró, foi construído em 2003 pela prefeitura numa parceria da PETROBRAS. O espaço comporta mais de 700 pessoas para presenciar balé, comédias, danças...',
 	},
 	{
 		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Teatro_Deodoro_maceio.JPG/300px-Teatro_Deodoro_maceio.JPG',

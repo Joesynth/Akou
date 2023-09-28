@@ -72,7 +72,7 @@ let mus = [
 		des: 'Jundo com Camila Marlière, são o Duo Querubim; que tem como proposta apresentar um repertório de música de concerto.',
 	},
 	{
-		src: 'http://www.classicaltracks.com.br/imagefly/w400-h260-c/media/musicos/Camila_02.jpg',
+		src: 'https://storage.alboom.ninja/sites/745/albuns/26870/aquila-simoes---fotografia--------------------recital-camila-marliere--10.JPG',
 		no: 'Camila Marlière',
 		des: 'Jundo com Camila Marlière, são o Duo Querubim; que tem como proposta apresentar um repertório de música de concerto.',
 	},
@@ -158,7 +158,7 @@ let mus = [
 	{
 		src: 'https://cultura.uol.com.br/upload/radio/discosmarcuspereira/20210831123219_site-uol-2021-08-31t123212.627.png',
 		no: 'Marcus Pereira | SP',
-		des: 'Ele era publicitário e bacharel em direito. Ele "simplesmente" a criou a Discos Marcus Pereira, um selo independente de música regional e música popular brasileira, fundado em 1973. Seu trabalho é espetacular para todos os brasileiros, desde a pessoa mais simples à elite. Desiludido e com outros problemas pessoais, Marcus Pereira tirou a própria vida em 1981; porém, deixando dezenas e dezenas de discos com toda diversidade cultural brasileira.',
+		des: 'Publicitário e bacharel em direito, ele criou a Discos Marcus Pereira; um selo independente de música regional e música popular brasileira, fundado em 1973. Desiludido e com outros problemas pessoais, Marcus Pereira tirou a própria vida em 1981; porém, deixando dezenas e dezenas de discos com toda diversidade cultural brasileira _um trabalho espetacular para todos os cidadãos.',
 	},
 	{
 		src: 'https://i0.wp.com/cariridagente.com/wp-content/uploads/2013/11/pinto.jpg',
@@ -209,7 +209,7 @@ let mus = [
 	{
 		src: 'https://rollingstone.uol.com.br/media/uploads/jamesbrown-gettyimages.jpg',
 		no: '🇺🇸 James Brown',	
-		des: 'Começou como cantor gospel, na Geórgia, e ganhou destaque em meados da década de 1950 sendo vocalista do Famous Flames, um grupo vocal de ritmo e blues. Lançou "Try Me" em 1958, que alcançou o primeiro lugar nas paradas de R&B no início de 1959. James Brown, the Flames e toda a sua banda estrearam no Apollo Theatre em 1959, abrindo para o ídolo de Brown: Little Willie John. O primeiro funk de James Brown? Alguns críticos citaram  "Cold Sweat" como a primeira verdadeira música funk, que alcançou o primeiro lugar na parada de R&B.',	
+		des: 'Começou como cantor gospel, na Geórgia, e ganhou destaque em meados da década de 1950 sendo vocalista do Famous Flames, um grupo vocal de R&B. Lançou "Try Me" em 1958, que alcançou o primeiro lugar nas paradas de R&B no início de 1959. James Brown, the Flames e toda a sua banda estrearam no Apollo Theatre em 1959, abrindo para o ídolo de Brown: Little Willie John. O primeiro funk de James Brown? Alguns críticos citaram  "Cold Sweat" como a primeira verdadeira música funk, que alcançou o primeiro lugar na parada de R&B.',	
 	},
 	{
 		src: 'http://arquivos.tribunadonorte.com.br/fotos/158499.jpg',
@@ -281,9 +281,9 @@ let mus = [
 		des: 'Oficialmente fundada no início de 1980 no Teatro Nacional de Brasília.',
 	},
 	{
-		src: 'http://www.pensario.uff.br/sites/pensario.uff.br/files/image/(99)DSCN3723_web(1).jpg',
-		no: 'Chorões dos anos 70',
-		des: 'Waldir Azevedo (cavaquinho), Abel Ferreira (clarinete), Paulo Moura (sax), Zé da Velha (trombone), Copinha (flauta) e Joel Nascimento (bandolim).',
+		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Waldir_Azevedo.jpg/200px-Waldir_Azevedo.jpg',
+		no: 'Waldir Azevedo | RJ',
+		des: 'Foi músico e compositor, mestre do cavaquinho e autor dos choros "Brasileirinho", "Delicado" e "Pedacinhos do Ceu". | pt.wi',
 	},
 	{
 		src: 'https://www.diariodepetropolis.com.br/Conteudo/Dados_DRPTR14/acervo/1/202010/fotos/0750_x_0563_20201023084640_TCA7L.jpg',
@@ -318,7 +318,7 @@ let mus = [
 	{
 		src: 'https://upload.wikimedia.org/wikipedia/en/thumb/1/11/James_Brown_and_Flames.jpg/260px-James_Brown_and_Flames.jpg',
 		no: '🇺🇸 The Famous Flames',
-		des: 'Voltado ao ritmo & blues e soul, foi o grupo que teve James Brown em seu início de carreira. Lançou uma versão de "Please, Please, Please" em 1956. A canção se tornou o primeiro hit de R&B do grupo.',
+		des: 'Voltado ao R&B e soul, foi o grupo que teve James Brown em seu início de carreira. Lançou uma versão de "Please, Please, Please" em 1956. A canção se tornou o primeiro hit de R&B do grupo.',
 	},
 
 

@@ -18,7 +18,7 @@ let news = [
 	{
 		src: 'https://joesynth.files.wordpress.com/2022/11/arp2600.gif',
 		no: 'Sintetizadores grátis?',
-		des: 'Software Livre é um termo já comum, onde cada vez mais temos consciência dos benefícios. Opções de sintetizadores do tipo open-source são: Yoshimi, ZynAddSubFX e Bristol. Este último, o Bristol, é um ambiente de código aberto para software sintetizador. O Bristol é formado por dois componentes: o Bristol que é o simulador de sintetizador e a interface gráfica que é a Brighton. Tem várias simulações de synths famosos. 🖼️ Arp-2600. | JoeSynth.wordpres.com',
+		des: 'Software Livre é um termo já comum, onde cada vez mais temos consciência dos benefícios. Opções de sintetizadores do tipo open-source são: Yoshimi, ZynAddSubFX e Bristol. O Bristol, em especial, esse ambiente de código aberto para software sintetizador, é formado por dois componentes: o Bristol que é o simulador de sintetizador e a interface gráfica que é a Brighton. Tem várias simulações de synths famosos. 🖼️ Arp-2600. | JoeSynth.wordpres.com',
 	},
 	{
 		src: 'https://joesynth.files.wordpress.com/2018/06/meyer.jpg',
@@ -131,7 +131,7 @@ let news = [
 	{
 		src: 'https://joesynth.files.wordpress.com/2017/08/synths_em_reaktor-e1502461637374.jpg',
 		no: 'Sintetizadores criados em Reaktor',
-		des: 'O Reaktor é uma ferramenta da Native Instruments, e que pode ser entendida como um ambiente de programação gráfica, VPL ou sintetizador modular. Resumindo, você criará sintetizadores como se estivesse criando um software, porém sem escrever aquelas linhas de códigos típicas de um programador. Ou, se fosse um engenheiro de áudio ou sound designer criando através daqueles cabos e mais cabos, conectados em módulos. No Reaktor pode-se criar de tudo, desde um simulador de synth analógico até uma mesa de som ou ainda uma aplicação surround. | JoeSynth.wordpres.com',
+		des: 'O Reaktor é uma ferramenta da Native Instruments, que pode ser entendida como um sintetizador modular ou um ambiente de programação gráfica (VPL). Resumindo, você criará sintetizadores como se estivesse criando um software, porém sem escrever aquelas linhas de códigos típicas de um programador. Ou, se fosse um engenheiro de áudio ou sound designer criando através daqueles cabos, e mais cabos, conectados em módulos. No Reaktor pode-se criar de tudo: um simulador de synth analógico, uma mesa de som, uma aplicação surround... | JoeSynth.wordpres.com',
 	},
 	{
 		src: 'https://joesynth.files.wordpress.com/2019/05/midi_sintese.png',
@@ -141,17 +141,17 @@ let news = [
 	{
 		src: 'https://joesynth.files.wordpress.com/2021/07/midi.png',
 		no: 'Melhor controlador MIDI?',
-		des: 'Super importe um controlador midi, não é? Anos 90, um conhecido era o Roland PC200mkIIx, que foi utilizado num disco exatamente de música eletrônica experimental: o "The R2ep". Embora antigo, pode-se notar no vinil que é um disco repleto de efeitos de modulações, controlado via MIDI. Hoje há muito mais opções desses controladores. No que tange marcas há muitas, e algumas são: as alemãs Behringer, ESI (EgoSys), a francesa Arturia, a inglesa Novation e japonesas como a Akai, Korg, Roland e Yamaha. | JoeSynth.wordpres.com',
+		des: 'Super importe um controlador midi, não é? Anos 90, um conhecido era o Roland PC200mkII, que foi utilizado num disco exatamente de música eletrônica experimental: o "The R2ep". Embora antigo, pode-se notar no vinil que é um disco repleto de efeitos de modulações, controlado via MIDI. Hoje há muito mais opções desses controladores. Algumas marcas são: as alemãs Behringer, ESI (EgoSys), a francesa Arturia, a inglesa Novation e japonesas como a Akai, Korg, Roland e Yamaha. | JoeSynth.wordpres.com',
 	},
 	{
 		src: 'https://joesynth.files.wordpress.com/2022/11/schism-tracker.png',
 		no: 'Game? Então pense Tracker!',
-		des: 'Softwares musicais baseados em loops ficaram comuns, como é o caso do FL Studio. O tracker, porém, têm uma certa marca histórica; afinal, era um programa musical típico dos anos 80 e 90. Esses aplicativos chamados trackers combinavam samples com um sequenciador básico (tipicamente baseado em padrões, patterns). Como a tecnologia da época era diferente do que há hoje, os sons são bem "cara" de game retrô. Ou seja, se você gosta de loops repetitivos e hipnóticos, então seja bem-vindo ao mundo dos trackers! | JoeSynth.wordpres.com',
+		des: 'Softwares musicais baseados em loops ficaram comuns, como é o caso do FL Studio. O tracker, porém, têm uma certa marca histórica; afinal, era um programa musical dos anos 80 e 90. Esses aplicativos combinavam samples com um sequenciador básico (voltado a padrões, patterns). Como a tecnologia da época era diferente do que há hoje, os sons são bem "cara" de game. Ou seja, se você gosta de loops repetitivos, hipnóticos e sonoridade retrô, então seja bem-vindo ao mundo dos trackers! | JoeSynth.wordpres.com',
 	},
 	{
 		src: 'https://joesynth.files.wordpress.com/2022/12/controlador_midi_kawai_vpc1.png',
 		no: 'Piano: escolhendo um controlador MIDI 88 teclas',
-		des: 'Para escolher um podemos pensar sobre o que é mais relevante diante do nosso contexto de sua vida. Preço e durabilidade é o que vem à cabeça de imediato. E há mais o que pensar! A ação das teclas é o mais importante? Se for então a parte mecânica é o vital. Se for usado num estúdio, botões controladores (midi) serão úteis, seja por conta de um estilo de música (que "peça" mais efeitos) ou até mesmo na mixagem. E ainda se falando de estúdio, mesmo a aparência do seu controlador pode impressionar seus clientes, no sentido de marketing.O equipamento será transportado? Vai e volta de show? Haja piano! Haja controlador! São variáveis a se pesar e tendo do outro lado da balança o investimento. Marcas a considerar: as alemãs Swissonic, Native Instruments e Doepfer, a italiana Studiologic (Fatar), a francesa Arturia, a originalmente norte-americana Kurzweil e as japonesas: Roland, Yamaha, Korg e... 🖼️ Kawai | JoeSynth.wordpres.com',
+		des: 'Para escolher um controlador desse tipo podemos pensar sobre o que é mais relevante no nosso contexto de sua vida. Além de preço e durabilidade há mais o que considerar! A ação das teclas é o mais importante? Se for então a parte mecânica é o vital. Se for usado num estúdio, botões controladores (midi) serão úteis, seja por conta de um estilo de música (que "peça" mais efeitos) ou até usar na mixagem. E ainda se falando de estúdio, mesmo a aparência do seu controlador pode impressionar seus clientes, no sentido de marketing. O instrumento será transportado? Vai e volta de show? Haja piano, haja controlador! São variáveis a se pesar e tendo do outro lado da balança o investimento. Marcas a considerar: as alemãs Swissonic, Native Instruments e Doepfer, a italiana Studiologic (Fatar), a francesa Arturia, a originalmente norte-americana Kurzweil e as japonesas: Roland, Yamaha, Korg e... 🖼️ Kawai | JoeSynth.wordpres.com',
 	},
 	{
 		src: 'https://joesynth.files.wordpress.com/2020/12/zero-g_sample_libraries.png',
@@ -187,8 +187,8 @@ let news = [
 	},
 	{
 		src: 'https://www.springair.de/media/image/e3/e7/17/h54529-0-54529_600x600.jpg',
-		no: 'Anos 80 e 90: analógico vs digital',
-		des: 'Embora nessa época os vinis, com seus sons analógicos, fossem típicos para os cidadãos ouvirem músicas (mesmo já existindo o CD), nos estúdios a situação era outra. O equipamento predileto dos profissionais era o DAT. Ele gravava de forma digital numa pequena fita, sendo a excelência da qualidade daqueles tempos _que aliás, se tornou padrão nos estúdios. Dessa fita digital, após todo um processo, é que se fazia os vinis. Dependendo de certas circunstâncias, mesmo a a fase da própria gravação multipistas já poderia estar sendo feita em domínio também digital. Ou seja, para quem estava em casa tocando e ouvindo um belo vinil (portanto som análogo), na verdade, estava-se ouvindo áudio analógico mas que anteriormente tinha sido gravado ou mesmo finalizado de forma digital. A indústria também criou um padrão que mostrava se tal fase de produção (gravação, finalização...) era digital ou não. 🖼️ Sony PCM-2500',
+		no: 'Anos 80/90: analógico vs digital',
+		des: 'Embora nessa época os vinis, com seus sons analógicos, fossem comuns para as pessoas ouvirem músicas em casa, nos estúdios a situação era outra: o DAT era o rei! Equipamento predileto dos profissionais, ele gravava de forma digital numa pequena fita, sendo a excelência da qualidade naquela época. A palavra DAT se refere tanto ao aparelho como a própria fita, que virou padrão nos estúdios. Essa fita digital era a arte final da música e que, após certo processo, iria-se fazer os vinis. Na verdade, mesmo antes de se chegar à fita DAT, na fase da gravação multipistas (onde é registrado instrumento por instrumento de forma separada), também já era possível utilizar o digital _é o caso dos MDMs. Gravar os vários instrumentos, ou a finalização, da música tudo em domínio digital, analógico ou híbrido era uma opção da época. A indústria até criou um padrão que mostrava (ao consumidor) se tal fase de produção (gravação, finalização...) era digital ou não. Ou seja, para quem estava em casa tocando e ouvindo um belo vinil (de som análogo), de fato, poderia estar ouvindo áudio analógico mas que se originou de uma matriz digital.  🖼️ Sony PCM-2500',
 	},
 	{
 		src: 'https://www.vintagesynth.com/sites/default/files/2017-05/touche.jpg',
@@ -197,8 +197,8 @@ let news = [
 	},
 	{
 		src: 'https://joesynth.files.wordpress.com/2022/12/monitor_krk_v8.png',
-		no: 'Monitores de estúdio: marcas clássicas!',
-		des: 'Sendo uma ferramenta especial num estúdio, é sempre bom lembrar algumas marcas relevantes. São elas: ADAM e Genelec (ambas com dezenas de prêmios cada uma), B&W, Dynaudio, Focal, JB, KRK Systems, PMC e, por fim, Yamaha.',
+		no: 'Monitor de estúdio: marcas clássicas!',
+		des: 'Ferramenta especial num estúdio, então é sempre bom lembrarmos algumas marcas relevantes. São elas: ADAM e Genelec (ambas com dezenas de prêmios cada uma), B&W, Dynaudio, Focal, JBL, PMC, Yamaha e... 🖼️ KRK Systems | JoeSynth.wordpress.com',
 	},
 	{
 		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Clavecin_flamand.png/200px-Clavecin_flamand.png',
@@ -213,7 +213,7 @@ let news = [
 	{
 		src: 'https://joesynth.files.wordpress.com/2020/11/linplug_saxlab_2.png',
 		no: 'Síntese sonora: ROMpler',
-		des: 'Era um tipo de sintetizador (em hardware) que tinha sons armazenados em memória ROM. Podiam ter timbres cotidianos, mas também bateria. Com a popularização dos computadores o recurso passou a ser simulado via softwares, como VSTs. Exemplos? IK Multimedia Sampletank 2, reFX Nexus 3, Lethal Audio Lethal e... 🖼️ Linplug SaxLab | JoeSynth.wordpress.com',
+		des: 'Basicamente, um rompler era um tipo de sintetizador (em hardware) que tinha sons armazenados em memória ROM. Um teclado ou bateria eletrônica que utilizasse essa ideia podia ter timbres cotidianos, sons de percussão, etc. Com a popularização dos computadores o recurso passou a ser simulado via softwares, como VSTs. Exemplos? IK Multimedia Sampletank 2, reFX Nexus 3, Lethal Audio Lethal e... 🖼️ Linplug SaxLab | JoeSynth.wordpress.com',
 	},
 	{
 		src: 'https://cdn.shopify.com/s/files/1/0662/5667/files/360-close-2.jpg',
@@ -238,7 +238,7 @@ let news = [
 	{
 		src: 'https://joesynth.files.wordpress.com/2020/11/xfer_serum.png',
 		no: 'Síntese sonora wavetable',
-		des: 'Embora a palavra "wave" possa dar a impressão de onda sampleada (inclusive anos 90 placas de som baratas, para computador, eram limitadamente samples er), a síntese do tipo wavetable é baseada na SCW, single cycle waveform. Basicamente, no lugar de termos uma onda quadrada ou dente-de-serra para gerarmos nossos sons, temos uma variedade bem maior dessas ondas inicias. Tal como a onda quadrada ou dente-de-serra, essas ondas utilizadas num wavetable também são ondas constantes e que serão processadas.',
+		des: 'Embora a palavra "wave" possa dar a impressão de onda sampleada (inclusive anos 90 placas de som baratas para computador eram, limitadamente, samples), a síntese do tipo wavetable é baseada na SCW, single cycle waveform. Basicamente, no lugar de termos uma onda quadrada ou dente-de-serra para gerarmos nossos sons, temos uma variedade bem maior dessas ondas inicias. Tal como a onda quadrada ou dente-de-serra, essas ondas utilizadas num wavetable também são ondas constantes e que serão processadas.',
 	},
 	{
 		src: 'https://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/7rUAAOSw1P9hjQHD/$_86.JPG',
@@ -246,14 +246,14 @@ let news = [
 		des: 'A síntese wavetable foi um grande avanço em novos sons, mas um sintetizador PPG era caro. Uma opção mais acessível era a linha DW da japonesa Korg _embora não chegasse ao mesmo poder de "fogo" de um tradicional synth alemão do tipo wavetable.',
 	},
 	{
-		src: 'https://i.ytimg.com/vi/pvk3pA4GaUI/maxresdefault.jpg',
+		src: 'https://img.ricardostatic.ch/images/97827297-d162-4e12-a005-e868af6b317d/t_1000x750/3x-tascam-da-88-8-spur-digital-recorder',
 		no: 'Gravação multipista profissional anos 90: o MDM',
-		des: 'Numa época que computadores e HDs ainda eram caros, a forma encontrada pela indústria foi o MDM, um equipamento digital que permitia gravar oito pistas, por exemplo, de forma simultânea. Sendo modular, vários aparelhos podiam ser interconectados, daí perfazendo 16 canais ou mais. Dos fabricantes, desses tipos de equipamentos, vale citar a Tascam (considerada a marca suprassumo de MDMs), a Alesis (bem popular aqui no Brasil) e... 🖼️ Akai | JoeSynth.wordpress.com ',
+		des: 'Numa época que computadores e HDs ainda eram caros, a forma encontrada pela indústria foi o MDM, um equipamento digital que permitia gravar oito pistas, por exemplo, de forma simultânea. Sendo modular, vários aparelhos podiam ser interconectados, daí perfazendo 16 canais ou mais. Fabricantes famosos dessa época? Tascam (considerada a marca suprassumo dos MDMs), a Alesis (concorrente direto da Tascam), Yamaha, Akai. 🖼️ Tascam | JoeSynth.wordpress.com ',
 	},
 	{
 		src: 'https://joesynth.files.wordpress.com/2018/06/novo-44pb.png',
 		no: '🇯🇵 TR-808',
-		des: 'A bateria eletrônica analógica da Roland que fez história. Ela foi usada por inúmeros artistas e nos mais diversos estilos musicais. 🖼️ TR-808 no estúdio de Joe S, anos 90 | JoeSynth.wordpress.com.',
+		des: 'A bateria eletrônica analógica da Roland que fez história. Ela foi usada por inúmeros artistas e nos mais diversos estilos musicais. 🖼️ Roland TR-808 | JoeSynth.wordpress.com.',
 	},
 	{
 		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Clavecin_flamand.png/200px-Clavecin_flamand.png',
@@ -278,7 +278,7 @@ let news = [
 	{
 		src: 'https://upload.wikimedia.org/wikipedia/commons/6/68/1918_Ludwig_drum_sets.jpg',
 		no: 'O pedal de bateria',
-		des: 'No incício do séc. XX uma banda tinha dois ou mais percussionistas; um tocando o bumbo, outro a caixa e assim por diante. Uma vez inventado o pedal, agora um único músico podia fazer todas essas operações. Outra criação interessante foi a estante para caixa, já que antes os bateristas usavam cadeiras para apóia-las ou penduravam nos ombros com uso de correias.',
+		des: 'No incício do séc. XX uma banda tinha dois ou mais percussionistas; um tocando o bumbo, outro a caixa e assim por diante. Uma vez inventado o pedal, agora um único músico podia fazer todas essas operações. Outra criação interessante foi a estante para caixa, já que antes os bateristas usavam cadeiras para apoiá-las ou mesmo penduravam nos ombros utilizando correias.',
 	},
 	{
 		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Edmund_Lowe_fsa_8b06653.jpg/170px-Edmund_Lowe_fsa_8b06653.jpg',
@@ -308,7 +308,7 @@ let news = [
 	{
 		src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdouPrqz9RsP_Gd1UvnowgZAm7MKmIghmx2Zgeo3ZbiRCH217r-cpwNOICwPWfaMbQimg&usqp=CAU',
 		no: 'Microfone condensador',
-		des: 'São microfones mais voltados à gravação profissional, principalmente nos grandes estúdios. O MXL V69 é um exemplo; e marcas tradicionais incluem AKG, Audio-Technica ou Neumann.  | JoeSynth.wordpress.com',
+		des: 'São microfones mais voltados à gravação profissional, principalmente nos grandes estúdios. Marcas tradicionais incluem AKG, Audio-Technica, Neumann. 🖼️ MXL V69 | JoeSynth.wordpress.com',
 	},
 	{
 		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Shure_mikrofon_55S.jpg/170px-Shure_mikrofon_55S.jpg',
@@ -391,7 +391,7 @@ let news = [
 	{
 		src: 'https://s2.glbimg.com/XxUB4tiGfCaz6o0tMkmo8pAI0Hc=/1200x630/s.glbimg.com/jo/g1/f/original/2015/06/14/mg_1679.jpg',
 		no: 'Festival Mundo de música independente | PB',
-		des: 'Shows, exposição de artes visuais, encenações teatrais, debates, dança e muito mais. O evento ocorre na Fundação Espaço Cultural da Paraíba (Funesc), em João Pessoa.',
+		des: 'Shows, artes visuais, encenações teatrais, debates, dança e muito mais. O evento ocorre na Fundação Espaço Cultural da Paraíba (Funesc), em João Pessoa.',
 	},
 
 
@@ -444,7 +444,7 @@ let news = [
 	{
 		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Steinway_Vienna_011.JPG/200px-Steinway_Vienna_011.JPG',
 		no: 'Dia Mundial do Piano | 28 ou 29 de março',
-		des: 'A data está associada a quantidade de teclas no instrumento, oitenta e oito. Ou seja, é o octogésimo dia do ano.',
+		des: 'A data está associada a quantidade de teclas no instrumento, oitenta e oito. Ou seja, é o octogésimo oitavo dia do ano.',
 	},
 	{
 		src: 'https://www.jornaldocomercio.com/_midias/jpg/2019/03/29/800x600/1_pan_baterista_biba_meira_lanca_seu_primeiro_disco_solo_foto_fernanda_chemale-8673567.jpg',
@@ -473,7 +473,7 @@ let news = [
 	{
 		src: 'https://joesynth.files.wordpress.com/2017/09/pdm7008.jpg',
 		no: '🇧🇷 Funk 12 bits!',
-		des: 'As chamadas montagens são a mãe do Funk Carioca; e no que tange equipamento, foram popularizadas graças ao Gemini 7008. Esse mixer de DJ era barato _se comparado a outras ferramentas_ e tinha o recurso desejado por qualquer garoto que simpatizava com os DJ de bailes funk ou de programas de rádio dos anos 90: o sampler. 🖼️ Gemini PDM | JoeSynth.wordpress.com',
+		des: 'As chamadas montagens, lá dos anos 90, são a mãe do funk carioca. No contexto dos equipamentos, foram popularizadas graças ao Gemini 7008. Esse mixer de DJ era barato _se comparado a outras ferramentas_ e tinha o recurso desejado por qualquer garoto que simpatizava com os DJ de bailes funk ou de programas de rádio dos anos 90: o sampler. 🖼️ Gemini PDM-7008 | JoeSynth.wordpress.com',
 	},
 ];
 
