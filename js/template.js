@@ -119,14 +119,18 @@ conteudo.innerHTML = `
 var conteudo = document.querySelectorAll("#conteP");
 for (let i=0; i < conteudo.length ; i++) {
 	conteudo[i].innerHTML = `
+		<div id="arti">
 					<img id="im" class="mmm" src="" alt="">
 					<p class="ti" id="ti"></p>				
 					<p class="te" id="te"></p>
 					<br>
+		</div>
+		<div id="arti">
 					<img id="im1" class="mmm" src="" alt="">
 					<p class="ti" id="ti1"></p>				
 					<p class="te" id="te1"></p>
 					<br>
+		</div>
 					<img id="im2" class="mmm" src="" alt="">
 					<p class="ti" id="ti2"></p>				
 					<p class="te" id="te2"></p>
