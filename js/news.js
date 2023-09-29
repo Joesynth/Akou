@@ -4,6 +4,144 @@
 
 let news = [
 
+
+
+	{
+		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/JAILBAIT_Andre_Williams_on_Fortune_Records%2C_Detroit_%283319728799%29.jpg/800px-JAILBAIT_Andre_Williams_on_Fortune_Records%2C_Detroit_%283319728799%29.jpg',
+		no: 'Selo em vinil',
+		des: 'Soul, R&B; mas também outros (como gospel).',
+	},
+	{
+		src: 'https://i.discogs.com/OAsmaj5ylltPx9rVqLVlXelGN8hcMlaxe4fJ7o5Pse8/rs:fit/g:sm/q:90/h:563/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYwNDk0/OTAtMTUxODkwOTUw/OC04ODc0LmpwZWc.jpeg',
+		no: 'Selo em vinil',
+		des: 'Glori | Gospel.',
+	},
+	{
+		src: 'https://i.discogs.com/GzI3ZlBImxcZH15my61ErEnL-3DqRB27QAdFhCmPNjI/rs:fit/g:sm/q:90/h:600/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY4MzU3/MzctMTYwOTk2NDU4/My05NDkzLmpwZWc.jpeg',
+		no: 'Selo em vinil',
+		des: 'HOB | Gospel & R&B.',
+	},
+	{
+		src: 'https://i.discogs.com/2JpkfZ9pvhAB05Cr3OqXcdjC1J037277FeuGZKTqUJA/rs:fit/g:sm/q:90/h:165/w:317/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTgxNDQw/My0xNjQ0NzY0NjI2/LTI5MDcuanBlZw.jpeg',
+		no: 'Selo em vinil',
+		des: 'VIV Gospel Records | Selo de gospel.',
+	},
+	{
+		src: 'https://i.discogs.com/ha-gntDw9jZCD5jiTc1fLCuxHundPAJc-VdZDifSlXo/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTExMTUy/NTItMTY0ODI1MDYy/NC0yOTI5LmpwZWc.jpeg',
+		no: 'Selo em vinil',
+		des: 'W And W Records | Gospel.',
+	},
+	{
+		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Atlantic_Records_box_logo_%28colored%29.svg/180px-Atlantic_Records_box_logo_%28colored%29.svg.png',
+		no: 'Selo em vinil',
+		des: 'Atlantic Records | Jazz, R&B, and soul.',
+	},
+
+
+
+	{
+		src: 'https://upload.wikimedia.org/wikipedia/en/thumb/2/29/As_quatro_estacoes.jpg/220px-As_quatro_estacoes.jpg',
+		no: 'Música e literatura',
+		des: 'Legião Urbana, Monte Castelo | Camões e a Bíblia.',
+	},
+	{
+		src: 'https://upload.wikimedia.org/wikipedia/en/thumb/6/62/BraveNewWorld_FirstEdition.jpg/220px-BraveNewWorld_FirstEdition.jpg',
+		no: 'Música e literatura',
+		des: 'Zé Ramalho, Admirável Gado Novo | Admirável mundo novo (Brave New World), Aldous Huxley.',
+	},
+	{
+		src: 'https://upload.wikimedia.org/wikipedia/en/5/51/1984_first_edition_cover.jpg',
+		no: 'Música e literatura',
+		des: 'David Bowie, 1984 | 1984 (Nineteen Eighty-Four), George Orwell.',
+	},
+	{
+		src: 'https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Littleprince.JPG/220px-Littleprince.JPG',
+		no: 'Música e literatura',
+		des: 'O Pequeno Príncipe The Little Prince, Antoine de Saint-Exupéry.',
+	},
+	{
+		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Don_Quixote_-_Engravings_by_Gustave_Dor%C3%A9.jpg/280px-Don_Quixote_-_Engravings_by_Gustave_Dor%C3%A9.jpg',
+		no: 'Música e literatura',
+		des: 'Engenheiros do Hawaii, Dom Quixote | Dom Quixote, Miguel de Cervantes 🖼️ Gustave Doré.',
+	},
+	{
+		src: 'https://homoliteratus.com/wp-content/uploads/2016/04/Vitrola-Caetano-Veloso.png',
+		no: 'Música e literatura',
+		des: 'Caetano Veloso, Elegia | “Elegy: going to bed”, John Donne. No Brasil, nos anos 70, o poeta concretista, escritor e ensaísta Augusto de Campos se dedicou à obra de Donne e a traduziu. Essa tradução inspirou de imediato o músico e compositor Péricles Cavalcanti, que musicou os versos de “Elegy: going to bed”, depois tratou de apresentar a Caetano Veloso para que ele a incluísse em seu próximo disco, “Cinema Transcendental”. Mais tarde a música também foi gravada por Simone.',
+	},
+	{
+		src: 'https://i.discogs.com/4fUih34UeBSQ5mrbCZM16jb3BPN1A-a8G1q5400oNuE/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMTg4/NTk0LTE1MTE1MjU4/MzYtMzYwMS5qcGVn.jpeg',
+		no: 'Música e literatura',
+		des: 'Richard Strauss, Berlin Philharmonic Orchestra, Don Quixote Op. 35.',
+	},
+	{
+		src: 'https://i.discogs.com/J7kzDGthVFWVuXrc7Ref6IfUM0fS94HRX_dxyRFnKio/rs:fit/g:sm/q:90/h:587/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMTYx/NDgwLTE1NDkxMjMx/NjgtNDY1OS5qcGVn.jpeg',
+		no: 'Arte na capa de disco',
+		des: 'Tropicália ou Panis et Circencis (1967). A capa do disco-manifesto do movimento tropicalista, lançado em 1968, rende muitos estudos até hoje. Acadêmicos de todos os cantos do mundo se debruçam sobre possíveis mensagens ocultas escondidas nesse trabalho feito pelo designer Rubens Gerchman sobre foto de Oliver Perroy. Mas, de acordo com as testemunhas, o conceito da capa foi construído seguindo a intuição dos artistas e do fotógrafo, que realizou a sessão em sua casa, uma verdadeira mansão de arquitetura colonial em São Paulo.',
+	},
+	{
+		src: 'https://upload.wikimedia.org/wikipedia/pt/c/cb/Milton_Nascimento_-_Clube_da_Esquina.jpg',
+		no: 'Arte na capa de disco',
+		des: 'Clube da Esquina (1972). O antológico disco lançado por Milton Nascimento e Lô Borges com diversos outros integrantes da turma de Minas Gerais em 1972 tem uma das capas mais celebradas até hoje na música brasileira. Trata-se de uma fotografia feita por Carlos da Silva Assunção Filho, o Cafi.',
+	},
+	{
+		src: 'https://i.discogs.com/X1AL7A6qmAHHVPxcI-_wtuONebCQvI8M2d7ZtyjT08c/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcyNzgx/MS0xMTUyNTQ4MDQw/LmpwZWc.jpeg',
+		no: 'Arte na capa de disco',
+		des: 'Secos & Molhados (1973).',
+	},
+	{
+		src: 'https://i.discogs.com/-Zd9KKWj2TrMpQxMJ7ptwswGf_fZciVA-BY6lasD784/rs:fit/g:sm/q:90/h:567/w:568/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk4MzY0/MDktMTQ4NzEwMTAz/Mi03NzM2LmpwZWc.jpeg',
+		no: 'Arte na capa de disco',
+		des: 'Nervos de Aço (1973). A capa do designer Elifas Andreato feita para este celebrado disco de Paulinho da Viola é um de seus melhores trabalhos. O traço forte e a dramaticidade que marcam a assinatura do artista gráfico sobressaem nessa ilustração que mostra o sambista aos prantos sob o luar.',
+	},
+	{
+		src: 'https://cdn.domestika.org/c_fit,dpr_1.0,f_auto,q_80,t_base_params,w_610/v1605764675/content-items/006/246/531/pinkfloyd-original.jpg',
+		no: 'Arte na capa de disco',
+		des: 'Pink Floyd, Dark Side of the Moon',
+	},
+	{
+		src: 'https://cdn.domestika.org/c_fit,dpr_1.0,f_auto,q_80,t_base_params,w_610/v1605764675/content-items/006/246/537/joydivision-original.jpg',
+		no: 'Arte na capa de disco',
+		des: 'Joy Division, Unknown Pleasures.',
+	},
+	{
+		src: 'https://cdn.domestika.org/c_fit,dpr_1.0,f_auto,q_80,t_base_params,w_610/v1605764675/content-items/006/246/540/thepolice-original.jpg',
+		no: 'Arte na capa de disco',
+		des: 'The Police, Synchronicity. Criada por Jeff Ayeroff e Norman Moore, esta capa reúne diversas fotos da banda sobrepostas por cores lisas para gerar um efeito de contraste. As fotos foram feitas por Duane Michals, premiado fotógrafo, e o disco foi lançado com 36 variações de capa explorando momentos completamente diferentes em cada uma delas.',
+	},
+	{
+		src: 'https://i.discogs.com/-CQR-GPjD28IQLCMyV5HGZZSNaaFpHvBi8M7Z2w5NBk/rs:fit/g:sm/q:90/h:600/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc4Njcw/MS0xNTI2OTI0MjM5/LTY4OTkuanBlZw.jpeg',
+		no: 'Arte na capa de disco',
+		des: 'Be Bop Deluxe, Axe Victim.',
+	},
+	{
+		src: 'https://i.discogs.com/HqppymzvpMnF8zkBWOBFJ8TCZaGMS1Em2GTZAktEhNg/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMTAy/NzgtMTIwODU2NTI2/My5qcGVn.jpeg',
+		no: 'Arte na capa de disco',
+		des: 'The Velvet Underground & Nico.',
+	},
+	{
+		src: 'https://images.universohq.com/2014/03/ManowarFightingTheWorld-300x300.jpg',
+		no: 'Arte na capa de disco',
+		des: 'Manowar, Fighting the World (1987).',
+	},
+	{
+		src: 'https://i.discogs.com/mUGwuLHD96va4oh8rjp8zxLx8Ja7HYaXxvAf5ASAOVU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE5MTI1/MTgtMTI1MjAwNDcw/MS5qcGVn.jpeg',
+		no: 'Arte na capa de disco',
+		des: 'Judas Priest, Painkiller (1990).',
+	},
+	{
+		src: 'https://i.discogs.com/mDk4ZU2k0i8V5pXYLbbrVjOHLHNSTHs_m40XDk5HKMU/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg0OTAy/NzQtMTQ3NjU2MDkx/NC0zMDQzLmpwZWc.jpeg',
+		no: 'Arte na capa de disco',
+		des: 'Iced Earth, The Dark Saga (1996).',
+	},
+
+
+
+
+
+
+
+
 	{
 		src: 'https://upload.wikimedia.org/wikipedia/en/b/b4/SmashingPumpkins-Adore.jpg',
 		no: 'Arte na capa de disco',
@@ -17,7 +155,7 @@ let news = [
 	{
 		src: 'https://upload.wikimedia.org/wikipedia/en/8/84/In_the_Court_of_the_Crimson_King_-_40th_Anniversary_Box_Set_-_Front_cover.jpeg',
 		no: 'Arte na capa de disco',
-		des: 'king crimson',
+		des: 'King crimson',
 	},
 	{
 		src: 'https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Led_Zeppelin_-_Houses_of_the_Holy.jpg/220px-Led_Zeppelin_-_Houses_of_the_Holy.jpg',
@@ -32,7 +170,7 @@ let news = [
 	{
 		src: 'https://images.eil.com/large_image/URIAH_HEEP_VERY%2BEAVY%2BVERY%2BUMBLE%2B-%2B2ND%2BLRG%2BSWIRL-602615.jpg',
 		no: 'Arte na capa de disco',
-		des: 'Jimi Hendrix',
+		des: 'Uriah Heep',
 	},
 	{
 		src: 'https://i.discogs.com/b8HM13hg0YLm2V-odu9uVuB4mEsqr7z_KH-pIw5M7zY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ1NjYw/MS0xNjQxNDgyMzYw/LTg5MTAuanBlZw.jpeg',
@@ -486,17 +624,17 @@ let news = [
 
 	{
 		src: 'https://musica.ufmg.br/wp-content/uploads/2021/11/Dia-do-Mu%CC%81sico-768x403.jpg',
-		no: 'Dia do Músico | 22 de Nov',
+		no: 'Dia do Músico | 22 de nov.',
 		des: 'Adota-se o termo músico quando nos referimos a qualquer pessoa ligada diretamente à música, em caráter profissional ou amador, exercendo alguma função no campo de música, como a de tocar  um instrumento musical, cantando, escrevendo arranjos, compondo, regendo, ou dirigindo um grupo coral ou algum grupo de músicos, como orquestras, bandas, big band de jazz, ou ainda lecionando, trabalhando no campo de educação, em terapia musical.',
 	},
 	{
 		src: 'https://joesynth.files.wordpress.com/2018/06/revista_dj_world_pg2_.png',
-		no: 'Dia Mundial do DJ | 9 de Março',
+		no: 'Dia Mundial do DJ | 9 de mar.',
 		des: 'O dia foi criado pela iniciativa de duas instituições de caridade: World DJ Fund Foundation e a  Nordoff Robbins Music Therapy, que se utiliza da música para tratar as pessoas enfermas. 🖼️ DJ Péricles, mentor do Brazilian Underground Movement',
 	},
 	{
 		src: 'https://www.diariodepernambuco.com.br/static/app/noticia_127983242361/2022/09/15/907052/20220915124844291153u.jpg',
-		no: 'Dia do musicoterapeuta | 15 de setembro',
+		no: 'Dia do musicoterapeuta | 15 de set.',
 		des: 'Uma profissão de pouca visibilidade e grande importância.',
 	},
 
@@ -505,12 +643,12 @@ let news = [
 
 	{
 		src: 'https://s2-g1.glbimg.com/3tJb7GKTtTWKXglN8ctk7k4p0KY=/0x0:1920x1080/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/O/c/Hgieb6Qu6VJ0UIQaBEHg/passista-de-frevo.jpg',
-		no: 'Dia do Frevo | 9 de fevereiro e 14 de setembro',
+		no: 'Dia do Frevo | 9 de fev. e 14 de set.',
 		des: 'O frevo é um Patrimônio Cultural Imaterial da Humanidade. O historiador Luiz Vinícius explicou que, em 9 de fevereiro de 1907, o frevo foi citado pela primeira vez pela imprensa _algo feito no "Jornal Pequeno", do Recife. Já 14 é o Dia Nacional do Frevo.',
 	},
 	{
 		src: 'https://esquinamusical.com.br/wp-content/uploads/2012/04/Pixinguinha.jpg.jpg',
-		no: 'Dia do Choro | 23 de abril',
+		no: 'Dia do Choro | 23 de abr.',
 		des: 'Por que 23? Simples: dia do nascimento de... Pixinguinha!',
 	},
 	{
@@ -520,7 +658,7 @@ let news = [
 	},
 	{
 		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Cartola%2C_1970.tif/lossy-page1-220px-Cartola%2C_1970.tif.jpg',
-		no: 'Dia Nacional do Samba | 2 de dezembro',
+		no: 'Dia Nacional do Samba | 2 de dez.',
 		des: 'O Brasil é conhecido internacionalmente pelo samba, e nada mais justo que uma data tão especial. 🖼️ Cartola',
 	},
 
@@ -529,12 +667,12 @@ let news = [
 
 	{
 		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Steinway_Vienna_011.JPG/200px-Steinway_Vienna_011.JPG',
-		no: 'Dia Mundial do Piano | 28 ou 29 de março',
+		no: 'Dia Mundial do Piano | 28 ou 29 de mar.',
 		des: 'A data está associada a quantidade de teclas no instrumento, oitenta e oito. Ou seja, é o octogésimo oitavo dia do ano.',
 	},
 	{
 		src: 'https://www.jornaldocomercio.com/_midias/jpg/2019/03/29/800x600/1_pan_baterista_biba_meira_lanca_seu_primeiro_disco_solo_foto_fernanda_chemale-8673567.jpg',
-		no: 'Dia do baterista | 20 de setembro',
+		no: 'Dia do baterista | 20 de set.',
 		des: 'Essa data especial nos faz lembrar Chico Batera, Wilson das Neves e muitos outros grandes nomes, mas também o menino ou qualquer pessoa simples que se maravilha com esse instrumento.',
 	},
 
@@ -544,7 +682,7 @@ let news = [
 	{
 		src: 'https://joesynth.files.wordpress.com/2021/10/f1b3d-1.jpg',
 		no: '🇦🇺 Sampler',
-		des: 'O sampler nasce em 1979 com o CMI, um equipamento que era literalmente um computador, utilizando processador da marca Motorola. Tanto ele quanto outros de sua ápoca eram bem caros _em suma modelos australianos, norte-americanos, alemães. Até que na segunda metade dos anos 80 entra em cena a indústria japonesa com preços mais acessíveis. Anos 90 podia-se ver máquinas ainda mais espataculares que as do início da década de 80, embora os softwares de computador foram se tornando mais conhecidos também nesta época. 🖼️ Akai S6000 | JoeSynth.wordpress.com',
+		des: 'O sampler nasce em 1979 com o CMI, um equipamento que era literalmente um computador, utilizando processador da marca Motorola. Tanto ele quanto outros de sua ápoca eram bem caros _em suma modelos australianos, norte-americanos, alemães. Até que na segunda metade dos anos 80 entra em cena a indústria japonesa com preços mais acessíveis. Anos 90 podia-se ver máquinas ainda mais espataculares que as do início da déc. 80, embora os softwares de computador foram se tornando mais conhecidos também nesta época. 🖼️ Akai S6000 | JoeSynth.wordpress.com',
 	},
 	{
 		src: 'https://joesynth.files.wordpress.com/2021/06/minimoog.png',
@@ -584,39 +722,39 @@ let mus = [
 function ran(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-var i0 = ran(90, 100);		// Primeiro artigo do topo
-var i1 = ran(85, 89);
-var i2 = ran(80, 84);
-var i3 = ran(75, 79);
-var i4 = ran(70, 74);
-var i5 = ran(65, 69);
-var i6 = ran(60, 64);
-var i7 = ran(55, 59);
-var i8 = ran(50, 54);
-var i9 = ran(45, 49);
-var i10 = ran(42, 43);
-var i11 = ran(40, 41);
-var i12 = ran(38, 39);
-var i13 = ran(36, 37);
-var i14 = ran(34, 35);
-var i15 = ran(32, 33);
+var i0 = ran(114, 124);		// Primeiro artigo do topo
+var i1 = ran(104, 113);
+var i2 = ran(94, 103);
+var i3 = ran(89, 93);
+var i4 = ran(84, 88);
+var i5 = ran(81, 83);
+var i6 = ran(75, 80);
+var i7 = ran(72, 74);
+var i8 = ran(69, 71);
+var i9 = ran(66, 68);
+var i10 = ran(63, 65);
+var i11 = ran(60, 41);
+var i12 = ran(57, 59);
+var i13 = ran(54, 56);
+var i14 = ran(51, 53);
+var i15 = ran(48, 50);
 
-var i16 = ran(30, 31);
-var i17 = ran(28, 29);
-var i18 = ran(26, 27);
-var i19 = ran(24, 25);
-var i20 = ran(22, 23);
-var i21 = ran(20, 21);
-var i22 = ran(18, 19);
-var i23 = ran(16, 17);
-var i24 = ran(14, 15);
-var i25 = ran(12, 13);
-var i26 = ran(10, 11);
-var i27 = ran(8, 9);
-var i28 = ran(6, 7);
-var i29 = ran(4, 5);
-var i30 = ran(2, 3);
-var i31 = ran(0, 1);
+var i16 = ran(45, 47);
+var i17 = ran(42, 44);
+var i18 = ran(39, 41);
+var i19 = ran(36, 38);
+var i20 = ran(33, 35);
+var i21 = ran(30, 32);
+var i22 = ran(27, 29);
+var i23 = ran(24, 26);
+var i24 = ran(21, 23);
+var i25 = ran(18, 20);
+var i26 = ran(15, 17);
+var i27 = ran(12, 14);
+var i28 = ran(9, 11);
+var i29 = ran(6, 8);
+var i30 = ran(3, 5);
+var i31 = ran(0, 2);
 
 
 

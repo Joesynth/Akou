@@ -23,8 +23,8 @@ let mus = [
 
 	{
 		src: 'https://aloalobahia.com/images/p/osbapremioprofissionais_alo_alo_bahia.jpg',
-		no: 'Orquestra Sinfônica da Bahia (OSBA) | BA',
-		des: 'Foi destaque no Prêmio Profissionais da Música. Foi fundada em 1944 pelo Padre Luiz Gonzaga de Mariz, padre jesuíta ligado ao Colégio Antônio Vieira de Salvador. Tem relação com a sala de concerto Teatro Castro Alves e o condutor Carlos Prazeres.',
+		no: 'Orquestra Sinfônica da Bahia (OSBA) | BA ✡️ 1944',
+		des: 'Foi destaque no Prêmio Profissionais da Música. Fundada pelo Padre Luiz Gonzaga de Mariz, padre jesuíta ligado ao Colégio Antônio Vieira de Salvador. Tem relação com a sala de concerto Teatro Castro Alves e o condutor Carlos Prazeres.',
 	},
 	{
 		src: 'https://cidadedeniteroi.com/wp-content/uploads/2018/08/Johann-Sebastian-Rio-Foto-.jpg',
@@ -33,8 +33,8 @@ let mus = [
 	},
 	{
 		src: 'https://musica.ufrj.br/images/vinhetas/osufrj_2.webp',
-		no: 'Orquestra Sinfônica da UFRJ (OSUFRJ)',
-		des: 'É fruto de uma longa história de atividades ininterruptas, iniciada em 1924. Um nome referente à Escola de Música da UFRJ.',
+		no: 'Orquestra Sinfônica da UFRJ (OSUFRJ) ✡️ 1924',
+		des: 'É fruto de uma longa história de atividades ininterruptas. Um nome referente à Escola de Música da UFRJ.',
 	},
 	{
 		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Logo_EM_-_UFRJ.png/300px-Logo_EM_-_UFRJ.png',
@@ -43,8 +43,8 @@ let mus = [
 	},
 	{
 		src: 'https://www.teatroguaira.pr.gov.br/sites/teatro-guaira/arquivos_restritos/files/styles/escala_e_corta_570_390_/public/imagem/2019-11/157131514625_10.jpg?itok=8p49rkRB',
-		no: 'Orquestra Sinfônica do Paraná (OSP)',
-		des: 'Criada em 1985, seu primeiro maestro titular e emérito foi Alceo Bocchino e o primeiro maestro adjunto, Osvaldo Colarusso. 🖼️ Teatro Guaíra.',
+		no: 'Orquestra Sinfônica do Paraná (OSP) ✡️ 1985',
+		des: 'Seu primeiro maestro titular e emérito foi Alceo Bocchino e o primeiro maestro adjunto, Osvaldo Colarusso. 🖼️ Teatro Guaíra.',
 	},
 	{
 		src: 'https://joesynth.files.wordpress.com/2018/07/20180705_094708.jpg',
@@ -103,7 +103,7 @@ let mus = [
 	{
 		src: 'images/soul.png',
 		no: '🇺🇸 Soul',
-		des: 'O termo "soul" na linguagem afro-americana tem conotações de orgulho e cultura afro-americana. Grupos gospel nas décadas de 1940 e 1950 ocasionalmente usavam o termo como parte de seus nomes.',
+		des: 'O termo "soul" na linguagem afro-americana tem conotações de orgulho e cultura afro-americana. Grupos gospel nas décs. de 1940 e 1950 ocasionalmente usavam o termo como parte de seus nomes.',
 	},
 	{
 		src: 'images/jewi.png',
@@ -209,7 +209,7 @@ let mus = [
 	{
 		src: 'https://rollingstone.uol.com.br/media/uploads/jamesbrown-gettyimages.jpg',
 		no: '🇺🇸 James Brown',	
-		des: 'Começou como cantor gospel, na Geórgia, e ganhou destaque em meados da década de 1950 sendo vocalista do Famous Flames, um grupo vocal de R&B. Lançou "Try Me" em 1958, que alcançou o primeiro lugar nas paradas de R&B no início de 1959. James Brown, the Flames e toda a sua banda estrearam no Apollo Theatre em 1959, abrindo para o ídolo de Brown: Little Willie John. O primeiro funk de James Brown? Alguns críticos citaram  "Cold Sweat" como a primeira verdadeira música funk, que alcançou o primeiro lugar na parada de R&B.',	
+		des: 'Começou como cantor gospel, na Geórgia, e ganhou destaque em meados da déc. 50 sendo vocalista do Famous Flames, um grupo vocal de R&B. Lançou "Try Me" em 1958, que alcançou o primeiro lugar nas paradas de R&B no início de 1959. James Brown, the Flames e toda a sua banda estrearam no Apollo Theatre em 1959, abrindo para o ídolo de Brown: Little Willie John. O primeiro funk de James Brown? Alguns críticos citaram  "Cold Sweat" como a primeira verdadeira música funk, que alcançou o primeiro lugar na parada de R&B.',	
 	},
 	{
 		src: 'http://arquivos.tribunadonorte.com.br/fotos/158499.jpg',
@@ -228,7 +228,7 @@ let mus = [
 	},
 	{
 		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Chick_Corea_Kongsberg_Jazzfestival_2018_%28170650%29.jpg/200px-Chick_Corea_Kongsberg_Jazzfestival_2018_%28170650%29.jpg',
-		no: '🇺🇸 Chick Corea 🎹 🥁️',	
+		no: '🇺🇸 Chick Corea ',	
 		des: 'Pianista e tecladista de jazz, também baterista.',	
 	},
 	{
@@ -239,7 +239,7 @@ let mus = [
   {
 		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Solomon_Burke.jpg/300px-Solomon_Burke.jpg',
 		no: '🇺🇸 Solomon Burke',
-		des: 'Gravou para a Atlantic na década de 1960. Peter Guralnick está entre os que identificaram Solomon Burke como uma figura chave no surgimento da música soul, e a Atlantic Records como a principal gravadora.',
+		des: 'Gravou para a Atlantic na déc. 60. Peter Guralnick está entre os que identificaram Solomon Burke como uma figura chave no surgimento da música soul, e a Atlantic Records como a principal gravadora.',
 	},
 	{
 		src: 'https://www.udiscovermusic.com/wp-content/uploads/2022/06/Howlin-GettyImages-98411223.jpg',
@@ -293,12 +293,12 @@ let mus = [
 	{
 		src: 'https://www.portaldoholanda.com.br/sites/default/files/portaldoholanda-704457-imagem-foto-amazonas.jpg',
 		no: 'Coral do Amazonas | AM',
-		des: 'Criado na década de 90, é considerado o grupo mais tradicional do Estado.',
+		des: 'Criado na déc. 90, é considerado o grupo mais tradicional do Estado.',
 	},
 	{
 		src: 'https://abraf.org/wp-content/uploads/2018/08/IMG_4940-300x200.jpg',
 		no: 'Quinteto de Sopros Camargo Guarnieri | SP',
-		des: 'Formado há mais de uma década, é notável pela apresentação de concertos interativos, bem descontraídos.',
+		des: 'Formado há mais de uma déc., é notável pela apresentação de concertos interativos, bem descontraídos.',
 	},
 	{
 		src: 'https://s2.glbimg.com/XandnldajE7wRR9pkewBRW6zD8M=/620x465/s.glbimg.com/jo/g1/f/original/2014/12/11/meninas_cantoras_de_petropolis.jpg',
@@ -328,7 +328,7 @@ let mus = [
 	{
 		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Banda_Sinf%C3%B4nica_da_Pol%C3%ADcia_Militar_do_Paran%C3%A1.jpg/290px-Banda_Sinf%C3%B4nica_da_Pol%C3%ADcia_Militar_do_Paran%C3%A1.jpg',
 		no: 'Orquestra Sinfônica da Polícia Militar do Paraná',
-		des: 'Criada no século XIX já se apresentou, inclusive, no Teatro Guaíra. É uma instituição de representação da corporação, subordinada à PMPR.',
+		des: 'Criada no séc. XIX já se apresentou, inclusive, no Teatro Guaíra. É uma instituição de representação da corporação, subordinada à PMPR.',
 	},
 	{
 		src: 'https://www.pmpr.pr.gov.br/sites/default/arquivos_restritos/files/imagem/2019-08/img_6148.jpg',
@@ -337,8 +337,8 @@ let mus = [
 	},
 	{
 		src: 'https://ufmg.br/thumbor/-UINTq1tea94Tk6VRAJjbmqgSSc=/0x0:1372x915/712x474/https://ufmg.br/storage/1/9/c/1/19c17b19d8eaaaae3ecdea778ed4cd07_16660061559575_1324413538.jpeg',
-		no: 'Orquestra Sinfônica da Polícia Militar de Minas Gerais',
-		des: 'Fundada em 1948 e uma das principais do Brasil, chegou a celebrar os 100 anos da Semana de Arte Moderna em concerto no Conservatório UFMG.',
+		no: 'Orquestra Sinfônica da Polícia Militar de Minas Gerais ✡️ 1948',
+		des: 'A orquestra chegou a celebrar os 100 anos da Semana de Arte Moderna em concerto no Conservatório UFMG.',
 	},
 	{
 		src: 'https://www.fab.mil.br/sis/enoticias/imagens/pub/45257/i2333014140007847.jpg',
@@ -356,12 +356,12 @@ let mus = [
 	{
 		src: 'http://www.cbmerj.rj.gov.br/images/bandacbmerj.jpg',
 		no: 'Banda Sinfônica CBMERJ | RJ',
-		des: 'Tudo começou ainda no século XIX, pelo Ten. Cel. Eugênio Rodrigues Jardim. Entretanto houve a ressalva de não acarretar "ônus para os Cofres Públicos".',
+		des: 'Tudo começou ainda no séc.ulo XIX, pelo Ten. Cel. Eugênio Rodrigues Jardim. Entretanto houve a ressalva de não acarretar "ônus para os Cofres Públicos".',
 	},
 	{
 		src: 'https://agenciabrasilia.df.gov.br/wp-conteudo/uploads/2023/05/WhatsApp-Image-2023-05-13-at-10.02.20-1-1536x1023.jpeg',
-		no: 'Banda Sinfônica da PMDF | DF',
-		des: 'Instalada em Brasília desde 1967, é uma orquestra que já tocou no Museu da República.',
+		no: 'Banda Sinfônica da PMDF | DF ✡️ 1967',
+		des: 'Instalada em Brasília, é uma orquestra que já tocou no Museu da República.',
 	},
 ];
 
