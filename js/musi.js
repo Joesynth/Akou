@@ -74,7 +74,7 @@ let mus = [
 	{
 		src: 'https://storage.alboom.ninja/sites/745/albuns/26870/aquila-simoes---fotografia--------------------recital-camila-marliere--10.JPG',
 		no: 'Camila Marlière',
-		des: 'Jundo com Camila Marlière, são o Duo Querubim; que tem como proposta apresentar um repertório de música de concerto.',
+		des: 'Jundo com Tibor Fittel, são o Duo Querubim; que tem como proposta apresentar um repertório de música de concerto.',
 	},
 	{
 		src: 'https://joesynth.files.wordpress.com/2018/06/peo_1915-hans-j-koellreutter.png',

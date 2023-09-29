@@ -5,6 +5,92 @@
 let news = [
 
 	{
+		src: 'https://upload.wikimedia.org/wikipedia/en/b/b4/SmashingPumpkins-Adore.jpg',
+		no: 'Arte na capa de disco',
+		des: 'Smashing Pumpkins, Adore.',
+	},
+	{
+		src: 'https://upload.wikimedia.org/wikipedia/en/thumb/1/14/DinosaurJrGreenMind.jpg/220px-DinosaurJrGreenMind.jpg',
+		no: 'Arte na capa de disco',
+		des: 'Dinosaur Jr., Green Mind',
+	},
+	{
+		src: 'https://upload.wikimedia.org/wikipedia/en/8/84/In_the_Court_of_the_Crimson_King_-_40th_Anniversary_Box_Set_-_Front_cover.jpeg',
+		no: 'Arte na capa de disco',
+		des: 'king crimson',
+	},
+	{
+		src: 'https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Led_Zeppelin_-_Houses_of_the_Holy.jpg/220px-Led_Zeppelin_-_Houses_of_the_Holy.jpg',
+		no: 'Arte na capa de disco',
+		des: 'Led Zeppelin',
+	},
+	{
+		src: 'https://upload.wikimedia.org/wikipedia/en/1/19/JethroTullAqualungalbumcover.jpg',
+		no: 'Arte na capa de disco',
+		des: 'Jethro Tull.',
+	},
+	{
+		src: 'https://images.eil.com/large_image/URIAH_HEEP_VERY%2BEAVY%2BVERY%2BUMBLE%2B-%2B2ND%2BLRG%2BSWIRL-602615.jpg',
+		no: 'Arte na capa de disco',
+		des: 'Jimi Hendrix',
+	},
+	{
+		src: 'https://i.discogs.com/b8HM13hg0YLm2V-odu9uVuB4mEsqr7z_KH-pIw5M7zY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ1NjYw/MS0xNjQxNDgyMzYw/LTg5MTAuanBlZw.jpeg',
+		no: 'Arte na capa de disco',
+		des: 'Wishbone Ash',
+	},
+	{
+		src: 'https://i.discogs.com/lGHwUZCYLZacXH2T7uWi5lYN9GdmVJnjdnnrQcGDWX0/rs:fit/g:sm/q:90/h:592/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2MjI3/MTItMTUxMzU1Mjc1/OS0xMDkzLmpwZWc.jpeg',
+		no: 'Arte na capa de disco',
+		des: 'Roxy Music, Siren',
+	},
+	{
+		src: 'https://upload.wikimedia.org/wikipedia/pt/1/1c/Iron_Maiden_-_Powerslave.jpg',
+		no: 'Arte na capa de disco',
+		des: 'Iron Maiden, Powerslave.',
+	},
+	{
+		src: 'https://upload.wikimedia.org/wikipedia/en/thumb/7/74/Pink_Floyd-Animals-Frontal.jpg/220px-Pink_Floyd-Animals-Frontal.jpg',
+		no: 'Arte na capa de disco',
+		des: 'Pink Floyd, Animals.',
+	},
+	{
+		src: 'https://upload.wikimedia.org/wikipedia/pt/thumb/3/3f/Nevermind.jpg/220px-Nevermind.jpg',
+		no: 'Arte na capa de disco',
+		des: 'Nirvana, Nevermind.',
+	},
+	{
+		src: 'https://upload.wikimedia.org/wikipedia/en/thumb/8/83/Capa_3.jpg/220px-Capa_3.jpg',
+		no: 'Arte na capa de disco',
+		des: 'Titãs',
+	},
+	{
+		src: 'https://i.discogs.com/j--IHzOYgpgCwAygbQLDbMQr7pTn3RugabHRtLmf9d8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE5Mzk4/OTczLTE2MjU1Nzk3/MjMtNjk4MS5qcGVn.jpeg',
+		no: 'Arte na capa de disco',
+		des: 'Amaro Freitas.',
+	},
+
+	{
+		src: 'https://i.discogs.com/D5H66hLytlaFOfAoJe_W6rtu2yOtSg3Bc8RhwwTPn-U/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2Mjgy/MDUtMTIzMzE1OTE2/My5qcGVn.jpeg',
+		no: 'Arte na capa de disco',
+		des: 'Iron Maiden.',
+	},
+	{
+		src: 'https://i.discogs.com/1LDtLDDJyxL-4W9_JlkAYjsVjVU9zc1G0yKJUmr513g/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzNjU2/MzItMTIxNDAyMDIy/NC5qcGVn.jpeg',
+		no: 'Arte na capa de disco',
+		des: 'Fleet Foxes.',
+	},
+
+
+
+
+
+
+
+
+
+
+	{
 		src: 'https://joesynth.files.wordpress.com/2022/04/oscar_png.png',
 		no: 'Oscar Sala',
 		des: 'Engenheiro, também pianista, ajudou a trazer a internet através da criação da Rede ANSP (Academic Network at São Paulo).',
@@ -27,8 +113,8 @@ let news = [
 	},
 	{
 		src: 'https://joesynth.files.wordpress.com/2018/06/dolby_640.gif',
-		no: 'Dolby: menos ruído mais cinema',
-		des: 'Sinônimo de áudio e vídeo, ele vive nas fitas e até mesmo no Blu-ray: o engenheiro norte-americano Ray Dolby. Cria da Universidade de Stanford, seu nome tem relação com música e tecnologia; a marca Ampex (também dos EUA), som de melhor qualidade, surround, filmes como A Clockwork Orange ou Batman Returns. | JoeSynth.wordpres.com',
+		no: '🇺🇸 Dolby: menos ruído mais cinema',
+		des: 'Engenheiro, ele é sinônimo de áudio e vídeo, estando ligado ao Blu-ray e mesmo às velhas fitas. Cria da Universidade de Stanford, seu nome tem relação com música e tecnologia; a marca Ampex (também dos EUA), som de melhor qualidade, surround, filmes como A Clockwork Orange ou Batman Returns. | JoeSynth.wordpres.com',
 	},
 	{
 		src: 'https://joesynth.files.wordpress.com/2017/09/blumlein.jpg',
@@ -48,7 +134,7 @@ let news = [
 	{
 		src: 'https://joesynth.files.wordpress.com/2022/12/superficie_de_controle.png',
 		no: 'Superfícies de controle para DAWs',
-		des: 'Uma "control surface" é uma ferramento bem útil durante o trabalho musical. Então pensando am alguns nomes úteis para uma possível aquisição, temos: Avid, Behringer, Cakewalk, Focusrite, Korg, Mackie, Novation, Presonus, Qube Audio, Saitara Software, Slate Pro Audio, SmartAV, SSL, Studiologic (Fatar), Steinberg, Yamaha. | JoeSynth.wordpres.com',
+		des: 'Uma "control surface" é uma ferramenta bem útil durante o trabalho musical. Então pensando am alguns nomes úteis para uma possível aquisição, temos: Avid, Behringer, Cakewalk, Focusrite, Korg, Mackie, Novation, Presonus, Qube Audio, Saitara Software, Slate Pro Audio, SmartAV, SSL, Studiologic (Fatar), Steinberg, Yamaha. | JoeSynth.wordpres.com',
 	},
 	{
 		src: 'https://joesynth.files.wordpress.com/2019/05/so_smptetrack-graphic-editor.jpg',
@@ -268,7 +354,7 @@ let news = [
 	{
 		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Steinway_Vienna_011.JPG/545px-Steinway_Vienna_011.JPG',
 		no: 'Piano: as teclas!',
-		des: 'Um piano comum tem, geralmente, oito lás, oito sis bemóis, oito sis, oito dós, sete dós sustenidos, sete rés, sete mis bemóis, sete mis, sete fás, sete fás sustenidos, sete sóis e sete sóis sustenidos, formando um total de 88 notas musicais.[6] Se for um de 97 notas musicais, do tipo Bösendorfer 290, ele terá nove dós, oito dós sustenidos, oito rés, oito mis bemóis, oito mis, oito fás, oito fás sustenidos, oito sóis, oito sóis sustenidos, oito lás, oito sis bemóis e oito sis. | ft:pt.wi',
+		des: 'Um piano comum tem, geralmente, oito lás, oito sis bemóis, oito sis, oito dós, sete dós sustenidos, sete rés, sete mis bemóis, sete mis, sete fás, sete fás sustenidos, sete sóis e sete sóis sustenidos, formando um total de 88 notas musicais. Se for um de 97 notas musicais, do tipo Bösendorfer 290, ele terá nove dós, oito dós sustenidos, oito rés, oito mis bemóis, oito mis, oito fás, oito fás sustenidos, oito sóis, oito sóis sustenidos, oito lás, oito sis bemóis e oito sis. | ft:pt.wi',
 	},
 	{
 		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/BartolomeoCristofori.jpg/220px-BartolomeoCristofori.jpg',
@@ -423,7 +509,7 @@ let news = [
 		des: 'O frevo é um Patrimônio Cultural Imaterial da Humanidade. O historiador Luiz Vinícius explicou que, em 9 de fevereiro de 1907, o frevo foi citado pela primeira vez pela imprensa _algo feito no "Jornal Pequeno", do Recife. Já 14 é o Dia Nacional do Frevo.',
 	},
 	{
-		src: 'https://piaui.folha.uol.com.br/wp-content/uploads/2012/10/PH1349453032x7089.jpg',
+		src: 'https://esquinamusical.com.br/wp-content/uploads/2012/04/Pixinguinha.jpg.jpg',
 		no: 'Dia do Choro | 23 de abril',
 		des: 'Por que 23? Simples: dia do nascimento de... Pixinguinha!',
 	},
@@ -498,16 +584,16 @@ let mus = [
 function ran(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-var i0 = ran(80, 85);		// Primeiro artigo do topo
-var i1 = ran(75, 79);
-var i2 = ran(70, 74);
-var i3 = ran(65, 69);
-var i4 = ran(60, 64);
-var i5 = ran(55, 59);
-var i6 = ran(50, 54);
-var i7 = ran(48, 49);
-var i8 = ran(46, 47);
-var i9 = ran(44, 45);
+var i0 = ran(90, 100);		// Primeiro artigo do topo
+var i1 = ran(85, 89);
+var i2 = ran(80, 84);
+var i3 = ran(75, 79);
+var i4 = ran(70, 74);
+var i5 = ran(65, 69);
+var i6 = ran(60, 64);
+var i7 = ran(55, 59);
+var i8 = ran(50, 54);
+var i9 = ran(45, 49);
 var i10 = ran(42, 43);
 var i11 = ran(40, 41);
 var i12 = ran(38, 39);
