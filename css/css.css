@@ -92,12 +92,17 @@
 h6 {				/* Palavra "Apoio" que fica em cima do slider | tag "p" está em ""mkt.js "*/
 	//position: absolute;
 	margin: 1em;
-	text-transform: uppercase;
+	//text-transform: uppercase;
 	font-family: arial;
 	color: gray;
 	letter-spacing: 0.1em;
 	text-align: left;
-	font-size: var(--fon3);			/* Altura, tamanho, da letra 'apoio', a palavra apoio */
+	//font-size: var(--fon3);			/* Altura, tamanho, da letra 'apoio', a palavra apoio */
+}
+
+
+h6::first-letter {
+	font-size: 1.3em;
 }
 
 .con {
@@ -770,7 +775,7 @@ section {
 
 
 .sli {							/* slider */
-	height: 99px;		/* tamanho de cada imagem */
+	height: 77px;		/* tamanho de cada imagem */
 	margin-right: 22px;
 }
 
@@ -783,7 +788,7 @@ section {
 	//padding: .5em;
 }
 .slideshow-container {
-	width: 1000px;
+	width: 300px;
 	font-size: 1em;
 	transition: 1s ease;
 	height: 88px;
@@ -792,17 +797,17 @@ section {
 	animation-play-state: paused;
 }
 .slide {
-animation: slide 22s ease infinite;
+animation: slide 11s ease infinite;
 }
 @keyframes slide {
 	0% {
 	transform: translateX(-0%);
 	}
 	25% {
-	transform: translateX(-25%);
+	transform: translateX(-5%);
 	}
 	50% {
-	transform: translateX(-50%);
+	transform: translateX(-20%);
 	}
 	75% {
 	transform: translateX(-50%);
