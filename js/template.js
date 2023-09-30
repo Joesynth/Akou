@@ -1,3 +1,10 @@
+
+
+/* Conteúdos HTML: o que inclui botões, mkt, etc
+*/
+
+
+
 const template = document.createElement('template');
 
 template.innerHTML = `
@@ -72,15 +79,21 @@ template.innerHTML = `
 
 document.body.appendChild(template.content);
 
+
+
+
 /* Logo Akou no rodapé: conteúdo*/
 var conteudo = document.getElementById("about");
 conteudo.innerHTML = "<br><h3>Akou é <br>música como alimento e não entretenimento</h3><br>✔️ Grátis<br>✔️ Sem propaganda<br>✔️ Baixíssimo consumo da sua rede<br>✔️ Software livre!<br>✔️ Educativo<br><h3>Música em 1º Lugar</h3>Akou é voltado a músicos e aqueles que, de fato, apreciam música. Priorizando qualidade ao invés da quantidade, Akou oferece exemplos musicais (ou sonoros) úteis para construir e estimular a audição do indivíduo, e assim dando referências. Akou é música como conhecimento e não mero lazer.<br><br>A audição é neutra. Isto é, sem lhe influenciar com imagens, publicidade ou apelos visuais. Ainda sim Akou funciona em segundo plano, permitindo você ouvir músicas e usar outros apps.<br><br><small>• Pela tecnologia FFmpeg uma música tem quase 10x menos dados que um mp3, resultando em baixíssimo consumo da rede.<br>• Sendo um software livre, público, você mesmo pode ver (e ler) o código no GitHub.<br>• Seguro, Akou não coleta dados do usuário e nem negocia (inclusive porque não coleta).</small><br><br>Akou | 2022-2023 | Joe S<br><br>";
 
 
+
+
 /* Logo Akou no rodapé: conteúdo*/
 /* note que aki n é aspa e sim crase */
-var conteudo = document.querySelector(".conte")
-conteudo.innerHTML = `
+/* conteConfi = conteúdo configuração, tela de configuração para o usuário */
+var conteConfi = document.querySelector(".conte")
+conteConfi.innerHTML = `
 <div class="conf">
 	<div class="con">
 		<div class="config"><p>🎺️ Blu/Jazz</p><input type="checkbox"></div>
@@ -115,10 +128,10 @@ conteudo.innerHTML = `
 
 
 
-/* referente ao conteúdo HTML colocado por padrão em várias divs. Padrão de tags, n de informação de textos, imagens, etc*/
-var conteudo = document.querySelectorAll("#conteP");
-for (let i=0; i < conteudo.length ; i++) {
-	conteudo[i].innerHTML = `
+/* conteArti = conteúdo artigos: referente ao conteúdo HTML colocado por padrão em várias divs, artigos. Padrão de tags, n de informação de textos, imagens, etc*/
+var conteArti = document.querySelectorAll("#conteP");
+for (let i=0; i < conteArti.length ; i++) {
+	conteArti[i].innerHTML = `
 		<div id="arti">
 					<img id="im" class="mmm" src="" alt="">
 					<p class="ti" id="ti"></p>				
@@ -316,6 +329,27 @@ for (let i=0; i < conteudo.length ; i++) {
 		</div>
 	`;
 }
+
+
+
+/* !!!! Crase em vez de aspas. Se usar aspa n será possível haver as quedras de linha no conteúdo da váriavel, o código deixara de funcionar.  */
+/* conteMkt = conteúdo de propaganda, marketing*/
+var conteMkt = `
+<div class="slideshow">
+	<div class="slideshow-container slide">
+		<img class="sli" src="https://www.cabreuva.sp.gov.br/upload/galeria/0030736001521218112.png"/>
+		<img class="sli" src="https://www.adocaoempauta.com.br/wp-content/uploads/2017/05/logo-principal-adocao-em-pauta-tatiany-schiavinato.png"/>
+	</div>
+</div>
+`;
+
+
+//document.querySelector(".mkt").innerHTML = conteMkt;
+document.querySelector(".mkt1").innerHTML = conteMkt;
+document.querySelector(".mkt2").innerHTML = conteMkt;
+document.querySelector(".mkt3").innerHTML = conteMkt;
+
+
 
 
 
