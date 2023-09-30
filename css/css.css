@@ -771,16 +771,16 @@ section {
 }
 
 
-/* mkt*/
+/* mkt
 
 
-.sli {							/* slider */
-	height: 77px;		/* tamanho de cada imagem */
+.sli {
+	height: 77px;
 	margin-right: 22px;
 }
 
-.slideshow {	/*slideshow styles*/
-	width: 88%;		/* largura da caixa */
+.slideshow {
+	width: 88%;	
 	//height: auto;
 	margin: 0 auto;
 	overflow: hidden;
@@ -813,6 +813,20 @@ animation: slide 11s ease infinite;
 	transform: translateX(-50%);
 	}
 }
+*/
+
+
+.slide {
+	display: flex;
+	margin-top: .3em;
+	margin-left: 3em;
+}
+
+.sli {
+	height: 4.5em;
+	margin-right: 2em;
+}
+
 
 /* Media Queries
 --------------------------------------------- [DAKI PRA BAIXO É O LAYOUT DISPLAY CELULAR] */
