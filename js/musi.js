@@ -16,8 +16,94 @@ var musi = [		/* musi = músicos, pessoa
 
 
 
+
+
+
+
+
+
+
+
 /* Array de Objetos: no = nome, des = descrição */
 let mus = [
+
+
+
+
+
+
+
+
+
+	{
+		src: 'https://thumbor.clickpb.com.br/XyG1l_vdy-TLQzeYykE0YBYjjL8=/876x585/top/smart/www.clickpb.com.br/media/filer_public/ab/28/ab2843fc-db57-4959-bc96-2754ba60ed83/braulio-tavares.jpg',
+		no: 'Bráulio Tavares | PB',
+		des: 'É um escritor, compositor, letrista, poeta, dramaturgo e pesquisador de literatura fantástica. Teve vários livros de poesias e ficção científica editados, além de dois folhetos de cordel. Tem vários prêmios. | pt.wi',
+	},
+	{
+		src: 'https://miro.medium.com/v2/resize:fit:640/format:webp/1*4203kox4mEFjhuhkFjusaA.jpeg',
+		no: 'Siba Veloso | PB',
+		des: 'Cantor, compositor, guitarrista e rabequista, o músico esteve à frente do fundamental grupo Mestre Ambrósio, um dos ícones do manguebeat nos anos 90. | medium.com',
+	},
+	{
+		src: 'https://rabeca.org/jpg_big/rabequeiro_filporibeiro_r243.jpg',
+		no: 'Filpo Ribeiro | SP',
+		des: 'Teve seu primeiro contato com a rabeca ainda criança, em uma Reiada (Folia de Reis) na Ilha do Cardoso em Cananéia, litoral paulista. Possui vários discos. | rabeca.org',
+	},
+	{
+		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Maximiliano_de_Brito%2C_Ronaldo_Miranda%2C_Renato_Mismetti_%28cropped%29.JPG/180px-Maximiliano_de_Brito%2C_Ronaldo_Miranda%2C_Renato_Mismetti_%28cropped%29.JPG',
+		no: 'Ronaldo Miranda | RJ',
+		des: 'É um compositor brasileiro. Foi professor do Departamento de Música da Escola de Comunicações e Artes da Universidade de São Paulo (USP). | pt.wi',
+	},
+	{
+		src: 'https://www10.trf2.jus.br/ccjf/wp-content/uploads/sites/9/2023/08/duo_site600x400.png',
+		no: 'Duo Scheinvar-Balloussier',
+		des: 'Formado por Ivan Scheinvar ao violino e Katia Balloussier ao piano. Tem como propósito de apresentar obras compostas para essa formação, por grandes mestres da música erudita. | ebc.com.brx',
+	},
+	{
+		src: 'https://ogimg.infoglobo.com.br/brasil/conte-algo-que-nao-sei/16978682-17e-5f7/FT1086A/2015071576237.jpg',
+		no: 'Carla Rincón | Venezuela',
+		des: 'Violinista e diretora pedagógica do Brasil de Tuhu. Integro o Quarteto radamés Gnatalli.',
+	},
+	{
+		src: 'https://brasildetuhu.com.br/wp-content/uploads/2022/08/IMG-20190830-WA0080-1024x684.jpg',
+		no: 'Brasil de Tuhu',
+		des: 'Os concertos organizados pelo projeto já alcançaram mais de 67 mil crianças e professores em mais de 300 escolas públicas distribuídas em 13 estados brasileiros. | ebc.com.br',
+	},
+	{
+		src: 'https://s2-oglobo.glbimg.com/g8xDd8SFi_R9SveOVG-Q0NNuggg=/0x132:480x640/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2023/o/Z/91D9orQ9erHg3B7vKy9g/whatsapp-image-2023-09-26-at-13.53.13.jpeg',
+		no: 'William Lehninger Swist',
+		des: 'Prodígio do piano clássico que, aos 11 anos, já conquistou importantes prêmios mundiais. Com dupla cidadania, Brasil e Estados Unidos, o pianista é filho da violinista brasileira Marcia Lehninger e do percussionista americano Christopher Swist. William demonstrou interesse pelo piano desde os quatro anos de idade, mas iniciou os estudos formais aos seis, por recomendação da avó materna, um renomada pianista. William tornou-se, então, aluno de outra pianista brasileira radicada nos EUA: Raquel Moreno.',
+	},
+	{
+		src: 'https://media.licdn.com/dms/image/C5603AQHTx7NllEO87A/profile-displayphoto-shrink_800_800/0/1644874739089?e=2147483647&v=beta&t=0gv69m_xJixnQJQkxFNalc55pEUq5wg7A9RqmfiYSMk',
+		no: 'Bruno de Carvalho Reis',
+		des: 'Desenvolve trabalhos musicais para viola dez cordas.',
+	},
+	{
+		src: 'https://concerto.com.br/sites/default/files/Daniel-Guedes-regendo.jpg',
+		no: 'Daniel Guedes',
+		des: 'Maestro da Orquestra Sinfônica de Barra Mansa.',
+	},
+	{
+		src: 'http://culturaniteroi.com.br/blog/imagens/1881_capa.jpg',
+		no: 'Grupo Café Brasil | RJ',
+		des: 'A Fundação de Arte de Niterói, por meio de seu braço fonográfico, a Niterói Discos, lançou o CD "Em Terra de Araribóia", do grupo Café Brasil. O trabalho é uma homenagem à cidade natal do conjunto. O disco tem a direção musical de Ronaldo do Bandolim. | culturaniteroi.com.br',
+	},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 		// 32 obj
 
@@ -380,39 +466,39 @@ let mus = [
 function ran(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-var i0 = ran(62, 63);
-var i1 = ran(60, 61);
-var i2 = ran(58, 59);
-var i3 = ran(56, 57);
-var i4 = ran(54, 55);
-var i5 = ran(52, 53);
-var i6 = ran(50, 51);
-var i7 = ran(48, 49);
-var i8 = ran(46, 47);
-var i9 = ran(44, 45);
-var i10 = ran(42, 43);
-var i11 = ran(40, 41);
-var i12 = ran(38, 39);
-var i13 = ran(36, 37);
-var i14 = ran(34, 35);
-var i15 = ran(32, 33);
+var i0 = ran(0, 10);
+var i1 = ran(7, 17);
+var i2 = ran(15, 25);
+var i3 = ran(23, 33);
+var i4 = ran(31, 41);
+var i5 = ran(39, 49);
+var i6 = ran(47, 57);
+var i7 = ran(55, 65);
+var i8 = ran(69, 74);
+var i9 = ran(66, 66);
+var i10 = ran(63, 66);
+var i11 = ran(60, 62);
+var i12 = ran(57, 59);
+var i13 = ran(54, 56);
+var i14 = ran(51, 53);
+var i15 = ran(48, 50);
 
-var i16 = ran(30, 31);
-var i17 = ran(28, 29);
-var i18 = ran(26, 27);
-var i19 = ran(24, 25);
-var i20 = ran(22, 23);
-var i21 = ran(20, 21);
-var i22 = ran(18, 19);
-var i23 = ran(16, 17);
-var i24 = ran(14, 15);
-var i25 = ran(12, 13);
-var i26 = ran(10, 11);
-var i27 = ran(8, 9);
-var i28 = ran(6, 7);
-var i29 = ran(4, 5);
-var i30 = ran(2, 3);
-var i31 = ran(0, 1);
+var i16 = ran(45, 47);
+var i17 = ran(42, 44);
+var i18 = ran(39, 41);
+var i19 = ran(36, 38);
+var i20 = ran(33, 35);
+var i21 = ran(30, 32);
+var i22 = ran(27, 29);
+var i23 = ran(24, 26);
+var i24 = ran(21, 23);
+var i25 = ran(18, 20);
+var i26 = ran(15, 17);
+var i27 = ran(12, 14);
+var i28 = ran(9, 11);
+var i29 = ran(6, 8);
+var i30 = ran(3, 5);
+var i31 = ran(0, 2);
 
 /*
 var i0 = Object.keys(mus)[Math.floor(Math.random()*Object.keys(mus).length)];
