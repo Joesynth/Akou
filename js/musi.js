@@ -8,9 +8,6 @@ var musi = [		/* musi = músicos, pessoa
 //Shorts
 
 // Pessoa / grupo / novos
-"🇧🇷️ Roberto Barata, finalista Radio Mec 100 Anos",
-"",
-];
 
 */
 
@@ -24,8 +21,130 @@ var musi = [		/* musi = músicos, pessoa
 
 
 
+
+
+
 /* Array de Objetos: no = nome, des = descrição */
 let mus = [
+
+	{
+		src: 'https://ucp.br/wp-content/uploads/2020/12/marcelo_vizani-1024x683.png',
+		no: 'Marcelo Vizani',
+		des: 'Em 1998 assumiu a regência do Coral das Meninas dos Canarinhos de Petrópolis e em 1999 realizou uma tournée a Portugal. | ucp.br',
+	},
+	{
+		src: 'https://sites.uft.edu.br/plataformaevento/media/eventos/palestrante/thumbnail/2665.jpeg',
+		no: 'Bruno Barreto',
+		des: 'É maestro do Coral UFT em Canto. | uft.edu.br',
+	},
+	{
+		src: 'https://s2-g1.glbimg.com/VFu9V2j1fvXledXqTuq6x-D7uk8=/0x0:4288x2840/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/Y/G/SJBOomQuKgEpzKiFSDlw/foto-30.jpg',
+		no: 'Duo Rocha Gândara',
+		des: 'Formado por João Rocha forma, ao lado da esposa, a portuguesa Paula Gândara.',
+	},	{
+		src: 'https://s2-g1.glbimg.com/jcnRPbZAYFMB7MaE47ozHKglNjk=/0x0:4288x2862/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/8/Z/rG5PThQROiQKR8AAnU8w/foto-23.jpg',
+		no: 'João Rocha | SP',
+		des: 'Maestro e compositor brasileiro radicado nos EUA.',
+	},
+	{
+		src: 'https://www.concerto.com.br/sites/default/files/inline-images/l-marina_martins.jpg',
+		no: 'Marina Martins',
+		des: 'Violoncelista, atualmente vivendo na Alemanha, onde estuda na Robert Schumann Hochschule, em Düsseldorf. | concerto.com.br ',
+	},
+	{
+		src: 'http://www.osesp.art.br/upload/images/2023_site_imagens/2022-08-26-quinteto-osesp-fotos-beatriz-de-paula-51.jpg',
+		no: 'Quinteto Osesp',
+		des: 'Formado pelas violinistas Amanda Martins e Sung Eun Cho, pelas violistas Maria Angélica Cameron e Sarah Nascimento, e pela violoncelista Jin Joo Doh. | osesp.art.br',
+	},
+	{
+		src: 'https://www.guarulhos.sp.gov.br/sites/default/files/styles/respansiva/public/field/image/Bosco-maciel.jpg?itok=w7X71KU9',
+		no: 'Bosco Maciel | PB',
+		des: 'Poeta folclorista e cantador | sp.gov.br | ebc',
+	},
+	{
+		src: 'https://static.wixstatic.com/media/2af4c0_62a01bed6fe74766a78ffddaf8db52b2~mv2.jpg/v1/fill/w_640,h_426,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/2af4c0_62a01bed6fe74766a78ffddaf8db52b2~mv2.jpg',
+		no: 'Davi Mello | DF',
+		des: 'O fotógrafo, cordelista e comunicador.',
+	},
+	{
+		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Renato_Almeida%2C_Diretor_executivo_da_Campanha_de_Defesa_do_Folclore_Brasileiro..tif/lossy-page1-403px-Renato_Almeida%2C_Diretor_executivo_da_Campanha_de_Defesa_do_Folclore_Brasileiro..tif.jpg',
+		no: 'Renato Almeida | BA',
+		des: 'Foi um advogado e jornalista brasileiro. Se destacou como musicólogo e folclorista. | pt.wi',
+	},
+	{
+		src: 'https://bafafa.com.br/images/artigos/exposicao_jota_rodrigues_o_verso_e_a_vida_28112019_012147.jpg',
+		no: 'Jota Rodrigues | PE',
+		des: 'Multiartista, era cordelista, artista plástico, músico e estudioso da música popular brasileira. Xilogravuras, fotografias, entrevistas em áudio... Foi de menino pobre e analfabeto (até os 8 anos) a patrono de diversas bibliotecas na Baixada Fluminense. Teve influência do pai violeiro e do primeiro oficio: guiar um cego (que memorizava versos e cantava de porta em porta). | bafafa.com.br',
+	},
+	{
+		src: 'https://imagens.ebc.com.br/9NrtNIdLkl_E0FV8HGhmwLWaX3w=/375x183/smart/https://radios.ebc.com.br/sites/default/files/thumbnails/image/cordel2-1024x772.png',
+		no: 'Raimundo Sobrinho',
+		des: 'O professor e escritor tem um projeto de cordel nas escolas da Ceilândia (DF): a magia do cordel.',
+	},
+	{
+		src: 'http://www.gustavodourado.com.br/gustavo_dourado_1.jpg',
+		no: 'Gustavo Dourado',
+		des: 'Escritor, poeta, cordelista. | gustavodourado.com.br',
+	},
+	{
+		src: 'https://audiorebel.com.br/wp-content/uploads/2019/06/Quarteto-Fernando-Trocado.jpg',
+		no: 'Quarteto Fernando Trocado',
+		des: 'O grupo apresenta sua música autoral, agregando elementos da MPB, do jazz e da música erudita. O saxofonista e flautista Fernando Trocado lidera o quarteto, que conta ainda com Natan Gomes no piano; Dave Zinno no baixo; e MacWilliam Caetano na bateria.',
+	},
+	{
+		src: 'https://catedral.com.br/wp-content/uploads/2019/05/Organista-Benedito-Rosa.jpg',
+		no: 'Benedito Rosa',
+		des: 'É mestre de capela e organista titular da Catedral Metropolitana de São Sebastião do Rio de Janeiro. Bacharel em órgão com medalha de ouro e mestre em Música pela Escola de Música da Universidade Federal do Rio de Janeiro, ele tem ainda formação em cravo, piano, canto e regência coral. É organista concertista e acompanhador, com atuações pelo Brasil e no exterior, tendo atuado junto às Orquestras de Flautas do Japão, Theatro Municipal do Rio de Janeiro e Sinfônica Brasileira. É o presidente da Associação Carioca de Organistas (ACO) e faz parte do corpo docente da Escola de Música Baden Powell (Fundação de Apoio às Escolas Técnicas - FAETEC).',
+	},
+	{
+		src: 'https://upload.wikimedia.org/wikipedia/en/2/24/Jo%C3%A3o_Cabral.jpg',
+		no: 'João Cabral de Melo Neto | PE',
+		des: 'O premiado poeta (e diplomata) de Morte e Vida Severina. | en.wi',
+	},
+	{
+		src: 'https://imagens.ebc.com.br/b8n9lQoyIqtEnY1F3eylGWR2DiI=/375x183/smart/https://radios.ebc.com.br/sites/default/files/thumbnails/image/patativa_do_assare.jpg',
+		no: 'Patativa do Assaré | CE',
+		des: 'Foi um poeta popular, compositor, cantor e improvisador brasileiro. | pt.wi',
+	},	
+	{
+		src: 'http://robertobarata.no.comunidades.net/imagens/robertinho%20editado%202%20.jpg',
+		no: 'Roberto Barata',
+		des: 'Pianista, Compositor, Arranjador, Produtor, Pesquisador... | robertobarata.no.comunidades.net | ebc',
+	},
+	{
+		src: 'https://media.licdn.com/dms/image/C4E03AQH5g0QHB62TIA/profile-displayphoto-shrink_800_800/0/1546692732858?e=2147483647&v=beta&t=TW6rjURIZIl8Ickx2h1tS9UCJPYfTP3HgvPxhkGQ4T4',
+		no: 'Aldair Tomé',
+		des: 'Violoncelista na orquestra filarmonica de alagoas.',
+	},
+	{
+		src: 'https://i.ytimg.com/vi/k3Zt34itos4/hqdefault.jpg',
+		no: 'Andreyna Dinoá',
+		des: 'Violoncelo.',
+	},
+	{
+		src: 'https://s2-g1.glbimg.com/9XVqqafQ1Uz1tuARHXApGK8jU-U=/0x0:702x467/600x0/smart/filters:gifv():strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/8/g/Z0MTOBRZO5xv3FAQgpqg/violoncelista-sul-coreana-hayong-choi-foto-andreij-grilc-divulgacao.jpeg',
+		no: 'Hayong Choi',
+		des: 'Violoncelista sul-coreana, que teve apresentação no Teatro Amazonas.',
+	},
+	{
+		src: 'https://yt3.googleusercontent.com/ytc/AOPolaTCDHdxgEXZlrATh405XH9cEbBw6OGJtYOw9bGHzA=s900-c-k-c0x00ffffff-no-rj',
+		no: 'Rodrigo Eloy 🎸️',
+		des: 'Violinista da OSUFPB',
+	},
+	{
+		src: 'https://fmcb.com.br/wp-content/uploads/2022/03/FeliciaCoelho-FMCB-480x720.jpg',
+		no: 'Flautista Felícia',
+		des: 'Flautista que, como solista, apresentou-se à frente de várias orquestras. | fmcb.com.br',
+	},
+	{
+		src: 'https://static.wixstatic.com/media/6fe0ed_faa46bbc524048f8873086c47e2659f5.jpg/v1/fill/w_222,h_262,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/6fe0ed_faa46bbc524048f8873086c47e2659f5.jpg',
+		no: 'Paulo França',
+		des: 'Violista da Universidade Federal do Rio Grande do Norte (UFRN). | ufrn.br',
+	},
+
+
+
+
 
 
 
@@ -123,7 +242,7 @@ let mus = [
 		des: 'É fruto de uma longa história de atividades ininterruptas. Um nome referente à Escola de Música da UFRJ.',
 	},
 	{
-		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Logo_EM_-_UFRJ.png/300px-Logo_EM_-_UFRJ.png',
+		src: 'https://vitruvius.com.br/media/images/magazines/grid_9/af7f399d78c6_v_figura11.jpg',
 		no: 'Escola de Música da Universidade Federal do Rio de Janeiro (EMUFRJ)',
 		des: 'Fundada em 1841, é a instituição de ensino musical mais antiga em atividade no Brasil. Destina-se ao ensino e à pesquisa, visando principalmente à formação em nível superior, nas atividades de execução, interpretação, criação musical e formação de professores.',
 	},
@@ -466,17 +585,17 @@ let mus = [
 function ran(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-var i0 = ran(0, 10);
-var i1 = ran(7, 17);
-var i2 = ran(15, 25);
-var i3 = ran(23, 33);
-var i4 = ran(31, 41);
-var i5 = ran(39, 49);
-var i6 = ran(47, 57);
-var i7 = ran(55, 65);
-var i8 = ran(69, 74);
-var i9 = ran(66, 66);
-var i10 = ran(63, 66);
+var i0 = ran(93, 97);
+var i1 = ran(90, 92);
+var i2 = ran(87, 89);
+var i3 = ran(84, 86);
+var i4 = ran(81, 83);
+var i5 = ran(78, 80);
+var i6 = ran(75, 77);
+var i7 = ran(72, 74);
+var i8 = ran(69, 71);
+var i9 = ran(66, 68);
+var i10 = ran(63, 65);
 var i11 = ran(60, 62);
 var i12 = ran(57, 59);
 var i13 = ran(54, 56);
@@ -734,14 +853,11 @@ var i3 = Object.keys(mus)[Math.floor(Math.random()*Object.keys(mus).length)];
 🎺️🎷️🎸️🎻️🎙️🎺️🥁️
 FAMOSOS / ARTISTA
 
-Aldair Tomé | violoncelista na orquestra filarmonica de alagoas
 Aleyson Scopel 🎹
 Alondra de La Parra | regência
-Andreyna Dinoá (violoncelo) | solista da OSUFPB
 Antonio Vaz Lemes 🎹
 Aurélio Melo | maestro
 Barry Douglas 🎹
-Bruno Barreto | maestro | Artes-Teatro da Universidade Federal do Tocantins,
 Cláudio Cruz regência, diretor musical
 Clelia Iruzum 🎹
 Cristian Budu 🎹
@@ -749,50 +865,38 @@ Dmitry Masleev 🎹
 Duo Abdala (flauta e violão).
 Erika Ribeiro 🎹
 Fabio Martino 🎹
-Felícia Coelho, flautista da Universidade Federal de Pernambuco (UFPE)
 Gabriel Martins
 Gautier Capuçon
-Giovanni Tristacci 🗣️ tenor | Coral do Amazonas
 Guilherme Mannis
 Inbal Segev
 Ingrid Barankoski 🎹
 Isadora Rezende 🎹
 Jean-Guihen Queyras
 Jean Louis Steuerman 🎹
-João Rocha | maestro e compositor brasileiro radicado nos EUA. 
 Julianna Santos
-Kalim Campos, violoncelista da Orquestra Sinfônica do Rio Grande do Norte (OSRN).
 Kayami Satomi (violoncelista)
-Kismara Pezzati 🗣️ mezzo-soprano | Coral do Amazonas
 Lilian Barretto 🎹
 Lilya Zilberstein 🎹
 Linda Bustani 🎹
 Luiz Fernando Ventureli
 Luiz Gustavo Carvalho 🎹 Festival Artes Vertentes
-Luiz-Ottavio Faria 🗣️ baixo | Coral do Amazonas
 Maja Bogdanovich violoncelista
 Marcelo Bratke 🎹
-Marcelo de Jesus | regência | Coral do Amazonas 
-Marcelo Vizani | maestro Coral das Meninas dos Canarinhos de Petrópolis
 Maria João Pires 🎹
 Maria Teresa Madeira 🎹
-Marina Martins | Quinteto Osesp
 Marina Spoladore 🎹
 Michael Gurt 🎹
 Miguel Proença 🎹
 Nelson Ayres 🎹
 Paul Chou | Maestro 
-Paulo França, violista da Universidade Federal do Rio Grande do Norte (UFRN)
 Priscila Bomfim maestra
 Rachel Barton-Pine violinista
-Rodrigo Eloy 🎸️ | solista da OSUFPB
 Sergio Tiempo 🎹
 Sergio Tiempo 🎹
 Sheku Khanneh-Mason
-Tatiana Carlos 🗣️ soprano | Coral do Amazonas
 Zahran | Orquestra Sesc
 
-Roberto Barata 🎹
+
 Rafael Barata 🥁️ 
 André Luz | Baixo
 
@@ -839,11 +943,6 @@ André Luz | Baixo
 			des: 'Raphael Almeida (bandolim)',
 	}
 
-	const xx = {
-			src: 'xx',
-			no: 'Roberto Barata | RJ',	
-			des: 'xx',
-	}
 
 	const xx = {
 			src: 'xx',
