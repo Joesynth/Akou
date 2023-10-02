@@ -953,237 +953,55 @@ var i3 = Object.keys(news)[Math.floor(Math.random()*Object.keys(news).length)];
 */
 
 
-	function news0 () { 	
-		document.querySelector('.conte1 #im').src = news[i0].src;
-		document.querySelector('.conte1 #ti').innerHTML = news[i0].no;
-		document.querySelector('.conte1 #te').innerHTML = news[i0].des;
-	}
+var im = document.querySelectorAll("#arti .mmm");
+var p = document.querySelectorAll("#arti .ti");
+var pre = document.querySelectorAll("#arti .te");
 
-	function news1 () { 	
-		document.querySelector('.conte1 #im1').src = news[i1].src;
-		document.querySelector('.conte1 #ti1').innerHTML = news[i1].no;
-		document.querySelector('.conte1 #te1').innerHTML = news[i1].des;
-	}
 
-	function news2 () { 	
-		document.querySelector('.conte1 #im2').src = news[i2].src;
-		document.querySelector('.conte1 #ti2').innerHTML = news[i2].no;
-		document.querySelector('.conte1 #te2').innerHTML = news[i2].des;
-	}
+/* a = artigo, cada div de conteúdo; i = índice do array de objetos */
+function escre (a, i) {
+	im[a].src = news[i].src;
+	p[a].innerHTML = news[i].no;
+	pre[a].innerHTML = news[i].des;
+}
 
-	function news3 () { 	
-		document.querySelector('.conte1 #im3').src = news[i3].src;
-		document.querySelector('.conte1 #ti3').innerHTML = news[i3].no;
-		document.querySelector('.conte1 #te3').innerHTML = news[i3].des;
-	}
-
-	function news4 () { 	
-		document.querySelector('.conte1 #im4').src = news[i4].src;
-		document.querySelector('.conte1 #ti4').innerHTML = news[i4].no;
-		document.querySelector('.conte1 #te4').innerHTML = news[i4].des;
-	}
-
-	function news5 () { 	
-		document.querySelector('.conte1 #im5').src = news[i5].src;
-		document.querySelector('.conte1 #ti5').innerHTML = news[i5].no;
-		document.querySelector('.conte1 #te5').innerHTML = news[i5].des;
-	}
-
-	function news6 () { 	
-		document.querySelector('.conte1 #im6').src = news[i6].src;
-		document.querySelector('.conte1 #ti6').innerHTML = news[i6].no;
-		document.querySelector('.conte1 #te6').innerHTML = news[i6].des;
-	}
-
-	function news7 () { 	
-		document.querySelector('.conte1 #im7').src = news[i7].src;
-		document.querySelector('.conte1 #ti7').innerHTML = news[i7].no;
-		document.querySelector('.conte1 #te7').innerHTML = news[i7].des;
-	}
-
-	function news8 () { 	
-		document.querySelector('.conte1 #im8').src = news[i8].src;
-		document.querySelector('.conte1 #ti8').innerHTML = news[i8].no;
-		document.querySelector('.conte1 #te8').innerHTML = news[i8].des;
-	}
-
-	function news9 () { 	
-		document.querySelector('.conte1 #im9').src = news[i9].src;
-		document.querySelector('.conte1 #ti9').innerHTML = news[i9].no;
-		document.querySelector('.conte1 #te9').innerHTML = news[i9].des;
-	}
-
-	function news10 () { 	
-		document.querySelector('.conte1 #im10').src = news[i10].src;
-		document.querySelector('.conte1 #ti10').innerHTML = news[i10].no;
-		document.querySelector('.conte1 #te10').innerHTML = news[i10].des;
-	}
-
-	function news11 () { 	
-		document.querySelector('.conte1 #im11').src = news[i11].src;
-		document.querySelector('.conte1 #ti11').innerHTML = news[i11].no;
-		document.querySelector('.conte1 #te11').innerHTML = news[i11].des;
-	}
-
-	function news12 () { 	
-		document.querySelector('.conte1 #im12').src = news[i12].src;
-		document.querySelector('.conte1 #ti12').innerHTML = news[i12].no;
-		document.querySelector('.conte1 #te12').innerHTML = news[i12].des;
-	}
-
-	function news13 () { 	
-		document.querySelector('.conte1 #im13').src = news[i13].src;
-		document.querySelector('.conte1 #ti13').innerHTML = news[i13].no;
-		document.querySelector('.conte1 #te13').innerHTML = news[i13].des;
-	}
-
-	function news14 () { 	
-		document.querySelector('.conte1 #im14').src = news[i14].src;
-		document.querySelector('.conte1 #ti14').innerHTML = news[i14].no;
-		document.querySelector('.conte1 #te14').innerHTML = news[i14].des;
-	}
-
-	function news15 () { 	
-		document.querySelector('.conte1 #im15').src = news[i15].src;
-		document.querySelector('.conte1 #ti15').innerHTML = news[i15].no;
-		document.querySelector('.conte1 #te15').innerHTML = news[i15].des;
-	}
+/* 1º número é o artigo. 2º é um númeo q equivale ao índice de array de objeto, porém, está entrado um q equivale a faixa de números aleatórios*/
+escre(0, i0);
+escre(1, i1);
+escre(2, i2);
+escre(3, i3);
+escre(4, i4);
+escre(5, i5);
+escre(6, i6);
+escre(7, i7);
+escre(8, i8);
+escre(9, i9);
+escre(10, i10);
+escre(11, i11);
+escre(12, i12);
+escre(13, i13);
+escre(14, i14);
+escre(15, i15);
+escre(16, i16);
+escre(17, i17);
+escre(18, i18);
+escre(19, i19);
+escre(20, i20);
+escre(21, i21);
+escre(22, i22);
+escre(23, i23);
+escre(24, i24);
+escre(25, i25);
+escre(26, i26);
+escre(27, i27);
+escre(28, i28);
+escre(29, i29);
+escre(30, i30);
+escre(31, i31);
 
 
 
 
-
-	function news16 () { 	
-		document.querySelector('.conte1 #im16').src = news[i16].src;
-		document.querySelector('.conte1 #ti16').innerHTML = news[i16].no;
-		document.querySelector('.conte1 #te16').innerHTML = news[i16].des;
-	}
-
-	function news17 () { 	
-		document.querySelector('.conte1 #im17').src = news[i17].src;
-		document.querySelector('.conte1 #ti17').innerHTML = news[i17].no;
-		document.querySelector('.conte1 #te17').innerHTML = news[i17].des;
-	}
-
-	function news18 () { 	
-		document.querySelector('.conte1 #im18').src = news[i18].src;
-		document.querySelector('.conte1 #ti18').innerHTML = news[i18].no;
-		document.querySelector('.conte1 #te18').innerHTML = news[i18].des;
-	}
-
-	function news19 () { 	
-		document.querySelector('.conte1 #im19').src = news[i19].src;
-		document.querySelector('.conte1 #ti19').innerHTML = news[i19].no;
-		document.querySelector('.conte1 #te19').innerHTML = news[i19].des;
-	}
-
-	function news20 () { 	
-		document.querySelector('.conte1 #im20').src = news[i20].src;
-		document.querySelector('.conte1 #ti20').innerHTML = news[i20].no;
-		document.querySelector('.conte1 #te20').innerHTML = news[i20].des;
-	}
-
-	function news21 () { 	
-		document.querySelector('.conte1 #im21').src = news[i21].src;
-		document.querySelector('.conte1 #ti21').innerHTML = news[i21].no;
-		document.querySelector('.conte1 #te21').innerHTML = news[i21].des;
-	}
-
-	function news22 () { 	
-		document.querySelector('.conte1 #im22').src = news[i22].src;
-		document.querySelector('.conte1 #ti22').innerHTML = news[i22].no;
-		document.querySelector('.conte1 #te22').innerHTML = news[i22].des;
-	}
-
-	function news23 () { 	
-		document.querySelector('.conte1 #im23').src = news[i23].src;
-		document.querySelector('.conte1 #ti23').innerHTML = news[i23].no;
-		document.querySelector('.conte1 #te23').innerHTML = news[i23].des;
-	}
-
-	function news24 () { 	
-		document.querySelector('.conte1 #im24').src = news[i24].src;
-		document.querySelector('.conte1 #ti24').innerHTML = news[i24].no;
-		document.querySelector('.conte1 #te24').innerHTML = news[i24].des;
-	}
-
-	function news25 () { 	
-		document.querySelector('.conte1 #im25').src = news[i25].src;
-		document.querySelector('.conte1 #ti25').innerHTML = news[i25].no;
-		document.querySelector('.conte1 #te25').innerHTML = news[i25].des;
-	}
-
-	function news26 () { 	
-		document.querySelector('.conte1 #im26').src = news[i26].src;
-		document.querySelector('.conte1 #ti26').innerHTML = news[i26].no;
-		document.querySelector('.conte1 #te26').innerHTML = news[i26].des;
-	}
-
-	function news27 () { 	
-		document.querySelector('.conte1 #im27').src = news[i27].src;
-		document.querySelector('.conte1 #ti27').innerHTML = news[i27].no;
-		document.querySelector('.conte1 #te27').innerHTML = news[i27].des;
-	}
-
-	function news28 () { 	
-		document.querySelector('.conte1 #im28').src = news[i28].src;
-		document.querySelector('.conte1 #ti28').innerHTML = news[i28].no;
-		document.querySelector('.conte1 #te28').innerHTML = news[i28].des;
-	}
-
-	function news29 () { 	
-		document.querySelector('.conte1 #im29').src = news[i29].src;
-		document.querySelector('.conte1 #ti29').innerHTML = news[i29].no;
-		document.querySelector('.conte1 #te29').innerHTML = news[i29].des;
-	}
-
-	function news30 () { 	
-		document.querySelector('.conte1 #im30').src = news[i30].src;
-		document.querySelector('.conte1 #ti30').innerHTML = news[i30].no;
-		document.querySelector('.conte1 #te30').innerHTML = news[i30].des;
-	}
-
-	function news31 () { 	
-		document.querySelector('.conte1 #im31').src = news[i31].src;
-		document.querySelector('.conte1 #ti31').innerHTML = news[i31].no;
-		document.querySelector('.conte1 #te31').innerHTML = news[i31].des;
-	}
-
-
-
-	news0();
-	news1();
-	news2();
-	news3();
-	news4();
-	news5();
-	news6();
-	news7();
-	news8();
-	news9();
-	news10();
-	news11();
-	news12();
-	news13();
-	news14();
-	news15();
-
-	news16();
-	news17();
-	news18();
-	news19();
-	news20();
-	news21();
-	news22();
-	news23();
-	news24();
-	news25();
-	news26();
-	news27();
-	news28();
-	news29();
-	news30();
-	news31();
 	
 	
 	

@@ -94,34 +94,34 @@ conteudo.innerHTML = "<br><h3>Akou é <br>música como alimento e não entreteni
 /* conteConfi = conteúdo configuração, tela de configuração para o usuário */
 var conteConfi = document.querySelector(".conte")
 conteConfi.innerHTML = `
-<div class="conf">
-	<div class="con">
-		<div class="config"><p>🎺️ Blu/Jazz</p><input type="checkbox"></div>
-		<div class="config"><p>🇧🇷️ Brasil 1</p><input type="checkbox"></div>
-		<div class="config"><p>🇧🇷️ Brasil 2</p><input type="checkbox"></div>
-		<div class="config"><p>🎻️ Clássica</p><input type="checkbox"></div>
-		<div class="config"><p>👥 Coro</p><input type="checkbox"></div>
-		<div class="config"><p>🏖️ Choro</p><input type="checkbox"></div>
-		<div class="config"><p>📼️ Concre.</p><input type="checkbox"></div>
-		<div class="config"><p>⚡ Contemp.</p><input type="checkbox"></div>
-		<div class="config"><p>💡️ Eletrôn.</p><input type="checkbox"></div>
-		<div class="config"><p>🔌️ Funk</p><input type="checkbox"></div>
-		<div class="config"><p>🎮️ Game</p><input type="checkbox"></div>
-		<div class="config"><p>✝️ Gospel</p><input type="checkbox"></div>
+<div class="conf f9">
+	<div>
+		<span>🎺️ Blu/Jazz </span><input type="checkbox"><br>
+		<span>🇧🇷️ Brasil 1 </span><input type="checkbox"><br>
+		<span>🇧🇷️ Brasil 2 </span><input type="checkbox"><br>
+		<span>🎻️ Clássica </span><input type="checkbox"><br>
+		<span>👥 Coro </span><input type="checkbox"><br>
+		<span>🏖️ Choro </span><input type="checkbox"><br>
+		<span>📼️ Concre. </span><input type="checkbox"><br>
+		<span>⚡ Contemp. </span><input type="checkbox"><br>
+		<span>💡️ Eletrôn. </span><input type="checkbox"><br>
+		<span>🔌️ Funk </span><input type="checkbox"><br>
+		<span>🎮️ Game </span><input type="checkbox"><br>
+		<span>✝️ Gospel </span><input type="checkbox"><br>
 	</div>
-	<div class="con">
-		<div class="config"><p>😁️ Infantil</p><input type="checkbox"></div>
-		<div class="config"><p>🕎️ Judaica</p><input type="checkbox"></div>
-		<div class="config"><p>🌺️ New Age</p><input type="checkbox"></div>
-		<div class="config"><p>🎹 Piano</p><input type="checkbox"></div>
-		<div class="config"><p>🎛️ RoProg</p><input type="checkbox"></div>
-		<div class="config"><p>🇯🇲️ Reggae</p><input type="checkbox"></div>
-		<div class="config"><p>🎷️ Smooth</p><input type="checkbox"></div>
-		<div class="config"><p>🎸️ Surf</p><input type="checkbox"></div>
-		<div class="config"><p>🎙️ Soul</p><input type="checkbox"></div>
-		<div class="config"><p>📺️ TV</p><input type="checkbox"></div>
-		<div class="config"><p>👤️ Vocal</p><input type="checkbox"></div>
-		<div class="config"><p>🎸️ Violão</p><input type="checkbox"></div>
+	<div>
+		<span>😁️ Infantil </span><input type="checkbox"><br>
+		<span>🕎️ Judaica </span><input type="checkbox"><br>
+		<span>🌺️ New Age </span><input type="checkbox"><br>
+		<span>🎹 Piano </span><input type="checkbox"><br>
+		<span>🎛️ RoProg </span><input type="checkbox"><br>
+		<span>🇯🇲️ Reggae </span><input type="checkbox"><br>
+		<span>🎷️ Smooth </span><input type="checkbox"><br>
+		<span>🎸️ Surf </span><input type="checkbox"><br>
+		<span>🎙️ Soul </span><input type="checkbox"><br>
+		<span>📺️ TV </span><input type="checkbox"><br>
+		<span>👤️ Vocal </span><input type="checkbox"><br>
+		<span>🎸️ Violão </span><input type="checkbox"><br>
 	</div>
 </div>
 `;
