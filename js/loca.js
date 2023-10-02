@@ -8,6 +8,69 @@
 
 
 let loc = [
+
+	{
+		src: 'https://www.eb.mil.br/image/journal/article?img_id=10343108&t=1566412378558.jpg',
+		no: 'Theatro José de Alencar',
+		des: 'Teve apresentação da Orquestra Sinfônica da Universidade Estadual do Ceará (UECE), junto à banda e ao coral do CMF (Colégio Militar de Fortaleza). | eb.mil.br',
+	},
+	{
+		src: 'https://www.eb.mil.br/image/journal/article?img_id=2216174&t=1351101612634',
+		no: 'Colégio Militar do Rio de Janeiro (CMRJ)',
+		des: 'Promoveu o Festival de Música do CMRJ, “Festival Ivan Lins”, que homenageou o ícone da Música Popular Brasileira e ex-aluno.',
+	},
+	{
+		src: 'https://ilhanoticias.com.br/uploads//imagens/shares/noticias/anteriores/7422d6f17f9f29ddf184e94f6d2b6d1d.jpg.jpg',
+		no: 'Colégio Brigadeiro Newton Braga (CBNB)',
+		des: 'Ele reorganizou a sua banda formada por alunos. Há três anos, o professor que é 1º sargento da Força Aérea, iniciou o projeto e atraiu o interesse de muitos estudantes para aprender a tocar instrumentos musicais.| ilhanoticias.com.br',
+	},
+	{
+		src: 'http://www.cultura.pe.gov.br/wp-content/uploads/2021/11/5016787104_10945d71a1_c-607x405.jpg',
+		no: 'Festival de Violeiros de Gravatá | PE',
+		des: 'Difundindo e valorizando a cantoria de viola, o evento recebe artistas de todo o Nordeste. | pe.gov.br',
+	},
+	{
+		src: 'https://imagens.ebc.com.br/Rb8YXmFm9AFvmtxjJtDVwasq268=/360x180/smart/https://radios.ebc.com.br/sites/default/files/thumbnails/image/cordel_1.jpg',
+		no: 'Parque Madureira | RJ',
+		des: 'Desenvolve, por ex., o Encontro de Poetas Populares.',
+	},
+	{
+		src: 'https://imagens.ebc.com.br/AeATANMWTr_Le89G7caM8G4LrbI=/360x180/smart/https://radios.ebc.com.br/sites/default/files/thumbnails/image/obra_j.borges.jpg',
+		no: 'Museu de Arte do Rio',
+		des: 'Inaugurou exposição “J. Borges – O Mestre da Xilogravura”.',
+	},
+	{
+		src: 'https://unifor.br/documents/20143/573160/Maria-das-Neves-Baptista-Pimentel-foto-reproducao.jpg/41917942-b4fe-ee99-47ef-0e063d50292e?t=1565803646507',
+		no: 'Cordelteca Maria das Neves Baptista Pimentel | CE',
+		des: 'Espaço dedicado às produções histórico-culturais em formato de cordel, na Universidade de Fortaleza.',
+	},
+	{
+		src: 'https://www.agenciabrasilia.df.gov.br/wp-conteudo/uploads/2021/11/WhatsApp-Image-2021-11-26-at-17.34.43.jpeg',
+		no: 'Casa do Cantador | DF ✡️ 1986',
+		des: 'Foi inaugurada a partir da reivindicação de representantes da cultura nordestina em Ceilândia, e recentemente passou por reforma. Foi declarada patrimônio imaterial. | df.gov.br',
+	},
+	{
+		src: 'https://midias.correiobraziliense.com.br/_midias/jpg/2022/06/09/675x450/1_ze_mulato_e_cassiano-25833585.jpg?20220609122849?20220609122849',
+		no: 'Encontro de violeiros e violeiras de Brasília | DF',
+		des: 'Um encontro já com anos de acontecimento. Idealizado pelo produtor do evento e violeiro, Volmi Batista',
+	},
+	{
+		src: 'https://www.retirodosartistas.org.br/wp-content/uploads/2023/05/Imagem1_n.jpg',
+		no: 'Retiro dos Artistas - Quintas Musicais | RJ',
+		des: 'O Quintas Musicais surgiu como um presente ao Retiro dos Artistas, ressalta Clara Paulino, Presidente da Fundação Teatro Municipal que faz uma parceria. | rj.gov.br',
+	},
+
+
+
+
+
+
+
+
+
+
+
+
 	{
 			src: 'https://s2-g1.glbimg.com/_BQ5bLZCDvKKff36BKXJ-J5sKIE=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2020/q/o/zJNlEoRO2AdaB35IvVHQ/25143443-79908-gd.jpg',
 			no: 'Casa da OSPA | RS',
@@ -365,10 +428,10 @@ let mus = [
 function ran(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-var i0 = ran(62, 64);
-var i1 = ran(60, 61);
-var i2 = ran(58, 59);
-var i3 = ran(56, 57);
+var i0 = ran(70, 74);
+var i1 = ran(65, 69);
+var i2 = ran(60, 64);
+var i3 = ran(56, 59);
 var i4 = ran(54, 55);
 var i5 = ran(52, 53);
 var i6 = ran(50, 51);

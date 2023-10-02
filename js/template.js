@@ -338,6 +338,7 @@ var conteMkt = `
 <div class="slideshow">
 	<div class="slideshow-container slide">
 		<img class="sli" src="https://www.cabreuva.sp.gov.br/upload/galeria/0030736001521218112.png"/>
+		<img class="sli" src="https://www.retirodosartistas.org.br/wp-content/uploads/2020/04/logo-vetor-retiro-dos-artistas-300x153.png"/>
 		<img class="sli" src="https://www.adocaoempauta.com.br/wp-content/uploads/2017/05/logo-principal-adocao-em-pauta-tatiany-schiavinato.png"/>
 	</div>
 </div>

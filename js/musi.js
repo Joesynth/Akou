@@ -24,8 +24,104 @@ var musi = [		/* musi = músicos, pessoa
 
 
 
+
+
 /* Array de Objetos: no = nome, des = descrição */
 let mus = [
+
+
+
+
+	{
+		src: 'https://www2.fab.mil.br/cbnb/images/cbnb_img/Conserto/banda-16.jpg',
+		no: 'Banda de música do Colégio Brigadeiro Newton Braga',
+		des: 'A banda de música proporciona aos alunos: "conhecer os instrumentos musicais que formam uma banda sinfônica, além de trabalhar valores como disciplina, respeito, responsabilidade, trabalho em grupo e autoconfiança.".',
+	},
+	{
+		src: 'https://www.cp2.g12.br/blog/humaita1/files/2022/10/WhatsApp-Image-2022-10-07-at-17.06.40-e1665174986364.jpeg',
+		no: 'Coral Infantil do Humaitá I',
+		des: 'Na imagem uma apresentação musical no Salão Nobre do Campus Centro. | cp2.g12.br',
+	},
+	{
+		src: 'http://www.pmdf.df.gov.br/images/2019/Novembro/Pedro-Reis.jpg',
+		no: 'Banda de Música do CMT (Colégio Militar Tiradentes)',
+		des: 'Desde o início das atividades do CMT, a parte musical foi pensada com objetivo de criar a Banda de Música com alunos do colégio. | df.gov.br',
+	},
+	{
+		src: 'http://www.pmdf.df.gov.br/images/0ccc40e8acd04091a87da0152632568d.jpg',
+		no: 'Banda e o coral do Colégio Militar Tiradentes',
+		des: 'Aqui, os jovens do Tiradentes foram regidos pela Tenente Edna e tocaram clássicos da música como o Bolero de Ravel, músicas temas de filmes como Piratas do Caribe e como não podia ser diferente, músicas natalinas. O coral contou com a regência do professor Gabriel. | df.gov.br',
+	},
+	{
+		src: 'http://www.cmb.eb.mil.br/images/phocagallery/Fotos2022/ApresentacaoCoralFora/7.jpeg',
+		no: 'Coral do Colégio Militar de Brasília (CMB)',
+		des: 'Em certa solenidade, cerca de 30 alunos, mostraram um pouco do excelente trabalho que é feito diariamente no CMB, encantando a todos os presentes. | eb.mil.br',
+	},
+	{
+		src: 'https://www.cbmerj.rj.gov.br/media/k2/items/cache/2f74131fa7c32036662a4fc3e0c8a9de_M.jpg',
+		no: 'Banda Sinfônica do Corpo de Bombeiros RJ',
+		des: 'A Banda Sinfônica do CBMERJ realizou a sua primeira apresentação em 15 de novembro de 1896, no quartel do Humaitá. Foi o primeiro grupo instrumental do Brasil a gravar discos, quando da instalação da Casa Edson, na Rua do Ouvidor, no Centro do Rio. rj.gov.br ',
+	},
+	{
+		src: 'https://www.eb.mil.br/image/journal/article?img_id=15868527&t=1659371773724.jpg',
+		no: 'Banda do Colégio Militar do Rio de Janeiro (CMRJ)',
+		des: 'A Banda do CMRJ, conhecida como "A Furiosa", realizou uma apresentação na escadaria do Palácio Duque de Caxias em comemoração aos 85 anos do Departamento de Educação e Cultura do Exército (DECEx). | eb.mil.br',
+	},
+	{
+		src: 'https://ci5.googleusercontent.com/proxy/TdcJeFk3f8Po4TNS1pwOYC8CZvAccYMI14OOAuRazd9X4rGmCs8SZfkCEF8UkUxQvCUjpd2XG9kUWU46JPjxi-HgnnyLRXQcsW-HjoO9-NwG1r2yyrZ9vWBN9w1yCufNgLfsm1tl7uN4Y5iDRK_Nv151bl41HHTqm15rv3GTJh0Tl5jwpFGXeTLAgc9JUEmTTxtRHax_=s0-d-e1-ft#https://cseprs3.s3.amazonaws.com/email-editor-files/13e6fd88-1c25-4870-6a5e-08d99434db3b/a49bddf3-b692-4e96-82d6-af6f64efb227.jpeg',
+		no: 'Trio Oré | RJ',
+		des: 'Formado por dois cantores do Coro do Municipal e um músico convidado: Carolina Morel (soprano), Calebe Faria (barítono) e Bernardo Januzzi (violão). Oré significa Nós em Tupi e representa a missão do Trio, buscar a conexão com a comunidade através da música e da sensibilidade. | .rj.gov.br',
+	},
+	{
+		src: 'https://www2.fab.mil.br/cbnb/images/cbnb_img/Conserto/banda-16.jpg',
+		no: 'Banda de música do Colégio Brigadeiro Newton Braga',
+		des: 'A banda de música proporciona aos alunos: "conhecer os instrumentos musicais que formam uma banda sinfônica, além de trabalhar valores como disciplina, respeito, responsabilidade, trabalho em grupo e autoconfiança.".',
+	},
+	{
+		src: 'https://www.cp2.g12.br/blog/humaita1/files/2022/10/WhatsApp-Image-2022-10-07-at-17.06.40-e1665174986364.jpeg',
+		no: 'Coral Infantil do Humaitá I',
+		des: 'Na imagem uma apresentação musical no Salão Nobre do Campus Centro. | cp2.g12.br',
+	},
+	{
+		src: 'http://www.pmdf.df.gov.br/images/2019/Novembro/Pedro-Reis.jpg',
+		no: 'Banda de Música do CMT (Colégio Militar Tiradentes)',
+		des: 'Desde o início das atividades do CMT, a parte musical foi pensada com objetivo de criar a Banda de Música com alunos do colégio. | df.gov.br',
+	},
+	{
+		src: 'http://www.pmdf.df.gov.br/images/0ccc40e8acd04091a87da0152632568d.jpg',
+		no: 'Banda e o coral do Colégio Militar Tiradentes',
+		des: 'Aqui, os jovens do Tiradentes foram regidos pela Tenente Edna e tocaram clássicos da música como o Bolero de Ravel, músicas temas de filmes como Piratas do Caribe e como não podia ser diferente, músicas natalinas. O coral contou com a regência do professor Gabriel. | df.gov.br',
+	},
+	{
+		src: 'http://www.cmb.eb.mil.br/images/phocagallery/Fotos2022/ApresentacaoCoralFora/7.jpeg',
+		no: 'Coral do Colégio Militar de Brasília (CMB)',
+		des: 'Em certa solenidade, cerca de 30 alunos, mostraram um pouco do excelente trabalho que é feito diariamente no CMB, encantando a todos os presentes. | eb.mil.br',
+	},
+	{
+		src: 'https://www.cbmerj.rj.gov.br/media/k2/items/cache/2f74131fa7c32036662a4fc3e0c8a9de_M.jpg',
+		no: 'Banda Sinfônica do Corpo de Bombeiros RJ',
+		des: 'A Banda Sinfônica do CBMERJ realizou a sua primeira apresentação em 15 de novembro de 1896, no quartel do Humaitá. Foi o primeiro grupo instrumental do Brasil a gravar discos, quando da instalação da Casa Edson, na Rua do Ouvidor, no Centro do Rio. rj.gov.br ',
+	},
+	{
+		src: 'https://www.eb.mil.br/image/journal/article?img_id=15868527&t=1659371773724.jpg',
+		no: 'Banda do Colégio Militar do Rio de Janeiro (CMRJ)',
+		des: 'A Banda do CMRJ, conhecida como "A Furiosa", realizou uma apresentação na escadaria do Palácio Duque de Caxias em comemoração aos 85 anos do Departamento de Educação e Cultura do Exército (DECEx). | eb.mil.br',
+	},
+	{
+		src: 'https://ci5.googleusercontent.com/proxy/TdcJeFk3f8Po4TNS1pwOYC8CZvAccYMI14OOAuRazd9X4rGmCs8SZfkCEF8UkUxQvCUjpd2XG9kUWU46JPjxi-HgnnyLRXQcsW-HjoO9-NwG1r2yyrZ9vWBN9w1yCufNgLfsm1tl7uN4Y5iDRK_Nv151bl41HHTqm15rv3GTJh0Tl5jwpFGXeTLAgc9JUEmTTxtRHax_=s0-d-e1-ft#https://cseprs3.s3.amazonaws.com/email-editor-files/13e6fd88-1c25-4870-6a5e-08d99434db3b/a49bddf3-b692-4e96-82d6-af6f64efb227.jpeg',
+		no: 'Trio Oré | RJ',
+		des: 'Formado por dois cantores do Coro do Municipal e um músico convidado: Carolina Morel (soprano), Calebe Faria (barítono) e Bernardo Januzzi (violão). Oré significa Nós em Tupi e representa a missão do Trio, buscar a conexão com a comunidade através da música e da sensibilidade. | .rj.gov.br',
+	},
+
+
+
+
+
+
+
+
+
+
 
 	{
 		src: 'https://ucp.br/wp-content/uploads/2020/12/marcelo_vizani-1024x683.png',
@@ -532,8 +628,8 @@ let mus = [
 
 	{
 		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Banda_Sinf%C3%B4nica_da_Pol%C3%ADcia_Militar_do_Paran%C3%A1.jpg/290px-Banda_Sinf%C3%B4nica_da_Pol%C3%ADcia_Militar_do_Paran%C3%A1.jpg',
-		no: 'Orquestra Sinfônica da Polícia Militar do Paraná',
-		des: 'Criada no séc. XIX já se apresentou, inclusive, no Teatro Guaíra. É uma instituição de representação da corporação, subordinada à PMPR.',
+		no: 'Orquestra Sinfônica da Polícia Militar do Paraná ✡️ séc. XIX',
+		des: 'Já se apresentou, inclusive, no Teatro Guaíra. É uma instituição de representação da corporação, subordinada à PMPR.',
 	},
 	{
 		src: 'https://www.pmpr.pr.gov.br/sites/default/arquivos_restritos/files/imagem/2019-08/img_6148.jpg',
@@ -585,11 +681,11 @@ let mus = [
 function ran(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-var i0 = ran(93, 97);
-var i1 = ran(90, 92);
-var i2 = ran(87, 89);
-var i3 = ran(84, 86);
-var i4 = ran(81, 83);
+var i0 = ran(103, 113);
+var i1 = ran(95, 102);
+var i2 = ran(90, 94);
+var i3 = ran(85, 89);
+var i4 = ran(81, 84);
 var i5 = ran(78, 80);
 var i6 = ran(75, 77);
 var i7 = ran(72, 74);

@@ -2,7 +2,194 @@
 
 
 
+
+
+
+
+
 let news = [
+
+
+
+	{
+		src: 'https://www.estadao.com.br/resizer/tuVo7qSJzsb8Gp_gUf89p1yQuuA=/1080x0/filters:format(jpg):quality(80):focal(-5x-5:5x5)/cloudfront-us-east-1.images.arcpublishing.com/estadao/OMC24MK44RNGJEN7AYQVUT5BI4.jpg',
+		no: 'Arte na capa de disco',
+		des: 'Titãs, capa abstrata, Fernando Zarif. | estadao.com.br',
+	},
+	{
+		src: 'https://www.estadao.com.br/resizer/QH3ghvHAt_QWUiNNpZj4EANEu4Q=/1080x0/filters:format(jpg):quality(80):focal(-5x-5:5x5)/cloudfront-us-east-1.images.arcpublishing.com/estadao/JE7ZUMMFGJIKZLQYZU764GBJK4.jpg',
+		no: 'Arte na capa de disco',
+		des: 'Chico Buarque, Calabar, 1973, criada por Regina Vater. | estadao.com.br ',
+	},
+	{
+		src: 'https://www.estadao.com.br/resizer/qxQO1XLTKJhyioI8FByIeQ25B0Q=/1080x0/filters:format(jpg):quality(80):focal(-5x-5:5x5)/cloudfront-us-east-1.images.arcpublishing.com/estadao/X5BYRHRNONLO5CF2ZEPNTOR454.jpg',
+		no: 'Arte na capa de disco',
+		des: 'Gal Costa, Legal, 1970, criada por Hélio Oiticica. | estadao.com.br',
+	},
+	{
+		src: 'https://www.estadao.com.br/resizer/uCEyhOiQiyqP5QDBKvzh-zRjeWY=/1080x0/filters:format(jpg):quality(80):focal(-5x-5:5x5)/cloudfront-us-east-1.images.arcpublishing.com/estadao/XPDFTN3N4NOG3EMD5ZQZBGUB2I.jpg',
+		no: 'Arte na capa de disco',
+		des: 'RPM, 1985, criada por Alex Flemming. | estadao.com.br',
+	},
+	{
+		src: 'https://www.estadao.com.br/resizer/bviTWDLo17Oij3GfH0pxZ49454c=/1080x0/filters:format(jpg):quality(80):focal(-5x-5:5x5)/cloudfront-us-east-1.images.arcpublishing.com/estadao/LQV573LHFZN4NEWHXTPU26WEHY.jpg',
+		no: 'Arte na capa de disco',
+		des: 'Quinteto Armorial, 1976, xilogravura de Gilvan Samico. | estadao.com.br',
+	},
+	{
+		src: 'https://www.estadao.com.br/resizer/nGtGg3kVRcmxKs-svntu1HsvP0Q=/1080x0/filters:format(jpg):quality(80):focal(-5x-5:5x5)/cloudfront-us-east-1.images.arcpublishing.com/estadao/XIX3554WIBMHBP6ZPRFE3GZKDQ.jpg',
+		no: 'Arte na capa de disco',
+		des: 'Cazuza, Ideologia, 1988, criada por Luiz Zerbini e Barrão. | estadao.com.br',
+	},
+	{
+		src: 'https://www.estadao.com.br/resizer/Xxq32-xMs-DefmVicJB9N-0jsnw=/1080x0/filters:format(jpg):quality(80):focal(-5x-5:5x5)/cloudfront-us-east-1.images.arcpublishing.com/estadao/TXQGVKRQ7JN5THLNJOZY5ZJYVM.jpg',
+		no: 'Arte na capa de disco',
+		des: 'Paralamas do Sucesso, 1984, reprodução de obra de Arhur Bispo do Rosário. | estadao.com.br',
+	},
+	{
+		src: 'https://lobopopart.com.br/wp-content/uploads/2018/09/Capas-de-Discos-de-S-Neil-Fujita-768x384.jpg',
+		no: 'Arte na capa de disco',
+		des: 'S.Neil Fujita. | lobopopart.com.br',
+	},
+	{
+		src: 'https://lobopopart.com.br/wp-content/uploads/2018/09/Andy-Warhol-768x384.jpg',
+		no: 'Arte na capa de disco',
+		des: 'Andy Warhol | lobopopart.com.br',
+	},
+	{
+		src: 'https://lobopopart.com.br/wp-content/uploads/2018/09/Banksy-768x384.jpg',
+		no: 'Arte na capa de disco',
+		des: 'Banksy',
+	},
+	{
+		src: 'https://lobopopart.com.br/wp-content/uploads/2018/09/Jean-Michel-Basquiat-768x384.jpg',
+		no: 'Arte na capa de disco',
+		des: 'J.Michel Basquiat | lobopopart.com.br',
+	},
+	{
+		src: 'https://lobopopart.com.br/wp-content/uploads/2018/09/Damien-Hirst-768x384.jpg',
+		no: 'Arte na capa de disco',
+		des: 'Damien Hirst. | lobopopart.com.br',
+	},
+	{
+		src: 'https://lobopopart.com.br/wp-content/uploads/2018/09/Damien-Hirst-768x384.jpg',
+		no: 'Arte na capa de disco',
+		des: 'Roy Lichtenstein | lobopopart.com.br',
+	},
+	{
+		src: 'https://lobopopart.com.br/wp-content/uploads/2018/09/Robert-Mapplethorpe-768x384.jpg',
+		no: 'Arte na capa de disco',
+		des: 'Robert Mapplethorpe. | lobopopart.com.br',
+	},
+	{
+		src: 'https://s2-g1.glbimg.com/H4TvQTBGFKDOmtaAXnxzNG29Yg0=/0x0:3000x2416/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/k/N/IGKeDDQdAirg6xWor9TQ/alceupauloxilografura-jborges.jpg',
+		no: 'Arte na capa de disco',
+		des: 'Alceu Valença com Paulo Rafael, xilogravura de J. Borges | globo.com',
+	},
+	{
+		src: 'https://www.hypeness.com.br/1/2018/03/Capas-48.jpg',
+		no: 'Arte na capa de disco',
+		des: 'Van Halen | hypeness.com.br',
+	},
+	{
+		src: 'https://www.hypeness.com.br/1/2018/03/Capas-42.jpg',
+		no: 'Arte na capa de disco',
+		des: 'Sigur Rós | hypeness.com.br',
+	},
+	{
+		src: 'https://www.hypeness.com.br/1/2018/03/Capas-15.jpg',
+		no: 'Arte na capa de disco',
+		des: 'Björk | hypeness.com.br',
+	},
+	{
+		src: 'https://www.hypeness.com.br/1/2018/03/Capas-9.jpg',
+		no: 'Arte na capa de disco',
+		des: 'Pet Shop Boys, Introspective (1988) | hypeness.com.br',
+	},
+	{
+		src: 'https://www.hypeness.com.br/1/2018/03/Capas-25.jpg',
+		no: 'Arte na capa de disco',
+		des: 'Grace Jones | hypeness.com.br',
+	},
+	{
+		src: 'https://www.hypeness.com.br/1/2018/03/Capas-40.jpg',
+		no: 'Arte na capa de disco',
+		des: 'Ramones | hypeness.com.br',
+	},
+	{
+		src: 'https://www.hypeness.com.br/1/2018/03/Capas-37.jpg',
+		no: 'Arte na capa de disco',
+		des: 'Prodigy | hypeness.com.br',
+	},
+	{
+		src: 'https://www.hypeness.com.br/1/2018/03/Capas-32.jpg',
+		no: 'Arte na capa de disco',
+		des: 'Meat Loaf | hypeness.com.br',
+	},
+	{
+		src: 'https://www.hypeness.com.br/1/2018/03/Capas-30.jpg',
+		no: 'Arte na capa de disco',
+		des: 'Justice, Álbum: † (2007) Designer: Surface2Air | hypeness.com.br',
+	},
+	{
+		src: 'https://www.hypeness.com.br/1/2018/03/Capas-26.jpg',
+		no: 'Arte na capa de disco',
+		des: 'Iron Maiden | hypeness.com.br',
+	},
+	{
+		src: 'https://www.hypeness.com.br/1/2018/03/Capas-24.jpg',
+		no: 'Arte na capa de disco',
+		des: 'Frank Zappa | hypeness.com.br',
+	},
+	{
+		src: 'https://www.hypeness.com.br/1/2018/03/Capas-23.jpg',
+		no: 'Arte na capa de disco',
+		des: 'New Order | hypeness.com.br',
+	},
+	{
+		src: 'https://www.hypeness.com.br/1/2018/03/Capas-21.jpg',
+		no: 'Arte na capa de disco',
+		des: 'Autechre | hypeness.com.br',
+	},
+	{
+		src: 'https://www.hypeness.com.br/1/2018/03/Capas-14.jpg',
+		no: 'Arte na capa de disco',
+		des: 'The Clash, Álbum: London Calling (1979) | hypeness.com.br',
+	},
+	{
+		src: 'https://www.hypeness.com.br/1/2018/03/Capas-6.jpg',
+		no: 'Arte na capa de disco',
+		des: 'Kraftwerk | hypeness.com.br',
+	},
+/* pb */
+	{
+		src: 'https://www.hypeness.com.br/1/2018/03/Capas-33.jpg',
+		no: 'Arte na capa de disco',
+		des: 'Miles Davis, Álbum: Tutu (1986) Designer: Eiko Ishioka/Irving Penn | hypeness.com.br',
+	},
+	{
+		src: 'https://www.hypeness.com.br/1/2018/03/Capas-39.jpg',
+		no: 'Arte na capa de disco',
+		des: 'Rage Against The Machine | hypeness.com.br',
+	},
+	{
+		src: 'https://www.hypeness.com.br/1/2018/03/Capas-22.jpg',
+		no: 'Arte na capa de disco',
+		des: 'Elvis Presley (1956) Fotógrafo: William V. ‘Rd’ Robertson | hypeness.com.br',
+	},
+	{
+		src: 'https://www.hypeness.com.br/1/2018/03/Capas-28.jpg',
+		no: 'Arte na capa de disco',
+		des: 'Johnny Cash, Fotógrafo: Martyn Atkins | hypeness.com.br',
+	},
+
+
+
+
+
+
+
+
 
 
 
@@ -722,29 +909,29 @@ let mus = [
 function ran(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-var i0 = ran(114, 124);		// Primeiro artigo do topo
-var i1 = ran(104, 113);
-var i2 = ran(94, 103);
-var i3 = ran(89, 93);
-var i4 = ran(84, 88);
-var i5 = ran(81, 83);
-var i6 = ran(75, 80);
-var i7 = ran(72, 74);
-var i8 = ran(69, 71);
-var i9 = ran(66, 68);
-var i10 = ran(63, 65);
-var i11 = ran(60, 41);
-var i12 = ran(57, 59);
-var i13 = ran(54, 56);
-var i14 = ran(51, 53);
-var i15 = ran(48, 50);
+var i0 = ran(145, 158);		// Primeiro artigo do topo
+var i1 = ran(135, 144);
+var i2 = ran(125, 134);
+var i3 = ran(120, 124);
+var i4 = ran(115, 119);
+var i5 = ran(110, 114);
+var i6 = ran(105, 109);
+var i7 = ran(100, 104);
+var i8 = ran(95, 99);
+var i9 = ran(90, 94);
+var i10 = ran(85, 89);
+var i11 = ran(80, 84);
+var i12 = ran(75, 79);
+var i13 = ran(70, 74);
+var i14 = ran(65, 69);
+var i15 = ran(60, 64);
 
-var i16 = ran(45, 47);
-var i17 = ran(42, 44);
-var i18 = ran(39, 41);
-var i19 = ran(36, 38);
-var i20 = ran(33, 35);
-var i21 = ran(30, 32);
+var i16 = ran(55, 59);
+var i17 = ran(50, 54);
+var i18 = ran(45, 49);
+var i19 = ran(40, 44);
+var i20 = ran(35, 39);
+var i21 = ran(30, 34);
 var i22 = ran(27, 29);
 var i23 = ran(24, 26);
 var i24 = ran(21, 23);
