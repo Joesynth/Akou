@@ -61,10 +61,28 @@
 	background-color:  red;
 }
 
-
+.f9 {
+	font-size: var(--fon2);
+	font-family: arial;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
 
 /* Classe conte parecida com modal */
-.conte, .conte1, .conte2, .conte3 {
+.conte {
+	max-width: 80%;
+	//width: 55px;
+	background-color: whitesmoke;
+	border-radius: 0.5em;
+	margin-left: 3em;
+}
+
+.conf {
+	//display: flex;
+	width: 600px;
+}
+
+.conte1, .conte2, .conte3 {
 	width: 93%;
 	color: gray;
 	height: 75%;						/*Área de conteúdo principal acima da propaganda "mkt" */
@@ -76,6 +94,7 @@
 	font-family: arial;
 	padding: .5em;
 }
+
 
 
 
@@ -105,27 +124,13 @@ h6::first-letter {
 	font-size: 1.3em;
 }
 
-.con {
-	//background-color: red;
-	//width: 28em;
-}
-
-.conf {
-	display: flex;
-	width: 48em;
-}
 
 
 
 
-.config {
-	display: flex;
-	justify-content: space-between;
-	//background-color: pink;
-	padding: .1em;
-	text-transform: uppercase;
-	font-size: var(--fon3);
-}
+
+
+
 
 h2, h3, h4, h5 {
 	margin-left: 1em;
@@ -182,7 +187,7 @@ progress {
 }
 
 pre {
-	font-size: var(--fon3);
+	font-size: 0.6em;
 	text-transform: uppercase;
 	margin-left: -2em;
 	color: lightyellow;
@@ -712,13 +717,27 @@ section {
 	top: 2.2em;
 }
 
+.modal {
+	width: 21.8em;
+	height: 36em;
+	position: fixed;
+	top: 0.5em;
+	right: 0.4em;
+	//bottom: 0;
+	//left: 0;
+	background: white;
+	//opacity: 0;
+	visibility: hidden;
+	border-radius: .5em .0em .5em .5em;
+	z-index: 9999;
+}
 
 
 		/* Relativo ao modal no rodapé */
 
 /* Classe conte parecida com modal */
 /*estilizar nossa janela modal*/
-.modal, .modal1, .modal2, .modal3 {
+ .modal1, .modal2, .modal3 {
 	width: 21.8em;
 	height: 36em;
 	position: fixed;
@@ -818,13 +837,13 @@ animation: slide 11s ease infinite;
 
 .slide {
 	display: flex;
-	margin-top: .3em;
-	margin-left: 3em;
+	margin-top: .6em;
+	margin-left: 1.5em;
 }
 
 .sli {
-	height: 4.5em;
-	margin-right: 2em;
+	height: 3.5em;
+	margin-right: 1em;
 }
 
 
