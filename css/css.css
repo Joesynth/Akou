@@ -837,7 +837,7 @@ animation: slide 11s ease infinite;
 
 .slide {
 	display: flex;
-	margin-top: .8em;
+	margin-top: .9em;
 	margin-left: 1.5em;
 }
 
@@ -891,12 +891,23 @@ animation: slide 11s ease infinite;
 }
 
 
-
-//https://stackoverflow.com/questions/4917664/detect-viewport-orientation-if-orientation-is-portrait-display-alert-message-ad
-@media screen and (orientation:landscape)
-{
-   body
-   {
-      background: pink;
-   }
 }
+
+
+@media (orientation: landscape) {
+  body {
+    background-color: green;
+  }
+  .page{
+    display: none;
+  }
+}
+
+@media (orientation: portrait) {
+  body {
+    //qualr coisa pro cel em pé
+  }
+}    
+
+
+
