@@ -892,5 +892,11 @@ animation: slide 11s ease infinite;
 
 
 
-
+@media screen and (orientation:landscape)
+{
+   body
+   {
+      background: red;
+   }
+}
 
