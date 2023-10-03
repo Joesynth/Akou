@@ -1,8 +1,170 @@
 
 
+let pret = [
+/* pb */
+	{
+		src: 'https://www.hypeness.com.br/1/2018/03/Capas-33.jpg',
+		no: 'Arte na capa de disco',
+		des: 'Miles Davis, Álbum: Tutu (1986) Designer: Eiko Ishioka/Irving Penn | hypeness.com.br',
+	},
+	{
+		src: 'https://www.hypeness.com.br/1/2018/03/Capas-39.jpg',
+		no: 'Arte na capa de disco',
+		des: 'Rage Against The Machine | hypeness.com.br',
+	},
+	{
+		src: 'https://www.hypeness.com.br/1/2018/03/Capas-22.jpg',
+		no: 'Arte na capa de disco',
+		des: 'Elvis Presley (1956) Fotógrafo: William V. ‘Rd’ Robertson | hypeness.com.br',
+	},
+	{
+		src: 'https://www.hypeness.com.br/1/2018/03/Capas-28.jpg',
+		no: 'Arte na capa de disco',
+		des: 'Johnny Cash, Fotógrafo: Martyn Atkins | hypeness.com.br',
+	},
+	{
+		src: 'https://lobopopart.com.br/wp-content/uploads/2018/09/Robert-Mapplethorpe-768x384.jpg',
+		no: 'Arte na Capa: Disco PB',
+		des: 'Robert Mapplethorpe. | lobopopart.com.br',
+	},
+	{
+		src: 'https://www.hypeness.com.br/1/2018/03/Capas-40.jpg',
+		no: 'Arte na Capa: Disco PB',
+		des: 'Ramones | hypeness.com.br',
+	},
+	{
+		src: 'https://cdn.domestika.org/c_fit,dpr_1.0,f_auto,q_80,t_base_params,w_610/v1605764675/content-items/006/246/537/joydivision-original.jpg',
+		no: 'Arte na Capa: Disco PB',
+		des: 'Joy Division, Unknown Pleasures.',
+	},
+	{
+		src: 'https://lobopopart.com.br/wp-content/uploads/2018/09/Jean-Michel-Basquiat-768x384.jpg',
+		no: 'Arte na Capa: Disco PB',
+		des: 'J.Michel Basquiat | lobopopart.com.br',
+	},
+	{
+		src: 'https://www.hypeness.com.br/1/2018/03/Capas-24.jpg',
+		no: 'Arte na Capa: Disco PB',
+		des: 'Frank Zappa | hypeness.com.br',
+	},
+	{
+		src: 'https://www.hypeness.com.br/1/2018/03/Capas-42.jpg',
+		no: 'Arte na Capa: Disco PB',
+		des: 'Sigur Rós | hypeness.com.br',
+	},
+	{
+		src: 'https://www.hypeness.com.br/1/2018/03/Capas-14.jpg',
+		no: 'Arte na Capa: Disco PB',
+		des: 'The Clash, Álbum: London Calling (1979) | hypeness.com.br',
+	},
+	{
+		src: 'https://upload.wikimedia.org/wikipedia/en/thumb/1/14/DinosaurJrGreenMind.jpg/220px-DinosaurJrGreenMind.jpg',
+		no: 'Arte na Capa: Disco PB',
+		des: 'Dinosaur Jr., Green Mind',
+	},
+];
 
 
 
+
+
+let naci = [
+	{
+		src: 'https://i.discogs.com/J7kzDGthVFWVuXrc7Ref6IfUM0fS94HRX_dxyRFnKio/rs:fit/g:sm/q:90/h:587/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMTYx/NDgwLTE1NDkxMjMx/NjgtNDY1OS5qcGVn.jpeg',
+		no: 'Arte na capa de disco',
+		des: 'Tropicália ou Panis et Circencis (1967). A capa do disco-manifesto do movimento tropicalista, lançado em 1968, rende muitos estudos até hoje. Acadêmicos de todos os cantos do mundo se debruçam sobre possíveis mensagens ocultas escondidas nesse trabalho feito pelo designer Rubens Gerchman sobre foto de Oliver Perroy. Mas, de acordo com as testemunhas, o conceito da capa foi construído seguindo a intuição dos artistas e do fotógrafo, que realizou a sessão em sua casa, uma verdadeira mansão de arquitetura colonial em São Paulo.',
+	},
+	{
+		src: 'https://www.estadao.com.br/resizer/bviTWDLo17Oij3GfH0pxZ49454c=/1080x0/filters:format(jpg):quality(80):focal(-5x-5:5x5)/cloudfront-us-east-1.images.arcpublishing.com/estadao/LQV573LHFZN4NEWHXTPU26WEHY.jpg',
+		no: 'Arte na Capa: Disco Nacional',
+		des: 'Quinteto Armorial, 1976, xilogravura de Gilvan Samico. | estadao.com.br',
+	},
+	{
+		src: 'https://i.discogs.com/X1AL7A6qmAHHVPxcI-_wtuONebCQvI8M2d7ZtyjT08c/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcyNzgx/MS0xMTUyNTQ4MDQw/LmpwZWc.jpeg',
+		no: 'Arte na Capa: Disco Nacional',
+		des: 'Secos & Molhados (1973).',
+	},
+	{
+		src: 'https://www.estadao.com.br/resizer/Xxq32-xMs-DefmVicJB9N-0jsnw=/1080x0/filters:format(jpg):quality(80):focal(-5x-5:5x5)/cloudfront-us-east-1.images.arcpublishing.com/estadao/TXQGVKRQ7JN5THLNJOZY5ZJYVM.jpg',
+		no: 'Arte na Capa: Disco Nacional',
+		des: 'Paralamas do Sucesso, 1984, reprodução de obra de Arhur Bispo do Rosário. | estadao.com.br',
+	},
+];
+
+
+
+let mate = [
+	{
+		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Pythagoras_in_the_Roman_Forum%2C_Colosseum.jpg/220px-Pythagoras_in_the_Roman_Forum%2C_Colosseum.jpg',
+		no: 'Música & Matemática',
+		des: 'Pythagoras',
+	},
+	{
+		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/XenakisMDaniel_crop.jpg/220px-XenakisMDaniel_crop.jpg',
+		no: 'Música & Matemática',
+		des: 'Iannis Xenakis',
+	},
+	{
+		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/John_Cage_%281988%29.jpg/220px-John_Cage_%281988%29.jpg',
+		no: 'Música & Matemática',
+		des: 'John Cage',
+	},
+	{
+		src: 'https://upload.wikimedia.org/wikipedia/en/thumb/7/78/Mathews84Violin.PNG/290px-Mathews84Violin.PNG',
+		no: 'Música & Matemática',
+		des: 'Max Mathews',
+	},
+];
+
+
+
+let lite = [
+	{
+		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/The_Catcher_in_the_Rye_%281951%2C_first_edition_cover%29.jpg/220px-The_Catcher_in_the_Rye_%281951%2C_first_edition_cover%29.jpg',
+		no: 'Música & Literatura',
+		des: 'Caçador de mim, Milton Nascimento – O apanhador no campo de centeio, J. D. Salinger | editoratelha.com.br',
+	},
+	{
+		src: 'https://upload.wikimedia.org/wikipedia/en/thumb/9/98/KingSolomonsMinesFirstEdition.jpg/220px-KingSolomonsMinesFirstEdition.jpg',
+		no: 'Música & Literatura',
+		des: 'As Minas do Rei Salomão, Raul Seixas – As Minas de Salomão, ‎Henry Rider Haggard | editoratelha.com.br',
+	},
+	{
+		src: 'https://upload.wikimedia.org/wikipedia/en/thumb/2/29/As_quatro_estacoes.jpg/220px-As_quatro_estacoes.jpg',
+		no: 'Música & literatura',
+		des: 'Legião Urbana, Monte Castelo | Camões e a Bíblia.',
+	},
+	{
+		src: 'https://upload.wikimedia.org/wikipedia/en/thumb/6/62/BraveNewWorld_FirstEdition.jpg/220px-BraveNewWorld_FirstEdition.jpg',
+		no: 'Música & literatura',
+		des: 'Zé Ramalho, Admirável Gado Novo | Admirável mundo novo (Brave New World), Aldous Huxley.',
+	},
+	{
+		src: 'https://upload.wikimedia.org/wikipedia/en/5/51/1984_first_edition_cover.jpg',
+		no: 'Música & literatura',
+		des: 'David Bowie, 1984 | 1984 (Nineteen Eighty-Four), George Orwell.',
+	},
+	{
+		src: 'https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Littleprince.JPG/220px-Littleprince.JPG',
+		no: 'Música & literatura',
+		des: 'Busca Vida, Paralamas do Sucesso | O Pequeno Príncipe (The Little Prince), Antoine de Saint-Exupéry.',
+	},
+	{
+		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Don_Quixote_-_Engravings_by_Gustave_Dor%C3%A9.jpg/280px-Don_Quixote_-_Engravings_by_Gustave_Dor%C3%A9.jpg',
+		no: 'Música & literatura',
+		des: 'Engenheiros do Hawaii, Dom Quixote | Dom Quixote, Miguel de Cervantes 🖼️ Gustave Doré.',
+	},
+	{
+		src: 'https://homoliteratus.com/wp-content/uploads/2016/04/Vitrola-Caetano-Veloso.png',
+		no: 'Música & literatura',
+		des: 'Caetano Veloso, Elegia | “Elegy: going to bed”, John Donne. No Brasil, nos anos 70, o poeta concretista, escritor e ensaísta Augusto de Campos se dedicou à obra de Donne e a traduziu. Essa tradução inspirou de imediato o músico e compositor Péricles Cavalcanti, que musicou os versos de “Elegy: going to bed”, depois tratou de apresentar a Caetano Veloso para que ele a incluísse em seu próximo disco, “Cinema Transcendental”. Mais tarde a música também foi gravada por Simone.',
+	},
+	{
+		src: 'https://i.discogs.com/4fUih34UeBSQ5mrbCZM16jb3BPN1A-a8G1q5400oNuE/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMTg4/NTk0LTE1MTE1MjU4/MzYtMzYwMS5qcGVn.jpeg',
+		no: 'Música & literatura',
+		des: 'Richard Strauss, Berlin Philharmonic Orchestra, Don Quixote Op. 35.',
+	},
+];
 
 
 
@@ -32,19 +194,9 @@ let news = [
 		des: 'RPM, 1985, criada por Alex Flemming. | estadao.com.br',
 	},
 	{
-		src: 'https://www.estadao.com.br/resizer/bviTWDLo17Oij3GfH0pxZ49454c=/1080x0/filters:format(jpg):quality(80):focal(-5x-5:5x5)/cloudfront-us-east-1.images.arcpublishing.com/estadao/LQV573LHFZN4NEWHXTPU26WEHY.jpg',
-		no: 'Arte na capa de disco',
-		des: 'Quinteto Armorial, 1976, xilogravura de Gilvan Samico. | estadao.com.br',
-	},
-	{
 		src: 'https://www.estadao.com.br/resizer/nGtGg3kVRcmxKs-svntu1HsvP0Q=/1080x0/filters:format(jpg):quality(80):focal(-5x-5:5x5)/cloudfront-us-east-1.images.arcpublishing.com/estadao/XIX3554WIBMHBP6ZPRFE3GZKDQ.jpg',
 		no: 'Arte na capa de disco',
 		des: 'Cazuza, Ideologia, 1988, criada por Luiz Zerbini e Barrão. | estadao.com.br',
-	},
-	{
-		src: 'https://www.estadao.com.br/resizer/Xxq32-xMs-DefmVicJB9N-0jsnw=/1080x0/filters:format(jpg):quality(80):focal(-5x-5:5x5)/cloudfront-us-east-1.images.arcpublishing.com/estadao/TXQGVKRQ7JN5THLNJOZY5ZJYVM.jpg',
-		no: 'Arte na capa de disco',
-		des: 'Paralamas do Sucesso, 1984, reprodução de obra de Arhur Bispo do Rosário. | estadao.com.br',
 	},
 	{
 		src: 'https://lobopopart.com.br/wp-content/uploads/2018/09/Capas-de-Discos-de-S-Neil-Fujita-768x384.jpg',
@@ -62,11 +214,6 @@ let news = [
 		des: 'Banksy',
 	},
 	{
-		src: 'https://lobopopart.com.br/wp-content/uploads/2018/09/Jean-Michel-Basquiat-768x384.jpg',
-		no: 'Arte na capa de disco',
-		des: 'J.Michel Basquiat | lobopopart.com.br',
-	},
-	{
 		src: 'https://lobopopart.com.br/wp-content/uploads/2018/09/Damien-Hirst-768x384.jpg',
 		no: 'Arte na capa de disco',
 		des: 'Damien Hirst. | lobopopart.com.br',
@@ -77,11 +224,6 @@ let news = [
 		des: 'Roy Lichtenstein | lobopopart.com.br',
 	},
 	{
-		src: 'https://lobopopart.com.br/wp-content/uploads/2018/09/Robert-Mapplethorpe-768x384.jpg',
-		no: 'Arte na capa de disco',
-		des: 'Robert Mapplethorpe. | lobopopart.com.br',
-	},
-	{
 		src: 'https://s2-g1.glbimg.com/H4TvQTBGFKDOmtaAXnxzNG29Yg0=/0x0:3000x2416/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/k/N/IGKeDDQdAirg6xWor9TQ/alceupauloxilografura-jborges.jpg',
 		no: 'Arte na capa de disco',
 		des: 'Alceu Valença com Paulo Rafael, xilogravura de J. Borges | globo.com',
@@ -90,11 +232,6 @@ let news = [
 		src: 'https://www.hypeness.com.br/1/2018/03/Capas-48.jpg',
 		no: 'Arte na capa de disco',
 		des: 'Van Halen | hypeness.com.br',
-	},
-	{
-		src: 'https://www.hypeness.com.br/1/2018/03/Capas-42.jpg',
-		no: 'Arte na capa de disco',
-		des: 'Sigur Rós | hypeness.com.br',
 	},
 	{
 		src: 'https://www.hypeness.com.br/1/2018/03/Capas-15.jpg',
@@ -110,11 +247,6 @@ let news = [
 		src: 'https://www.hypeness.com.br/1/2018/03/Capas-25.jpg',
 		no: 'Arte na capa de disco',
 		des: 'Grace Jones | hypeness.com.br',
-	},
-	{
-		src: 'https://www.hypeness.com.br/1/2018/03/Capas-40.jpg',
-		no: 'Arte na capa de disco',
-		des: 'Ramones | hypeness.com.br',
 	},
 	{
 		src: 'https://www.hypeness.com.br/1/2018/03/Capas-37.jpg',
@@ -137,11 +269,6 @@ let news = [
 		des: 'Iron Maiden | hypeness.com.br',
 	},
 	{
-		src: 'https://www.hypeness.com.br/1/2018/03/Capas-24.jpg',
-		no: 'Arte na capa de disco',
-		des: 'Frank Zappa | hypeness.com.br',
-	},
-	{
 		src: 'https://www.hypeness.com.br/1/2018/03/Capas-23.jpg',
 		no: 'Arte na capa de disco',
 		des: 'New Order | hypeness.com.br',
@@ -152,36 +279,11 @@ let news = [
 		des: 'Autechre | hypeness.com.br',
 	},
 	{
-		src: 'https://www.hypeness.com.br/1/2018/03/Capas-14.jpg',
-		no: 'Arte na capa de disco',
-		des: 'The Clash, Álbum: London Calling (1979) | hypeness.com.br',
-	},
-	{
 		src: 'https://www.hypeness.com.br/1/2018/03/Capas-6.jpg',
 		no: 'Arte na capa de disco',
 		des: 'Kraftwerk | hypeness.com.br',
 	},
-/* pb */
-	{
-		src: 'https://www.hypeness.com.br/1/2018/03/Capas-33.jpg',
-		no: 'Arte na capa de disco',
-		des: 'Miles Davis, Álbum: Tutu (1986) Designer: Eiko Ishioka/Irving Penn | hypeness.com.br',
-	},
-	{
-		src: 'https://www.hypeness.com.br/1/2018/03/Capas-39.jpg',
-		no: 'Arte na capa de disco',
-		des: 'Rage Against The Machine | hypeness.com.br',
-	},
-	{
-		src: 'https://www.hypeness.com.br/1/2018/03/Capas-22.jpg',
-		no: 'Arte na capa de disco',
-		des: 'Elvis Presley (1956) Fotógrafo: William V. ‘Rd’ Robertson | hypeness.com.br',
-	},
-	{
-		src: 'https://www.hypeness.com.br/1/2018/03/Capas-28.jpg',
-		no: 'Arte na capa de disco',
-		des: 'Johnny Cash, Fotógrafo: Martyn Atkins | hypeness.com.br',
-	},
+
 
 
 
@@ -226,55 +328,11 @@ let news = [
 
 
 
-	{
-		src: 'https://upload.wikimedia.org/wikipedia/en/thumb/2/29/As_quatro_estacoes.jpg/220px-As_quatro_estacoes.jpg',
-		no: 'Música e literatura',
-		des: 'Legião Urbana, Monte Castelo | Camões e a Bíblia.',
-	},
-	{
-		src: 'https://upload.wikimedia.org/wikipedia/en/thumb/6/62/BraveNewWorld_FirstEdition.jpg/220px-BraveNewWorld_FirstEdition.jpg',
-		no: 'Música e literatura',
-		des: 'Zé Ramalho, Admirável Gado Novo | Admirável mundo novo (Brave New World), Aldous Huxley.',
-	},
-	{
-		src: 'https://upload.wikimedia.org/wikipedia/en/5/51/1984_first_edition_cover.jpg',
-		no: 'Música e literatura',
-		des: 'David Bowie, 1984 | 1984 (Nineteen Eighty-Four), George Orwell.',
-	},
-	{
-		src: 'https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Littleprince.JPG/220px-Littleprince.JPG',
-		no: 'Música e literatura',
-		des: 'O Pequeno Príncipe The Little Prince, Antoine de Saint-Exupéry.',
-	},
-	{
-		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Don_Quixote_-_Engravings_by_Gustave_Dor%C3%A9.jpg/280px-Don_Quixote_-_Engravings_by_Gustave_Dor%C3%A9.jpg',
-		no: 'Música e literatura',
-		des: 'Engenheiros do Hawaii, Dom Quixote | Dom Quixote, Miguel de Cervantes 🖼️ Gustave Doré.',
-	},
-	{
-		src: 'https://homoliteratus.com/wp-content/uploads/2016/04/Vitrola-Caetano-Veloso.png',
-		no: 'Música e literatura',
-		des: 'Caetano Veloso, Elegia | “Elegy: going to bed”, John Donne. No Brasil, nos anos 70, o poeta concretista, escritor e ensaísta Augusto de Campos se dedicou à obra de Donne e a traduziu. Essa tradução inspirou de imediato o músico e compositor Péricles Cavalcanti, que musicou os versos de “Elegy: going to bed”, depois tratou de apresentar a Caetano Veloso para que ele a incluísse em seu próximo disco, “Cinema Transcendental”. Mais tarde a música também foi gravada por Simone.',
-	},
-	{
-		src: 'https://i.discogs.com/4fUih34UeBSQ5mrbCZM16jb3BPN1A-a8G1q5400oNuE/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMTg4/NTk0LTE1MTE1MjU4/MzYtMzYwMS5qcGVn.jpeg',
-		no: 'Música e literatura',
-		des: 'Richard Strauss, Berlin Philharmonic Orchestra, Don Quixote Op. 35.',
-	},
-	{
-		src: 'https://i.discogs.com/J7kzDGthVFWVuXrc7Ref6IfUM0fS94HRX_dxyRFnKio/rs:fit/g:sm/q:90/h:587/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMTYx/NDgwLTE1NDkxMjMx/NjgtNDY1OS5qcGVn.jpeg',
-		no: 'Arte na capa de disco',
-		des: 'Tropicália ou Panis et Circencis (1967). A capa do disco-manifesto do movimento tropicalista, lançado em 1968, rende muitos estudos até hoje. Acadêmicos de todos os cantos do mundo se debruçam sobre possíveis mensagens ocultas escondidas nesse trabalho feito pelo designer Rubens Gerchman sobre foto de Oliver Perroy. Mas, de acordo com as testemunhas, o conceito da capa foi construído seguindo a intuição dos artistas e do fotógrafo, que realizou a sessão em sua casa, uma verdadeira mansão de arquitetura colonial em São Paulo.',
-	},
+
 	{
 		src: 'https://upload.wikimedia.org/wikipedia/pt/c/cb/Milton_Nascimento_-_Clube_da_Esquina.jpg',
 		no: 'Arte na capa de disco',
 		des: 'Clube da Esquina (1972). O antológico disco lançado por Milton Nascimento e Lô Borges com diversos outros integrantes da turma de Minas Gerais em 1972 tem uma das capas mais celebradas até hoje na música brasileira. Trata-se de uma fotografia feita por Carlos da Silva Assunção Filho, o Cafi.',
-	},
-	{
-		src: 'https://i.discogs.com/X1AL7A6qmAHHVPxcI-_wtuONebCQvI8M2d7ZtyjT08c/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcyNzgx/MS0xMTUyNTQ4MDQw/LmpwZWc.jpeg',
-		no: 'Arte na capa de disco',
-		des: 'Secos & Molhados (1973).',
 	},
 	{
 		src: 'https://i.discogs.com/-Zd9KKWj2TrMpQxMJ7ptwswGf_fZciVA-BY6lasD784/rs:fit/g:sm/q:90/h:567/w:568/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk4MzY0/MDktMTQ4NzEwMTAz/Mi03NzM2LmpwZWc.jpeg',
@@ -285,11 +343,6 @@ let news = [
 		src: 'https://cdn.domestika.org/c_fit,dpr_1.0,f_auto,q_80,t_base_params,w_610/v1605764675/content-items/006/246/531/pinkfloyd-original.jpg',
 		no: 'Arte na capa de disco',
 		des: 'Pink Floyd, Dark Side of the Moon',
-	},
-	{
-		src: 'https://cdn.domestika.org/c_fit,dpr_1.0,f_auto,q_80,t_base_params,w_610/v1605764675/content-items/006/246/537/joydivision-original.jpg',
-		no: 'Arte na capa de disco',
-		des: 'Joy Division, Unknown Pleasures.',
 	},
 	{
 		src: 'https://cdn.domestika.org/c_fit,dpr_1.0,f_auto,q_80,t_base_params,w_610/v1605764675/content-items/006/246/540/thepolice-original.jpg',
@@ -333,11 +386,6 @@ let news = [
 		src: 'https://upload.wikimedia.org/wikipedia/en/b/b4/SmashingPumpkins-Adore.jpg',
 		no: 'Arte na capa de disco',
 		des: 'Smashing Pumpkins, Adore.',
-	},
-	{
-		src: 'https://upload.wikimedia.org/wikipedia/en/thumb/1/14/DinosaurJrGreenMind.jpg/220px-DinosaurJrGreenMind.jpg',
-		no: 'Arte na capa de disco',
-		des: 'Dinosaur Jr., Green Mind',
 	},
 	{
 		src: 'https://upload.wikimedia.org/wikipedia/en/8/84/In_the_Court_of_the_Crimson_King_-_40th_Anniversary_Box_Set_-_Front_cover.jpeg',
@@ -909,13 +957,13 @@ let mus = [
 function ran(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-var i0 = ran(145, 158);		// Primeiro artigo do topo
-var i1 = ran(135, 144);
-var i2 = ran(125, 134);
-var i3 = ran(120, 124);
-var i4 = ran(115, 119);
-var i5 = ran(110, 114);
-var i6 = ran(105, 109);
+var i0 = ran(130, 136);		// Primeiro artigo do topo
+var i1 = ran(125, 129);
+var i2 = ran(120, 124);
+var i3 = ran(115, 119);
+var i4 = ran(112, 114);
+var i5 = ran(109, 111);
+var i6 = ran(105, 108);
 var i7 = ran(100, 104);
 var i8 = ran(95, 99);
 var i9 = ran(90, 94);
@@ -932,16 +980,22 @@ var i18 = ran(45, 49);
 var i19 = ran(40, 44);
 var i20 = ran(35, 39);
 var i21 = ran(30, 34);
-var i22 = ran(27, 29);
-var i23 = ran(24, 26);
-var i24 = ran(21, 23);
-var i25 = ran(18, 20);
-var i26 = ran(15, 17);
-var i27 = ran(12, 14);
-var i28 = ran(9, 11);
-var i29 = ran(6, 8);
-var i30 = ran(3, 5);
-var i31 = ran(0, 2);
+var i22 = ran(25, 29);
+var i23 = ran(20, 24);
+var i24 = ran(15, 19);
+var i25 = ran(10, 14);
+var i26 = ran(5, 9);
+var i27 = ran(0, 4);
+
+/* pret */
+var i28 = ran(0, 11);
+/* naci */
+var i29 = ran(0, 3);
+
+/* i31 é usada por let mate, que tem 9 ítens*/
+var i30 = ran(0, 3);
+/* i31 é usada por let lite, que tem 9 ítens*/
+var i31 = ran(0, 8);
 
 
 
@@ -963,6 +1017,32 @@ function escre (a, i) {
 	im[a].src = news[i].src;
 	p[a].innerHTML = news[i].no;
 	pre[a].innerHTML = news[i].des;
+}
+
+/* L de literatura */
+function escreL (a, i) {
+	im[a].src = lite[i].src;
+	p[a].innerHTML = lite[i].no;
+	pre[a].innerHTML = lite[i].des;
+}
+
+/* L de matematica */
+function escreM (a, i) {
+	im[a].src = mate[i].src;
+	p[a].innerHTML = mate[i].no;
+	pre[a].innerHTML = mate[i].des;
+}
+
+function escreP (a, i) {
+	im[a].src = pret[i].src;
+	p[a].innerHTML = pret[i].no;
+	pre[a].innerHTML = pret[i].des;
+}
+
+function escreN (a, i) {
+	im[a].src = naci[i].src;
+	p[a].innerHTML = naci[i].no;
+	pre[a].innerHTML = naci[i].des;
 }
 
 /* 1º número é o artigo. 2º é um númeo q equivale ao índice de array de objeto, porém, está entrado um q equivale a faixa de números aleatórios*/
@@ -994,10 +1074,16 @@ escre(24, i24);
 escre(25, i25);
 escre(26, i26);
 escre(27, i27);
-escre(28, i28);
-escre(29, i29);
-escre(30, i30);
-escre(31, i31);
+
+/* pret */
+escreP(28, i28);
+
+/* naci */
+escreN(29, i29);
+/* matematíca */
+escreM(30, i30);
+/* literatura */
+escreL(31, i31);
 
 
 
