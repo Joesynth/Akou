@@ -894,20 +894,3 @@ animation: slide 11s ease infinite;
 
 
 
-@media (orientation: landscape) {
-  body {
-    background-color: green;
-  }
-  .page{
-    display: none;
-  }
-}
-
-@media (orientation: portrait) {
-  body {
-    //qualr coisa pro cel em pé
-  }
-}    
-
-
-
