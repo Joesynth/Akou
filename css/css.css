@@ -896,7 +896,12 @@ animation: slide 11s ease infinite;
 {
    body
    {
-      background: red;
+      //background: gray;
+   }
+   .page {
+   	display: none;
    }
 }
+
+
 
