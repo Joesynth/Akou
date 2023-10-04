@@ -311,23 +311,23 @@ span {
 }
 
 #btD {
-	right: 33%;
+	right: 25%;
 	margin-top: .9em;
 }
 
 #btD2 {
-	right: 37%;
+	right: 30%;
 	margin-top: .9em;
 }
 
 #btE {
 	margin-top: .7em;
-	left: 33%;
+	left: 25%;
 }
 
 #btE2 {
 	margin-top: .7em;
-	left: 37%;
+	left: 30%;
 }
 
 
@@ -387,7 +387,7 @@ body {
 	width: 14em;
 	height: 19.3em;
 	text-align: center;
-	margin-bottom: 1em;
+	margin-bottom: .3em;
 	padding-top: 0.3em;
 	padding-bottom: 0.6em;
 	box-shadow: var(--sombra);
@@ -529,7 +529,7 @@ main {
 	justify-content: center;
 	position: absolute;
 	left: 20%;
-	top: 10em;
+	top: 8.5em;
 	z-index: -1;
 }
 
