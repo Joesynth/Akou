@@ -1,25 +1,47 @@
 
 
+let vini = [
+	{
+		src: 'https://www.globaltree.com.br/uploads/1/1/7/7/11773298/3046333.jpg',
+		no: 'Música & Vinil: tronco de árvore',
+		des: 'Os anéis que vemos em uma árvore são uma espécie de banco de dados, com informações sobre a idade, condições ambientais da época, etc. Um músico alemão inventou um equipamento que “lê” anéis de árvores para música. Para isso, ele os jogou em uma plataforma giratória, como um tocador de discos de vinil. No lugar da agulha (do toca-disco) há sensores que lidam com a cor e a textura da madeira. Também se envolve algoritmo e todo o processo, convenhamos, é no mínimo curioso!',
+	},
+	{
+		src: 'https://akamai.sscdn.co/tb/cifra-blog/pt/wp-content/uploads/2022/10/894ca37-disco-cinzas-humanas.jpg',
+		no: 'Música & Vinil: de cinzas humanas?',
+		des: 'Que tal seus entes queridos falecidos estarem "cantando" aos seus ouvidos? Isso é possível pois uma empresa faz as cinzas do seu amado parente ou amigo virarem um disco de vinil! O valor inclui 30 cópias do LP, e pode-se escolher detalhes como imagens, textos da capa, contracapa...',
+	},
+	{
+		src: 'https://klinikabudzdorov.ru/upload/iblock/261/Rentgen-kisti.png',
+		no: 'Música & Vinil: chapa de "pulmão"',
+		des: 'Na déc. 50, portanto Guerra Fria, era difícil para os jovens da União Soviética ouvirem músicas como jazz ou rock. Mas um grupo driblou as dificuldades criando uma forma de piratear discos: prensar e distribuir álbuns através de chapas de raio-x. Com material coletado em hospitais, álbuns eram prensados em vitrolas adaptadas, cortados em círculo com uma tesoura e o círculo do meio feito com cigarros.',
+	},
+];
+
+
+
+
+/* Arte na Capa: Disco PB */
 let pret = [
 /* pb */
 	{
 		src: 'https://www.hypeness.com.br/1/2018/03/Capas-33.jpg',
-		no: 'Arte na capa de disco',
+		no: 'Arte na Capa: Disco PB',
 		des: 'Miles Davis, Álbum: Tutu (1986) Designer: Eiko Ishioka/Irving Penn | hypeness.com.br',
 	},
 	{
 		src: 'https://www.hypeness.com.br/1/2018/03/Capas-39.jpg',
-		no: 'Arte na capa de disco',
+		no: 'Arte na Capa: Disco PB',
 		des: 'Rage Against The Machine | hypeness.com.br',
 	},
 	{
 		src: 'https://www.hypeness.com.br/1/2018/03/Capas-22.jpg',
-		no: 'Arte na capa de disco',
+		no: 'Arte na Capa: Disco PB',
 		des: 'Elvis Presley (1956) Fotógrafo: William V. ‘Rd’ Robertson | hypeness.com.br',
 	},
 	{
 		src: 'https://www.hypeness.com.br/1/2018/03/Capas-28.jpg',
-		no: 'Arte na capa de disco',
+		no: 'Arte na Capa: Disco PB',
 		des: 'Johnny Cash, Fotógrafo: Martyn Atkins | hypeness.com.br',
 	},
 	{
@@ -67,11 +89,16 @@ let pret = [
 
 
 
-
+/* Disco Nacional */
 let naci = [
 	{
+		src: 'https://upload.wikimedia.org/wikipedia/pt/c/cb/Milton_Nascimento_-_Clube_da_Esquina.jpg',
+		no: 'Arte na Capa: Disco Nacional',
+		des: 'Clube da Esquina (1972). O antológico disco lançado por Milton Nascimento e Lô Borges com diversos outros integrantes da turma de Minas Gerais em 1972 tem uma das capas mais celebradas até hoje na música brasileira. Trata-se de uma fotografia feita por Carlos da Silva Assunção Filho, o Cafi.',
+	},
+	{
 		src: 'https://i.discogs.com/J7kzDGthVFWVuXrc7Ref6IfUM0fS94HRX_dxyRFnKio/rs:fit/g:sm/q:90/h:587/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMTYx/NDgwLTE1NDkxMjMx/NjgtNDY1OS5qcGVn.jpeg',
-		no: 'Arte na capa de disco',
+		no: 'Arte na Capa: Disco Nacional',
 		des: 'Tropicália ou Panis et Circencis (1967). A capa do disco-manifesto do movimento tropicalista, lançado em 1968, rende muitos estudos até hoje. Acadêmicos de todos os cantos do mundo se debruçam sobre possíveis mensagens ocultas escondidas nesse trabalho feito pelo designer Rubens Gerchman sobre foto de Oliver Perroy. Mas, de acordo com as testemunhas, o conceito da capa foi construído seguindo a intuição dos artistas e do fotógrafo, que realizou a sessão em sua casa, uma verdadeira mansão de arquitetura colonial em São Paulo.',
 	},
 	{
@@ -329,11 +356,6 @@ let news = [
 
 
 
-	{
-		src: 'https://upload.wikimedia.org/wikipedia/pt/c/cb/Milton_Nascimento_-_Clube_da_Esquina.jpg',
-		no: 'Arte na capa de disco',
-		des: 'Clube da Esquina (1972). O antológico disco lançado por Milton Nascimento e Lô Borges com diversos outros integrantes da turma de Minas Gerais em 1972 tem uma das capas mais celebradas até hoje na música brasileira. Trata-se de uma fotografia feita por Carlos da Silva Assunção Filho, o Cafi.',
-	},
 	{
 		src: 'https://i.discogs.com/-Zd9KKWj2TrMpQxMJ7ptwswGf_fZciVA-BY6lasD784/rs:fit/g:sm/q:90/h:567/w:568/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk4MzY0/MDktMTQ4NzEwMTAz/Mi03NzM2LmpwZWc.jpeg',
 		no: 'Arte na capa de disco',
@@ -952,12 +974,17 @@ let mus = [
 ];
 */
 
+/* n é nome do array de objeto*/
+function r(n) {
+	return Math.floor(Math.random() * n.length);
+}
+
 
 // Função ran, variáveis i0, i1, i2, etc servem pra garantir que não haverá repetição de conteúdo exibido na tela.
 function ran(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-var i0 = ran(130, 136);		// Primeiro artigo do topo
+var i0 = ran(130, 135);		// i0 = primeiro artigo do topo; em ran() os dois números são o min e max
 var i1 = ran(125, 129);
 var i2 = ran(120, 124);
 var i3 = ran(115, 119);
@@ -984,18 +1011,26 @@ var i22 = ran(25, 29);
 var i23 = ran(20, 24);
 var i24 = ran(15, 19);
 var i25 = ran(10, 14);
-var i26 = ran(5, 9);
-var i27 = ran(0, 4);
+var i26 = ran(0, 9);
+
+/* vini */
+var i27 = r(vini); // i27 = artigo 27 dentre os 32; em r() dentro dos parêntesis é o nome do array de objetos
 
 /* pret */
-var i28 = ran(0, 11);
+var i28 = r(pret);
 /* naci */
-var i29 = ran(0, 3);
+var i29 = r(naci);
 
 /* i31 é usada por let mate, que tem 9 ítens*/
-var i30 = ran(0, 3);
+var i30 = r(mate);
 /* i31 é usada por let lite, que tem 9 ítens*/
-var i31 = ran(0, 8);
+var i31 = r(lite);
+
+
+
+
+
+
 
 
 
@@ -1045,6 +1080,12 @@ function escreN (a, i) {
 	pre[a].innerHTML = naci[i].des;
 }
 
+function escreV (a, i) {
+	im[a].src = vini[i].src;
+	p[a].innerHTML = vini[i].no;
+	pre[a].innerHTML = vini[i].des;
+}
+
 /* 1º número é o artigo. 2º é um númeo q equivale ao índice de array de objeto, porém, está entrado um q equivale a faixa de números aleatórios*/
 escre(0, i0);
 escre(1, i1);
@@ -1073,7 +1114,9 @@ escre(23, i23);
 escre(24, i24);
 escre(25, i25);
 escre(26, i26);
-escre(27, i27);
+
+/* vini */
+escreV(27, i27);
 
 /* pret */
 escreP(28, i28);
