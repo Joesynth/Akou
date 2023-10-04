@@ -302,12 +302,12 @@ span {
 
 #btD, #btE {
 	position: absolute;
-	top: 1em;
+	top: -0.1em;
 }
 
 #btD2, #btE2 {
 	position: absolute;
-	top: 0.4em;
+	top: 0.2em;
 }
 
 #btD {
@@ -529,7 +529,7 @@ main {
 	justify-content: center;
 	position: absolute;
 	left: 20%;
-	top: 8.5em;
+	top: 8em;
 	z-index: -1;
 }
 
