@@ -1,5 +1,9 @@
 
 
+
+
+
+
 /*
 
 var musi = [		/* musi = músicos, pessoa
@@ -19,8 +23,38 @@ var musi = [		/* musi = músicos, pessoa
 
 
 
-
-
+let dupl = [
+	{
+		src: 'https://www.violaobrasileiro.com.br/dados/duo-abdalla.jpeg',
+		no: 'Duo Abdala',
+		des: 'Uma dupla que tem o privilégio de poder ensaiar presencialmente, devido ao fato de serem pai e filha.',
+	},
+	{
+		src: 'https://s2-g1.glbimg.com/BgoQuQ8sscDHe7jt2f_D_oXz46Q=/0x0:800x533/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/W/P/yevq4fSzap9TWC3AtbMg/up-ag-46500-46d3dbac-9e1b-42da-f1ba-9d4a1d4cee11.jpg',
+		no: 'Duo Belém',
+		des: 'Composto pelo violonista Maurício Gomes e o tenor Tiago Costa, a dupla oferece uma performance que une a destreza do violão com a emoção da voz.',
+	},
+	{
+		src: 'https://midias.correiobraziliense.com.br/_midias/jpg/2023/09/21/675x450/1_creditos_re_duarte_e_santiago_harte__aralume_fotografia__2_-29621892.jpg',
+		no: 'Duo Ana Oliveira e Sérgio Raz',
+		des: 'Lança o álbum Armoriando (Selo Sesc), que integra as comemorações dos 50 anos do movimento armorial. | correiobraziliense.com.br',
+	},
+	{
+		src: 'https://revistaforum.com.br/u/fotografias/m/2019/9/19/f425x239-40292_54820_5050.jpg',
+		no: 'Duo Burajiru',
+		des: 'Interpreta em disco a obra para viola de Ricardo Tacuchian. | revistaforum.com.br',
+	},
+	{
+		src: 'https://s2-g1.glbimg.com/VFu9V2j1fvXledXqTuq6x-D7uk8=/0x0:4288x2840/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/Y/G/SJBOomQuKgEpzKiFSDlw/foto-30.jpg',
+		no: 'Duo Rocha Gândara',
+		des: 'Formado por João Rocha forma, ao lado da esposa, a portuguesa Paula Gândara.',
+	},
+	{
+		src: 'https://www10.trf2.jus.br/ccjf/wp-content/uploads/sites/9/2023/08/duo_site600x400.png',
+		no: 'Duo Scheinvar-Balloussier',
+		des: 'Formado por Ivan Scheinvar ao violino e Katia Balloussier ao piano. Tem como propósito de apresentar obras compostas para essa formação, por grandes mestres da música erudita. | ebc.com.brx',
+	},
+];
 
 
 
@@ -33,6 +67,147 @@ let mus = [
 
 
 	{
+		src: 'http://www.ufrgs.br/ufrgs/noticias/doutorando-do-ppg-em-musica-e-destaque-em-concursos-internacionais/@@images/ba3ccf14-2649-4733-a9a8-ee16330f8706.jpeg',
+		no: 'Pierre Willimann',
+		des: 'Doutorando do Programa de Pós-Graduação em Música (PPGMUS - Violão), recebeu quatro prêmios em concursos na Europa. De nacionalidade francesa e suíça, o violonista representou a UFRGS no Concours International de la Ville dAntony e no Concours International de Guitare en Béarn, vencendo o Prêmio do Júri e o Prêmio do Público em ambos. | ufrgs.br',
+	},
+	{
+		src: 'https://www.monteiro.pb.gov.br/wp-content/uploads/2022/11/festi-240x300.jpg',
+		no: 'Festival de Violeiros Pinto de Monteiro',
+		des: 'Evento com grandes nomes da região Nordeste.',
+	},
+	{
+		src: 'https://coraldelchiaro.com.br/wp-content/uploads/2013/04/saiba-mais-sobre-o-coral-del-chiaro-em-sao-paulo.jpg',
+		no: 'Coral Del Chiaro & Orquestra',
+		des: 'Iniciou suas atividades em 1996, através do trabalho idealizado por Danillo Ferreira e Rita Del Chiaro, ambos formados em Música pela Escola de Comunicação e Artes da USP. É um coral que atua em eventos corporativos, casamentos...',
+	},
+	{
+		src: 'https://www.gov.br/cultura/pt-br/assuntos/noticias/minc-investe-em-politicas-para-musica-erudita-1/modelo-home-27.png/@@images/4afa7425-5423-4769-8a83-e0d96fc3b9c1.png',
+		no: 'Bienal de Música Contemporânea Brasileira',
+		des: 'Já com dezenas de edições, é um dos mais importantes eventos do setor. | gov.br',
+	},
+	{
+		src: 'https://imagens.ebc.com.br/2ixXSg4mbh8rAee2N9o_7cwxOdQ=/754x0/smart/https://radios.ebc.com.br/sites/default/files/thumbnails/image/cordel_0.jpg',
+		no: 'Cordel e Cantadores - Brasil, a República do Cordel | RJ',
+		des: 'A exposição reverenciou a obra do poeta Leandro Gomes de Barros (1865-1918). Considerado um dos patronos da literatura de cordel, ele foi o primeiro a montar uma estratégia de distribuição nacional. | ebc.com.br',
+	},
+	{
+		src: 'https://imagens.ebc.com.br/KQfqY8yzbtkkfY-8ayt_BYiBOcM=/754x0/smart/https://radios.ebc.com.br/sites/default/files/thumbnails/image/filpo_ribeiro_0.jpg',
+		no: 'Filpo Ribeiro | SP',
+		des: 'Filpo poderia ter seguido o caminho do rock ou até mesmo montado uma banda de rap, sendo um verdadeiro paulistano de coração. No entanto, contrariando as expectativas, ele escolheu estudar música, com foco em ritmos brasileiros como o forró e o coco nordestinos. | ebc.com.br',
+	},
+	{
+		src: 'https://content.paodeacucar.com/wp-content/uploads/2017/10/orquestra-GPA-texto.jpg',
+		no: 'Orquestra Instituto GPA',
+		des: 'Formada exclusivamente por alunos que passaram pelo Curso de Música.',
+	},
+	{
+		src: 'https://www.marinha.mil.br/sites/default/files/agenciadenoticias/imagens/foto_capa_banda_naval.png',
+		no: 'Projeto "Concertos Navais"',
+		des: 'Bandas do Corpo de Fuzileiros Navais percorrem cidades das regiões Norte, Nordeste e Sudeste. | marinha.mil.br',
+	},
+	{
+		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/04_03_2021_-_Anivers%C3%A1rio_do_Corpo_de_Fuzileiros_Navais_-_RJ_%2851018504493%29.jpg/220px-04_03_2021_-_Anivers%C3%A1rio_do_Corpo_de_Fuzileiros_Navais_-_RJ_%2851018504493%29.jpg',
+		no: 'Banda do Corpo de Fuzileiros Navais',
+		des: 'É uma corporação musical com origem associada ao evento da transferência da corte portuguesa para o Brasil. | pt.wi',
+	},
+	{
+		src: 'https://www.fab.mil.br/sis/enoticias/imagens/pub/41901/i215713402209649.jpg',
+		no: 'A turma Uirapuru',
+		des: 'Nome baseado na riqueza musical do pássaro amazônico e na obra orquestral de Heitor Villa-Lobos, é composta por 38 militares musicistas de instrumentos de corda (violino, violoncelo, viola, harpa e contrabaixo) que passarão a compor a Orquestra Sinfônica da FAB, com sede na Base Aérea de Brasília. | mil.br',
+	},
+	{
+		src: 'https://www.bombeiros.ce.gov.br/wp-content/uploads/sites/27/2020/10/download.jpg',
+		no: 'Banda de Música do Corpo de Bombeiros | CE',
+		des: 'Recebeu novos instrumentos musicais para todos os músicos, contemplando todos os naipes, da flauta a tuba. | ce.gov.br',
+	},
+	{
+		src: 'https://portaljaciarabarros.com.br/wp-content/uploads/2023/05/banda.jpg',
+		no: 'Banda de Música do Grupamento de Fuzileiros Navais de Brasília',
+		des: 'Sua existência histórica, não está fixada apenas na data de criação do Grupamento de Fuzileiros Navais de Brasília, ocorrida em 1961, mas também no singular acontecimento que marcou as páginas de nossa história. Em 1808, o aportar dos navios na cidade do Rio de Janeiro, que trouxera a Família Real, tinha também em sua tripulação a Brigada Real da Marinha - origem dos atuais Fuzileiros Navais. Esta, ao desembarcar, realizou um desfile, tendo à frente sua vistosa e garbosa Banda a executar seus dobrados vibrantes. | mil.br',
+	},
+	{
+		src: 'https://i.ytimg.com/vi/HJCpGUu9OK0/maxresdefault.jpg',
+		no: 'Banda de Música do Corpo de Bombeiros Militar do Estado de Goiás ✡️ 1990',
+		des: 'A Banda de Música estreou no desfile cívico militar de 24 de outubro do mesmo ano em comemoração ao 57° aniversário de Goiânia. | go.gov.br',
+	},
+	{
+		src: 'http://www.pensario.uff.br/sites/pensario.uff.br/files/image/(34)DSCN3628_web.jpg',
+		no: 'Banda do Corpo de Bombeiros do Rio de Janeiro',
+		des: 'Anacleto de Medeiros, ao centro de braços cruzados, e seus bombeiros músicos. | uff.br',
+	},
+	{
+		src: 'http://www.pensario.uff.br/sites/pensario.uff.br/files/image/(35)DSCN3633_web.jpg',
+		no: 'Chorões em Paquetá',
+		des: 'O Rio musical de Anacleto de Medeiros. | uff.br',
+	},
+	{
+		src: 'https://intranet.cbm.al.gov.br/app/webroot//uploads/images/t_ebc569a1de6cb5842f73309b85499118.jpg',
+		no: 'Banda de Música do Corpo de Bombeiros Militar de Alagoas',
+		des: 'Após a separação da Polícia Militar em 1993, o Corpo de Bombeiros Militar de Alagoas (CBMAL) sentiu a necessidade de ter uma Banda de Música em seu quadro. Com alguns Bombeiros músicos e outros interessados em aprender a arte, formou-se então um conjunto musical rítmico para adestrar a tropa. | al.gov.br',
+	},
+	{
+		src: 'https://bombeiros.pb.gov.br/wp-content/uploads/2022/12/WhatsApp-Image-2022-12-27-at-18.32.10-1024x576.jpeg',
+		no: 'Banda de Música do Corpo de Bombeiros Militar da Paraíba',
+		des: 'A banda já se apresentou tendo nem seu repertório de músicas nomes como Roupa Nova ou Roberta Miranda.',
+	},
+
+
+
+
+
+
+
+
+
+
+	{
+		src: 'https://imagens.ebc.com.br/WOn4PBxiEq8OxZeYhyzPZoeuuDE=/375x183/smart/https://radios.ebc.com.br/sites/default/files/thumbnails/image/sexteto_sucupira_-_fabricio_menicucci.jpg',
+		no: 'Sexteto Sucupira',
+		des: 'O grupo é formado por Alexandre Bittencourt (sopros), Rudá Brauns (bandolim), Felipe Chernicharo (violão), Max Dias (baixo), Lucas Videla (percussão) e Cláudio Lima (bateria). A banda se inspira na cultura regional nordestina, buscando conexão entre o forró e outros gêneros musicais. | ebc.com.br',
+	},
+	{
+		src: 'https://www.ufpe.br/documents/40615/1164224/fotmusica+10.04.18.JPG/de810721-070c-4d33-88b6-c3d2e3566152?t=1523379161999',
+		no: 'Coro e Orquestra Sinfônica da UFPE',
+		des: 'Já realizou apresentações de “Leonor – Ação Dramática em um Ato”, de autoria de Euclides Fonseca (1854-1929). | ufpe.br',
+	},
+	{
+		src: 'https://londrinando.com/images/uploads/posts/16032017155813_osueljpg.webp',
+		no: 'Orquestra Sinfônica da UEL (Osuel)',
+		des: 'Já realizou “aula-concerto” para 600 alunos do Colégio de Aplicação.',
+	},
+	{
+		src: 'https://lume.ufrgs.br/bitstream/handle/10183/186348/Foto_12169_1.jpeg',
+		no: 'Orquestra de Flautas Doces - Colégio de Aplicação | RS',
+		des: 'Uma experiência importantíssima para a formação musical do aluno | ufrgs.br',
+	},
+	{
+		src: 'https://imagens.ebc.com.br/Rj6cDYuU4NkipSXOnm7yRHuhlPM=/365x0/smart/https://radios.ebc.com.br/sites/default/files/thumbnails/image/dupla.png',
+		no: 'Chico de Assis e João Santana',
+		des: 'Violeiros de Brasília estão na estrada há quase 17 anos levando também poemas matutos e de cunho socioambiental. A sextilha e o martelo agalopado são casos das dezenas de modalidades do repente, que só é repente porque é de feito de improviso: de repente! | ebc.com.br',
+	},
+	{
+		src: 'https://memoria.ebc.com.br/sites/_portalebc2014/files/styles/full_colunm/public/atoms_image/repentista.jpg',
+		no: 'Manel do Cego',
+		des: 'Manoel do cego e o repente! Repentista, violeiro e sanfoneiro do município de Assaré, no Ceará, o poeta é um importante artista e figura cultural da cidade. | ebc.com.br',
+	},
+	{
+		src: 'https://imagens.ebc.com.br/VplwmG_HvTQBRdleMTiLKkM8yZI=/365x0/smart/https://radios.ebc.com.br/sites/default/files/thumbnails/image/cordel_do_fogo_encantado_-_credito_fred_jordao_-_divulgacao.jpg',
+		no: 'Cordel do Fogo Encantado',
+		des: 'Lirinha é o cantor, compositor, poeta e vocalista do Cordel do Fogo Encantado. | ebc.com.br',
+	},
+
+	{
+		src: 'https://paraiba.pb.gov.br/noticias/2018de-repente-no-espaco2019-traz-helanio-moreira-e-erasmo-ferreira-dia-1o-de-maio/erasmo-ferreira.jpg/@@images/b4a51190-cb7d-4e34-af23-a90ee30149de.jpeg',
+		no: 'Helânio Moreira e Erasmo Ferreira',
+		des: 'A dupla que lida com os bons e fabulosos improvisos e violadas. | pb.gov.br',
+	},
+
+
+
+
+
+	{
 		src: 'https://www2.fab.mil.br/cbnb/images/cbnb_img/Conserto/banda-16.jpg',
 		no: 'Banda de música do Colégio Brigadeiro Newton Braga',
 		des: 'A banda de música proporciona aos alunos: "conhecer os instrumentos musicais que formam uma banda sinfônica, além de trabalhar valores como disciplina, respeito, responsabilidade, trabalho em grupo e autoconfiança.".',
@@ -40,7 +215,7 @@ let mus = [
 	{
 		src: 'https://www.cp2.g12.br/blog/humaita1/files/2022/10/WhatsApp-Image-2022-10-07-at-17.06.40-e1665174986364.jpeg',
 		no: 'Coral Infantil do Humaitá I',
-		des: 'Na imagem uma apresentação musical no Salão Nobre do Campus Centro. | cp2.g12.br',
+		des: 'Uma imagem referente a uma apresentação musical no Salão Nobre do Campus Centro. | cp2.g12.br',
 	},
 	{
 		src: 'http://www.pmdf.df.gov.br/images/2019/Novembro/Pedro-Reis.jpg',
@@ -133,11 +308,8 @@ let mus = [
 		no: 'Bruno Barreto',
 		des: 'É maestro do Coral UFT em Canto. | uft.edu.br',
 	},
+
 	{
-		src: 'https://s2-g1.glbimg.com/VFu9V2j1fvXledXqTuq6x-D7uk8=/0x0:4288x2840/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/Y/G/SJBOomQuKgEpzKiFSDlw/foto-30.jpg',
-		no: 'Duo Rocha Gândara',
-		des: 'Formado por João Rocha forma, ao lado da esposa, a portuguesa Paula Gândara.',
-	},	{
 		src: 'https://s2-g1.glbimg.com/jcnRPbZAYFMB7MaE47ozHKglNjk=/0x0:4288x2862/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/8/Z/rG5PThQROiQKR8AAnU8w/foto-23.jpg',
 		no: 'João Rocha | SP',
 		des: 'Maestro e compositor brasileiro radicado nos EUA.',
@@ -269,11 +441,6 @@ let mus = [
 		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Maximiliano_de_Brito%2C_Ronaldo_Miranda%2C_Renato_Mismetti_%28cropped%29.JPG/180px-Maximiliano_de_Brito%2C_Ronaldo_Miranda%2C_Renato_Mismetti_%28cropped%29.JPG',
 		no: 'Ronaldo Miranda | RJ',
 		des: 'É um compositor brasileiro. Foi professor do Departamento de Música da Escola de Comunicações e Artes da Universidade de São Paulo (USP). | pt.wi',
-	},
-	{
-		src: 'https://www10.trf2.jus.br/ccjf/wp-content/uploads/sites/9/2023/08/duo_site600x400.png',
-		no: 'Duo Scheinvar-Balloussier',
-		des: 'Formado por Ivan Scheinvar ao violino e Katia Balloussier ao piano. Tem como propósito de apresentar obras compostas para essa formação, por grandes mestres da música erudita. | ebc.com.brx',
 	},
 	{
 		src: 'https://ogimg.infoglobo.com.br/brasil/conte-algo-que-nao-sei/16978682-17e-5f7/FT1086A/2015071576237.jpg',
@@ -464,7 +631,7 @@ let mus = [
 	{
 		src: 'https://i0.wp.com/cariridagente.com/wp-content/uploads/2013/11/pinto.jpg',
 		no: 'Pinto do Monteiro | PB',
-		des: 'Foi um poeta popular, compositor, cantador e improvisador brasileiro. Filho de uma doméstica com um tropeiro, trabalhou como vaqueiro, vendedor, auxiliar de enfermagem e guarda do serviço contra a malária. Foi também soldado no combate aos bandos de cangaceiros. Aprendeu a ler e a escrever já depois de adulto. Foi um dos mais lendários cantadores e repentistas.',
+		des: 'Foi um poeta popular, compositor, cantador e improvisador brasileiro. Filho de uma doméstica com um tropeiro, teve vários trabalho _inclusive soldado no combate aos bandos de cangaceiros. Aprendeu a ler e a escrever já depois de adulto. Foi um dos mais lendários cantadores e repentistas. Percorreu o país encontrando-se e duelando com diversos repentistas | pt.wi',
 	},
 	{
 		src: 'thumb320x180.png',
@@ -606,11 +773,8 @@ let mus = [
 		no: 'Meninas Cantoras de Petrópolis | RJ',
 		des: 'Coral com décadas de história, sendo um bem cultural do país. Teve parcerias com cantores como, por exemplo, Fafá de Belém; além de ter gravado vários CDs. Também fez turnê internacional e já foi até abençoado pelo papa.',
 	},
-	{
-		src: 'https://s2-g1.glbimg.com/BgoQuQ8sscDHe7jt2f_D_oXz46Q=/0x0:800x533/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/W/P/yevq4fSzap9TWC3AtbMg/up-ag-46500-46d3dbac-9e1b-42da-f1ba-9d4a1d4cee11.jpg',
-		no: 'Duo Belém',
-		des: 'Composto pelo violonista Maurício Gomes e o tenor Tiago Costa, a dupla oferece uma performance que une a destreza do violão com a emoção da voz.',
-	},
+
+
 	{
 		src: 'https://agenciapara.com.br/midias/2015/medias/8352_40714.jpg',
 		no: 'Grupo Flautas Doces da Amazônia',
@@ -677,22 +841,28 @@ let mus = [
 ];
 */
 
+
+/* n é nome do array de objeto*/
+function r(n) {
+	return Math.floor(Math.random() * n.length);
+}
+
 // Função ran, variáveis i0, i1, i2, etc servem pra garantir que não haverá repetição de conteúdo exibido na tela.
 function ran(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-var i0 = ran(103, 113);
-var i1 = ran(95, 102);
-var i2 = ran(90, 94);
-var i3 = ran(85, 89);
-var i4 = ran(81, 84);
-var i5 = ran(78, 80);
-var i6 = ran(75, 77);
-var i7 = ran(72, 74);
-var i8 = ran(69, 71);
-var i9 = ran(66, 68);
-var i10 = ran(63, 65);
-var i11 = ran(60, 62);
+var i0 = ran(130, 135);		// i0 = primeiro artigo do topo; em ran() os dois números são o min e max
+var i1 = ran(120, 129);
+var i2 = ran(110, 119);
+var i3 = ran(100, 109);
+var i4 = ran(95, 99);
+var i5 = ran(90, 94);
+var i6 = ran(85, 89);
+var i7 = ran(80, 84);
+var i8 = ran(75, 79);
+var i9 = ran(70, 74);
+var i10 = ran(65, 69);
+var i11 = ran(60, 64);
 var i12 = ran(57, 59);
 var i13 = ran(54, 56);
 var i14 = ran(51, 53);
@@ -712,8 +882,13 @@ var i26 = ran(15, 17);
 var i27 = ran(12, 14);
 var i28 = ran(9, 11);
 var i29 = ran(6, 8);
-var i30 = ran(3, 5);
-var i31 = ran(0, 2);
+var i30 = ran(0, 5);
+
+
+/* i31 é usada por let dupl*/
+var i31 = r(dupl);
+
+
 
 /*
 var i0 = Object.keys(mus)[Math.floor(Math.random()*Object.keys(mus).length)];
@@ -722,227 +897,66 @@ var i2 = Object.keys(mus)[Math.floor(Math.random()*Object.keys(mus).length)];
 var i3 = Object.keys(mus)[Math.floor(Math.random()*Object.keys(mus).length)];
 */
 
-	function sor0 () { 	/*  Coloca os respectivos conteúdos conforme índice, i */ 
-		document.querySelector('.conte3 #im').src = mus[i0].src;
-		document.querySelector('.conte3 #ti').innerHTML = mus[i0].no;
-		document.querySelector('.conte3 #te').innerHTML = mus[i0].des;
-	}
-
-	function sor1 () {
-		document.querySelector('.conte3 #im1').src = mus[i1].src;
-		document.querySelector('.conte3 #ti1').innerHTML = mus[i1].no;
-		document.querySelector('.conte3 #te1').innerHTML = mus[i1].des;
-	}
-
-	function sor2 () {
-		document.querySelector('.conte3 #im2').src = mus[i2].src;
-		document.querySelector('.conte3 #ti2').innerHTML = mus[i2].no;
-		document.querySelector('.conte3 #te2').innerHTML = mus[i2].des;
-	}
-
-	function sor3 () {
-		document.querySelector('.conte3 #im3').src = mus[i3].src;
-		document.querySelector('.conte3 #ti3').innerHTML = mus[i3].no;
-		document.querySelector('.conte3 #te3').innerHTML = mus[i3].des;
-	}
-
-	function sor4 () {
-		document.querySelector('.conte3 #im4').src = mus[i4].src;
-		document.querySelector('.conte3 #ti4').innerHTML = mus[i4].no;
-		document.querySelector('.conte3 #te4').innerHTML = mus[i4].des;
-	}
-	function sor5 () {
-		document.querySelector('.conte3 #im5').src = mus[i5].src;
-		document.querySelector('.conte3 #ti5').innerHTML = mus[i5].no;
-		document.querySelector('.conte3 #te5').innerHTML = mus[i5].des;
-	}
-	function sor6 () {
-		document.querySelector('.conte3 #im6').src = mus[i6].src;
-		document.querySelector('.conte3 #ti6').innerHTML = mus[i6].no;
-		document.querySelector('.conte3 #te6').innerHTML = mus[i6].des;
-	}
-	function sor7 () {
-		document.querySelector('.conte3 #im7').src = mus[i7].src;
-		document.querySelector('.conte3 #ti7').innerHTML = mus[i7].no;
-		document.querySelector('.conte3 #te7').innerHTML = mus[i7].des;
-	}
-
-	function sor8 () { 	/*  Coloca os respectivos conteúdos conforme índice, i */ 
-		document.querySelector('.conte3 #im8').src = mus[i8].src;
-		document.querySelector('.conte3 #ti8').innerHTML = mus[i8].no;
-		document.querySelector('.conte3 #te8').innerHTML = mus[i8].des;
-	}
-
-	function sor9 () {
-		document.querySelector('.conte3 #im9').src = mus[i9].src;
-		document.querySelector('.conte3 #ti9').innerHTML = mus[i9].no;
-		document.querySelector('.conte3 #te9').innerHTML = mus[i9].des;
-	}
-
-	function sor10 () {
-		document.querySelector('.conte3 #im10').src = mus[i10].src;
-		document.querySelector('.conte3 #ti10').innerHTML = mus[i10].no;
-		document.querySelector('.conte3 #te10').innerHTML = mus[i10].des;
-	}
-
-	function sor11 () {
-		document.querySelector('.conte3 #im11').src = mus[i11].src;
-		document.querySelector('.conte3 #ti11').innerHTML = mus[i11].no;
-		document.querySelector('.conte3 #te11').innerHTML = mus[i11].des;
-	}
-
-	function sor12 () {
-		document.querySelector('.conte3 #im12').src = mus[i12].src;
-		document.querySelector('.conte3 #ti12').innerHTML = mus[i12].no;
-		document.querySelector('.conte3 #te12').innerHTML = mus[i12].des;
-	}
-	function sor13 () {
-		document.querySelector('.conte3 #im13').src = mus[i13].src;
-		document.querySelector('.conte3 #ti13').innerHTML = mus[i13].no;
-		document.querySelector('.conte3 #te13').innerHTML = mus[i13].des;
-	}
-	function sor14 () {
-		document.querySelector('.conte3 #im14').src = mus[i14].src;
-		document.querySelector('.conte3 #ti14').innerHTML = mus[i14].no;
-		document.querySelector('.conte3 #te14').innerHTML = mus[i14].des;
-	}
-	function sor15 () {
-		document.querySelector('.conte3 #im15').src = mus[i15].src;
-		document.querySelector('.conte3 #ti15').innerHTML = mus[i15].no;
-		document.querySelector('.conte3 #te15').innerHTML = mus[i15].des;
-	}
+/* .conte3 é vital no seletor. Note que, quando o HTML é escrito (lá em template.js), é escrito um modelo com várias tags para as e telas (nws, musi, loca). Porém, aqui, só queremos capturar pelo selectAll uma tela específica e com tdas as suas tags de artigo. */
+var im = document.querySelectorAll(".conte3 #arti .mmm");
+var p = document.querySelectorAll(".conte3 #arti .ti");
+var pre = document.querySelectorAll(".conte3 #arti .te");
 
 
 
+/* a = artigo, cada div de conteúdo; i = índice do array de objetos */
+function escre (a, i) {
+	im[a].src = mus[i].src;
+	p[a].innerHTML = mus[i].no;
+	pre[a].innerHTML = mus[i].des;
+}
 
 
 
-	function sor16 () { 	/*  Coloca os respectivos conteúdos conforme índice, i */ 
-		document.querySelector('.conte3 #im16').src = mus[i16].src;
-		document.querySelector('.conte3 #ti16').innerHTML = mus[i16].no;
-		document.querySelector('.conte3 #te16').innerHTML = mus[i16].des;
-	}
-
-	function sor17 () {
-		document.querySelector('.conte3 #im17').src = mus[i17].src;
-		document.querySelector('.conte3 #ti17').innerHTML = mus[i17].no;
-		document.querySelector('.conte3 #te17').innerHTML = mus[i17].des;
-	}
-
-	function sor18 () {
-		document.querySelector('.conte3 #im18').src = mus[i18].src;
-		document.querySelector('.conte3 #ti18').innerHTML = mus[i18].no;
-		document.querySelector('.conte3 #te18').innerHTML = mus[i18].des;
-	}
-
-	function sor19 () {
-		document.querySelector('.conte3 #im19').src = mus[i19].src;
-		document.querySelector('.conte3 #ti19').innerHTML = mus[i19].no;
-		document.querySelector('.conte3 #te19').innerHTML = mus[i19].des;
-	}
-
-	function sor20 () {
-		document.querySelector('.conte3 #im20').src = mus[i20].src;
-		document.querySelector('.conte3 #ti20').innerHTML = mus[i20].no;
-		document.querySelector('.conte3 #te20').innerHTML = mus[i20].des;
-	}
-	function sor21 () {
-		document.querySelector('.conte3 #im21').src = mus[i21].src;
-		document.querySelector('.conte3 #ti21').innerHTML = mus[i21].no;
-		document.querySelector('.conte3 #te21').innerHTML = mus[i21].des;
-	}
-	function sor22 () {
-		document.querySelector('.conte3 #im22').src = mus[i22].src;
-		document.querySelector('.conte3 #ti22').innerHTML = mus[i22].no;
-		document.querySelector('.conte3 #te22').innerHTML = mus[i22].des;
-	}
-	function sor23 () {
-		document.querySelector('.conte3 #im23').src = mus[i23].src;
-		document.querySelector('.conte3 #ti23').innerHTML = mus[i23].no;
-		document.querySelector('.conte3 #te23').innerHTML = mus[i23].des;
-	}
-
-	function sor24 () { 	/*  Coloca os respectivos conteúdos conforme índice, i */ 
-		document.querySelector('.conte3 #im24').src = mus[i24].src;
-		document.querySelector('.conte3 #ti24').innerHTML = mus[i24].no;
-		document.querySelector('.conte3 #te24').innerHTML = mus[i24].des;
-	}
-
-	function sor25 () {
-		document.querySelector('.conte3 #im25').src = mus[i25].src;
-		document.querySelector('.conte3 #ti25').innerHTML = mus[i25].no;
-		document.querySelector('.conte3 #te25').innerHTML = mus[i25].des;
-	}
-
-	function sor26 () {
-		document.querySelector('.conte3 #im26').src = mus[i26].src;
-		document.querySelector('.conte3 #ti26').innerHTML = mus[i26].no;
-		document.querySelector('.conte3 #te26').innerHTML = mus[i26].des;
-	}
-
-	function sor27 () {
-		document.querySelector('.conte3 #im27').src = mus[i27].src;
-		document.querySelector('.conte3 #ti27').innerHTML = mus[i27].no;
-		document.querySelector('.conte3 #te27').innerHTML = mus[i27].des;
-	}
-
-	function sor28 () {
-		document.querySelector('.conte3 #im28').src = mus[i28].src;
-		document.querySelector('.conte3 #ti28').innerHTML = mus[i28].no;
-		document.querySelector('.conte3 #te28').innerHTML = mus[i28].des;
-	}
-	function sor29 () {
-		document.querySelector('.conte3 #im29').src = mus[i29].src;
-		document.querySelector('.conte3 #ti29').innerHTML = mus[i29].no;
-		document.querySelector('.conte3 #te29').innerHTML = mus[i29].des;
-	}
-	function sor30 () {
-		document.querySelector('.conte3 #im30').src = mus[i30].src;
-		document.querySelector('.conte3 #ti30').innerHTML = mus[i30].no;
-		document.querySelector('.conte3 #te30').innerHTML = mus[i30].des;
-	}
-	function sor31 () {
-		document.querySelector('.conte3 #im31').src = mus[i31].src;
-		document.querySelector('.conte3 #ti31').innerHTML = mus[i31].no;
-		document.querySelector('.conte3 #te31').innerHTML = mus[i31].des;
-	}
+/* D de dupla, duo */
+function escreD (a, i) {
+	im[a].src = dupl[i].src;
+	p[a].innerHTML = dupl[i].no;
+	pre[a].innerHTML = dupl[i].des;
+}
 
 
 
+/* 1º número é o artigo. 2º é um númeo q equivale ao índice de array de objeto, porém, está entrado um q equivale a faixa de números aleatórios*/
+escre(0, i0);
+escre(1, i1);
+escre(2, i2);
+escre(3, i3);
+escre(4, i4);
+escre(5, i5);
+escre(6, i6);
+escre(7, i7);
+escre(8, i8);
+escre(9, i9);
+escre(10, i10);
+escre(11, i11);
+escre(12, i12);
+escre(13, i13);
+escre(14, i14);
+escre(15, i15);
+escre(16, i16);
+escre(17, i17);
+escre(18, i18);
+escre(19, i19);
+escre(20, i20);
+escre(21, i21);
+escre(22, i22);
+escre(23, i23);
+escre(24, i24);
+escre(25, i25);
+escre(26, i26);
+escre(27, i27);
+escre(28, i28);
+escre(29, i29);
+escre(30, i30);
 
-	sor0();
-	sor1();
-	sor2();
-	sor3();
-	sor4();
-	sor5();
-	sor6();
-	sor7();
-	sor8();
-	sor9();
-	sor10();
-	sor11();
-	sor12();
-	sor13();
-	sor14();
-	sor15();
-
-	sor16();
-	sor17();
-	sor18();
-	sor19();
-	sor20();
-	sor21();
-	sor22();
-	sor23();
-	sor24();
-	sor25();
-	sor26();
-	sor27();
-	sor28();
-	sor29();
-	sor30();
-	sor31();
+/* dulpa */
+escreD(31, i31);
 
 
 /*
@@ -958,7 +972,6 @@ Cláudio Cruz regência, diretor musical
 Clelia Iruzum 🎹
 Cristian Budu 🎹
 Dmitry Masleev 🎹 
-Duo Abdala (flauta e violão).
 Erika Ribeiro 🎹
 Fabio Martino 🎹
 Gabriel Martins
@@ -1076,6 +1089,7 @@ André Luz | Baixo
 			des: 'xx',
 	}
 */
+
 
 
 
