@@ -9,6 +9,49 @@
 
 let loc = [
 
+
+
+
+
+	{
+		src: 'https://www.fab.mil.br/sis/enoticias/imagens/pub/35201/i17102111858148585.jpg',
+		no: 'Parque Ibirapuera',
+		des: 'Encontro de Bandas Militares abre programação do Mês da Asa. | mil.br',
+	},
+	{
+		src: 'https://4tconstrutora.com.br/wp-content/uploads/2021/11/ARAUJO_VIANA_18.jpg',
+		no: 'Auditório Araujo Vianna | RS',
+		des: 'Tem capacidade para 3.000 lugares.',
+	},
+	{
+		src: 'https://images.mnstatic.com/51/7b/517bcf5b712745b7739bb9f2db0cdd2a.jpg?quality=75&format=pjpg&fit=crop&width=980&height=880&aspect_ratio=980%3A880',
+		no: 'Teatro do Centro de Convenções da UFPE | PE',
+		des: 'Tem capacidade para 1.931 lugares.',
+	},
+	{
+		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Fachada_do_Centro_de_Conven%C3%A7%C3%B5es_da_Bahia_%284497467076%29.jpg/260px-Fachada_do_Centro_de_Conven%C3%A7%C3%B5es_da_Bahia_%284497467076%29.jpg',
+		no: 'Teatro Iemanjá - Centro Convenções da Bahia | BA',
+		des: 'Tem capacidade para 1.904 lugares.',
+	},
+	{
+		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Vista_do_Cine-Theatro_Central%2C_Juiz_de_Fora_MG.JPG/300px-Vista_do_Cine-Theatro_Central%2C_Juiz_de_Fora_MG.JPG',
+		no: 'Cine Theatro Central | MG',
+		des: 'Tem capacidade para 1.881 lugares.',
+	},
+	{
+		src: 'https://cefiergs.com.br/wp-content/uploads/2022/11/teatrosesi2.jpg',
+		no: 'Teatro do SESI | RS',
+		des: 'Tem capacidade para 1.790 lugares.',
+	},
+	{
+		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Minascentro.JPG/300px-Minascentro.JPG',
+		no: 'Teatro Topázio | MG',
+		des: 'Tem capacidade para 1726 lugares.',
+	},
+
+
+
+
 	{
 		src: 'https://www.eb.mil.br/image/journal/article?img_id=10343108&t=1566412378558.jpg',
 		no: 'Theatro José de Alencar',
@@ -92,7 +135,7 @@ let loc = [
 	{
 		src: 'https://www.fab.mil.br/sis/enoticias/imagens/pub/39492/i19111113311901445.jpg',
 		no: 'Theatro Municipal | RJ',
-		des: 'Banda da Ala 11 se apresentou no Theatro Municipal do Rio de Janeiro. | mil.br',
+		des: 'Banda da Ala 11 se apresentou no Theatro Municipal do Rio de Janeiro. O Teatro Municipal do Rio de Janeiro tem 2.357 Lugares. | mil.br',
 	},
 	{
 		src: 'https://www.fab.mil.br/sis/enoticias/imagens/pub/39492/i19111113312608454.jpg',
@@ -272,7 +315,7 @@ let loc = [
 	{
 		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Teatro_Guararapes_-_Olinda%2C_Pernambuco%2C_Brasil.jpg/300px-Teatro_Guararapes_-_Olinda%2C_Pernambuco%2C_Brasil.jpg',
 		no: 'Teatro Guararapes | PE',
-		des: 'Ou ainda Teatro Guararapes Chico Science, é um espaço espetacular com mais de 2000 lugares e décadas de existência.',
+		des: 'Ou ainda Teatro Guararapes Chico Science, é um espaço espetacular com mais de 2000 lugares e décadas de existência. O teatro tem 2.405 lugares',
 	},
 	{
 		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Escola-de-M%C3%BAsica-UFRN.jpg/800px-Escola-de-M%C3%BAsica-UFRN.jpg',
@@ -302,7 +345,7 @@ let loc = [
 	{
 		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Opera_de_Arame_Interior.jpg/240px-Opera_de_Arame_Interior.jpg',
 		no: 'Ópera de Arame | PR',
-		des: 'Com uma estrutura tubular e teto transparente, é um dos símbolos emblemáticos de Curitiba, tendo sido inaugurada em 1992.',
+		des: 'Com uma estrutura tubular e teto transparente, é um dos símbolos emblemáticos de Curitiba, tendo sido inaugurada em 1992. O teatro tem 2.400 lugares.',
 	},
 	{
 		src: 'https://s2-g1.glbimg.com/hXJRof9hi3zHAi6agL277ftQvLo=/0x0:5184x3456/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2019/u/f/r5fhOmQcu1aeWjbb3gIg/img-6800.jpg',
@@ -337,7 +380,7 @@ let loc = [
 	{
 		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Teatro_Gua%C3%ADra_in_2006_1.jpg/300px-Teatro_Gua%C3%ADra_in_2006_1.jpg',
 		no: 'Centro Cultural Teatro Guaíra | PR',
-		des: 'A história do Teatro Guaíra inicia no século XIX.',
+		des: 'A história do Teatro Guaíra inicia no século XIX. O teatro tem 2.732 lugares.',
 	},
 	{
 		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Centro_Drag%C3%A3o_do_Mar_de_Arte_e_Cultura_%284%29.jpg/300px-Centro_Drag%C3%A3o_do_Mar_de_Arte_e_Cultura_%284%29.jpg',
@@ -428,11 +471,11 @@ let mus = [
 function ran(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-var i0 = ran(70, 74);
-var i1 = ran(65, 69);
-var i2 = ran(60, 64);
-var i3 = ran(56, 59);
-var i4 = ran(54, 55);
+var i0 = ran(75, 81);
+var i1 = ran(69, 74);
+var i2 = ran(63, 68);
+var i3 = ran(58, 62);
+var i4 = ran(54, 57);
 var i5 = ran(52, 53);
 var i6 = ran(50, 51);
 var i7 = ran(48, 49);

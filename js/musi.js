@@ -760,8 +760,8 @@ let mus = [
 	},
 	{
 		src: 'https://www.portaldoholanda.com.br/sites/default/files/portaldoholanda-704457-imagem-foto-amazonas.jpg',
-		no: 'Coral do Amazonas | AM',
-		des: 'Criado na déc. 90, é considerado o grupo mais tradicional do Estado.',
+		no: 'Coral do Amazonas | AM ✡️ déc. 90',
+		des: 'É considerado o grupo mais tradicional do Estado.',
 	},
 	{
 		src: 'https://abraf.org/wp-content/uploads/2018/08/IMG_4940-300x200.jpg',

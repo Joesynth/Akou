@@ -1,5 +1,99 @@
 
 
+
+
+
+let rock = [
+	{
+		src: 'https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Led_Zeppelin_-_Houses_of_the_Holy.jpg/220px-Led_Zeppelin_-_Houses_of_the_Holy.jpg',
+		no: 'Arte na capa: Rock',
+		des: 'Led Zeppelin',
+	},
+	{
+		src: 'https://upload.wikimedia.org/wikipedia/en/b/b4/SmashingPumpkins-Adore.jpg',
+		no: 'Arte na capa: Rock',
+		des: 'Smashing Pumpkins, Adore.',
+	},
+	{
+		src: 'https://upload.wikimedia.org/wikipedia/en/8/84/In_the_Court_of_the_Crimson_King_-_40th_Anniversary_Box_Set_-_Front_cover.jpeg',
+		no: 'Arte na capa: Rock',
+		des: 'King crimson',
+	},
+	{
+		src: 'https://upload.wikimedia.org/wikipedia/en/1/19/JethroTullAqualungalbumcover.jpg',
+		no: 'Arte na capa: Rock',
+		des: 'Jethro Tull.',
+	},
+	{
+		src: 'https://images.eil.com/large_image/URIAH_HEEP_VERY%2BEAVY%2BVERY%2BUMBLE%2B-%2B2ND%2BLRG%2BSWIRL-602615.jpg',
+		no: 'Arte na capa: Rock',
+		des: 'Uriah Heep',
+	},
+	{
+		src: 'https://i.discogs.com/b8HM13hg0YLm2V-odu9uVuB4mEsqr7z_KH-pIw5M7zY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ1NjYw/MS0xNjQxNDgyMzYw/LTg5MTAuanBlZw.jpeg',
+		no: 'Arte na capa: Rock',
+		des: 'Wishbone Ash',
+	},
+	{
+		src: 'https://i.discogs.com/lGHwUZCYLZacXH2T7uWi5lYN9GdmVJnjdnnrQcGDWX0/rs:fit/g:sm/q:90/h:592/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2MjI3/MTItMTUxMzU1Mjc1/OS0xMDkzLmpwZWc.jpeg',
+		no: 'Arte na capa: Rock',
+		des: 'Roxy Music, Siren',
+	},
+	{
+		src: 'https://upload.wikimedia.org/wikipedia/pt/1/1c/Iron_Maiden_-_Powerslave.jpg',
+		no: 'Arte na capa: Rock',
+		des: 'Iron Maiden, Powerslave.',
+	},
+	{
+		src: 'https://upload.wikimedia.org/wikipedia/en/thumb/7/74/Pink_Floyd-Animals-Frontal.jpg/220px-Pink_Floyd-Animals-Frontal.jpg',
+		no: 'Arte na capa: Rock',
+		des: 'Pink Floyd, Animals.',
+	},
+	{
+		src: 'https://cdn.domestika.org/c_fit,dpr_1.0,f_auto,q_80,t_base_params,w_610/v1605764675/content-items/006/246/531/pinkfloyd-original.jpg',
+		no: 'Arte na capa: Rock',
+		des: 'Pink Floyd, Dark Side of the Moon',
+	},
+	{
+		src: 'https://cdn.domestika.org/c_fit,dpr_1.0,f_auto,q_80,t_base_params,w_610/v1605764675/content-items/006/246/540/thepolice-original.jpg',
+		no: 'Arte na capa: Rock',
+		des: 'The Police, Synchronicity. Criada por Jeff Ayeroff e Norman Moore, esta capa reúne diversas fotos da banda sobrepostas por cores lisas para gerar um efeito de contraste. As fotos foram feitas por Duane Michals, premiado fotógrafo, e o disco foi lançado com 36 variações de capa explorando momentos completamente diferentes em cada uma delas.',
+	},
+	{
+		src: 'https://i.discogs.com/-CQR-GPjD28IQLCMyV5HGZZSNaaFpHvBi8M7Z2w5NBk/rs:fit/g:sm/q:90/h:600/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc4Njcw/MS0xNTI2OTI0MjM5/LTY4OTkuanBlZw.jpeg',
+		no: 'Arte na capa: Rock',
+		des: 'Be Bop Deluxe, Axe Victim.',
+	},
+	{
+		src: 'https://i.discogs.com/HqppymzvpMnF8zkBWOBFJ8TCZaGMS1Em2GTZAktEhNg/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMTAy/NzgtMTIwODU2NTI2/My5qcGVn.jpeg',
+		no: 'Arte na capa de disco',
+		des: 'The Velvet Underground & Nico.',
+	},
+	{
+		src: 'https://images.universohq.com/2014/03/ManowarFightingTheWorld-300x300.jpg',
+		no: 'Arte na capa: Rock',
+		des: 'Manowar, Fighting the World (1987).',
+	},
+	{
+		src: 'https://i.discogs.com/mUGwuLHD96va4oh8rjp8zxLx8Ja7HYaXxvAf5ASAOVU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE5MTI1/MTgtMTI1MjAwNDcw/MS5qcGVn.jpeg',
+		no: 'Arte na capa: Rock',
+		des: 'Judas Priest, Painkiller (1990).',
+	},
+	{
+		src: 'https://i.discogs.com/mDk4ZU2k0i8V5pXYLbbrVjOHLHNSTHs_m40XDk5HKMU/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg0OTAy/NzQtMTQ3NjU2MDkx/NC0zMDQzLmpwZWc.jpeg',
+		no: 'Arte na capa: Rock',
+		des: 'Iced Earth, The Dark Saga (1996).',
+	},
+	{
+		src: 'https://upload.wikimedia.org/wikipedia/pt/thumb/3/3f/Nevermind.jpg/220px-Nevermind.jpg',
+		no: 'Arte na capa: Rock',
+		des: 'Nirvana, Nevermind.',
+	},
+
+];
+
+
+
 let vini = [
 	{
 		src: 'https://www.globaltree.com.br/uploads/1/1/7/7/11773298/3046333.jpg',
@@ -91,6 +185,31 @@ let pret = [
 
 /* Disco Nacional */
 let naci = [
+	{
+		src: 'https://i.discogs.com/omUeNcmIjubIbVN5VR5PCEQgBDhxkCVXnCHbZ3i1f1k/rs:fit/g:sm/q:90/h:496/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI5MTA1/NTItMTMzNTIyMjE1/NC5qcGVn.jpeg',
+		no: 'Arte na Capa: Disco Nacional',
+		des: 'Os Mutantes, Jardim Elétrico, 1971.',
+	},
+	{
+		src: 'https://s3.amazonaws.com/vinils3/wp-content/uploads/2017/02/pecado-rasgado2.jpg',
+		no: 'Arte na Capa: Disco Nacional',
+		des: 'Pecado Rasgado. A imagem, na verdade, é o verso _pois a frente é a maçã inteira, ou quase.',
+	},
+	{
+		src: 'https://i.discogs.com/VKH-Q4dt9o0NK_-93sYXeau7EYUeB_DGiTzYZgP6NBE/rs:fit/g:sm/q:90/h:556/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE5Mzk3/NTQtMTI1MzgwNzAz/Ny5qcGVn.jpeg',
+		no: 'Arte na Capa: Disco Nacional',
+		des: 'Cartola.',
+	},
+	{
+		src: 'https://www.estadao.com.br/resizer/nGtGg3kVRcmxKs-svntu1HsvP0Q=/1080x0/filters:format(jpg):quality(80):focal(-5x-5:5x5)/cloudfront-us-east-1.images.arcpublishing.com/estadao/XIX3554WIBMHBP6ZPRFE3GZKDQ.jpg',
+		no: 'Arte na Capa: Disco Nacional',
+		des: 'Cazuza, Ideologia, 1988, criada por Luiz Zerbini e Barrão. | estadao.com.br',
+	},
+	{
+		src: 'https://i.discogs.com/j--IHzOYgpgCwAygbQLDbMQr7pTn3RugabHRtLmf9d8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE5Mzk4/OTczLTE2MjU1Nzk3/MjMtNjk4MS5qcGVn.jpeg',
+		no: 'Arte na Capa: Disco Nacional',
+		des: 'Amaro Freitas.',
+	},
 	{
 		src: 'https://upload.wikimedia.org/wikipedia/pt/c/cb/Milton_Nascimento_-_Clube_da_Esquina.jpg',
 		no: 'Arte na Capa: Disco Nacional',
@@ -219,11 +338,6 @@ let news = [
 		src: 'https://www.estadao.com.br/resizer/uCEyhOiQiyqP5QDBKvzh-zRjeWY=/1080x0/filters:format(jpg):quality(80):focal(-5x-5:5x5)/cloudfront-us-east-1.images.arcpublishing.com/estadao/XPDFTN3N4NOG3EMD5ZQZBGUB2I.jpg',
 		no: 'Arte na capa de disco',
 		des: 'RPM, 1985, criada por Alex Flemming. | estadao.com.br',
-	},
-	{
-		src: 'https://www.estadao.com.br/resizer/nGtGg3kVRcmxKs-svntu1HsvP0Q=/1080x0/filters:format(jpg):quality(80):focal(-5x-5:5x5)/cloudfront-us-east-1.images.arcpublishing.com/estadao/XIX3554WIBMHBP6ZPRFE3GZKDQ.jpg',
-		no: 'Arte na capa de disco',
-		des: 'Cazuza, Ideologia, 1988, criada por Luiz Zerbini e Barrão. | estadao.com.br',
 	},
 	{
 		src: 'https://lobopopart.com.br/wp-content/uploads/2018/09/Capas-de-Discos-de-S-Neil-Fujita-768x384.jpg',
@@ -361,109 +475,15 @@ let news = [
 		no: 'Arte na capa de disco',
 		des: 'Nervos de Aço (1973). A capa do designer Elifas Andreato feita para este celebrado disco de Paulinho da Viola é um de seus melhores trabalhos. O traço forte e a dramaticidade que marcam a assinatura do artista gráfico sobressaem nessa ilustração que mostra o sambista aos prantos sob o luar.',
 	},
-	{
-		src: 'https://cdn.domestika.org/c_fit,dpr_1.0,f_auto,q_80,t_base_params,w_610/v1605764675/content-items/006/246/531/pinkfloyd-original.jpg',
-		no: 'Arte na capa de disco',
-		des: 'Pink Floyd, Dark Side of the Moon',
-	},
-	{
-		src: 'https://cdn.domestika.org/c_fit,dpr_1.0,f_auto,q_80,t_base_params,w_610/v1605764675/content-items/006/246/540/thepolice-original.jpg',
-		no: 'Arte na capa de disco',
-		des: 'The Police, Synchronicity. Criada por Jeff Ayeroff e Norman Moore, esta capa reúne diversas fotos da banda sobrepostas por cores lisas para gerar um efeito de contraste. As fotos foram feitas por Duane Michals, premiado fotógrafo, e o disco foi lançado com 36 variações de capa explorando momentos completamente diferentes em cada uma delas.',
-	},
-	{
-		src: 'https://i.discogs.com/-CQR-GPjD28IQLCMyV5HGZZSNaaFpHvBi8M7Z2w5NBk/rs:fit/g:sm/q:90/h:600/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc4Njcw/MS0xNTI2OTI0MjM5/LTY4OTkuanBlZw.jpeg',
-		no: 'Arte na capa de disco',
-		des: 'Be Bop Deluxe, Axe Victim.',
-	},
-	{
-		src: 'https://i.discogs.com/HqppymzvpMnF8zkBWOBFJ8TCZaGMS1Em2GTZAktEhNg/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMTAy/NzgtMTIwODU2NTI2/My5qcGVn.jpeg',
-		no: 'Arte na capa de disco',
-		des: 'The Velvet Underground & Nico.',
-	},
-	{
-		src: 'https://images.universohq.com/2014/03/ManowarFightingTheWorld-300x300.jpg',
-		no: 'Arte na capa de disco',
-		des: 'Manowar, Fighting the World (1987).',
-	},
-	{
-		src: 'https://i.discogs.com/mUGwuLHD96va4oh8rjp8zxLx8Ja7HYaXxvAf5ASAOVU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE5MTI1/MTgtMTI1MjAwNDcw/MS5qcGVn.jpeg',
-		no: 'Arte na capa de disco',
-		des: 'Judas Priest, Painkiller (1990).',
-	},
-	{
-		src: 'https://i.discogs.com/mDk4ZU2k0i8V5pXYLbbrVjOHLHNSTHs_m40XDk5HKMU/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg0OTAy/NzQtMTQ3NjU2MDkx/NC0zMDQzLmpwZWc.jpeg',
-		no: 'Arte na capa de disco',
-		des: 'Iced Earth, The Dark Saga (1996).',
-	},
 
 
 
-
-
-
-
-
-	{
-		src: 'https://upload.wikimedia.org/wikipedia/en/b/b4/SmashingPumpkins-Adore.jpg',
-		no: 'Arte na capa de disco',
-		des: 'Smashing Pumpkins, Adore.',
-	},
-	{
-		src: 'https://upload.wikimedia.org/wikipedia/en/8/84/In_the_Court_of_the_Crimson_King_-_40th_Anniversary_Box_Set_-_Front_cover.jpeg',
-		no: 'Arte na capa de disco',
-		des: 'King crimson',
-	},
-	{
-		src: 'https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Led_Zeppelin_-_Houses_of_the_Holy.jpg/220px-Led_Zeppelin_-_Houses_of_the_Holy.jpg',
-		no: 'Arte na capa de disco',
-		des: 'Led Zeppelin',
-	},
-	{
-		src: 'https://upload.wikimedia.org/wikipedia/en/1/19/JethroTullAqualungalbumcover.jpg',
-		no: 'Arte na capa de disco',
-		des: 'Jethro Tull.',
-	},
-	{
-		src: 'https://images.eil.com/large_image/URIAH_HEEP_VERY%2BEAVY%2BVERY%2BUMBLE%2B-%2B2ND%2BLRG%2BSWIRL-602615.jpg',
-		no: 'Arte na capa de disco',
-		des: 'Uriah Heep',
-	},
-	{
-		src: 'https://i.discogs.com/b8HM13hg0YLm2V-odu9uVuB4mEsqr7z_KH-pIw5M7zY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ1NjYw/MS0xNjQxNDgyMzYw/LTg5MTAuanBlZw.jpeg',
-		no: 'Arte na capa de disco',
-		des: 'Wishbone Ash',
-	},
-	{
-		src: 'https://i.discogs.com/lGHwUZCYLZacXH2T7uWi5lYN9GdmVJnjdnnrQcGDWX0/rs:fit/g:sm/q:90/h:592/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2MjI3/MTItMTUxMzU1Mjc1/OS0xMDkzLmpwZWc.jpeg',
-		no: 'Arte na capa de disco',
-		des: 'Roxy Music, Siren',
-	},
-	{
-		src: 'https://upload.wikimedia.org/wikipedia/pt/1/1c/Iron_Maiden_-_Powerslave.jpg',
-		no: 'Arte na capa de disco',
-		des: 'Iron Maiden, Powerslave.',
-	},
-	{
-		src: 'https://upload.wikimedia.org/wikipedia/en/thumb/7/74/Pink_Floyd-Animals-Frontal.jpg/220px-Pink_Floyd-Animals-Frontal.jpg',
-		no: 'Arte na capa de disco',
-		des: 'Pink Floyd, Animals.',
-	},
-	{
-		src: 'https://upload.wikimedia.org/wikipedia/pt/thumb/3/3f/Nevermind.jpg/220px-Nevermind.jpg',
-		no: 'Arte na capa de disco',
-		des: 'Nirvana, Nevermind.',
-	},
 	{
 		src: 'https://upload.wikimedia.org/wikipedia/en/thumb/8/83/Capa_3.jpg/220px-Capa_3.jpg',
 		no: 'Arte na capa de disco',
 		des: 'Titãs',
 	},
-	{
-		src: 'https://i.discogs.com/j--IHzOYgpgCwAygbQLDbMQr7pTn3RugabHRtLmf9d8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE5Mzk4/OTczLTE2MjU1Nzk3/MjMtNjk4MS5qcGVn.jpeg',
-		no: 'Arte na capa de disco',
-		des: 'Amaro Freitas.',
-	},
+
 
 	{
 		src: 'https://i.discogs.com/D5H66hLytlaFOfAoJe_W6rtu2yOtSg3Bc8RhwwTPn-U/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2Mjgy/MDUtMTIzMzE1OTE2/My5qcGVn.jpeg',
@@ -513,7 +533,7 @@ let news = [
 	},
 	{
 		src: 'https://joesynth.files.wordpress.com/2017/09/blumlein.jpg',
-		no: 'Blumlein: mais arte na e-music',
+		no: '🇬🇧 Blumlein: mais arte na e-music',
 		des: 'Nasce a gravação estéreo e novos horizontes para a mixagem e criação de sons. A natureza nos presenteia todos os dias com sons vindos de todos os lados. Mas na música gravada, isso teve de ser criado pois era tudo monofônico; e no futuro, teríamos o encantador efeito estéreo de discos, timbres de sintetizadores. | JoeSynth.wordpres.com',
 	},
 	{
@@ -709,7 +729,7 @@ let news = [
 	{
 		src: 'https://i0.wp.com/home.mnet-online.de/dwild/300/palmwolfgang(ppg;waldorf)-ppg2-pioneer.jpg',
 		no: '🇩🇪 Wolfgang Palm',
-		des: 'É o inventor da síntese wavetable, bem como a ideia de ciclo único. Anos 70, o típico OSC de um sintetizador oferecia 3 ou 4 formas de ondas. Eram as famosas ondas do synth analógico: quadrada, dente-de-serra etc. Mas o alemão Palm foi além e conseguiu bem mais que isso utilizando formas de ondas de ciclo único armazenadas em memória. Sintetizadores como o Wave 2.2 e o Wave 2.3 são claros exemplos da utilização de osciladores digitais para gerar sons.',
+		des: 'Inventor da síntese wavetable, bem como a ideia de ciclo único. Anos 70, o típico OSC de um sintetizador oferecia 3 ou 4 formas de ondas. Eram as famosas ondas do synth analógico: quadrada, dente-de-serra etc. Mas o alemão Palm foi além e conseguiu bem mais que isso utilizando formas de ondas de ciclo único armazenadas em memória. Sintetizadores como o Wave 2.2 e o Wave 2.3 são claros exemplos da utilização de osciladores digitais para gerar sons.',
 	},
 	{
 		src: 'https://joesynth.files.wordpress.com/2020/11/waldorf_ppg_wave_2v.png',
@@ -719,17 +739,17 @@ let news = [
 	{
 		src: 'https://joesynth.files.wordpress.com/2020/11/xfer_serum.png',
 		no: 'Síntese sonora wavetable',
-		des: 'Embora a palavra "wave" possa dar a impressão de onda sampleada (inclusive anos 90 placas de som baratas para computador eram, limitadamente, samples), a síntese do tipo wavetable é baseada na SCW, single cycle waveform. Basicamente, no lugar de termos uma onda quadrada ou dente-de-serra para gerarmos nossos sons, temos uma variedade bem maior dessas ondas inicias. Tal como a onda quadrada ou dente-de-serra, essas ondas utilizadas num wavetable também são ondas constantes e que serão processadas.',
+		des: 'A síntese do tipo wavetable é baseada na SCW, single cycle waveform. Basicamente, no lugar de termos uma onda quadrada ou dente-de-serra para gerarmos nossos sons, temos uma variedade bem maior dessas ondas inicias. Tal como a onda quadrada ou dente-de-serra, essas ondas utilizadas num wavetable também são ondas constantes e que serão processadas.',
 	},
 	{
 		src: 'https://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/7rUAAOSw1P9hjQHD/$_86.JPG',
 		no: 'Síntese sonora wavetable',
-		des: 'A síntese wavetable foi um grande avanço em novos sons, mas um sintetizador PPG era caro. Uma opção mais acessível era a linha DW da japonesa Korg _embora não chegasse ao mesmo poder de "fogo" de um tradicional synth alemão do tipo wavetable.',
+		des: 'A síntese wavetable foi um grande avanço em novos sons, mas um sintetizador PPG era caro. Uma opção mais acessível era a linha DW da japonesa Korg _embora não chegasse ao mesmo poder de "fogo" de um tradicional synth alemão do tipo wavetable. E como a palavra "wave" podia dar a impressão de onda sampleada, anos 90 placas de som baratas para computador eram, limitadamente, samples mas associadas à ideia de wavetable.',
 	},
 	{
 		src: 'https://img.ricardostatic.ch/images/97827297-d162-4e12-a005-e868af6b317d/t_1000x750/3x-tascam-da-88-8-spur-digital-recorder',
-		no: 'Gravação multipista profissional anos 90: o MDM',
-		des: 'Numa época que computadores e HDs ainda eram caros, a forma encontrada pela indústria foi o MDM, um equipamento digital que permitia gravar oito pistas, por exemplo, de forma simultânea. Sendo modular, vários aparelhos podiam ser interconectados, daí perfazendo 16 canais ou mais. Fabricantes famosos dessa época? Tascam (considerada a marca suprassumo dos MDMs), a Alesis (concorrente direto da Tascam), Yamaha, Akai. 🖼️ Tascam | JoeSynth.wordpress.com ',
+		no: 'Gravação multipista anos 90: o MDM',
+		des: 'Numa época que computadores e HDs ainda eram caros, a forma encontrada pela indústria profissional foi o MDM, um equipamento digital que permitia gravar oito pistas, por exemplo, de forma simultânea. Sendo modular, vários aparelhos podiam ser interconectados, daí perfazendo 16 canais ou mais. Fabricantes famosos dessa época? Tascam (considerada a marca suprassumo dos MDMs), a Alesis (concorrente direto da Tascam), Yamaha, Akai. 🖼️ Tascam | JoeSynth.wordpress.com ',
 	},
 	{
 		src: 'https://joesynth.files.wordpress.com/2018/06/novo-44pb.png',
@@ -855,7 +875,7 @@ let news = [
 		des: 'Com mais de meio século o Jongo é uma tradição em Madureira.',
 	},
 	{
-		src: 'thumb320x180.png',
+		src: 'https://midias.agazeta.com.br/2023/10/04/quarteto-bratya-e-um-dos-convidados-do-festival-de-musica-erudita-do-espirito-santo-1883508-article.jpg',
 		no: 'Festival de Música Erudita do Espírito Santo | ES',
 		des: 'Embora atuando como intercâmbio entre Brasil e Portugal, não se limita a isso e abrange o latino-americano, compositoras, etc. É dirigido por Tarcísio Santório e Natércia Lopes, com direção artística de Livia Sabag, que também integra o núcleo de curadoria ao lado de Gabriel Rhein-Schirato, Guilhermina Lopes, Fabio Bezuti e Helder Trefzge.',
 	},
@@ -984,20 +1004,20 @@ function r(n) {
 function ran(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-var i0 = ran(130, 135);		// i0 = primeiro artigo do topo; em ran() os dois números são o min e max
-var i1 = ran(125, 129);
-var i2 = ran(120, 124);
-var i3 = ran(115, 119);
-var i4 = ran(112, 114);
-var i5 = ran(109, 111);
-var i6 = ran(105, 108);
-var i7 = ran(100, 104);
-var i8 = ran(95, 99);
-var i9 = ran(90, 94);
-var i10 = ran(85, 89);
-var i11 = ran(80, 84);
-var i12 = ran(75, 79);
-var i13 = ran(70, 74);
+var i0 = ran(100, 110);		// i0 = primeiro artigo do topo; em ran() os dois números são o min e max
+var i1 = ran(105, 109);
+var i2 = ran(100, 104);
+var i3 = ran(95, 99);
+var i4 = ran(85, 94);
+var i5 = ran(80, 84);
+var i6 = ran(75, 79);
+var i7 = ran(70, 74);
+var i8 = ran(65, 69);
+var i9 = ran(65, 69);
+var i10 = ran(65, 69);
+var i11 = ran(65, 69);
+var i12 = ran(65, 69);
+var i13 = ran(65, 69);
 var i14 = ran(65, 69);
 var i15 = ran(60, 64);
 
@@ -1011,7 +1031,10 @@ var i22 = ran(25, 29);
 var i23 = ran(20, 24);
 var i24 = ran(15, 19);
 var i25 = ran(10, 14);
-var i26 = ran(0, 9);
+
+
+/* rock */
+var i26 = r(rock);
 
 /* vini */
 var i27 = r(vini); // i27 = artigo 27 dentre os 32; em r() dentro dos parêntesis é o nome do array de objetos
@@ -1086,6 +1109,12 @@ function escreV (a, i) {
 	pre[a].innerHTML = vini[i].des;
 }
 
+function escreR (a, i) {
+	im[a].src = rock[i].src;
+	p[a].innerHTML = rock[i].no;
+	pre[a].innerHTML = rock[i].des;
+}
+
 /* 1º número é o artigo. 2º é um númeo q equivale ao índice de array de objeto, porém, está entrado um q equivale a faixa de números aleatórios*/
 escre(0, i0);
 escre(1, i1);
@@ -1113,7 +1142,9 @@ escre(22, i22);
 escre(23, i23);
 escre(24, i24);
 escre(25, i25);
-escre(26, i26);
+
+/* rock */
+escreR(26, i26);
 
 /* vini */
 escreV(27, i27);
