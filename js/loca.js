@@ -178,7 +178,7 @@ let df = [
 	},
 	{
 		src: 'https://www.agenciabrasilia.df.gov.br/wp-conteudo/uploads/2021/11/WhatsApp-Image-2021-11-26-at-17.34.43.jpeg',
-		no: 'Casa do Cantador | DF ✡️ 1986',
+		no: 'Casa do Cantador | DF ★1986',
 		des: 'Foi inaugurada a partir da reivindicação de representantes da cultura nordestina em Ceilândia, e recentemente passou por reforma. Foi declarada patrimônio imaterial. | df.gov.br',
 	},
 	{

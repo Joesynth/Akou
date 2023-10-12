@@ -103,7 +103,7 @@ let musi = [
 	{
 		src: 'https://bafafa.com.br/images/artigos/exposicao_jota_rodrigues_o_verso_e_a_vida_28112019_012147.jpg',
 		no: 'Jota Rodrigues | PE',
-		des: 'Multiartista, era cordelista, artista plástico, músico e estudioso da música popular brasileira. Xilogravuras, fotografias, entrevistas em áudio... Foi de menino pobre e analfabeto (até os 8 anos) a patrono de diversas bibliotecas na Baixada Fluminense. Teve influência do pai violeiro e do primeiro oficio: guiar um cego (que memorizava versos e cantava de porta em porta). | bafafa.com.br',
+		des: 'Multiartista, era cordelista, artista plástico, músico e estudioso da música popular brasileira; inclusive xilogravuras, fotografias, entrevistas em áudio... Foi de menino pobre e analfabeto (até os 8 anos) a patrono de diversas bibliotecas na Baixada Fluminense. Teve influência do pai violeiro e do primeiro oficio: guiar um cego (que memorizava versos e cantava de porta em porta). | bafafa.com.br',
 	},
 	{
 		src: 'https://imagens.ebc.com.br/9NrtNIdLkl_E0FV8HGhmwLWaX3w=/375x183/smart/https://radios.ebc.com.br/sites/default/files/thumbnails/image/cordel2-1024x772.png',
@@ -354,7 +354,7 @@ let banM = [
 	},
 	{
 		src: 'https://i.ytimg.com/vi/HJCpGUu9OK0/maxresdefault.jpg',
-		no: 'Banda de Música do Corpo de Bombeiros Militar do Estado de Goiás ✡️ 1990',
+		no: 'Banda de Música do Corpo de Bombeiros Militar do Estado de Goiás ★1990',
 		des: 'A Banda de Música estreou no desfile cívico militar de 24 de outubro do mesmo ano em comemoração ao 57° aniversário de Goiânia. | go.gov.br',
 	},
 	{
@@ -374,12 +374,12 @@ let banM = [
 	},	
 	{
 		src: 'http://www.cbmerj.rj.gov.br/images/bandacbmerj.jpg',
-		no: 'Banda Sinfônica CBMERJ | RJ',
-		des: 'Tudo começou ainda no séc.ulo XIX, pelo Ten. Cel. Eugênio Rodrigues Jardim. Entretanto houve a ressalva de não acarretar "ônus para os Cofres Públicos".',
+		no: 'Banda Sinfônica CBMERJ | RJ ★séc.XIX',
+		des: 'Tudo começou ainda pelo Ten. Cel. Eugênio Rodrigues Jardim. Entretanto houve a ressalva de não acarretar "ônus para os Cofres Públicos".',
 	},
 	{
 		src: 'https://agenciabrasilia.df.gov.br/wp-conteudo/uploads/2023/05/WhatsApp-Image-2023-05-13-at-10.02.20-1-1536x1023.jpeg',
-		no: 'Banda Sinfônica da PMDF | DF ✡️ 1967',
+		no: 'Banda Sinfônica da PMDF | DF ★1967',
 		des: 'Instalada em Brasília, é uma orquestra que já tocou no Museu da República.',
 	},
 
@@ -429,7 +429,7 @@ let cora = [
 	},
 	{
 		src: 'https://www.portaldoholanda.com.br/sites/default/files/portaldoholanda-704457-imagem-foto-amazonas.jpg',
-		no: 'Coral do Amazonas | AM ✡️ déc. 90',
+		no: 'Coral do Amazonas | AM ★déc.90',
 		des: 'É considerado o grupo mais tradicional do Estado.',
 	},
 	{
@@ -602,7 +602,7 @@ let orqM = [
 		/* Orquestra Militar */
 	{
 		src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Banda_Sinf%C3%B4nica_da_Pol%C3%ADcia_Militar_do_Paran%C3%A1.jpg/290px-Banda_Sinf%C3%B4nica_da_Pol%C3%ADcia_Militar_do_Paran%C3%A1.jpg',
-		no: 'Orquestra Sinfônica da Polícia Militar do Paraná ✡️ séc. XIX',
+		no: 'Orquestra Sinfônica da Polícia Militar do Paraná ★séc. XIX',
 		des: 'Já se apresentou, inclusive, no Teatro Guaíra. É uma instituição de representação da corporação, subordinada à PMPR.',
 	},
 	{
@@ -612,7 +612,7 @@ let orqM = [
 	},
 	{
 		src: 'https://ufmg.br/thumbor/-UINTq1tea94Tk6VRAJjbmqgSSc=/0x0:1372x915/712x474/https://ufmg.br/storage/1/9/c/1/19c17b19d8eaaaae3ecdea778ed4cd07_16660061559575_1324413538.jpeg',
-		no: 'Orquestra Sinfônica da Polícia Militar de Minas Gerais ✡️ 1948',
+		no: 'Orquestra Sinfônica da Polícia Militar de Minas Gerais ★1948',
 		des: 'A orquestra chegou a celebrar os 100 anos da Semana de Arte Moderna em concerto no Conservatório UFMG.',
 	},
 	{
@@ -648,7 +648,7 @@ let orqu = [
 	},
 	{
 		src: 'https://aloalobahia.com/images/p/osbapremioprofissionais_alo_alo_bahia.jpg',
-		no: 'Orquestra Sinfônica da Bahia (OSBA) | BA ✡️ 1944',
+		no: 'Orquestra Sinfônica da Bahia (OSBA) | BA ★1944',
 		des: 'Foi destaque no Prêmio Profissionais da Música. Fundada pelo Padre Luiz Gonzaga de Mariz, padre jesuíta ligado ao Colégio Antônio Vieira de Salvador. Tem relação com a sala de concerto Teatro Castro Alves e o condutor Carlos Prazeres.',
 	},
 	{
@@ -658,12 +658,12 @@ let orqu = [
 	},
 	{
 		src: 'https://musica.ufrj.br/images/vinhetas/osufrj_2.webp',
-		no: 'Orquestra Sinfônica da UFRJ (OSUFRJ) ✡️ 1924',
+		no: 'Orquestra Sinfônica da UFRJ (OSUFRJ) ★1924',
 		des: 'É fruto de uma longa história de atividades ininterruptas. Um nome referente à Escola de Música da UFRJ.',
 	},
 	{
 		src: 'https://www.teatroguaira.pr.gov.br/sites/teatro-guaira/arquivos_restritos/files/styles/escala_e_corta_570_390_/public/imagem/2019-11/157131514625_10.jpg?itok=8p49rkRB',
-		no: 'Orquestra Sinfônica do Paraná (OSP) ✡️ 1985',
+		no: 'Orquestra Sinfônica do Paraná (OSP) ★1985',
 		des: 'Seu primeiro maestro titular e emérito foi Alceo Bocchino e o primeiro maestro adjunto, Osvaldo Colarusso. 🖼️ Teatro Guaíra.',
 	},
 	{
