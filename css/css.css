@@ -70,7 +70,8 @@
 
 /* Classe conte parecida com modal */
 .conte {
-	max-width: 80%;
+	padding: 1em;
+	max-width: 66%;
 	//width: 55px;
 	background-color: whitesmoke;
 	border-radius: 0.5em;
@@ -113,7 +114,7 @@ h6 {				/* Palavra "Apoio" que fica em cima do slider | tag "p" está em ""mkt.j
 	margin: 1em;
 	//text-transform: uppercase;
 	font-family: arial;
-	color: gray;
+	color: orange;
 	letter-spacing: 0.1em;
 	text-align: left;
 	//font-size: var(--fon3);			/* Altura, tamanho, da letra 'apoio', a palavra apoio */
@@ -256,18 +257,36 @@ kbd {				/* Estilo Musical, ou seja, página .html*/
 }
 
 .bt {
-	background-color: transparent;	/* antes estava definido "var(--cor2)" */
 	filter: grayscale(100%);
 	font-size: 2em;
-	border-radius: 50%;
-	padding: .1em;
-	box-shadow: var(--sombra);
 	margin-bottom: 0em;
 	width: 1.2em;
 	height: 1em;
 }
 
-#bt2 {
+.btOr {
+	//font-size: 1em;
+	//margin-bottom: 0em;
+	//width: 1.2em;
+	//height: 1em;
+}
+
+
+.btLa {
+	color: orange;
+	//filter: grayscale(100%);
+	font-size: 2em;
+	margin-bottom: 0em;
+	width: 1.2em;
+	height: 1em;
+}
+
+.mar {
+	margin-left: .2em;
+}
+
+
+.inver {
 	filter: invert(1);
 }
 
@@ -369,8 +388,13 @@ footer {
 */
 
 #tri {
-	font-size: 3.5em;
-	padding-right: 0.4em;
+	font-size: 3em;
+	padding-right: 0.3em;
+	color: orange;
+	//background-color: lightgray;
+	border-radius: .3em;
+	//border-color: red;
+	box-shadow: var(--sombra);
 }
 
 
@@ -737,7 +761,7 @@ section {
 
 /* Classe conte parecida com modal */
 /*estilizar nossa janela modal*/
- .modal1, .modal2, .modal3 {
+ .modal1, .modal2, .modal3, .modalL {
 	width: 21.8em;
 	height: 36em;
 	position: fixed;
@@ -769,7 +793,7 @@ section {
 }
 
 /*estilizando botão de fechar*/
-.fechar, .fechar1, .fechar2, .fechar3 {
+.fechar, .fechar1, .fechar2, .fechar3, .fecharL {
 	width: 2em;
 	position: absolute;
 	right: 0em;
@@ -784,9 +808,10 @@ section {
 }
 
 .btModal {
-	filter: grayscale(100%);
+	//filter: grayscale(100%);
 	font-size: 1.2em;
 	margin-right: 1.2em;
+	color: orange;
 }
 
 
@@ -852,6 +877,44 @@ animation: slide 11s ease infinite;
 
 /* @media é a mesma configuração, com 480px, utilizada no app Guri2*/
 @media all and (max-width : 480px) {
+
+
+	.btSli {
+	margin-left: 80%;
+	margin-top: .3em;
+	width: 3.5em;
+	height: 2.8em;
+	border-style: none;
+	//top: 0em;
+	//right: 0em;
+	//bottom: 3em;
+	cursor: pointer;
+	}
+
+	.btBase {
+		background-color: transparent;	/* antes estava definido "var(--cor2)" */
+		border-radius: 50%;
+		padding: .1em;
+		box-shadow: var(--sombra);
+	}
+
+
+
+	.btBase:hover {
+    		box-shadow: .1em .2em 9px black;
+		}
+	.btBase:active {
+    		box-shadow: .1em .2em 9px black;
+		}
+
+
+
+
+	.xxx {
+	font-size: 2.7em;
+	color: orange;
+	font-weight: bold;
+	}
 
 /*
 	#est {
