@@ -9,38 +9,38 @@ const template = document.createElement('template');
 
 template.innerHTML = `
 	<aside id="btD">
-		<a href="newA.html"><div id="#" class="bt"><span>🌺️</span></div></a>
-		<a href="roPr.html"><div id="#" class="bt"><span>🎛️</span></div></a>
-		<a href="smoo.html"><div id="#" class="bt"><span>🎷️</span></div></a>
-		<a href="cont.html"><div id="#" class="bt"><span>⚡</span></div></a>
-		<a href="elet.html"><div id="#" class="bt"><span>💡️</span></div></a>
-		<a href="game.html"><div id="#" class="bt"><span>🎮️</span></div></a>
-		<a href="conc.html"><div id="#" class="bt"><span>📼️</span></div></a>
+		<a href="surf.html"><div id="#" class="bt btBase"><span>🎸️</span></div></a>
+		<a href="roPr.html"><div id="#" class="bt btBase"><span>🎛️</span></div></a>
+		<a href="smoo.html"><div id="#" class="bt btBase"><span>🎷️</span></div></a>
+		<a href="cont.html"><div id="#" class="bt btBase"><span>⚡</span></div></a>
+		<a href="elet.html"><div id="#" class="bt btBase"><span>💡️</span></div></a>
+		<a href="game.html"><div id="#" class="bt btBase"><span>🎮️</span></div></a>
+		<a href="conc.html"><div id="#" class="bt btBase"><span>📼️</span></div></a>
 	</aside>
 	<aside id="btD2">
-		<a href="surf.html"><div id="#" class="bt"><span>🎸️</span></div></a>
-		<a href="soul.html"><div id="#" class="bt"><span>🎙️</span></div></a>
-		<a href="regg.html"><div id="#" class="bt"><span>🇯🇲️</span></div></a>
-		<a href="voca.html"><div id="#" class="bt"><span>👤️</span></div></a>
-		<br><br><br><br>
-		<a href="infa.html"><div id="#" class="bt"><span>😁️</span></div></a>
+		<a href="gosp.html"><div id="#" class="btLa	btBase"><span class="mar" >✝</span></div></a>
+		<a href="infa.html"><div id="#" class="btLa btBase"><span>☺</span></div></a>
+		<a href="newA.html"><div id="#" class="btLa btBase"><span>♧</span></div></a>
+		<a href="jewi.html"><div id="#" class="btLa btBase"><span class="mar">✡</span></div></a>
+		<br><br><br>
+		<a href="voca.html"><div id="#" class="bt btBase"><span>👤️</span></div></a>
 	</aside>
 	<aside id="btE">
-		<a href="clas.html"><div id="#" class="bt"><span id="bt2">🎻️</span></div></a>	
-		<a href="blue.html"><div id="#" class="bt"><span id="bt2">🎺️</span></div></a>
-		<a href="pian.html"><div id="#" class="bt"><span id="bt2">🎹</span></div></a>
-		<a href="chor.html"><div id="#" class="bt"><span id="bt2">🏖️</span></div></a>
-		<a href="viol.html"><div id="#" class="bt"><span id="bt2">🎸️</span></div></a>
-		<a href="funk.html"><div id="#" class="bt"><span id="bt2">🔌️</span></div></a>
-		<a href="soun.html"><div id="#" class="bt"><span id="bt2">📺️</span></div></a>
+		<a href="clas.html"><div id="#" class="bt btBase"><span class="">🎻️</span></div></a>	
+		<a href="blue.html"><div id="#" class="bt btBase"><span class="">🎺️</span></div></a>
+		<a href="pian.html"><div id="#" class="bt btBase"><span class="">🎹</span></div></a>
+		<a href="chor.html"><div id="#" class="bt btBase"><span class="">🏖️</span></div></a>
+		<a href="viol.html"><div id="#" class="bt btBase"><span class="">🎸️</span></div></a>
+		<a href="funk.html"><div id="#" class="bt btBase"><span class="inver">🔌️</span></div></a>
+		<a href="soun.html"><div id="#" class="bt btBase"><span class="">📺️</span></div></a>
 	</aside>
 	<aside id="btE2">
-		<a href="bras.html"><div id="#" class="bt"><span>🇧🇷️</span></div></a>
-		<a href="gosp.html"><div id="#" class="bt"><span>✝️</span></div></a>
-		<a href="bra2.html"><div id="#" class="bt"><span>🇧🇷️</span></div></a>
-		<a href="coro.html"><div id="#" class="bt"><span>👥</span></div></a>
+		<a href="bras.html"><div id="#" class="bt btBase"><span>🇧🇷️</span></div></a>
+		<a href="regg.html"><div id="#" class="bt btBase"><span>🇯🇲️</span></div></a>
+		<a href="bra2.html"><div id="#" class="bt btBase"><span>🇧🇷️</span></div></a>
+		<a href="coro.html"><div id="#" class="bt btBase"><span>👥</span></div></a>
 		<br><br><br><br>
-		<a href="jewi.html"><div id="#" class="bt"><span>🕎️</span></div></a>
+		<a href="soul.html"><div id="#" class="bt btBase"><span>🎙️</span></div></a>
 	</aside>
 	<main>
 		<details>
@@ -61,7 +61,7 @@ template.innerHTML = `
 		  		<pre>Play ON / OFF</pre>
 			</div>
 			<div id="display">
-		  		<div id="#" class="btt"><span id="tri">▶️</span></div>
+		  		<div id="#" class="btt"><span id="tri">ᐅ</span></div>
 			</div>	  	
 			<section>
 			  <button id="pla" onclick=""><span id="emPl">🎵️</span></button>
@@ -129,9 +129,235 @@ conteConfi.innerHTML = `
 
 
 /* conteArti = conteúdo artigos: referente ao conteúdo HTML colocado por padrão em várias divs, artigos. Padrão de tags, n de informação de textos, imagens, etc*/
-var conteArti = document.querySelectorAll("#conteP");
+var conteArti = document.querySelectorAll(".conte1");
 for (let i=0; i < conteArti.length ; i++) {
 	conteArti[i].innerHTML = `
+		<div id="arti">
+					<img id="im" class="mmm" src="" alt="">
+					<p class="ti" id="ti"></p>				
+					<p class="te" id="te"></p>
+					<br>
+		</div>
+		<div id="arti">
+					<img id="im1" class="mmm" src="" alt="">
+					<p class="ti" id="ti1"></p>				
+					<p class="te" id="te1"></p>
+					<br>
+		</div>
+		<div id="arti">
+					<img id="im2" class="mmm" src="" alt="">
+					<p class="ti" id="ti2"></p>				
+					<p class="te" id="te2"></p>
+					<br>
+		</div>
+		<div id="arti">
+					<img id="im3" class="mmm" src="" alt="">
+					<p class="ti" id="ti3"></p>				
+					<p class="te" id="te3"></p>
+					<br>
+		</div>
+		<div id="arti">
+					<img id="im4" class="mmm" src="" alt="">
+					<p class="ti" id="ti4"></p>				
+					<p class="te" id="te4"></p>
+					<br>
+		</div>
+		<div id="arti">
+					<img id="im5" class="mmm" src="" alt="">
+					<p class="ti" id="ti5"></p>				
+					<p class="te" id="te5"></p>
+					<br>
+		</div>
+		<div id="arti">
+					<img id="im6" class="mmm" src="" alt="">
+					<p class="ti" id="ti6"></p>				
+					<p class="te" id="te6"></p>
+					<br>
+		</div>
+		<div id="arti">
+					<img id="im7" class="mmm" src="" alt="">
+					<p class="ti" id="ti7"></p>				
+					<p class="te" id="te7"></p>
+					<br>
+		</div>
+		<div id="arti">
+
+					<img id="im8" class="mmm" src="" alt="">
+					<p class="ti" id="ti8"></p>				
+					<p class="te" id="te8"></p>
+					<br>
+		</div>
+		<div id="arti">
+					<img id="im9" class="mmm" src="" alt="">
+					<p class="ti" id="ti9"></p>				
+					<p class="te" id="te9"></p>
+					<br>
+		</div>
+		<div id="arti">
+					<img id="im10" class="mmm" src="" alt="">
+					<p class="ti" id="ti10"></p>				
+					<p class="te" id="te10"></p>
+					<br>
+		</div>
+		<div id="arti">
+					<img id="im11" class="mmm" src="" alt="">
+					<p class="ti" id="ti11"></p>				
+					<p class="te" id="te11"></p>
+					<br>
+		</div>
+		<div id="arti">
+					<img id="im12" class="mmm" src="" alt="">
+					<p class="ti" id="ti12"></p>				
+					<p class="te" id="te12"></p>
+					<br>
+		</div>
+		<div id="arti">
+					<img id="im13" class="mmm" src="" alt="">
+					<p class="ti" id="ti13"></p>				
+					<p class="te" id="te13"></p>
+					<br>
+		</div>
+		<div id="arti">
+					<img id="im14" class="mmm" src="" alt="">
+					<p class="ti" id="ti14"></p>				
+					<p class="te" id="te14"></p>
+					<br>
+		</div>
+		<div id="arti">
+					<img id="im15" class="mmm" src="" alt="">
+					<p class="ti" id="ti15"></p>				
+					<p class="te" id="te15"></p>
+					<br>
+		</div>
+		<div id="arti">
+
+					<img id="im16" class="mmm" src="" alt="">
+					<p class="ti" id="ti16"></p>				
+					<p class="te" id="te16"></p>
+					<br>
+		</div>
+		<div id="arti">
+					<img id="im17" class="mmm" src="" alt="">
+					<p class="ti" id="ti17"></p>				
+					<p class="te" id="te17"></p>
+					<br>
+		</div>
+		<div id="arti">
+					<img id="im18" class="mmm" src="" alt="">
+					<p class="ti" id="ti18"></p>				
+					<p class="te" id="te18"></p>
+					<br>
+		</div>
+		<div id="arti">
+					<img id="im19" class="mmm" src="" alt="">
+					<p class="ti" id="ti19"></p>				
+					<p class="te" id="te19"></p>
+					<br>
+		</div>
+		<div id="arti">
+					<img id="im20" class="mmm" src="" alt="">
+					<p class="ti" id="ti20"></p>				
+					<p class="te" id="te20"></p>
+					<br>
+		</div>
+		<div id="arti">
+					<img id="im21" class="mmm" src="" alt="">
+					<p class="ti" id="ti21"></p>				
+					<p class="te" id="te21"></p>
+					<br>
+		</div>
+		<div id="arti">
+					<img id="im22" class="mmm" src="" alt="">
+					<p class="ti" id="ti22"></p>				
+					<p class="te" id="te22"></p>
+					<br>
+		</div>
+		<div id="arti">
+					<img id="im23" class="mmm" src="" alt="">
+					<p class="ti" id="ti23"></p>				
+					<p class="te" id="te23"></p>
+					<br>
+		</div>
+		<div id="arti">
+
+					<img id="im24" class="mmm" src="" alt="">
+					<p class="ti" id="ti24"></p>				
+					<p class="te" id="te24"></p>
+					<br>
+		</div>
+		<div id="arti">
+					<img id="im25" class="mmm" src="" alt="">
+					<p class="ti" id="ti25"></p>				
+					<p class="te" id="te25"></p>
+					<br>
+		</div>
+		<div id="arti">
+					<img id="im26" class="mmm" src="" alt="">
+					<p class="ti" id="ti26"></p>				
+					<p class="te" id="te26"></p>
+					<br>
+		</div>
+		<div id="arti">
+					<img id="im27" class="mmm" src="" alt="">
+					<p class="ti" id="ti27"></p>				
+					<p class="te" id="te27"></p>
+					<br>
+		</div>
+		<div id="arti">
+					<img id="im28" class="mmm" src="" alt="">
+					<p class="ti" id="ti28"></p>				
+					<p class="te" id="te28"></p>
+					<br>
+		</div>
+		<div id="arti">
+					<img id="im29" class="mmm" src="" alt="">
+					<p class="ti" id="ti29"></p>				
+					<p class="te" id="te29"></p>
+					<br>
+		</div>
+		<div id="arti">
+					<img id="im30" class="mmm" src="" alt="">
+					<p class="ti" id="ti30"></p>				
+					<p class="te" id="te30"></p>
+					<br>
+		</div>
+		<div id="arti">
+					<img id="im31" class="mmm" src="" alt="">
+					<p class="ti" id="ti31"></p>				
+					<p class="te" id="te31"></p>
+					<br>
+		</div>
+		<div id="arti">
+					<button id="btSli32" class="btSli btBase"><span class="xxx">❯</span></button>
+					<img id="im32" class="mmm" src="" alt="">
+					<p class="ti" id="ti32"></p>				
+					<p class="te" id="te32"></p>
+					<br>
+		</div>
+		<div id="arti">
+					<button id="btSli33" class="btSli btBase"><span class="xxx">❯</span></button>
+					<img id="im33" class="mmm" src="" alt="">
+					<p class="ti" id="ti33"></p>				
+					<p class="te" id="te33"></p>
+					<br>
+		</div>
+	`;
+}
+
+
+/* FALTA LOCA.JS ! ! ! */
+/* FALTA LOCA.JS ! ! ! */
+/* FALTA LOCA.JS ! ! ! */
+/* FALTA LOCA.JS ! ! ! */
+/* FALTA LOCA.JS ! ! ! */
+/* FALTA LOCA.JS ! ! ! */
+/* FALTA LOCA.JS ! ! ! */
+/* FALTA LOCA.JS ! ! ! */
+
+/*  Idem comentário acima */
+var conteArti2 = document.querySelectorAll(".conte2");
+for (let i=0; i < conteArti2.length ; i++) {
+	conteArti2[i].innerHTML = `
 		<div id="arti">
 					<img id="im" class="mmm" src="" alt="">
 					<p class="ti" id="ti"></p>				
@@ -332,6 +558,232 @@ for (let i=0; i < conteArti.length ; i++) {
 
 
 
+
+/*  Idem comentário acima */
+var conteArti3 = document.querySelectorAll(".conte3");
+for (let i=0; i < conteArti3.length ; i++) {
+	conteArti3[i].innerHTML = `
+		<div id="arti">
+					<img id="im" class="mmm" src="" alt="">
+					<p class="ti" id="ti"></p>				
+					<p class="te" id="te"></p>
+					<br>
+		</div>
+		<div id="arti">
+					<img id="im1" class="mmm" src="" alt="">
+					<p class="ti" id="ti1"></p>				
+					<p class="te" id="te1"></p>
+					<br>
+		</div>
+		<div id="arti">
+					<img id="im2" class="mmm" src="" alt="">
+					<p class="ti" id="ti2"></p>				
+					<p class="te" id="te2"></p>
+					<br>
+		</div>
+		<div id="arti">
+					<img id="im3" class="mmm" src="" alt="">
+					<p class="ti" id="ti3"></p>				
+					<p class="te" id="te3"></p>
+					<br>
+		</div>
+		<div id="arti">
+					<img id="im4" class="mmm" src="" alt="">
+					<p class="ti" id="ti4"></p>				
+					<p class="te" id="te4"></p>
+					<br>
+		</div>
+		<div id="arti">
+					<img id="im5" class="mmm" src="" alt="">
+					<p class="ti" id="ti5"></p>				
+					<p class="te" id="te5"></p>
+					<br>
+		</div>
+		<div id="arti">
+					<img id="im6" class="mmm" src="" alt="">
+					<p class="ti" id="ti6"></p>				
+					<p class="te" id="te6"></p>
+					<br>
+		</div>
+		<div id="arti">
+					<img id="im7" class="mmm" src="" alt="">
+					<p class="ti" id="ti7"></p>				
+					<p class="te" id="te7"></p>
+					<br>
+		</div>
+		<div id="arti">
+
+					<img id="im8" class="mmm" src="" alt="">
+					<p class="ti" id="ti8"></p>				
+					<p class="te" id="te8"></p>
+					<br>
+		</div>
+		<div id="arti">
+					<img id="im9" class="mmm" src="" alt="">
+					<p class="ti" id="ti9"></p>				
+					<p class="te" id="te9"></p>
+					<br>
+		</div>
+		<div id="arti">
+					<img id="im10" class="mmm" src="" alt="">
+					<p class="ti" id="ti10"></p>				
+					<p class="te" id="te10"></p>
+					<br>
+		</div>
+		<div id="arti">
+					<img id="im11" class="mmm" src="" alt="">
+					<p class="ti" id="ti11"></p>				
+					<p class="te" id="te11"></p>
+					<br>
+		</div>
+		<div id="arti">
+					<img id="im12" class="mmm" src="" alt="">
+					<p class="ti" id="ti12"></p>				
+					<p class="te" id="te12"></p>
+					<br>
+		</div>
+		<div id="arti">
+					<img id="im13" class="mmm" src="" alt="">
+					<p class="ti" id="ti13"></p>				
+					<p class="te" id="te13"></p>
+					<br>
+		</div>
+		<div id="arti">
+					<img id="im14" class="mmm" src="" alt="">
+					<p class="ti" id="ti14"></p>				
+					<p class="te" id="te14"></p>
+					<br>
+		</div>
+		<div id="arti">
+					<img id="im15" class="mmm" src="" alt="">
+					<p class="ti" id="ti15"></p>				
+					<p class="te" id="te15"></p>
+					<br>
+		</div>
+		<div id="arti">
+
+					<img id="im16" class="mmm" src="" alt="">
+					<p class="ti" id="ti16"></p>				
+					<p class="te" id="te16"></p>
+					<br>
+		</div>
+		<div id="arti">
+					<img id="im17" class="mmm" src="" alt="">
+					<p class="ti" id="ti17"></p>				
+					<p class="te" id="te17"></p>
+					<br>
+		</div>
+		<div id="arti">
+					<img id="im18" class="mmm" src="" alt="">
+					<p class="ti" id="ti18"></p>				
+					<p class="te" id="te18"></p>
+					<br>
+		</div>
+		<div id="arti">
+					<img id="im19" class="mmm" src="" alt="">
+					<p class="ti" id="ti19"></p>				
+					<p class="te" id="te19"></p>
+					<br>
+		</div>
+		<div id="arti">
+					<img id="im20" class="mmm" src="" alt="">
+					<p class="ti" id="ti20"></p>				
+					<p class="te" id="te20"></p>
+					<br>
+		</div>
+		<div id="arti">
+					<img id="im21" class="mmm" src="" alt="">
+					<p class="ti" id="ti21"></p>				
+					<p class="te" id="te21"></p>
+					<br>
+		</div>
+		<div id="arti">
+					<img id="im22" class="mmm" src="" alt="">
+					<p class="ti" id="ti22"></p>				
+					<p class="te" id="te22"></p>
+					<br>
+		</div>
+		<div id="arti">
+					<img id="im23" class="mmm" src="" alt="">
+					<p class="ti" id="ti23"></p>				
+					<p class="te" id="te23"></p>
+					<br>
+		</div>
+		<div id="arti">
+
+					<img id="im24" class="mmm" src="" alt="">
+					<p class="ti" id="ti24"></p>				
+					<p class="te" id="te24"></p>
+					<br>
+		</div>
+		<div id="arti">
+					<img id="im25" class="mmm" src="" alt="">
+					<p class="ti" id="ti25"></p>				
+					<p class="te" id="te25"></p>
+					<br>
+		</div>
+		<div id="arti">
+					<img id="im26" class="mmm" src="" alt="">
+					<p class="ti" id="ti26"></p>				
+					<p class="te" id="te26"></p>
+					<br>
+		</div>
+		<div id="arti">
+					<img id="im27" class="mmm" src="" alt="">
+					<p class="ti" id="ti27"></p>				
+					<p class="te" id="te27"></p>
+					<br>
+		</div>
+		<div id="arti">
+					<img id="im28" class="mmm" src="" alt="">
+					<p class="ti" id="ti28"></p>				
+					<p class="te" id="te28"></p>
+					<br>
+		</div>
+		<div id="arti">
+					<img id="im29" class="mmm" src="" alt="">
+					<p class="ti" id="ti29"></p>				
+					<p class="te" id="te29"></p>
+					<br>
+		</div>
+		<div id="arti">
+					<img id="im30" class="mmm" src="" alt="">
+					<p class="ti" id="ti30"></p>				
+					<p class="te" id="te30"></p>
+					<br>
+		</div>
+		<div id="arti">
+					<img id="im31" class="mmm" src="" alt="">
+					<p class="ti" id="ti31"></p>				
+					<p class="te" id="te31"></p>
+					<br>
+		</div>
+	`;
+}
+
+
+
+
+
+/*  Idem comentário acima */
+var conteArti3 = document.querySelectorAll(".conteL");
+for (let i=0; i < conteArti3.length ; i++) {
+	conteArti3[i].innerHTML = `
+		<div id="arti">
+					<img id="im" class="mmm" src="" alt="">
+					<p class="ti" id="ti"></p>				
+					<p class="te" id="te"></p>
+					<br>
+		</div>
+	`;
+}
+
+
+
+
+
+
+
 /* !!!! Crase em vez de aspas. Se usar aspa n será possível haver as quedras de linha no conteúdo da váriavel, o código deixara de funcionar.  */
 /* conteMkt = conteúdo de propaganda, marketing*/
 var conteMkt = `
@@ -349,9 +801,6 @@ var conteMkt = `
 document.querySelector(".mkt1").innerHTML = conteMkt;
 document.querySelector(".mkt2").innerHTML = conteMkt;
 document.querySelector(".mkt3").innerHTML = conteMkt;
-
-
-
 
 
 
