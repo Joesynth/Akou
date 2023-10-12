@@ -1315,12 +1315,12 @@ escre(27, synP);
 escre(28, traM);
 escre(29, traF);
 escre(30, bate);
-escre(31, enge);
 
 /* Sliders - usam os mesmos objetos, porém a disposição na interface é diferente pois há interação do usuário com cliques. */
-escre(32, japa);
-escre(33, selo);
+escre(31, japa);
+escre(32, selo);
 
+escre(33, enge);
 
 
 
@@ -1353,8 +1353,8 @@ function btSliderNews (a, o) {
 		// SCREEN A - app amarelo
 
 
-btSl32[0].addEventListener("click", function () { btSliderNews (32, japa); } );
-btSl32[1].addEventListener("click", function () { btSliderNews (33, selo); } );
+btSl32[0].addEventListener("click", function () { btSliderNews (31, japa); } );
+btSl32[1].addEventListener("click", function () { btSliderNews (32, selo); } );
 
 	}
 window.addEventListener("load",addEvents);

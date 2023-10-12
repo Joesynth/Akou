@@ -322,20 +322,20 @@ for (let i=0; i < conteArti.length ; i++) {
 					<br>
 		</div>
 		<div id="arti">
+					<button id="btSli32" class="btSli btBase"><span class="xxx">❯</span></button>
 					<img id="im31" class="mmm" src="" alt="">
 					<p class="ti" id="ti31"></p>				
 					<p class="te" id="te31"></p>
 					<br>
 		</div>
 		<div id="arti">
-					<button id="btSli32" class="btSli btBase"><span class="xxx">❯</span></button>
+					<button id="btSli33" class="btSli btBase"><span class="xxx">❯</span></button>
 					<img id="im32" class="mmm" src="" alt="">
 					<p class="ti" id="ti32"></p>				
 					<p class="te" id="te32"></p>
 					<br>
 		</div>
 		<div id="arti">
-					<button id="btSli33" class="btSli btBase"><span class="xxx">❯</span></button>
 					<img id="im33" class="mmm" src="" alt="">
 					<p class="ti" id="ti33"></p>				
 					<p class="te" id="te33"></p>
